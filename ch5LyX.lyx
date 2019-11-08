@@ -190,7 +190,7 @@ name "fig:5.1"
 
 \end_inset
 
-Kapasite spektrumu metod ile deprem performansı değerlendirmesi
+Kapasite spektrumu metod ile deprem performansı değerlendirmesi.
 \end_layout
 
 \end_inset
@@ -1029,6 +1029,170 @@ S_{\mathrm{de}}=\frac{T^{2}}{4\pi^{2}}S_{\mathrm{ae}}\label{eq:5-6}
 \begin_layout Subsubsection*
 3 Katlı Yapının Yer Değiştirme Arttırma Katsayısının Kapasite Spektrumu
  Yöntemi ile Elde Edilmesi
+\end_layout
+
+\begin_layout Standard
+Aşağıda TBDY 2018'e göre tasarlanan yapının doğrusal elastik olmayan spektral
+ yer değiştirme değerinin belirlenmesi amacıyla yapılan hesap adımları özetlenmi
+ştir.
+ Yerel zemin sınıfı olarak ZB seçilmiş ve kısa periyot tasarım spektral
+ ivmesi 
+\begin_inset Formula $S_{\mathrm{DS}}=1.35$
+\end_inset
+
+ ve 1.0 saniye periyot için tasarım spektral ivmesi 
+\begin_inset Formula $S_{\mathrm{D1}}=0.80$
+\end_inset
+
+ olarak hesaplanmıştır.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{1}=1.23\mathrm{\mathit{\mathrm{sn}}},T_{L}=6.00\mathrm{\mathit{\mathrm{sn}}}$
+\end_inset
+
+,
+\begin_inset Formula $T_{\mathrm{A}}=0.2\frac{S_{\mathrm{D1}}}{S_{\mathrm{DS}}}=0.12\mathrm{\mathit{\mathrm{sn}}}$
+\end_inset
+
+ ve 
+\begin_inset Formula $T_{\mathrm{B}}=\frac{S_{\mathrm{D1}}}{S_{\mathrm{DS}}}=0.59\mathrm{\mathit{\mathrm{sn}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{\mathrm{B}}\leq T_{1}\leq T_{\mathrm{L}}$
+\end_inset
+
+ olduğundan; 
+\begin_inset Formula $S_{\mathrm{ae}}=\frac{S_{\mathrm{D1}}}{T_{1}}=\frac{0.80}{1.23}=0.65\mathrm{g}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S_{\mathrm{a1}}=0.65\times9.81=6.38\mathrm{m/s^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S_{\mathrm{de}}=\frac{T^{2}}{4\pi^{2}}S_{\mathrm{ae}}=\frac{1.23^{2}}{4\pi^{2}}\times6.38=0.245\mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{1}>T_{\mathrm{B}}$
+\end_inset
+
+ olduğundan; 
+\begin_inset Formula $C_{\mathrm{R}}=1\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula $S_{\mathrm{d1}}=S_{\mathrm{de}}=d_{1}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Elde edilen yer değiştirme değeri, eşdeğer tek serbestlik dereceli sisteme
+ ait olduğundan yapının gerçek yer değiştirme değeri Denklem 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:5-2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ kullanılarak;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $d_{1}=0.245\mathrm{m};\phi_{\mathrm{n1}}=0.040;\Gamma_{1}=33.79$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $u_{\mathrm{n1}}=d_{1}\phi_{\mathrm{n1}}\Gamma_{1}\Rightarrow u_{\mathrm{n1}}=0.245\times0.040\times33.79=0.3311\mathrm{m}\rightarrow33.11\mathrm{cm}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bu değer 50 yılda aşılma olasılığı %10 olan tasarım depreminin yapıdan talep
+ ettiği yer değiştirme değerini göstermektedir.
+ Cd katsayısının hesaplanmasında kullanılan tasarım yer değiştirmesi 
+\begin_inset Formula $\left(∆_{\mathrm{d}}\right)$
+\end_inset
+
+, tasarıma esas alınan taban kesme kuvvetine karşılık gelen tepe yer değiştirmes
+i olup, Şekil 4.7'de verilmiş olan kapasite eğrisinden elde edilmiştir.
+ Bu veriler ışığında yer değiştirme arttırma katsayısı 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ ;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $C_{\mathrm{d}}=\frac{u_{n1}}{\Delta_{\mathrm{d}}}=\frac{33.11}{5.45}=6.07$
+\end_inset
+
+ olarak elde edilir.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/5_Rijit ve Yarı-Rijit Çerçevelerin Deplasman Arttırma Katsayısının Belirlenmesi/3_CS.pdf
+	lyxscale 40
+
+\end_inset
+
+
+\begin_inset VSpace 12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.2"
+
+\end_inset
+
+3 Katlı yapıya ait kapasite eğrisi ve talep eğrisi.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
