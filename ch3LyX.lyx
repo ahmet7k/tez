@@ -78,7 +78,7 @@
 \begin_body
 
 \begin_layout Chapter
-DEPLASMAN ARTTIRMA KATSAYISI
+YER DEĞİŞTİRME ARTTIRMA KATSAYISI
 \end_layout
 
 \begin_layout Standard
@@ -93,7 +93,7 @@ name "CH3"
 
 \begin_layout Standard
 Bu bölümde etkin göreli kat ötelenmelerinin elde edilmesinde kullanılan
- Deplasman Arttırma Katsayısı, 
+ Yer Değiştirme Arttırma Katsayısı, 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
@@ -231,8 +231,8 @@ R=\frac{V_{\mathrm{e}}}{V_{\mathrm{d}}}\label{eq:3-1}
 \begin_inset Formula $R$
 \end_inset
 
- katsayısı, başlangıç akmasını aşan ve yapısal sistemin nihai yük deplasmanına
- yaklaşmak için yeterince büyük olan yer değiştirmelerde sönümleme, dayanım
+ katsayısı, başlangıç akmasını aşan ve yapısal sistemin nihai yük Yer Değiştirme
+ına yaklaşmak için yeterince büyük olan yer değiştirmelerde sönümleme, dayanım
  fazlalığı ve yapısal sistemde doğal olan(içsel) sünekliği hesaba katmayı
  amaçlayan ampirik bir tepki azaltma faktörüdür 
 \begin_inset CommandInset citation
@@ -293,9 +293,9 @@ literal "false"
  Taban kesme kuvveti-çatı yer değiştirme ilişkileri, biri merkezi ve biri
  dış merkez olarak desteklenmiş çelik çerçeve sisteminin deprem simülatörü
  testinden elde edilen veriler kullanılarak elde edildi.
- Kuvvet deplasman eğrileri, her deprem simülasyonu ve her model için maksimum
- taban kesme kuvvetine karşılık gelen zamanda çatı deplasmanının çizilmesiyle
- geliştirilmiştir.
+ Kuvvet Yer Değiştirme eğrileri, her deprem simülasyonu ve her model için
+ maksimum taban kesme kuvvetine karşılık gelen zamanda çatı Yer Değiştirmeının
+ çizilmesiyle geliştirilmiştir.
  Her test için, deprem simülatör platformlarının ivme-tepki geçmişi kullanılarak
  elastik ivme tepki spektrumu üretildi.
  Berkeley araştırmacıları, deneysel verileri kullanarak 
@@ -751,7 +751,7 @@ si, maksimum yer değiştirmesine yakınlaşır.
 \begin_inset Formula $\left(μ=1\right)$
 \end_inset
 
-'ye eşittir, bu nedenle deplasman süneklik oranı 
+'ye eşittir, bu nedenle Yer Değiştirme süneklik oranı 
 \begin_inset Formula $μ=u_{\mathrm{max}}/u_{\mathrm{y}}$
 \end_inset
 
@@ -771,7 +771,7 @@ R_{\mathrm{\mu}}=R_{\mathrm{\mu}}\left(T\rightarrow\infty,\mu_{i}\right)=\mu\lab
 \end_layout
 
 \begin_layout Standard
-Miranda ve Bertero sistemin yatay dayanımı ile deplasman süneklik talebi
+Miranda ve Bertero sistemin yatay dayanımı ile Yer Değiştirme süneklik talebi
  arasındaki değişimi Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -782,8 +782,15 @@ noprefix "false"
 
 \end_inset
 
-'deki gibi ifade edilmektedir.
- [] 
+'deki gibi ifade edilmektedir
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Miranda1994"
+literal "false"
+
+\end_inset
+
+.
 \begin_inset Float figure
 placement h!
 wide false
@@ -813,7 +820,7 @@ name "fig:3.2"
 
 \end_inset
 
-Sistemin yatay dayanımı ile deplasman süneklik talebi arasındaki değişim
+Sistemin yatay dayanımı ile yer değiştirme süneklik talebi arasındaki değişim
 \end_layout
 
 \end_inset
@@ -855,8 +862,12 @@ Periyotları yüksek ve orta periyot spektral bölgelerinde gelen yapıların
 \end_inset
 
 ).
- Literatürde Eşit Yer Değiştirme Kuralı olarak bilinen bu kural, depreme
- dayanıklı yapıların tasarım felsefesinin dayanak noktasını oluşturmaktadır.
+ Literatürde 
+\emph on
+Eşit Yer Değiştirme Kuralı
+\emph default
+ olarak bilinen bu kural, depreme dayanıklı yapıların tasarım felsefesinin
+ dayanak noktasını oluşturmaktadır.
  Yapının elastik ötesi davranışının, yaklaşık da olsa, elastik davranışına
  bakılarak tahmin edilebiliyor olması, sistemin ne kadar sünek tasarlanması
  gerektiğinin yani deprem enerjisinin ne kadarının elastik dayanımla ne
@@ -871,11 +882,11 @@ Periyotları yüksek ve orta periyot spektral bölgelerinde gelen yapıların
 
 \begin_layout Standard
 Gözlemlerinin bir sonucu olarak yazarlar, elastik spektrumlardan elastik
- olmayan spektrumları elde etmek için bir prosedür önermişlerdir:
+ olmayan spektrumları elde etmek için bir prosedür önermişlerdir.
 \end_layout
 
 \begin_layout Standard
-orta periyotlu yapılarda ise enerjinin korunumu prensibi gereği, elastik
+Orta periyotlu yapılarda ise enerjinin korunumu prensibi gereği, elastik
  sistemde monotonik yükler etkisinde oluşan kuvvet-deformasyon ilişkisinin,
  elastik ötesi durumda, pekleşmesiz elasto-plastik davranıştakinin aynısı
  olacağı sonucuna varılmıştır.
@@ -899,7 +910,7 @@ orta periyotlu yapılarda ise enerjinin korunumu prensibi gereği, elastik
 \begin_inset Formula $Rμ$
 \end_inset
 
-) değerleri eşit yer değiştirme kuralına uygun şekilde deplasman sünekliği
+) değerleri eşit yer değiştirme kuralına uygun şekilde yer değiştirme sünekliği
  katsayısına (
 \begin_inset Formula $μ$
 \end_inset
@@ -908,7 +919,15 @@ orta periyotlu yapılarda ise enerjinin korunumu prensibi gereği, elastik
 \end_layout
 
 \begin_layout Subsubsection*
-Lai ve Biggs 
+Lai ve Biggs
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Lai1980"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -921,12 +940,20 @@ Bu çalışmada, tasarım, 20 yapay yer hareketi için hesaplanan ortalama elast
 
 \begin_layout Subsubsection*
 Miranda
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Miranda1993"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 Bu çalışmada ise, kaya zemin üzerinde kaydedilen çeşitli depremlere ait
  124 yer hareketi kullanılarak, alüvyon ve yumuşak zeminler içeren 3 zemin
- sınıfı koşulları, %5 sönüm oranına sahip ve deplasman süneklik oranları
+ sınıfı koşulları, %5 sönüm oranına sahip ve yer değiştirme süneklik oranları
  2 ile 6 arasında değişen tek serbestlik dereceli sistemler üzerinde analizler
  yapılmıştır.
  Çalışma ayrıca, deprem büyüklüğün ve mesafenin sonuçlara etkisinin önemsiz
@@ -974,7 +1001,7 @@ n yer değiştirme sünekliği ile ölçülür.
 \begin_inset Formula $Fe$
 \end_inset
 
-kuvveti tarafından tam olarak tarif edilen elastik talebin aksine, elastik
+ kuvveti tarafından tam olarak tarif edilen elastik talebin aksine, elastik
  olmayan talep, bir akma kuvveti 
 \begin_inset Formula $Fy$
 \end_inset
@@ -983,10 +1010,46 @@ kuvveti tarafından tam olarak tarif edilen elastik talebin aksine, elastik
  Şekil 3'te gösterildiği gibi, elastik olmayan kuvvet talebini ve yer değiştirme
  sünekliğini ilişkilendirmek için iki farklı yaklaşım kullanılır.
  
+\begin_inset Float figure
+placement h!
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/3_Deplasman Arttırma Katsayısı/Esit_Yerdegistirme.pdf
+	lyxscale 50
+	clip
+
+\end_inset
+
+ 
+\begin_inset VSpace 12pt
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:3.3"
+
+\end_inset
+
+Eşit Yer Değiştirme ve Eşit Enerji Prensipleri
 \end_layout
 
-\begin_layout Standard
-FİGÜR
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1219,7 +1282,7 @@ Moment dayanımlı çelik çerçeveler için
 
 , 2,67 anlamına gelir.
  Bu kısa açıklama temelinde, ASCE 7-16, tasarım depremi altında elastik
- olmayan ötelenmenin
+ olmayan ötelenmenin 
 \begin_inset Formula $\left(\delta\right)$
 \end_inset
 
@@ -1283,11 +1346,19 @@ Süneklik Azaltma Katsayısı
 \end_inset
 
  oranını kullanılmaktadır.
- Burada; I, 
+ Burada; 
+\begin_inset Formula $I$
+\end_inset
+
+, 
 \emph on
 Bina Önem Katsayısı
 \emph default
-, R ise 
+, 
+\begin_inset Formula $R$
+\end_inset
+
+ ise 
 \emph on
 Taşıyıcı Sistem Davranış Katsayısı
 \emph default
@@ -1304,11 +1375,11 @@ Taşıyıcı Sistem Davranış Katsayısı ve
 Dayanım Fazlalığı Katsayısı
 \emph default
  her iki yönetmelik için farklılık göstermezken, azaltılmış göreli kat ötelemele
-ri'ni, etkin göreli kat ötelemeleri'ne dönüştüren katsayılar (R ve Cd) arasındak
-i farklılık göze çarpmaktadır.
+ri'ni, etkin göreli kat ötelemeleri'ne dönüştüren katsayılar arasındaki
+ farklılık göze çarpmaktadır.
  Tasarım mühendisi, güvenlik konusunda temkinli olduğu kadar yapının maliyetini
  de göz önünde bulundurmalı, gereğinden büyük kesitler seçmemelidir.
- Özellikle, Süneklik Düzeyi Yüksek Çelik Çerçeveler'in tasarımında kesitler
+ Özellikle, süneklik düzeyi yüksek çelik çerçeveler'in tasarımında kesitler
  seçilirken etkin göreli kat ötelemeleri şartının belirleyici olduğu göz
  önüne alındığında, bu farklılık daha da önemli hale gelmektedir.
  
@@ -1324,12 +1395,63 @@ Son yayınlanan ATC-63 proje raporunda (FEMA P695-2009)
 \begin_inset Formula $R$
 \end_inset
 
-'den daha küçük olduğu belirtilmiştir.Şekil 3-3'te
+'den daha küçük olduğu belirtilmiştir.
+ Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:3.4"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'te
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
  de dahil olmak üzere binalar için deprem performans katsayılarını inceler.
  
+\begin_inset Float figure
+placement h!
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/3_Deplasman Arttırma Katsayısı/femap695.pdf
+	lyxscale 50
+	clip
+
+\end_inset
+
+ 
+\begin_inset VSpace 12pt
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:3.4"
+
+\end_inset
+
+FEMA P695'e Göre Genel Yapı Davranışı
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body

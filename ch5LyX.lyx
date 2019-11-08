@@ -78,7 +78,7 @@
 \begin_body
 
 \begin_layout Chapter
-RİJİT VE YARI–RİJİT ÇERÇEVELERİN DEPLASMAN ARTTIRMA KATSAYISININ BELİRLENMESİ
+ÇERÇEVELERİN YER DEĞİŞTİRME ARTTIRMA KATSAYISININ BELİRLENMESİ
 \end_layout
 
 \begin_layout Section
@@ -86,24 +86,30 @@ Doğrusal Olmayan Statik İtme Analizi
 \end_layout
 
 \begin_layout Standard
-Çalışmada elde edilen sonuçlara göre yalıtım birimlerinin artan eşdeğer
- sönüm oranına karşılık gelen büyük doğrusalsızlık sebebi ile ortak yalıtım
- düzleminde bulunan yapıların yüksek mod etkilerinin göreli yer değiştirme
- ve iç kuvvetlerinde önemli artışlara sebep olduğu görülmüştür.
- Bu artışların iki yapının açısal frekanslarının ayrıklaşması ile arttığı
- tespit edilmiştir.
- Dolayısıyla iki yapının aynı açısal frekansa sahip olması durumunda elde
- edilen iç kuvvet ve yer değiştirmeler, yalıtım birimlerinin aynı eşdeğer
- periyot ve sönüm değerleri için eşit bulunmaktadır.
- Bununla birlikte yalıtım birimlerinin artan eşdeğer sönüm değerleri için
- sismik yalıtımlı yapı taban kesme kuvvetlerinin üst katlara dağılımında
- meydana gelen dikdörtgen form yerini üst katlarda daha büyük kuvvetlerin
- oluştuğu ters üçgen formuna bıraktığı görülmüştür.
+Doğrusal elastik olmayan statik itme analizinde yapıya monotonik olarak
+ artan yatay kuvvet modelleri uygulanır ve yapısal elemanların doğrusal
+ olmayan davranışları izlenir.
+ Elemanlarda akma gözlendikçe yapının yatay rijitliği azalır.
+ Bu, yapının yük taşıma kapasitesinin bir kısmını kaybetmesine neden olur.
+ Bu yükleme önceden belirlenmiş bir tepe yer değiştirmesine ulaşılana kadar
+ adım adım devam ettirilir.
+ Tüm adımlar sırasında yapının taban kesme kuvveti ve tepe yer değiştirmesi
+ kaydedilir.
+ Taban kesme kuvvetine karşı tepe yer değiştirmesi olarak çizilen grafik
+ ötelenme eğrisini başka bir deyişle yapının kapasite eğrisidir.
 \end_layout
 
 \begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
- 
+Yapıların kapasiteleri hakkında fikir sahibi olmak amacıyla, yapılar tek
+ modlu doğrusal elastik olmayan statik itme analizine tabi tutulmuştur.
+ İtme analizi, temel olarak, çok serbestlik dereceli sistemlerin deprem
+ esnasındaki tepkisinin, eşdeğer tek serbestlik dereceli sistemlerin tepkisiyle
+ benzer olacağı kabulüne dayanmaktadır.
+ Bu dönüşüm, aynı zamanda, yapının depreme verdiği tepkinin tek bir mod
+ (hakim titreşim modu) tarafından kontrol edildiği ve deprem boyunca sabit
+ kaldığıdır.
+ Literatürdeki çalışmalar, bu kabullerin, 1.
+ modun hakim olduğu yapılarda doğruya çok yakın sonuçlar verdiğini göstermiştir.
 \end_layout
 
 \begin_layout Subsection
@@ -111,45 +117,106 @@ Kapasite Spektrumu Metodu
 \end_layout
 
 \begin_layout Standard
-Çalışmada elde edilen sonuçlara göre yalıtım birimlerinin artan eşdeğer
- sönüm oranına karşılık gelen büyük doğrusalsızlık sebebi ile ortak yalıtım
- düzleminde bulunan yapıların yüksek mod etkilerinin göreli yer değiştirme
- ve iç kuvvetlerinde önemli artışlara sebep olduğu görülmüştür.
- Bu artışların iki yapının açısal frekanslarının ayrıklaşması ile arttığı
- tespit edilmiştir.
- Dolayısıyla iki yapının aynı açısal frekansa sahip olması durumunda elde
- edilen iç kuvvet ve yer değiştirmeler, yalıtım birimlerinin aynı eşdeğer
- periyot ve sönüm değerleri için eşit bulunmaktadır.
- Bununla birlikte yalıtım birimlerinin artan eşdeğer sönüm değerleri için
- sismik yalıtımlı yapı taban kesme kuvvetlerinin üst katlara dağılımında
- meydana gelen dikdörtgen form yerini üst katlarda daha büyük kuvvetlerin
- oluştuğu ters üçgen formuna bıraktığı görülmüştür.
+Kapasite Spektrumu Yöntemi (Capacity Spectrum Method) adı altında Sigmund
+ Freeman’ın geliştirdiği ve daha sonra ayrıntılı olarak ATC-40 dokümanında
+ yer alan yöntemi oluşturmuştur.
+ Yapısal kapasite ve deprem talebi arasında açık bir karşılaştırma yapmak
+ için, kapasite spektrumu metodu gibi yenilikçi yöntemler geliştirilmiştir.
+ Bu metot, yapının kapasitesini (ötelenme eğrisi) yapıdaki taleplerle (tepki
+ spektrumları) karşılaştıran performansa dayalı bir sismik analiz tekniğidir.
+ İki eğrinin grafiksel kesişimine, talebin temsil ettiği bir depremde yapının
+ muhtemel tepkisine “performans noktası” denir.
+ Kapasite Spektrumu Metodu, yapının belirli bir deprem altındaki olası davranışı
+nı basit bir grafiksel olarak tahmin etmek için bir araçtır.
+ KSM’un grafiksel ve sezgisel doğasını takip etmeyi kolaylaştırmak için,
+ talep spektrumları, geleneksel spektral ivme ve periyot formatı yerine,
+ ivme-yer değiştirme tepki-spektrumu (ADRS) olarak bilinen, spektral ivme
+ ile spektral yer değiştirme olarak sunulur.
 \end_layout
 
 \begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
- 
+Bir binanın doğrusal elastik olmayan itme analizi normalde binanın tabanındaki
+ kesme kuvveti ile çatı yer değiştirmesi arasındaki ilişkiyi gösterir.
+ Taban kesme kuvvetini spektral ivmelere ve çatı yer değiştirmelerini ise
+ eşdeğer spektral yer değiştirmelere dönüştürerek, yer değiştirme alanına
+ karşı ivme alanında bir kapasite spektrumu elde edilebilir.
 \end_layout
 
 \begin_layout Standard
-Çalışmada elde edilen sonuçlara göre yalıtım birimlerinin artan eşdeğer
- sönüm oranına karşılık gelen büyük doğrusalsızlık sebebi ile ortak yalıtım
- düzleminde bulunan yapıların yüksek mod etkilerinin göreli yer değiştirme
- ve iç kuvvetlerinde önemli artışlara sebep olduğu görülmüştür.
- Bu artışların iki yapının açısal frekanslarının ayrıklaşması ile arttığı
- tespit edilmiştir.
- Dolayısıyla iki yapının aynı açısal frekansa sahip olması durumunda elde
- edilen iç kuvvet ve yer değiştirmeler, yalıtım birimlerinin aynı eşdeğer
- periyot ve sönüm değerleri için eşit bulunmaktadır.
- Bununla birlikte yalıtım birimlerinin artan eşdeğer sönüm değerleri için
- sismik yalıtımlı yapı taban kesme kuvvetlerinin üst katlara dağılımında
- meydana gelen dikdörtgen form yerini üst katlarda daha büyük kuvvetlerin
- oluştuğu ters üçgen formuna bıraktığı görülmüştür.
+Böyle bir kapasite spektrumu, ADRS formatındaki tepki spektrumu ile birlikte
+ çizilebilir ve bu kapasite spektrumunun tepki spektrumunu kesiştiği nokta
+ performans noktası olarak isimlendirilir.
+ Bu nokta spektral ivme ve yer değiştirmenin, ilgili yapıda bir depremde
+ meydana gelebilecek hasarın tahmin edilmesini sağlar.
+ Yöntemi açıklamak için, Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5.1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ karşılık gelen elastik olmayan talep spektrumu ile birlikte elasto-plastik
+ olarak tepki veren bir yapının kapasite spektrumunu göstermektedir.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/5_Rijit ve Yarı-Rijit Çerçevelerin Deplasman Arttırma Katsayısının Belirlenmesi/Capacity_Spect.pdf
+	lyxscale 40
+
+\end_inset
+
+
+\begin_inset VSpace 12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.1"
+
+\end_inset
+
+Kapasite spektrumu metod ile deprem performansı değerlendirmesi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Kapasite eğrisinin ve talep spektrumunun buluştuğu nokta, gereken performans
+ noktasıdır ve yapının kapasite eğrisi, bu deprem seviyesindeki göçmenin
+ önlenmesi gereksinimini karşılamak için ilgili elastik olmayan talep spektrumun
+u kesmelidir.
+ Yapının bir depremde elastik kalması için ise, kapasite spektrumu o deprem
+ için elastik tepki spektrumunu elastik aralığında (yani akma noktasından
+ önce) kesmelidir.
 \end_layout
 
 \begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
- 
+Zarifliği ve sadeliğine rağmen, kapasite spektrumu metodu temel olarak iki
+ nedenden dolayı eleştirilmiştir: sıfır noktasınadan maksimum yer değiştirmeye
+ kadar ki sekant rijitliği, eşdeğer doğrusal sistemin rijitliğinin zayıf
+ bir temsilidir; ve belirtilen eşdeğer sönüm değerlerinin, elastik olmayan
+ tepki spektrumlarının tutarsız bir şekilde temsil ettiği görülmektedir.
+ Bu konu son zamanlarda dikkat çekmiş ve yer değiştirme tahmininin tutarlılığını
+ iyileştirmek için çaba gösterilmektedir.
 \begin_inset Float table
 placement h
 wide false
@@ -720,54 +787,256 @@ Kat Adedi
 
 \end_layout
 
+\begin_layout Subsubsection*
+Kapasite Eğrisinin Elde Edilmesi 
+\end_layout
+
+\begin_layout Standard
+Elde edilen ötelenme eğrisinin, çerçevenin deprem performansını belirleyebilmek
+ için öncelikle edeer tek serbestlik dereceli sistemin kapasite erisine
+ dönütürülmesi gerekmektedir.
+ İlgili düğüm noktasına ait hakim titreşim modunun yer değiştirme değeri
+ ve modal katılım çarpanı kullanılarak çok serbestlik dereceli sisteme ait
+ yer değiştirme değerleri tek serbestlik dereceli sisteme ait spektral yer
+ değiştirme değerlerine dönüştürülecektir.
+ Spektral ivme değerlerini elde etmek için Denklem 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:5-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de gösterildiği gibi taban kesme kuvveti değerleri etkin kütleye bölünecektir
+\begin_inset CommandInset citation
+LatexCommand cite
+key "TBDY2018"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+a_{1}=\frac{V_{\mathrm{t1}}}{m_{\mathrm{t1}}}\label{eq:5-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Burada;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $V_{\mathrm{t1}}$
+\end_inset
+
+ : İtme analizi sırasında yapının tepesinde elde edilen birinci moda ait
+ taban kesme kuvveti,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{\mathrm{t1}}:$
+\end_inset
+
+ Modal etkin kütle.
+\end_layout
+
+\begin_layout Standard
+Birinci moda ait modal yer değiştirme değerlerini elde etmek için ise Denklem
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:5-2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de gösterildiği gibi birinci moda ait yer değiştirme birinci modun modal
+ genliğine ve katkı çarpanına bölünecektir.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+d_{1}=\frac{u_{\mathrm{n1}}}{\phi_{\mathrm{n1}}\Gamma_{1}}\label{eq:5-2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Burada;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $u_{\mathrm{n1}}:$
+\end_inset
+
+İtme analizi sırasında yapının tepesinde elde edilen birinci moda ait yer
+ değiştirme değeri,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\phi_{\mathrm{n1}}:$
+\end_inset
+
+ Yapının tepesinde elde edilen birinci moda ait mod şekli genliği,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Gamma_{1}:$
+\end_inset
+
+ Birinci moda ait modal katkı çarpanıdır.
+\end_layout
+
+\begin_layout Subsubsection*
+Talep Eğrisinin Elde Edilmesi 
+\end_layout
+
+\begin_layout Standard
+Seçilen tasarım spektrumunun ivme-yer değiştirme spektrumu formuna dönütürülmesi
+yle talep eğrisi elde edilir.
+ Modal tek serbestlik dereceli sistemde enbüyük yer değiştirme, Denklem
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:5-3"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'te gösterildiği gibi doğrusal olmayan spektral yer değiştirme olarak tanımlanır
+: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+S_{\mathrm{d1}}=C_{R}S_{\mathrm{de}}\label{eq:5-3}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Burada;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S_{\mathrm{de}}:$
+\end_inset
+
+ Elastik tasarım spektral yerdeğiştirme değeri, 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $C_{\mathrm{R}}:$
+\end_inset
+
+ Spektral yerdeğiştirme oranı’nı göstemektedir.
+\end_layout
+
+\begin_layout Standard
+Spektral yerdeğiştirme oranı Denklem 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:5-4"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ ve Denklem 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:5-5"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de tarif edilmiştir.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C_{\mathrm{R}}=1\hspace{4cm}T_{1}>T_{\mathrm{B}}\label{eq:5-4}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C_{\mathrm{R}}=\frac{1+\left(R_{\mathrm{y}}-1\right)\frac{T_{\mathrm{B}}}{T_{1}}}{R_{\mathrm{y}}}\geq1\hspace{1cm}T_{1}\leq T_{\mathrm{B}}\label{eq:5-5}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Elastik tasarım spektral yerdeğiştirme değeri ise Denklem 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:5-5"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'da tarif edilir
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+S_{\mathrm{de}}=\frac{T^{2}}{4\pi^{2}}S_{\mathrm{ae}}\label{eq:5-6}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+3 Katlı Yapının Yer Değiştirme Arttırma Katsayısının Kapasite Spektrumu
+ Yöntemi ile Elde Edilmesi
+\end_layout
+
 \begin_layout Section
 Zaman Tanım Alanında Doğrusal Olmayan Dinamik Analiz
 \end_layout
 
-\begin_layout Standard
-Çalışmada elde edilen sonuçlara göre yalıtım birimlerinin artan eşdeğer
- sönüm oranına karşılık gelen büyük doğrusalsızlık sebebi ile ortak yalıtım
- düzleminde bulunan yapıların yüksek mod etkilerinin göreli yer değiştirme
- ve iç kuvvetlerinde önemli artışlara sebep olduğu görülmüştür.
- Bu artışların iki yapının açısal frekanslarının ayrıklaşması ile arttığı
- tespit edilmiştir.
- Dolayısıyla iki yapının aynı açısal frekansa sahip olması durumunda elde
- edilen iç kuvvet ve yer değiştirmeler, yalıtım birimlerinin aynı eşdeğer
- periyot ve sönüm değerleri için eşit bulunmaktadır.
- Bununla birlikte yalıtım birimlerinin artan eşdeğer sönüm değerleri için
- sismik yalıtımlı yapı taban kesme kuvvetlerinin üst katlara dağılımında
- meydana gelen dikdörtgen form yerini üst katlarda daha büyük kuvvetlerin
- oluştuğu ters üçgen formuna bıraktığı görülmüştür.
-\end_layout
-
-\begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
- 
-\end_layout
-
 \begin_layout Subsection
 Deprem Kayıtlarının Seçimi ve Ölçeklendirilmesi
-\end_layout
-
-\begin_layout Standard
-Çalışmada elde edilen sonuçlara göre yalıtım birimlerinin artan eşdeğer
- sönüm oranına karşılık gelen büyük doğrusalsızlık sebebi ile ortak yalıtım
- düzleminde bulunan yapıların yüksek mod etkilerinin göreli yer değiştirme
- ve iç kuvvetlerinde önemli artışlara sebep olduğu görülmüştür.
- Bu artışların iki yapının açısal frekanslarının ayrıklaşması ile arttığı
- tespit edilmiştir.
- Dolayısıyla iki yapının aynı açısal frekansa sahip olması durumunda elde
- edilen iç kuvvet ve yer değiştirmeler, yalıtım birimlerinin aynı eşdeğer
- periyot ve sönüm değerleri için eşit bulunmaktadır.
- Bununla birlikte yalıtım birimlerinin artan eşdeğer sönüm değerleri için
- sismik yalıtımlı yapı taban kesme kuvvetlerinin üst katlara dağılımında
- meydana gelen dikdörtgen form yerini üst katlarda daha büyük kuvvetlerin
- oluştuğu ters üçgen formuna bıraktığı görülmüştür.
-\end_layout
-
-\begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
- 
 \end_layout
 
 \end_body

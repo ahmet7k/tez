@@ -3121,40 +3121,87 @@ Moment dayanımlı bağlantıların bir başka sınıflandırması da dayanımla
  Bir "kısmi dayanımlı" bağlantısı, bağlandığı elemanlarınkinden daha düşük
  bir tasarım dayanımına sahiptir.
  Moment dayanımlı bir bağlantının dönme kapasitesi de önemli olabilir.
- Şekil 22, kiriş-kolon bağlantısının moment-dönme diyagramını göstermektedir.
+ Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:2.19"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, kiriş-kolon bağlantısının moment-dönme diyagramını göstermektedir.
  Tasarım amaçları için, gerçek bağlantı davranışı, aşağıdaki özelliklerin
  ayırt edilebildiği bir bi-lineer veya üç-lineer diyagramla gösterilebilir:
 \end_layout
 
 \begin_layout Itemize
-Bağlantının tasarım dayanımı;
+Birleşimlerin tasarım dayanımı;
 \end_layout
 
 \begin_layout Itemize
-Küçük momentlere maruz kaldığında bağlantının rijitliği;
+Küçük momentlere maruz kaldığında birleşim rijitliği;
 \end_layout
 
 \begin_layout Itemize
-Nihai momentlere maruz kaldığında bağlantının rijitliği;
+Nihai momentlere maruz kaldığında birleşim rijitliği;
 \end_layout
 
 \begin_layout Itemize
-Dönme kapasitesi
+Birleşimlerin dönme kapasitesi
 \end_layout
 
 \begin_layout Standard
 Birleşimlerin çerçeve davranışı üzerindeki etkisi, kısmi dayanımlı ve yarı-rijit
  bağlantılar için ayrı olarak ele alınır.
  Çaprazlı çerçeveler genel olarak dayanım koşullarına göre tasarlanır ve
- yatay ötelenmesi tutulmamış çerçeveler ( moment çerçeveleri ) genellikle
+ yatay ötelenmesi tutulmamış çerçeveler (moment çerçeveleri) genellikle
  stabilite ve deformasyon koşullarına göre tasarlanır.
  Bu nedenle, kısmi dayanımlı birleşimler esasen çaprazlı çerçeveler için
  ve yarı-rijit birleşimli moment çerçeveleri için uygulanabilir.
  
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/2_Yarı-Rijit Birleşimler/Rotation_Capacity.pdf
+	lyxscale 50
+
+\end_inset
+
+
+\begin_inset VSpace 12pt
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-ŞEKİL-22 EKLENECEK.
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:2.19"
+
+\end_inset
+
+Moment dönme eğrisinin matematiksel ifadeleri
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3173,17 +3220,10 @@ Birleşimlerin mevcut dönme kapasitesinin belirlenmesi için çeşitli modeller
  kullanılabilir (Tschemmemegg ve diğerleri, 1997, Jaspart, 1991).
  Bu modeller farklı araştırma yöntemleriyle elde edildi, ancak hepsi test
  sonuçlarına ile kontrol edildi ve bu nedenle mevcut dönme kapasitesinin
- güvenli ve doğru tahminlerini sağladılar.
-\end_layout
-
-\begin_layout Standard
-Gerekli dönme kapasiteleri değerlerin türetilmesi için farklı yollar da
- takip edilebilir (Vandegans ve Jaspart, 1996, Kattner, 1999).
-\end_layout
-
-\begin_layout Standard
-Ana farklar, gerekli dönmeyi etkileyen çeşitli doğrusal olmayan etkilerin
- dikkate alınmasında yatmaktadır
+ güvenli ve doğru tahminlerini sağladılar.Gerekli dönme kapasiteleri değerlerin
+ türetilmesi için farklı yollar da takip edilebilir (Vandegans ve Jaspart,
+ 1996, Kattner, 1999).Ana farklar, gerekli dönmeyi etkileyen çeşitli doğrusal
+ olmayan etkilerin dikkate alınmasında yatmaktadır
 \begin_inset CommandInset citation
 LatexCommand cite
 key "CharalambosCBaniotopoulos2000"
@@ -3250,6 +3290,73 @@ Düğüm noktasının tasarım momenti dayanımı
 
  'in en az 1.2 katı olması koşuluyla, bir düğüm noktasının dönme kapasitesinin
  kontrol edilmesi gerekmez.
+\end_layout
+
+\begin_layout Itemize
+1 Bulonlu Birleşimler
+\end_layout
+
+\begin_layout Itemize
+(1)Bir düğüm noktası Mj, Rd'nin tasarım momenti dayanımının, kolon gövdesindeki
+ kayma tasarım dayanımına tabi olduğu kiriş-kolon birleşim bölgesi, dwc/tw
+ 69 olması koşuluyla plastik küresel(global) analiz için yeterli dönme kapasites
+ine sahip olduğu varsayılabilir.
+\end_layout
+
+\begin_layout Itemize
+(2)Aşağıdaki koşulların her ikisinin de karşılanması şartıyla, bir alın
+ levhalı bulonlu veya başlıkları korniyerli olan bir düğüm noktasının plastik
+ analiz için yeterli dönme kapasitesine sahip olduğu varsayılabilir:
+\end_layout
+
+\begin_layout Itemize
+a-Düğüm noktasının tasarım momenti dayanımı, kolon başlığında eğilme ile
+ veya alın levhasının veya çekme bölgesindeki korniyerin eğilme momenti
+ dayanımı ile yönetilir.
+\end_layout
+
+\begin_layout Itemize
+b Kolon başlığının veya alın levhasının yahut çekme bölgesindeki korniyerin
+ t kalınlığı aşağıdaki denklemi sağlarsa: 
+\end_layout
+
+\begin_layout Standard
+t ≤ 0.36d fub fy 
+\end_layout
+
+\begin_layout Standard
+burada d : bulon çapı fub : bulon çekme dayanımı fy : kontrol edilen elemanın
+ akma dayanımı 
+\end_layout
+
+\begin_layout Itemize
+2 Kaynaklı Birleşimler
+\end_layout
+
+\begin_layout Standard
+a-Kaynaklanmış bir kiriş-kolon bağlantısının Cd dönme kapasitesinin, kolon
+ gövdesinde basınç halinde güçlendirilmiş(takviye edilmeiş), gerilmemiş
+ halde sertleştirilmemiş olması ve tasarımı kolon gövdesi kayma dayanımı
+ yönetmiyorsa, tasarım momenti dayanımının sağlanması koşuluyla aşağıdaki
+ ifade ile verilen değerden daha düşük olmadığı varsayılabilir
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\phi Cd=0.025hc/hb$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Burada; hb : kiriş kesiti yüksekliği, hc : kolon kesiti yüksekliği 
+\end_layout
+
+\begin_layout Standard
+b-Bu bölümün hükümlerine uygun olarak tasarlanan, takviye edilmemiş kaynaklı
+ bir kiriş kolon düğüm noktasının en az 0,015 radyan Cd dönme kapasitesine
+ sahip olduğu varsayılabilir.
+ 
 \end_layout
 
 \end_body
