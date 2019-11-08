@@ -93,8 +93,12 @@ name "CH3"
 
 \begin_layout Standard
 Bu bölümde etkin göreli kat ötelenmelerinin elde edilmesinde kullanılan
- Deplasman Arttırma Katsayısı, Cd ‘yi daha iyi kavrayabilmek için diğer
- tepki değiştirme katsayıları da geçmişte yapılan çalışmaları ile özetlenecektir.
+ Deplasman Arttırma Katsayısı, 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ ‘yi daha iyi kavrayabilmek için diğer tepki değiştirme katsayıları da geçmişte
+ yapılan çalışmaları ile özetlenecektir.
  Böylece konunun daha sağlıklı ve anlaşılır bir şekilde ele alınması amaçlanmakt
 adır.
  Tepki değiştirme katsayılarının kullanılması ile büyük olasılıkla, yönetmelikle
@@ -102,7 +106,7 @@ adır.
  Elastik olmayan tepkinin ölçeği ve dağılımı, tepki özellikleri, yapıdaki
  rijitlik ve kütlenin yapısı ve zemin özellikleri gibi birçok faktöre bağlı
  olacaktır.
- Tepki modifikasyon katsayılarının kullanılmasının arkasındaki ana sebep,
+ Tepki değiştirme katsayılarının kullanılmasının arkasındaki ana sebep,
  tasarımın ekonomik bir şekilde yapılması talebidir.
  Statik elastik analiz prosedürlerinin tepki değiştirme katsayılarıyla birlikte
  kullanılması, sismik tasarım pratiğinin temel taşıdır.
@@ -130,13 +134,35 @@ Az katlı, düzenli binaların tasarımı için yeterli kesinliğe sahip iç kuv
 \end_layout
 
 \begin_layout Standard
-Taşıyıcı Sistem Davranış Katsayısının (R) bağlı olduğu parametrelerden bahsetmed
-en önce R katsayısının yapısal davranışdaki anlamı daha açık şekilde ifade
- edilmelidir.
+Taşıyıcı sistem davranış katsayısının 
+\begin_inset Formula $\left(R\right)$
+\end_inset
+
+ bağlı olduğu parametrelerden bahsetmeden önce 
+\begin_inset Formula $\left(R\right)$
+\end_inset
+
+ katsayısının yapısal davranışdaki anlamı daha açık şekilde ifade edilmelidir.
  Şekil 3.1'de şematize edilmiş olan genel yapı davranışına ait tipik Taban
- kesme kuvveti (Vt) - Yer değiştirme (∆tepe) grafiği görülmektedir.
- Burada Ve yapının elastik kalması durumunda sistemde oluşacak taban kesme
- kuvvetini, Vd tasarım için kullanılan taban kesme kuvvetini
+ kesme kuvveti 
+\begin_inset Formula $\left(V\mathrm{_{t}}\right)$
+\end_inset
+
+ - Yer değiştirme 
+\begin_inset Formula $\left(∆_{\mathrm{tepe}}\right)$
+\end_inset
+
+ grafiği görülmektedir.
+ Burada 
+\begin_inset Formula $V_{\mathrm{e}}$
+\end_inset
+
+ yapının elastik kalması durumunda sistemde oluşacak taban kesme kuvvetini,
+ 
+\begin_inset Formula $V_{\mathrm{d}}$
+\end_inset
+
+ tasarım için kullanılan taban kesme kuvvetini göstermektedir.
 \begin_inset Float figure
 placement h!
 wide false
@@ -153,12 +179,16 @@ status open
 \end_inset
 
  
+\begin_inset VSpace 12pt
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Genel Yapı Davranışı"
+name "fig:3.1"
 
 \end_inset
 
@@ -181,11 +211,18 @@ Taşıyıcı Sistem Davranış Katsayısı
 
 \begin_layout Standard
 Tepki değiştirme katsayısı, R, belirtilen yer hareketi altında tamamen doğrusal
- elastik bir tepki veren yapıda gelişecek olan maksimum yanal kuvvet Ve'nin,
- dayanmak üzere tasarlandığı yanal kuvvet Vd'ye oranını temsil eder.
+ elastik bir tepki veren yapıda gelişecek olan maksimum yanal kuvvet 
+\begin_inset Formula $V_{\mathrm{e}}$
+\end_inset
+
+'nin, dayanmak üzere tasarlandığı yanal kuvvet 
+\begin_inset Formula $V_{\mathrm{d}}$
+\end_inset
+
+'ye oranını temsil eder.
 \begin_inset Formula 
 \begin{equation}
-R=\frac{V_{e}}{V_{d}}\label{eq:R}
+R=\frac{V_{\mathrm{e}}}{V_{\mathrm{d}}}\label{eq:3-1}
 \end{equation}
 
 \end_inset
@@ -195,13 +232,29 @@ R=\frac{V_{e}}{V_{d}}\label{eq:R}
 \end_inset
 
  katsayısı, başlangıç akmasını aşan ve yapısal sistemin nihai yük deplasmanına
- yaklaşmak için yeterince büyük olan yer değiştirmelerde sönümleme, aşırı
- dayanım ve yapısal sistemde doğal olan sünekliği hesaba katmayı amaçlayan
- ampirik bir tepki azaltma faktörüdür [1].
- İyi detaylandırılmış sismik çerçeveleme sistemlerinin çökme olmadan büyük
- elastik olmayan deformasyonları sürdürebileceği (sünek davranış) ve tasarım
- dayanımından daha fazla bir yanal dayanım geliştirir (genellikle rezerv
- dayanım olarak adlandırılır) [2] .
+ yaklaşmak için yeterince büyük olan yer değiştirmelerde sönümleme, dayanım
+ fazlalığı ve yapısal sistemde doğal olan(içsel) sünekliği hesaba katmayı
+ amaçlayan ampirik bir tepki azaltma faktörüdür 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "FEMA450"
+literal "false"
+
+\end_inset
+
+.
+ İyi detaylandırılmış sismik çerçeve sistemlerinin çökme olmadan büyük elastik
+ olmayan deformasyonları sürdürebilir (sünek davranış) ve tasarım dayanımından
+ daha fazla bir yanal dayanım gösterir (genellikle rezerv dayanım olarak
+ adlandırılır) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ATC-19"
+literal "false"
+
+\end_inset
+
+ .
  
 \end_layout
 
@@ -211,10 +264,210 @@ Mühendislik uygulamaları bu yapısal davranış olgusundan yararlanmıştır.
 \begin_inset Formula $R$
 \end_inset
 
-” faktörü ilk kez 1978'de ATC-3-06'da [3] tanıtılmakta, bunun için % 5 sönümlü
- bir ivme tepki spektrumu kullanılarak tasarım taban kesme kuvvetini (Vd)
- hesaplamak için elastik analiz ile hesaplanan taban kesme kuvvetini (Ve)
+” faktörü ilk kez ATC-3-06'da 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ATC-3-06"
+literal "false"
+
+\end_inset
+
+ 1978'de tanıtılmaktadır, bunun için %5 sönümlü bir ivme tepki spektrumu
+ kullanılarak tasarım taban kesme kuvvetini 
+\begin_inset Formula $\left(V_{\mathrm{d}}\right)$
+\end_inset
+
+ hesaplamak için elastik analiz ile hesaplanan taban kesme kuvvetini 
+\begin_inset Formula $\left(V_{\mathrm{e}}\right)$
+\end_inset
+
  azaltmak için kullanılır.
+\end_layout
+
+\begin_layout Standard
+1980'lerin ortasında, Berkeley California Üniversitesi'ndeki deneysel bir
+ araştırma programından elde edilen veriler, yönetmelikle uyumlu çelik çapraz
+ çerçeveli yapıların sismik tepkisine ilişkin geliştirilmiş bir anlayış
+ geliştirmek ve tepki değiştirme katsayıları için taslak bir formülasyon
+ önermek için kullanıldı.
+ Taban kesme kuvveti-çatı yer değiştirme ilişkileri, biri merkezi ve biri
+ dış merkez olarak desteklenmiş çelik çerçeve sisteminin deprem simülatörü
+ testinden elde edilen veriler kullanılarak elde edildi.
+ Kuvvet deplasman eğrileri, her deprem simülasyonu ve her model için maksimum
+ taban kesme kuvvetine karşılık gelen zamanda çatı deplasmanının çizilmesiyle
+ geliştirilmiştir.
+ Her test için, deprem simülatör platformlarının ivme-tepki geçmişi kullanılarak
+ elastik ivme tepki spektrumu üretildi.
+ Berkeley araştırmacıları, deneysel verileri kullanarak 
+\begin_inset Formula $R$
+\end_inset
+
+'yi dayanım fazlalığı, süneklik ve viskoz sönümleme olan üç faktörün ürünü
+ olarak tanımladılar:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $R=R_{\mathrm{S}}R_{\mathrm{μ}}R_{\mathrm{\xi}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bu denklemde 
+\begin_inset Formula $R\mathrm{_{S}}$
+\end_inset
+
+ dayanım fazlalığı katsayısı, 
+\begin_inset Formula $R_{\mathrm{μ}}$
+\end_inset
+
+ süneklik azaltma katsayısı ve 
+\begin_inset Formula $R_{\mathrm{\xi}}$
+\end_inset
+
+ sönüm katsayısıdır.
+ Dayanım fazlalığı katsayısı, akma seviyesindeki 
+\begin_inset Formula $\left(V_{\mathrm{y}}\right)$
+\end_inset
+
+ maksimum taban kesme kuvvetinin, tasarım taban kesme kuvvetine 
+\begin_inset Formula $\left(V_{\mathrm{d}}\right)$
+\end_inset
+
+ oranı olarak hesaplandı.
+ Süneklik azaltma katsayısı, elastik tepki için taban kesme kuvveti 
+\begin_inset Formula $\left(V_{e}\right)$
+\end_inset
+
+ 'yi akma taban kesme kuvvetine 
+\begin_inset Formula $\left(V_{\mathrm{y}}\right)$
+\end_inset
+
+bölünerek hesaplandı.
+ Sönüm katsayısı 1’e ayarlandı.
+\end_layout
+
+\begin_layout Standard
+Uygulamalı Teknoloji Konseyi tarafından yürütülen çalışmalar
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ATC-19"
+literal "false"
+
+\end_inset
+
+, üç faktörün ürünü olarak ifade edilen 
+\begin_inset Formula $R$
+\end_inset
+
+ için yeni bir formülasyonu desteklemektedir:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $R=R_{\mathrm{S}}R_{\mathrm{μ}}R_{\mathrm{R}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+burada 
+\begin_inset Formula $R_{\mathrm{S}}$
+\end_inset
+
+ bir dayanım katsayısı; 
+\begin_inset Formula $R\mathrm{_{μ}}$
+\end_inset
+
+ periyoda bağlı bir süneklik katsayısı; ve 
+\begin_inset Formula $R_{\mathrm{R}}$
+\end_inset
+
+ bir bağlılık katsayısıdır.
+ Bu formülasyon, bağlılık katsayısı dışında, Berkeley araştırmacıları tarafından
+ önerilenlere benzerdir.
+ Burada, dayanım katsayısı 
+\begin_inset Formula $R_{\mathrm{S}}$
+\end_inset
+
+, Denklem 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:3-2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de ifade edildiği gibi bir sistemin belirgin bir akma dayanımının, tasarım
+ dayanımına oranı, süneklik faktörü 
+\begin_inset Formula $R\mathrm{_{\mu}}$
+\end_inset
+
+ ise, Denklem 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:3-3"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de ifade edildiği gibi nihai elastik dayanım talebinin belirgin bir akma
+ dayanımına oranı olarak tanımlanmaktadır.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+R_{\mathrm{S}}=\frac{V\mathrm{_{y}}}{V_{\mathrm{d}}}\label{eq:3-2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+R_{\mathrm{\mu}}=\frac{V\mathrm{_{e}}}{V_{\mathrm{y}}}\label{eq:3-3}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bağlılık katsayısı, bir yapının düşeyde her bir ana aksı doğrultusunda birden
+ fazla sismik çerçeve kullanan sistemlerinin güvenilirliğini değerlendirmek
+ için önerilmektedir.
+ Sönüm katsayısı 
+\begin_inset Formula $R_{\mathrm{\xi}}$
+\end_inset
+
+, ilave viskoz sönümleme araçlarının (yapısal olmayan elemanlar) etkisini
+ hesaba katmak için tasarlanmıştır.
+ Bu gibi viskoz bir sönümleme katsayısıları, akma anındaki bir çerçevede
+ yer değiştirmeleri azaltmak için kullanılabilir ancak kuvvet taleplerini
+ orantılı olarak azaltamayabilir-(,doğrusal olmayan davranış sergileyen
+ çerçeve sistemindeki yer değiştirmeleri azaltmak için kullanılabilir, ancak
+ özellikle yüksek sönümlü çerçevelerde kuvvet taleplerini orantılı olarak
+ azaltamayabilir).
+ Tepki değiştirme katsayıları kuvvet temelli tasarım prosedürleriyle kullanıldığ
+ından sönümleme katsayısı yeni formülasyondan çıkarılmıştır.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ATC-19"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -222,33 +475,315 @@ Dayanım Fazlalığı Katsayısı
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset label
-LatexCommand label
-name "StructuralProperties"
-
-\end_inset
-
- Tez çalışması kapsamında incelenen ortak yalıtım düzleminde bulunan sismik
- yalıtımlı iki yapının değerlendirilmesi, bu bölümde açıklanan yapı parametreler
-i kullanılarak gerçekleştirilmiştir.
- Yapılar yalnızca yatay doğrusal kesme yaylarına sahip çok serbestlik dereceli
- sistemlerden oluşmaktadır.
- Yapı elemanları, doğrusal elastik olarak modellenmiştir.
- Dolayısıyla, üst yapı taşıyıcılarında deprem yükleri altında oluşan kuvvet-yer
- değiştirme ilişkisinin doğrusal elastik olduğu kabul edilmiştir.
- Şekil 
+Bir yapının gerçek dayanımı, tasarım dayanımından daha yüksektir.
+ Bu durum, genel tasarım basitleştirmelerinden kaynaklanmaktadır, ancak
+ modern bilgisayar destekli araçlar, mühendisin yapıyı, inşa edilen duruma
+ yakın bir şekilde modellemesine ve tasarlamasına olanak sağlamaktadaır.
+ Yine de tasarım süreci boyunca, malzemelerin gerçek dayanımının hesapta
+ kullanılan dayanımdan daha yüksek olması, yönetmeliklerdeki sınır koşulları
+ (güçlü kolon-zayıf kiriş koşulu, enkesit koşulları, göreli kat ötelemeleri
+ sınırları), yük ve malzeme katsayıları, yapısal olmayan elemanların katkısının
+ gözardı edilmesi, yükleme anında sistemde oluşan yeniden dağılım gibi önemli
+ basitleştirmeler ve varsayımlar mevcuttur.
+ Bu varsayımlar ve tasarım uygulamaları genellikle güvenli tarafta kalacak
+ şekilde ihtiyatlı bir tasarıma kayma eğilimindedir bu sebepten de sonuç
+ olarak gerçek dayanım tasarım dayanımından yüksektir.
+ Denklem 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:structuralmodel"
+reference "eq:3-4"
 plural "false"
 caps "false"
 noprefix "false"
 
 \end_inset
 
-'de belirtildiği gibi yalıtım düzlemi ve yapı kat döşemeleri düzlem içinde
- rijit kabul edilerek tek bir kütle ile ifade edilmiştir.
+’de dayanım fazlalığı katsayısı Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:3.1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+’de verilen genel yapı davranışı üzerinden tarifi verilmiştir.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\varOmega=\frac{V_{\mathrm{y}}}{V_{d}}\label{eq:3-4}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Dayanım fazlalığı katsayısı ile ilgili geçmiş çalışmalar
+\end_layout
+
+\begin_layout Subsubsection*
+Freeman
+\end_layout
+
+\begin_layout Standard
+1990'da yapılan bu çalışmada yazar, ikisi 4.
+ derece deprem bölgesinde , diğeri 3.derece deprem bölgesinde inşa edilmiş
+ üç katlı üç çelik moment çerçevesi için dayanım fazlalığı katsayılarını
+ sırasıyla 1.9, 3.6 ve 3.3 olarak hesaplamıştır.
+\end_layout
+
+\begin_layout Subsubsection*
+Osteraas and Krawinkler 
+\end_layout
+
+\begin_layout Standard
+Bu çalışmada, Üniforma Yapı Yönetmeliğine uygun olarak tasarlanan çelik
+ çerçevelerin dayanım fazlalığı, süneklik kapasiteleri ve süneklik talepleri
+ incelenmiştir.
+ Çeşitli çerçeve boyutlarına ve yüksekliğine sahip moment çerçeveleri, çevre
+ çerçeveleri ve çaprazlı çerçeveler sabit bir üçgen yük dağılımı kullanılarak
+ doğrusal elastik olmayan statik analize tabi tutulmuştur.
+ Moment çerçeveleri için dayanım fazlalığı katsayılarını araştırmıştır.
+\end_layout
+
+\begin_layout Subsubsection*
+Balendra and Huang 
+\end_layout
+
+\begin_layout Standard
+Yazarlar, rijit ve yarı-rijit birleşimleri olan 3, 6 ve 10 katlı çelik çerçevele
+ri X ve V tipi çaprazlarla destekledi; moment dayanımlı çerçeveler için
+ 1.9 - 8.0, X çaprazlı çerçeveler için 2-3.4 ve V çaprazlı çerçeveler için
+ 2.3- 5.6 arasında değişen dayanım fazlalığı katsayıları rapor etmiştir.
+ Çalışmanın bir başka sonucu da, rijit birleşimler yarı-rijit birleşimlerle
+ değiştirilmesi durumunda, moment dayanımlı çerçevelerin dayanım fazlalığı
+ katsayıları %50 civarında azalırken, süneklik katsayıları %25'ten daha
+ fazla artmıştır.
+\end_layout
+
+\begin_layout Section
+Süneklik Azaltma Katsayısı
+\end_layout
+
+\begin_layout Standard
+Belirli bir yer hareketine veya yanal yüklemeye maruz kalan yapısal sistemin
+ yaşadığı elastik olmayan deformasyonun derecesi, yer değiştirme süneklik
+ oranı “
+\begin_inset Formula $μ$
+\end_inset
+
+” (süneklik talebi) oranıyla verilir ve maksimum mutlak göreli yer değiştirmenin
+ akma yerdeğiştirmesine oranı olarak tanımlanır.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\mu=\frac{u_{\mathrm{max}}}{u_{\mathrm{y}}}\label{eq:3-5}
+\end{equation}
+
+\end_inset
+
+Yer değiştirme süneklik oranı genellikle yer değiştirme sünekliği olan '
+\begin_inset Formula $u_{\mathrm{max}}-u_{\mathrm{y}}$
+\end_inset
+
+' ile karıştırılır.
+\end_layout
+
+\begin_layout Standard
+“Süneklik azaltma katsayısı”, bazı çalışmalarda “dayanım azaltma katsayısı”
+ olarak adlandırılan (elastik sonrası davranış nedeniyle dayanım talebindeki
+ azalma), 
+\begin_inset Formula $R_{\mathrm{μ}}$
+\end_inset
+
+, sistemi elastik tutmak için gereken kuvvet 
+\begin_inset Formula $F_{\mathrm{y}}\left(\mu=1\right)$
+\end_inset
+
+ yanal akma dayanımının, yer değiştirme sünekliği oranını μ daha düşük veya
+ önceden belirlenmiş bir hedef süneklik oranı μi durumundaki 
+\begin_inset Formula $F_{\mathrm{y}}\left(\mu=\mu_{i}\right)$
+\end_inset
+
+yanal akma dayanımına oranı (gerçek süneklik/varolan süneklik oranı) olarak
+ tanımlanır.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+R_{\mathrm{\mu}}=\frac{F_{\mathrm{y}}\left(\mu=1\right)}{F_{\mathrm{y}}\left(\mu=\mu_{i}\right)}\label{eq:3-6}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Özellikle uzun periyotlu yani "yer değiştirmeye duyarlı" yapılarda bu bileşen,
+ sistemin sünekliğine eşit olarak alınmaktadır 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Newmark1973"
+literal "false"
+
+\end_inset
+
+.
+ Süneklik Bileşeni ile süneklik arasındaki ilişkiyi keşfetmek adına araştırmacıl
+arın yaptığı çok sayıda çalışma ve sonucunda türetilmiş birçok bağıntı mevcuttur.
+\end_layout
+
+\begin_layout Standard
+Belirli bir yer hareketi için, süneklik azaltma katsayısı 
+\begin_inset Formula $R_{\mathrm{μ}}$
+\end_inset
+
+, yapı periyodunun, sönümün, davranış tipinin ve yerdeğiştirme süneklik
+ oranının bir fonksiyonu olarak Denklem 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:3-7"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'deki gibi tanımlanır.; Öncelikle titreşim periyodundan ve elastik olmayan
+ deformasyon seviyesinden ve sistemin sönümleme ve histeretik davranışından
+ çok daha az derecede etkilenir.
+ [11]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+R_{\mathrm{\mu}}=R_{\mathrm{\mu}}\left(T,\mu_{i}\right)\label{eq:3-7}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $R_{\mathrm{μ}}$
+\end_inset
+
+ tanımından (Denklem 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:3-6"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), yapının periyoduna veya uygulanan yükleme türüne bakılmaksızın, elastik
+ olarak çalışan sistemler için 
+\begin_inset Formula $\left(\mu_{i}=1\right)$
+\end_inset
+
+ süneklik azaltma katsayısının durumunu sağlaması gerektiği açıktır:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+R_{\mathrm{\mu}}=R_{\mathrm{\mu}}\left(T,\mu=1\right)=1\label{eq:3-8}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Doğal periyodunun sıfıra yakınsadığı çok rijit yapılar için 
+\begin_inset Formula $\left(T→0\right)$
+\end_inset
+
+, yapı yere göre herhangi bir yanal ötelenme yaşamayacak, fakat aynı anda
+ hareket edecektir.
+ Bu nedenle, herhangi bir yer hareketi için, bu sistemlerdeki elastik olmayan
+ dayanım talebi elastik dayanım talebiyle aynıdır, bu nedenle süneklik azaltma
+ katsayısı aşağıdaki denklem ile ifade edilir:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+R_{\mathrm{\mu}}=R_{\mathrm{\mu}}\left(T=0,\mu_{i}\right)=1\label{eq:3-9}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hakim titreşim periyodunun büyük olduğu, çok esnek sistemler için 
+\begin_inset Formula $\left(T→∞\right)$
+\end_inset
+
+, sistemin dayanımından bağımsız olarak, sistemin maksimum göreli yer değiştirme
+si, maksimum yer değiştirmesine yakınlaşır.
+ Herhangi bir yer ivmesi için, elastik olmayan dayanım talebi 
+\begin_inset Formula $F_{\mathrm{y}}\left(\mu=\mu_{i}\right)$
+\end_inset
+
+, elastik dayanım talebi 
+\begin_inset Formula $F_{\mathrm{y}}$
+\end_inset
+
+ 
+\begin_inset Formula $\left(μ=1\right)$
+\end_inset
+
+'ye eşittir, bu nedenle deplasman süneklik oranı 
+\begin_inset Formula $μ=u_{\mathrm{max}}/u_{\mathrm{y}}$
+\end_inset
+
+'ye oranına eşittir ve bu sistemler için dayanım azaltma katsayısı aşağıdaki
+ denklem ile ifade edilir: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+R_{\mathrm{\mu}}=R_{\mathrm{\mu}}\left(T\rightarrow\infty,\mu_{i}\right)=\mu\label{eq:3-10}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Miranda ve Bertero sistemin yatay dayanımı ile deplasman süneklik talebi
+ arasındaki değişimi Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:3.2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'deki gibi ifade edilmektedir.
+ [] 
 \begin_inset Float figure
 placement h!
 wide false
@@ -258,27 +793,27 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename TikZ/StructuralModel.pdf
+	filename Grafikler/3_Deplasman Arttırma Katsayısı/Süneklik_Azaltma.pdf
 	lyxscale 50
+	clip
 
 \end_inset
 
  
+\begin_inset VSpace 12pt
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:structuralmodel"
+name "fig:3.2"
 
 \end_inset
 
-3 nolu yapıya ait analitik model ve yapının şekil değiştirmiş hali.
-\end_layout
-
-\end_inset
-
- 
+Sistemin yatay dayanımı ile deplasman süneklik talebi arasındaki değişim
 \end_layout
 
 \end_inset
@@ -286,630 +821,21 @@ name "fig:structuralmodel"
 
 \end_layout
 
-\begin_layout Standard
-Yapının kat rijitlikleri, tüm kolonların yatay rijitliklerinin denklem 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "lateralstiffness"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-'de verilen formüle göre belirlenerek toplanması ile elde edilmiştir.
- Her bir kat için yatay rijitlik değeri, toplam 16 adet 60 
-\begin_inset Formula $\times$
-\end_inset
-
- 60 cm boyutlarında betonarme kolonların yatay rijitlikleri toplamına eşit
- olarak alınmıştır.
- Tüm yapı ve katlar için kat yüksekliği h=4m olarak belirlenmiştir.
- Betonarme elastisite modulü 
-\begin_inset Formula $E_{\text{c}}=32000\text{ MPa}$
-\end_inset
-
- olarak kabul edilmiştir.
- 
-\begin_inset Formula 
-\begin{equation}
-\sum\limits _{i=1}^{n}k_{i}=\dfrac{12E_{\text{c}}I}{h^{3}}\label{lateralstiffness}
-\end{equation}
-
-\end_inset
-
-Burada, 
-\begin_inset Formula $k$
-\end_inset
-
- her bir kolona ait yatay rijitliği, 
-\begin_inset Formula $E_{\text{c}}$
-\end_inset
-
- betonarme elastisite modulünü, 
-\begin_inset Formula $I$
-\end_inset
-
- atalet momentini, h kat yüksekliğini ve n bir katta bulunan kolon adedini
- ifade etmektedir.
- Sismik yalıtım sistemi ise tüm izolatörlerin yapısal özelliklerinin toplamı
- ile ifade edilen doğrusal olmayan yatay kesme yayı ile tanımlanmıştır.
- Ayrıca sismik yalıtımlı yapının sahip olduğu sönüm, izolatörlerin doğrusal
- olmayan kesme yaylarında sönümlediği enerji ve üst yapının sahip olduğu
- Rayleigh sönümü olmak üzere ayrıklaştırılmıştır.
- Yapısal sönüm modellerine ait detaylar Bölüm detaylı olarak açıklanmıştır.
-\end_layout
-
-\begin_layout Section
-Süneklik Azaltma Katsayısı
-\end_layout
-
-\begin_layout Standard
-sadsadasdasdaşkms alsdöaşsd 
-\begin_inset Float table
-placement h
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "structures2"
-
-\end_inset
-
-Çalışma kapsamında incelenen sistemlerin tabanı ankastre olması durumu için
- hesaplanan yapısal özellikleri.
-\end_layout
-
-\end_inset
-
-
-\begin_inset Tabular
-<lyxtabular version="3" rows="11" columns="5">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yapı # 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Kat Adedi 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $T_{1}$
-\end_inset
-
- 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\omega_{1}$
-\end_inset
-
- 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\omega_{\text{n}}$
-\end_inset
-
- 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.1573 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-39.94 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-- 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.2546 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-24.68 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-64.62 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.3535 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-17.77 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-71.97 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.4530 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-13.87 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-75.06 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.5527 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-11.37 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-76.64 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.6526 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-9.63 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-77.56 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-7 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-7 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.7525 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8.35 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-78.13 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.8525 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-7.37 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-78.52 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-9 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-9 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.9525 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6.60 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-78.79 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.0526 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.97 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-78.98 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
 \end_inset
 
 
 \end_layout
+
+\begin_layout Subsubsection*
+Süneklik azaltma katsayısı ile ilgili yapılan çalışmalar
+\end_layout
+
+\begin_layout Subsubsection*
+Newmark and Hall 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Newmark1973"
+literal "false"
 
 \end_inset
 
@@ -917,49 +843,95 @@ Kat Adedi
 \end_layout
 
 \begin_layout Standard
-Tez çalışması kapsamında ortak yalıtım düzleminde bulunan yapıların, dinamik
- özelliklerinin taban kesme kuvvetlerine olan etkisini incelemek üzere on
- adet yapı seçilmiştir.
- Kat sayıları birden ona kadar değişen yapıların kat rijitlikleri 
-\begin_inset Formula $\text{k}_{i}=0.0108\text{ m}^{4}$
-\end_inset
-
-, kat kütleleri 
-\begin_inset Formula $m_{i}=650\text{ ton}$
-\end_inset
-
- ve üst yapıya ait sönüm oranları 
-\begin_inset Formula $\xi=0.05$
-\end_inset
-
- olmak üzere tümünde aynıdır.
- Kat adedine bağlı olarak değişen yapı doğal periyotları ile birinci ve
- sonuncu açısal frekans değerleri Çizelge 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "structures2"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-'de sunulmuştur.
- Ayrıca, yalıtım düzlemi kütlesi her bir yapı için 
-\begin_inset Formula $m_{\text{b}}=981\text{ ton}$
-\end_inset
-
- olarak alınmıştır.
- Yalıtım birimlerine ait dinamik özellikler parametrik olarak belirlenmiş
- olup Bölüm'de detaylı olarak açıklanmıştır.
-\end_layout
-
-\begin_layout Section
-Deplasman Arttırma Katsayısı
+El Centro, Kaliforniya Deprem kaydından elde ettikleri elastik ve elastik
+ olmayan tepki spektrumuna dayanarak yazarlar şunları gözlemlemiştir:
 \end_layout
 
 \begin_layout Standard
-adsadad
+Periyotları yüksek ve orta periyot spektral bölgelerinde gelen yapıların
+ elastik yer değiştirme değerinin elastik ötesi yer değiştirme değerine
+ neredeyse eşit olduğunu (
+\begin_inset Formula $∆max\backsimeq∆e$
+\end_inset
+
+).
+ Literatürde Eşit Yer Değiştirme Kuralı olarak bilinen bu kural, depreme
+ dayanıklı yapıların tasarım felsefesinin dayanak noktasını oluşturmaktadır.
+ Yapının elastik ötesi davranışının, yaklaşık da olsa, elastik davranışına
+ bakılarak tahmin edilebiliyor olması, sistemin ne kadar sünek tasarlanması
+ gerektiğinin yani deprem enerjisinin ne kadarının elastik dayanımla ne
+ kadarının elastik olmayan deformasyonlarla tüketilebileceğinin görülmesine
+ imkân sağlamıştır.
+\end_layout
+
+\begin_layout Standard
+Çok küçük periyot bölgesinde, elastik ve elastik olmayan sistemler aynı
+ kuvvete maruz kaldığı;
+\end_layout
+
+\begin_layout Standard
+Gözlemlerinin bir sonucu olarak yazarlar, elastik spektrumlardan elastik
+ olmayan spektrumları elde etmek için bir prosedür önermişlerdir:
+\end_layout
+
+\begin_layout Standard
+orta periyotlu yapılarda ise enerjinin korunumu prensibi gereği, elastik
+ sistemde monotonik yükler etkisinde oluşan kuvvet-deformasyon ilişkisinin,
+ elastik ötesi durumda, pekleşmesiz elasto-plastik davranıştakinin aynısı
+ olacağı sonucuna varılmıştır.
+\end_layout
+
+\begin_layout Standard
+Özetle, sistemler periyotlarına bağlı olarak üç bölüme ayrılmıştır.
+ Düşük periyotlu yapıların rijitliği çok yüksek olacağından ivmeye, orta
+ periyotlu yapıların hıza, uzun periyotlu yapıların ise yer değiştirmeye
+ duyarlı olduğu sonucu ortaya çıkmıştır.
+ 
+\end_layout
+
+\begin_layout Standard
+Çalışma sonucu birçok periyot aralığı için farklı 
+\begin_inset Formula $Rμ$
+\end_inset
+
+ değerleri elde edilmiş ve belirli bir periyodun üzerindeki yapıların süneklik
+ bileşeni (
+\begin_inset Formula $Rμ$
+\end_inset
+
+) değerleri eşit yer değiştirme kuralına uygun şekilde deplasman sünekliği
+ katsayısına (
+\begin_inset Formula $μ$
+\end_inset
+
+) eşit çıktığı görülmüştür.
+\end_layout
+
+\begin_layout Subsubsection*
+Lai ve Biggs 
+\end_layout
+
+\begin_layout Standard
+Bu çalışmada, tasarım, 20 yapay yer hareketi için hesaplanan ortalama elastik
+ olmayan spektruma dayandırılmıştır.
+ 0.1s ile 10s arasında eşit aralıklarla değişen 50 doğal periyod ile yapılan
+ analizler sonucu katsayılara karşılık gelen süneklik azaltma katsayısılarını
+ formüle etmiştir.
+\end_layout
+
+\begin_layout Subsubsection*
+Miranda
+\end_layout
+
+\begin_layout Standard
+Bu çalışmada ise, kaya zemin üzerinde kaydedilen çeşitli depremlere ait
+ 124 yer hareketi kullanılarak, alüvyon ve yumuşak zeminler içeren 3 zemin
+ sınıfı koşulları, %5 sönüm oranına sahip ve deplasman süneklik oranları
+ 2 ile 6 arasında değişen tek serbestlik dereceli sistemler üzerinde analizler
+ yapılmıştır.
+ Çalışma ayrıca, deprem büyüklüğün ve mesafenin sonuçlara etkisinin önemsiz
+ olduğunu, zemin koşullarının süneklik azaltma faktörü üzerinde önemli bir
+ etkisi olduğunu göstermiştir.
 \end_layout
 
 \begin_layout Section
@@ -967,7 +939,381 @@ Eşit Yerdeğiştirme ve Eşit Enerji Prensipleri
 \end_layout
 
 \begin_layout Standard
-sdasdalsdkalms
+Elastik bir tasarım spektrumundan elde edilen taban kesme kuvveti katsayısı
+ ile tasarım deprem kuvvetini hesaplamak için, bölgesel yer ivmesi çarpanı
+ ve yapısal kütle çarpılır.
+ Bununla birlikte, nihai sınır durum için deprem bölgelerindeki nadir depremleri
+n PGA(en büyük yer ivmesi)'sı dikkate alındığında, bu tür kuvvetler önemli
+ ölçüde büyük olacaktır.
+ Bu tür depremler bir yapının ömrü boyunca oluşabileceği veya olamayacağı
+ için, tüm yapıların bu kadar yüksek bir talebi karşılayacak şekilde tasarlanmas
+ı, kaynakların israfı olacaktır.
+ Bu, elastik olmayan sismik tasarım kavramını tetikledi.
+ Modern sismik tasarım uygulamalarında, deprem tasarım kuvveti elastik talebin
+ altında kalmaktadır.
+ Bu, bir yapının bir servis sınır durumu depreminde esasen elastik kalacağı
+ ve maksimum olarak düşünülmüş bir nihai sınır durum depremine plastik olarak
+ tepki vereceği (yani, akma) anlamına gelir.
+ Bir sınır durumu vuku bulduğunda yapının güvenliğini sağlamak için, dayanımını
+ kaybetmeden istenen elastik olmayan bir yer değiştirme seviyesine deforme
+ olmak üzere tasarlanmıştır.
+\end_layout
+
+\begin_layout Standard
+Yapıların dayanımını kaybetmeden elastik sınırın ötesinde deforme olma kabiliyet
+i, nihai yer değiştirmenin, 
+\begin_inset Formula $u$
+\end_inset
+
+, ilk akmadaki yer değiştirmeye, y'nin yer değiştirmesine oranı olarak tanımlana
+n yer değiştirme sünekliği ile ölçülür.
+ Elastik olmayan sismik tasarım dayanımı, yapının sünekliğinin bir fonksiyonudur
+ ve tasarım sismik kuvvetindeki herhangi bir azalma, süneklik talebini artırarak
+ telafi edilmelidir.
+ Bu nedenle, 
+\begin_inset Formula $Fe$
+\end_inset
+
+kuvveti tarafından tam olarak tarif edilen elastik talebin aksine, elastik
+ olmayan talep, bir akma kuvveti 
+\begin_inset Formula $Fy$
+\end_inset
+
+ ve bir yer değiştirme sünekliği ile açıklanmaktadır.
+ Şekil 3'te gösterildiği gibi, elastik olmayan kuvvet talebini ve yer değiştirme
+ sünekliğini ilişkilendirmek için iki farklı yaklaşım kullanılır.
+ 
+\end_layout
+
+\begin_layout Standard
+FİGÜR
+\end_layout
+
+\begin_layout Standard
+Eşit yer değiştirme prensibi, elastik olmayan bir sistemin nihai yer değiştirmes
+inin, aynı başlangıç rijitliği olan bir elastik sistemin yer değiştirmesine
+ eşit olduğunu belirtir.
+ Eşit yer değiştirme prensibine göre, elastik ve elastik olmayan talep (aynı
+ zamanda dayanım azaltma katsayısı=süneklik azaltma katsayısı) arasındaki
+ oran, yer değiştirme sünekliği oranına eşittir (
+\begin_inset Formula $Rμ=μ$
+\end_inset
+
+).
+ Bu daha uzun periyotlu esnek yapılar için tartışmalı olarak geçerlidir.
+ Aşırı bir örnek olarak, sonsuz esnek yapılar için maksimum yer değiştirme,
+ inelastisite (elastik olmayanlık) seviyesine bakılmaksızın her zaman tepe
+ yer değiştirmesine eşittir.
+ Öte yandan, eşit enerji ilkesi, elastik bir sistem tarafından dağıtılan
+ enerjinin ve onun elastik olmayan karşılığına eşit olduğunu; böylece süneklik
+ azaltma katsayısını 
+\begin_inset Formula $Rμ((2μ-1))$
+\end_inset
+
+'e eşitler, burada μ elastik olmayan sistemin yerdeğiştirme sünekliğidir.
+\end_layout
+
+\begin_layout Standard
+Bu şekilde bir tasarım ekonomik ve uygulanabilir olmayacaktır.
+ Ekonomik ve uygulanabilir tasarım ancak yapıda sınırlı hasar oluşmasının
+ baştan kabul edilmesi ile yapılabilecektir.
+ Buna göre tasarlanmış bir yapı elasto-plastik davranış gösterecektir.
+\end_layout
+
+\begin_layout Section
+Yer Değiştirme Arttırma Katsayısı
+\end_layout
+
+\begin_layout Standard
+ASCE 7-16 'da azaltılmış deprem yüklerine göre hesaplanan göreli kat ötelemeleri
+, etkin göreli kat ötelemelerine 
+\begin_inset Formula $\frac{C_{d}}{I}$
+\end_inset
+
+ oranı ile dönüştürmektedir.
+ Burada; 
+\begin_inset Formula $I$
+\end_inset
+
+, bina önem katsayısı, 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ 
+\emph on
+ise Yer Değiştirme Arttırma Katsayısı
+\emph default
+ olarak adlandırılan katsayısı, yapının elastik ötesi davranışı esnasında
+ yaptığı en büyük yer değiştirme değerinin, tasarıma esas alınan yatay kuvvetler
+ altında yapmış olduğu yer değiştirme değerine oranı olarak tanımlanmaktadır.
+ Diğer bir ifadeyle 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısı, yapının elastik durumdaki yer değiştirme değerinden, elastik
+ ötesi durumdaki yer değiştirme değerini (deprem esnasında yapıda meydana
+ gelen gerçek yer değiştirme değeri) elde etmek için kullanılmaktadır.
+\end_layout
+
+\begin_layout Standard
+Depreme dayanıklı yapı tasarımı, belirli farklarla bütün deprem yönetmeliklerind
+e, yapının güçlü yer hareketlerine maruz kaldığında hasar almasını, ancak
+ göçmemesini öngörerek yapılmaktadır.
+ Yapının ömrü boyunca belki de hiç karşılaşmayacağı depremlerin etkisi altında
+ elastik davranış göstermesi, yani hiç hasar almaması, ekonomik ve akılcı
+ olmadığından arzu edilen bir tasarım yaklaşımı değildir.
+ Kabul gören tasarım yöntemi, yapının üzerine gelen yükleri, elastik aralıkta
+ tutmak yerine bir miktar elastik-ötesi deformasyon yaparak karşılaması,
+ başka bir deyişle elastik ötesi enerji tüketme kapasitesini kullanmasıdır.
+ Bu amaçla yapı, elastik tasarım spektrumlarından elde edilen ve taşıyıcı
+ sistemin süneklik düzeyine, malzeme türüne, taşıyıcı sistemin yapısına,
+ dinamik özelliklerine ve yapının kullanım amacına bağlı olarak değişen
+ bir katsayıyla azaltılarak, doğrusal elastik olmayan deprem yüklerine göre
+ boyutlandırılır.
+ Yönetmeliklerde "
+\emph on
+Taşıyıcı Sistem Davranış Katsayısı
+\emph default
+"na 
+\begin_inset Formula $\left(R\right)$
+\end_inset
+
+ bağlı olarak belirlenen "
+\emph on
+Deprem Yükü Azaltma Katsayısı
+\emph default
+",
+\begin_inset Formula $\left(R_{\mathrm{a}}\right)$
+\end_inset
+
+ bahsi geçen elastik deprem yüklerini azaltmak amacıyla kullanılmaktadır.
+\end_layout
+
+\begin_layout Standard
+Bu minvalde(sonuç olarak) şiddetli bir deprem yer hareketi sırasında yapıların
+ elastik olmayan deformasyona maruz kalması beklenir.
+ Yapılar, genel olarak, tasarımın gerektirdiğinden daha fazla bir dayanıma
+ sahiptir.
+ Bu fazla dayanım, deprem yer hareketi sırasındaki süneklik talebini azaltır
+ ve daha önce de bahsedildiği gibi çeşitli kaynaklardan sağlanabilir.
+\end_layout
+
+\begin_layout Standard
+Deprem yönetmelikleri her bir yapısal sistem için dayanım fazlalığı katsayısı
+ 
+\begin_inset Formula $\varOmega_{\mathrm{0}}$
+\end_inset
+
+ kullanır; bu, gerçek kuvvetin 
+\begin_inset Formula $V_{\mathrm{y}}$
+\end_inset
+
+, tasarım kuvvetine 
+\begin_inset Formula $V_{\mathrm{d}}$
+\end_inset
+
+, bölünmesiyle gösterilir (Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:3.1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Bu nedenle, taşıyıcı sistem davranış katsayısı 
+\begin_inset Formula $R$
+\end_inset
+
+, yapının dayanım fazlalığı ve süneklik azaltma katsayısının çapraz ürünü
+ haline gelir(Denklem 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:3-11"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).Yine benzer prensiple, 
+\begin_inset Formula $C_{\mathrm{d}},$
+\end_inset
+
+ katsayısı dayanım fazlalığı
+\begin_inset Formula $\varOmega_{0}$
+\end_inset
+
+ve yer değiştirme süneklik oranının bir ürünü haline gelir(Denklem 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:3-12"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+R=\frac{V_{e}}{V_{\mathrm{d}}}=\frac{V_{\mathrm{e}}}{V_{\mathrm{y}}}\times\frac{V_{\mathrm{y}}}{V_{\mathrm{d}}}\Rightarrow R=R_{\mathrm{\mu}}\times\varOmega_{0}\label{eq:3-11}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C_{\mathrm{d}}=\frac{\Delta_{\mathrm{max}}}{\Delta_{\mathrm{d}}}=\frac{\Delta_{\mathrm{max}}}{\Delta_{\mathrm{y}}}\times\frac{\Delta_{\mathrm{y}}}{\Delta_{\mathrm{d}}}\Rightarrow C_{\mathrm{d}}=\mu\times\varOmega_{0}\label{eq:3-12}
+\end{equation}
+
+\end_inset
+
+Eğer yapı, tasarım depremi altında 
+\begin_inset Formula $V_{\mathrm{y}}$
+\end_inset
+
+'ye karşılık gelen kat ötelenmesinde tamamen elastik kalırsa
+\begin_inset Formula $\left(\delta=\delta_{\mathrm{e}}\right)$
+\end_inset
+
+, 
+\begin_inset Formula $R$
+\end_inset
+
+ kat ötelenmelerinin oranına (azaltılmış/etkin) eşittir.
+ 
+\end_layout
+
+\begin_layout Standard
+Moment dayanımlı çelik çerçeveler için 
+\begin_inset Formula $R$
+\end_inset
+
+ ve 
+\begin_inset Formula $\varOmega_{\mathrm{0}}$
+\end_inset
+
+, ASCE 7-16 da hiçbir yapı yükseklik sınırı olmaksızın, sırasıyla 8 ve 3
+ olarak verilmiştir.
+ Bu, süneklik azaltma katsayısı 
+\begin_inset Formula $\left(R_{\mathrm{\mu}}\right)$
+\end_inset
+
+, 2,67 anlamına gelir.
+ Bu kısa açıklama temelinde, ASCE 7-16, tasarım depremi altında elastik
+ olmayan ötelenmenin
+\begin_inset Formula $\left(\delta\right)$
+\end_inset
+
+ tasarım ötelenmesine, 
+\begin_inset Formula $\delta_{\mathrm{e}}/R$
+\end_inset
+
+ ,oranı olarak 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+'yi tanımlar.
+ Böylece, 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ aşağıdaki gibi 
+\begin_inset Formula $R$
+\end_inset
+
+ katsayısının bir parçası haline gelir:[bülent hoca referans]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C_{\mathrm{d}}=\frac{\delta}{\delta_{\mathrm{e}}}R\label{eq:3-13}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Türkiye Bina Deprem Yönetmeliği ise moment dayanımlı çelik çerçeveler için
+\emph on
+ Taşıyıcı Sistem Davranış Katsayısı
+\emph default
+ ve 
+\emph on
+Dayanım Fazlalığı Katsayısı
+\emph default
+ için sırasıyla 8 ve 3 olarak vermiştir.
+ Buradan da 
+\emph on
+Süneklik Azaltma Katsayısı
+\emph default
+ 2,67 anlamına gelir.
+ Fakat TBDY 2018 azaltılmış deprem yüklerine göre hesaplanan göreli kat
+ ötelemelerini, etkin göreli kat ötelemelerine dönüştürülmesi amacıyla 
+\begin_inset Formula $R/I$
+\end_inset
+
+ oranını kullanılmaktadır.
+ Burada; I, 
+\emph on
+Bina Önem Katsayısı
+\emph default
+, R ise 
+\emph on
+Taşıyıcı Sistem Davranış Katsayısı
+\emph default
+ dır.
+\end_layout
+
+\begin_layout Standard
+Taşıyıcı sistem bakımından aynı özelliklere sahip yapılara ait 
+\emph on
+Taşıyıcı Sistem Davranış Katsayısı ve
+\emph default
+ 
+\emph on
+Dayanım Fazlalığı Katsayısı
+\emph default
+ her iki yönetmelik için farklılık göstermezken, azaltılmış göreli kat ötelemele
+ri'ni, etkin göreli kat ötelemeleri'ne dönüştüren katsayılar (R ve Cd) arasındak
+i farklılık göze çarpmaktadır.
+ Tasarım mühendisi, güvenlik konusunda temkinli olduğu kadar yapının maliyetini
+ de göz önünde bulundurmalı, gereğinden büyük kesitler seçmemelidir.
+ Özellikle, Süneklik Düzeyi Yüksek Çelik Çerçeveler'in tasarımında kesitler
+ seçilirken etkin göreli kat ötelemeleri şartının belirleyici olduğu göz
+ önüne alındığında, bu farklılık daha da önemli hale gelmektedir.
+ 
+\end_layout
+
+\begin_layout Standard
+Son yayınlanan ATC-63 proje raporunda (FEMA P695-2009)
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+, yapıdaki gerçek elastik olmayan yer değiştirme talebini hesaplamanın kolay
+ bir yolunu sağladığını ve genellikle 
+\begin_inset Formula $R$
+\end_inset
+
+'den daha küçük olduğu belirtilmiştir.Şekil 3-3'te
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ de dahil olmak üzere binalar için deprem performans katsayılarını inceler.
+ 
 \end_layout
 
 \end_body

@@ -2478,9 +2478,9 @@ Matematik modeller esas olarak moment-dönme eğrisinin matematiksel gösterimin
  Bu ifadelere bazı eğri uydurma sabitleri ile matematiksel fonksiyonlar
  vasıtasıyla bağlantıların moment ve dönme değerlerini doğrudan ilişkilendiren
  matematiksel modeller denir.
- Bu formülasyonlar, örneğin deneysel testler, sonlu Elemanlar (FE) modelleri,
- analitik modeller veya mekanik modeller aracılığıyla elde edilen verilerin
- regresyon analizleri kullanılarak elde edilebilir 
+ Bu formülasyonlar, örneğin deneysel testler, sonlu eleman modelleri, analitik
+ modeller veya mekanik modeller aracılığıyla elde edilen verilerin regresyon
+ analizleri kullanılarak elde edilebilir 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Faella2000"
@@ -2494,22 +2494,61 @@ literal "false"
 
 \begin_layout Standard
 Farklı birleşim geometrilerinin moment dönme davranışı üzerindeki etkilerini
- belirlemek için bu yaklaşımı kullanan; Frye ve Morris (1975), Don Nixon
- ve ark.
- (1976), Ang.
- ve Morris (1984) ve Attiogbe-Morris (1991) tarafından yapılmıştır
+ belirlemek için bu yaklaşımı kullanan; Frye ve Morris (1975)
 \begin_inset CommandInset citation
 LatexCommand cite
-key "Frye1975,Nixon1976,Ang1984,Attiogbe1991"
+key "Frye1975"
 literal "false"
 
 \end_inset
 
-.
+, Don Nixon ve ark.
+ (1976)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nixon1976"
+literal "false"
+
+\end_inset
+
+, Ang.
+ ve Morris (1984)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ang1984"
+literal "false"
+
+\end_inset
+
+ ve Attiogbe-Morris (1991)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Attiogbe1991"
+literal "false"
+
+\end_inset
+
+ tarafından yapılmıştır.
  Bu çalışmalar, standartlaştırılmış fonksiyonların mevcut deneysel verilere
  uyması için yapılmıştır.
- Frye-Morris modeli (1975) ve Attiogbe-Morris modeli (1991) deneysel sonuçlara
- dayanan ampirik modeller hakkında örnek olarak kabul edilebilir
+ Frye-Morris modeli (1975)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Frye1975"
+literal "false"
+
+\end_inset
+
+ ve Attiogbe-Morris modeli (1991)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Attiogbe1991"
+literal "false"
+
+\end_inset
+
+ deneysel sonuçlara dayanan ampirik modeller hakkında örnek olarak kabul
+ edilebilir
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Frye1975,Attiogbe1991"
@@ -2538,7 +2577,15 @@ Analitik modeller, çeşitli yazarlar tarafından elastik yapısal analiz ve
 \end_inset
 
  ilişkilerinin formülasyonu, öngörülen başlangıç rijitliği ve nihai moment
- kapasitesine dayanarak sağlanır [2.1] 
+ kapasitesine dayanarak sağlanır
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Faella2000"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -2551,8 +2598,23 @@ Analitik modeller, birleşimin rijitlik ve dayanım parameterelerini sınır
 
 \begin_layout Standard
 Bu yaklaşımı benimseme örnekleri arasında, bulonlu uzaltılmış alın levhalı
- birleşimler için Yee ve Melchers (1985) modeli ve korniyerli birleşimler
- için Kishi ve Chen modelini (1987) gösterilebilir.[2.7]
+ birleşimler için Yee ve Melchers (1985)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Yee1986"
+literal "false"
+
+\end_inset
+
+ modeli ve korniyerli birleşimler için Kishi ve Chen modelini (1990)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kishi1990"
+literal "false"
+
+\end_inset
+
+ gösterilebilir.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -2597,8 +2659,39 @@ Bu tasarım prosedürleri temel olarak, Oklahoma Üniversitesi ve Virginia
 
 \begin_layout Standard
 Geçmiş yıllarda yapılan çalışmalarda, alın levhalı bulonlu birleşimlere
- ait çok sayıda akma çizgisi modeli araştırıları için Srouji vd., 1983; Borgsmill
-er vd., 1995; Meng, 1996; Sumner 2003 örnek gösterilebilir.
+ ait çok sayıda akma çizgisi modeli araştırıları için Srouji vd., (1983)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Srouji1983"
+literal "false"
+
+\end_inset
+
+; Borgsmiller vd., (1995)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Borgsmiller1995"
+literal "false"
+
+\end_inset
+
+; Meng, (1996)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Meng1996"
+literal "false"
+
+\end_inset
+
+ ve Sumner (2003) örnek gösterilebilir
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DesignGuide-04"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2620,13 +2713,57 @@ k belirlenir.
 
 \begin_layout Standard
 Bu modeli ilk benimseme girişimleri arasında çift gövde korniyerli birleşimler
- için Galler ve Rossow (1983), alın levhalı birleşimler için Kennedy ve
- Hafez (1984) ve her türlü korniyerli birleşim için Chmielowiec ve Richard
- (1987) sayılabilir.
+ için Wales ve Rossow (1983)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wales1983"
+literal "false"
+
+\end_inset
+
+, alın levhalı birleşimler için Kennedy ve Hafez (1984)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kennedy1984"
+literal "false"
+
+\end_inset
+
+ ve her türlü korniyerli birleşim için Chmielowiec ve Richard (1987)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Chmielowiec1987MOMENTRC"
+literal "false"
+
+\end_inset
+
+ sayılabilir.
  O zamandan beri, birleşimlerin davranışını incelemek ve yapı analizine
- etkilerini araştırmak amacıyla; Pucinotti (2001), Simões da Silva ve Girão
- Coelho (2001) ve Urbonas ve Daniunas (2006) gibi değerli araştırmalar da
- yapılmıştır.
+ etkilerini araştırmak amacıyla; Pucinotti (2001)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Pucinotti2001"
+literal "false"
+
+\end_inset
+
+, Simões da Silva ve Girão Coelho (2001)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Silva2001"
+literal "false"
+
+\end_inset
+
+ ve Urbonas ve Daniunas (2006)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Urbonas2006"
+literal "false"
+
+\end_inset
+
+ gibi değerli araştırmalar da yapılmıştır.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -2664,8 +2801,16 @@ Tüm bileşenlerin birleşitirilmesi ve tüm bağlantının rijitliği ve / veya
 \begin_layout Standard
 Mekanik bir modele dayalı deneysel modellerin geliştirilmesinin bir örneği
  olarak Faella ve ark.
- (1997), bileşen yaklaşımı kullanarak uzatılmış alın levhalı kiriş-kolon
- bağlantılarının hem eğilme dayanımı hem de dönme rijitliğini öngörmüştür.
+ (1997)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Faella1997"
+literal "false"
+
+\end_inset
+
+, bileşen yaklaşımı kullanarak uzatılmış alın levhalı kiriş-kolon bağlantılarını
+n hem eğilme dayanımı hem de dönme rijitliğini öngörmüştür.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2695,10 +2840,50 @@ Deneysel testlerin maliyeti çok yüksek olabilir; bu nedenle, birleşim elemanl
 
 \begin_layout Standard
 Örnekler arasında Bose vd.
- (1972), Krishnamurthy ve Graddy (1976), Gebbeken ve ark.
- (1994), Sherbourne ve Bahaari (1996), Yu ve diğ.
- (2008) ve Diaz ve diğ.
- (2011).
+ (1972)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bose1972"
+literal "false"
+
+\end_inset
+
+, Krishnamurthy ve Graddy (1976)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Krishnamurthy1976"
+literal "false"
+
+\end_inset
+
+, Gebbeken ve ark.
+ (1994)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Gebbeken1994"
+literal "false"
+
+\end_inset
+
+, Yu ve diğ.
+ (2008)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Yu2008"
+literal "false"
+
+\end_inset
+
+ ve Diaz ve diğ.
+ (2011)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Diaz2011"
+literal "false"
+
+\end_inset
+
+ gösterilebilir..
 \end_layout
 
 \begin_layout Subsubsection
@@ -2717,50 +2902,72 @@ Yarı-rijit bağlantı davranışı hakkında bilgi edinmenin en doğru yolu fiz
  Bu zorluklara rağmen, araştırmacılar bu bağlantıların uygulama ve gelecekteki
  araştırma çabaları için davranışlarının bir veri bankasını oluşturmak için
  bu çalışmaları sürdürür.
-\end_layout
-
-\begin_layout Standard
-Abolmaali, Kukreti ve Razavi [3], yirmi numunenin çevrimsel davranışını
- bulonlu cıvatalı ve kaynaklı cıvatalı korniyerli çift ağ açısı bağlantıları
- ile test etti.
- Test kurulumunda döngüsel yükleme uygulamak için hem yük kontrolü (başlangıç
- döngülerinde) hem de yer değiştirme kontrolü (bağlantılar kullanılmadan
- önce) yükleme protokollerini kullandılar.
- Makalelerinde numunelerin hem histerik moment dönme eğrileri hem de göçme
- modları, ayrıca dayanım, süneklik ve rijitlik gibi birleşimlerin bazı önemli
- özellikleri sunulmuş;
+ Sonuç olarak, kiriş-kolon birleşimlerinde mevut deneysel verilerden yararlanmay
+a ve gerçek anlamda faydalanmaya ihtiyaç vardı, böylece araştırmacılar ve
+ tasarımcılar çelik çerçeve analizinde ve tasarımında bağlantı davranışlarının
+ gerçekçi gösterimini kullanabilirler.
 \end_layout
 
 \begin_layout Standard
 1984 yılında, 1950 ve 1983 yılları arasında yapılan 230 test sonucunun moment
  dönme eğrilerini topladı.
- Goverdhan veri bankasını dijital hale getirildi (1984).Bu veri bankası Çift
- gövde korniyerli, tek gövde korniyerli, kısa alın lehvalı ve uzun alın
- levhalı birleşimler üzerinde yapılan testleri içerir.
+ Goverdhan veri bankasını dijital hale getirildi (1984)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Goverdhan1984"
+literal "false"
+
+\end_inset
+
+.Bu veri bankası çift gövde korniyerli, tek gövde korniyerli, kısa alın lehvalı
+ ve uzun alın levhalı birleşimler üzerinde yapılan testleri içermektedir.
 \end_layout
 
 \begin_layout Standard
 Çelik kolon-kiriş birleşimleriyle ilgili ilk Avrupa veri bankası 1985 yılında
  geliştirilmiştir.
- Nethercot (1985), 1951 ve 1985 yılları arasında 70'den fazla deneysel çalışma
- için bir literatür taraması yaptı.
+ Nethercot (1985)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nethercot1985"
+literal "false"
+
+\end_inset
+
+, 1951 ve 1985 yılları arasında 70'den fazla deneysel çalışma için bir literatür
+ taraması yaptı.
  Nethercot veri bankası, Goverdhan tarafından gövdesinde korniyer olan ve
- olmayan T-Stub bağlantı terstlerini içerir.
+ olmayan t-stub(yarı I kesitli) bağlantı terstlerini içerir.
 \end_layout
 
 \begin_layout Standard
-ABD'de, Kishi ve Chen (1986), 1936'dan 1986'ya kadar dünyanın dört bir yanından
- 303'ün üzerinde deneysel test toplayan Çelik bağlantı veri bankasını (SCDB)
- geliştirdi.
- Tek gövde korniyerli bağlantılar, çift gövde korniyerli bağlantıları, üst
- ve alt başlık korniyerli bağlantıları ve alın levhalı bağlantıları SCDB
+ABD'de, Kishi ve Chen (1986)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kishi1986"
+literal "false"
+
+\end_inset
+
+, 1936'dan 1986'ya kadar dünyanın dört bir yanından 303'ün üzerinde deneysel
+ test toplayan çelik bağlantı veri bankasını (SCDB) geliştirdi.
+ Tek gövde korniyerli birleşimler, çift gövde korniyerli birleşimler, üst
+ ve alt başlık korniyerli birleşimler ve alın levhalı birleşimleri SCDB
  veri bankasına dahil edilmiştir.
 \end_layout
 
 \begin_layout Standard
 1992 yılında, çelik birleşimleriyle ilgili ikinci Avrupa veri bankası Arbed
- Recherches (1991) ve Aachen Üniversitesi (1992) tarafından SERICON isimli
- Avrupada yapılmış test sonuçlarını kapsayan veri bankası geliştirilmiştir.[2.7]
+ Recherches (1991) ve Aachen Üniversitesi (1992)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Weynand1992"
+literal "false"
+
+\end_inset
+
+ tarafından SERICON isimli Avrupada yapılmış test sonuçlarını kapsayan veri
+ bankası geliştirilmiştir.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -2769,30 +2976,280 @@ Birleşim Davranışının Modellenmesi ile ilgili Geçmiş Çalışmalar
 
 \begin_layout Subsubsection*
 Lui and Chen (1986) in Çalışması
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Lui1986"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Esnek(flexible) birleşimlere sahip çelik çerçevelerin doğrusal olmayan davranışl
+arı üzerine yapılan en eski çalışmalardan biri Lui ve Chen tarafından yapılmıştı
+r.
+ Çalışma esas olarak kolon-kiriş elemanının ve birleşim elemanlarının formülasyo
+nuna dayandırıldı.
+ Sayısal örnekler de teyit edildi.
+ Kiriş-kolon elemanının formülasyonu güncellenmiş bir Lagrangian yaklaşımına
+ dayanıyordu.
+ Bağlantının doğrusal olmayan davranışını üstel bir moment-dönme eğrisi
+ fonksiyonu tarafından kullanıldı.
+ Birleşim davranışının, çelik çerçevelerin genel stabilitesini ve nihai
+ dayanım davranışını etkilediği ve tamamen rijit ve ideal mafsallı birleşimlerin
+ gerçekte olmadığı bildirildi.
 \end_layout
 
 \begin_layout Subsubsection*
 Lui and Chen (1987) in Çalışması
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Lui1987"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Benzer bir çalışma Lui ve Chen tarafından yanal ötelenmesi tutulmuş ve tutulmamı
+ş çerçeveler için esnek düğüm noktalarına sahip çelik çerçeve analizinde
+ yapılmıştır.
+ Birleşimlerin moment-dönme davranışını temsil eden birkaç matematiksel
+ model tartışıldı, ancak en iyisinin olmadığı ve her birinin kendine göre
+ avantaj ve dezavantajları olduğu sonucuna varıldı.
+ Birleşim davranışının çerçevenin maksimum yük taşıma kapasitesine etkisi
+ olmadığı, ancak esnek birleşimleri olan çerçevelerin daha fazla deformasyona
+ sahip olduğu görülmüştür.
+ Yatay ötelenmesi tutulmuş çerçevelerde, ötelenmeler önemli ölçüde azalmış
+ ve birleşimler doğrusal olmayan davranış göstermemiştir.
+ Böylece, doğrusal elastik bir çerçeve analizi, servis yükü aralığında yüklenen
+ esnek bir şekilde bağlanmış çerçeveler için yeterli olduğu ifade edildi.
+ 
 \end_layout
 
 \begin_layout Subsubsection*
 Elnashai and Elghazouli (1994) nin Çalışması
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Elnashai1994"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Yarı rijit çelik çerçevelerin tasarımı ve sismik davranışı hakkında Elnashai
+ ve Elghazouli tarafından detaylı bir çalışma yapılmıştır.
+ Rijit ve yarı-rijit kiriş-kolon birleşimleri olan 2 katlı tek açıklıklı
+ çerçevenin yarısı test edilmiştir.
+ Monotonik, çevrimsel ve dinamik testlerden elde edilen sonuçlar analitik
+ modelden elde edilen sonuçlarla karşılaştırıldı.
+ Yarı-rijit birleşimlere sahip çerçevelerin yeterli deprem dayanımı gösterdiği,
+ bu yüzden sünek ve kararlı bir histeretik davranış sergiledikleri hem deneysel
+ hem de analitik çalışmalarla ifade edildi.
 \end_layout
 
 \begin_layout Subsubsection*
-Gupta ve Krawinkler (1999) in Çalışması 
+Gupta ve Krawinkler (1999) in Çalışması
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Gupta1999"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Gupta ve Krawinkler tarafından moment dayanımlı çelik çerçevelerin deprem
+ yükleri altındaki davranışları üzerine detaylı bir çalışma yapmıştır.
+ Her üç SAC binası (3-, 9- ve 20 katlı binalar) üç sismik bölge (Los Angeles,
+ Seattle ve Boston) için değerlendirildi.
+ Bu çalışmada performansa dayalı sismik tasarımın gelişiminde ilerlemeye
+ katkıda bulunmak ve moment dayanımlı çelik çerçeveli yapılarının sismik
+ davranışını derinden anlamak amaçlanmıştır.
+ Zaman tanım alanında analiz için, 7 set 20 adet yer hareketi kaydı (Los
+ Angeles için 3 set, Seattle için 2 set ve Boston için 2 set) kullanılmıştır.
+ Moment dayanımlı çelik çerçevelerin çok esnek olduğu, P-∆ etkisinin yapıların
+ tepkisi üzerinde büyük etkisi olabileceği bildirildi.
+ Ayrıca, Northridge sonrası yapılar için kat ötelenme açısı taleplerinin
+ Northridge öncesi yapılar için olanlara benzer olduğu belirtildi.
 \end_layout
 
 \begin_layout Subsubsection*
 Maison ve Kasai (2000) in Çalışması 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Maison2000"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+SAC raporunda yarı rijit bağlantılı iki SAC binasının sismik performansı
+ üzerine Maison ve Kasai tarafından bir çalışma yapılmıştır.
+ Çalışmada Los Angeles, Kaliforniya için 3 katlı bina ve Seattle, Washington
+ için 9 katlı bina ele alınmıştır.
+ Kısmş dayanımlı bağlantılı çerçeveler, tam dayanımlı (rijit) bağlantılara
+ sahip orijinal çerçevelerle karşılaştırılmıştır.
+ Dinamik analiz için,% 10'luk aşılma olasılığına uyacak şekilde ölçeklendirilmiş
+ üç adet 20 zemin hareket kaydı seti, 50 yıldaki % 2'lik aşılma olasılığına
+ ve % 50'dekine ulaşılma olasılığına uygulanmıştır.
+ Yarı-rijit birleşimli binaların rijit birleşimli binalarla benzer sünek
+ performans gösterdiği ve daha fazla bağlılığa sahip olduğu görülmüştür.
 \end_layout
 
 \begin_layout Section
 Birleşim Dönme Kapasitesi
 \end_layout
 
-\begin_layout Section
-Önceki Çalışmalar
+\begin_layout Standard
+Moment dayanımlı bağlantıların bir başka sınıflandırması da dayanımlarıyla
+ ilgilidir.
+ Bir "tam dayanımlı" birleşim, en azından bağladığı elemanların nihai eğilme
+ dayanımınına ulaştırabilen bir birleşimdir.
+ Bir "kısmi dayanımlı" bağlantısı, bağlandığı elemanlarınkinden daha düşük
+ bir tasarım dayanımına sahiptir.
+ Moment dayanımlı bir bağlantının dönme kapasitesi de önemli olabilir.
+ Şekil 22, kiriş-kolon bağlantısının moment-dönme diyagramını göstermektedir.
+ Tasarım amaçları için, gerçek bağlantı davranışı, aşağıdaki özelliklerin
+ ayırt edilebildiği bir bi-lineer veya üç-lineer diyagramla gösterilebilir:
+\end_layout
+
+\begin_layout Standard
+Bağlantının tasarım dayanımı;
+\end_layout
+
+\begin_layout Standard
+Küçük momentlere maruz kaldığında bağlantının rijitliği;
+\end_layout
+
+\begin_layout Standard
+Nihai momentlere maruz kaldığında bağlantının rijitliği;
+\end_layout
+
+\begin_layout Standard
+Dönme kapasitesi
+\end_layout
+
+\begin_layout Standard
+Bağlantıların çerçeve davranışı üzerindeki etkisi, kısmi dayanım ve yarı-rijit
+ bağlantılar için ayrı olarak ele alınır.
+ Çaprazlı çerçeveler genel olarak dayanım koşullarına göre tasarlanır ve
+ yatay ötelenmesi tutulmamış çerçeveler ( moment çerçeveleri ) genellikle
+ stabilite ve deformasyon koşullarına göre tasarlanır.
+ Bu nedenle, kısmi dayanımlı birleşimler esasen çaprazlı çerçeveler için
+ ve yarı-rijit bağlantılı moment çerçeveleri için uygulanabilir.
+ 
+\end_layout
+
+\begin_layout Standard
+ŞEKİL-22 EKLENECEK.
+\end_layout
+
+\begin_layout Standard
+Yarı-rijit birleşimli sistemler de plastik analizin sağlanması için, düğüm
+ noktalarının yeterli dönme kapasitesinin kontrol edilmesi gerekir.
+ Belirli bir mafsal tipi için mevcut dönme kapasitesi, sistem incelemelerinden
+ elde edilen bu mafsal için gerekli dönme kapasitesi ile karşılaştırılmalıdır.
+ Bir düğüm noktasının mevcut dönme kapasitesi, bileşenlerinin deformasyon
+ kapasitesine dayanarak belirlenebilir.
+ Çeşitli bileşen sünekliği, düğüm noktasının sünek davranışını kesin olarak
+ etkiler.
+\end_layout
+
+\begin_layout Standard
+Birleşimlerin mevcut dönme kapasitesinin belirlenmesi için çeşitli modeller
+ kullanılabilir (Tschemmemegg ve diğerleri, 1997, Jaspart, 1991).
+ Bu modeller farklı araştırma yöntemleriyle elde edildi, ancak hepsi test
+ sonuçlarına ile kontrol edildi ve bu nedenle mevcut dönme kapasitesinin
+ güvenli ve doğru tahminlerini sağladılar.
+\end_layout
+
+\begin_layout Standard
+Gerekli dönme kapasiteleri değerlerin türetilmesi için farklı yollar da
+ takip edilebilir (Vandegans ve Jaspart, 1996, Kattner, 1999).
+\end_layout
+
+\begin_layout Standard
+Ana farklar, gerekli dönmeyi etkileyen çeşitli doğrusal olmayan etkilerin
+ dikkate alınmasında yatmaktadır
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CharalambosCBaniotopoulos2000"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+AISC Yönetmeliği
+\end_layout
+
+\begin_layout Standard
+AISC 2016 yönetmeliğinde yapının düğüm noktalarında plastik mafsallar oluşup
+ sistemin bu şekilde enerji sönümlemesine izin verilmez.
+ Bu sebeple yarı-rijit (partially restrained) birleşimlerin sahip olması
+ gereken dönme kapasitesine ait herhangi bir bilgi mevcut değildir.
+ Öte yandan rijit birleşimlerin sahip olması gereken süneklik düzeyi, yapısal
+ sistemin türüne ve deprem tasarımına göre değişmektedir.
+ Örneğin süneklik düzeyi yüksek moment dayanımlı çelik çerçevelerde birleşimleri
+n sünek davranabilemesi için dönme kapasitesi 
+\begin_inset Formula $u$
+\end_inset
+
+, 0.04 radyan’dan, süneklik düzeyi sınırlı olan moment dayanımlı çelik çerçeveler
+de ise 
+\begin_inset Formula $u$
+\end_inset
+
+, 0.02 radyan’dan büyük olmalıdır.
+\end_layout
+
+\begin_layout Subsubsection*
+Eurocode Yönetmeliği
+\end_layout
+
+\begin_layout Standard
+Rijit plastik analiz durumunda, plastik bir mafsal konumundaki bir düğüm
+ noktası yeterli dönme kapasitesine sahip olacaktır.
+\end_layout
+
+\begin_layout Standard
+Bulonlu veya kaynaklı bir düğüm noktasının dönme kapasitesi, 6.4.2 veya 6.4.3'te
+ verilen hükümler kullanılarak belirlenmelidir.
+ Bu maddelerde verilen tasarım yöntemleri sadece S235, S275 ve S355 çelik
+ sınıfları için ve bağlı elemandaki 
+\begin_inset Formula $N_{Ed}$
+\end_inset
+
+ eksenel kuvvetinin tasarım değerinin, kesitinin plastik tasarım dayanımının
+ % 5'ini aşmadığı düğüm noktaları için geçerlidir.
+\end_layout
+
+\begin_layout Standard
+Düğüm noktasının tasarım momenti dayanımı 
+\begin_inset Formula $M_{j,Rd}$
+\end_inset
+
+'nin, bağlı elemanın kesitinin tasarım plastik momenti dayanımı 
+\begin_inset Formula $M_{pl,Rd}$
+\end_inset
+
+ 'in en az 1.2 katı olması koşuluyla, bir düğüm noktasının dönme kapasitesinin
+ kontrol edilmesi gerekmez.
 \end_layout
 
 \end_body
