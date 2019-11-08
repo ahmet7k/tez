@@ -1018,6 +1018,14 @@ Bu şekilde bir tasarım ekonomik ve uygulanabilir olmayacaktır.
  Ekonomik ve uygulanabilir tasarım ancak yapıda sınırlı hasar oluşmasının
  baştan kabul edilmesi ile yapılabilecektir.
  Buna göre tasarlanmış bir yapı elasto-plastik davranış gösterecektir.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Dhakal2011"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1232,7 +1240,15 @@ Moment dayanımlı çelik çerçeveler için
 \begin_inset Formula $R$
 \end_inset
 
- katsayısının bir parçası haline gelir:[bülent hoca referans]
+ katsayısının bir parçası haline gelir
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Seker2013"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

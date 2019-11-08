@@ -3126,30 +3126,30 @@ Moment dayanımlı bağlantıların bir başka sınıflandırması da dayanımla
  ayırt edilebildiği bir bi-lineer veya üç-lineer diyagramla gösterilebilir:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Bağlantının tasarım dayanımı;
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Küçük momentlere maruz kaldığında bağlantının rijitliği;
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Nihai momentlere maruz kaldığında bağlantının rijitliği;
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Dönme kapasitesi
 \end_layout
 
 \begin_layout Standard
-Bağlantıların çerçeve davranışı üzerindeki etkisi, kısmi dayanım ve yarı-rijit
+Birleşimlerin çerçeve davranışı üzerindeki etkisi, kısmi dayanımlı ve yarı-rijit
  bağlantılar için ayrı olarak ele alınır.
  Çaprazlı çerçeveler genel olarak dayanım koşullarına göre tasarlanır ve
  yatay ötelenmesi tutulmamış çerçeveler ( moment çerçeveleri ) genellikle
  stabilite ve deformasyon koşullarına göre tasarlanır.
  Bu nedenle, kısmi dayanımlı birleşimler esasen çaprazlı çerçeveler için
- ve yarı-rijit bağlantılı moment çerçeveleri için uygulanabilir.
+ ve yarı-rijit birleşimli moment çerçeveleri için uygulanabilir.
  
 \end_layout
 
@@ -3227,7 +3227,7 @@ Rijit plastik analiz durumunda, plastik bir mafsal konumundaki bir düğüm
  noktası yeterli dönme kapasitesine sahip olacaktır.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Bulonlu veya kaynaklı bir düğüm noktasının dönme kapasitesi, 6.4.2 veya 6.4.3'te
  verilen hükümler kullanılarak belirlenmelidir.
  Bu maddelerde verilen tasarım yöntemleri sadece S235, S275 ve S355 çelik
@@ -3239,7 +3239,7 @@ Bulonlu veya kaynaklı bir düğüm noktasının dönme kapasitesi, 6.4.2 veya 6
  % 5'ini aşmadığı düğüm noktaları için geçerlidir.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Düğüm noktasının tasarım momenti dayanımı 
 \begin_inset Formula $M_{j,Rd}$
 \end_inset
