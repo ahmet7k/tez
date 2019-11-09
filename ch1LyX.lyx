@@ -330,10 +330,40 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename TikZ/3_8_3.pdf
 	lyxscale 50
 	width 7cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:a1"
+
+\end_inset
+
+a1
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -343,10 +373,40 @@ status open
 \end_inset
 
 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename TikZ/3_8_4.pdf
 	lyxscale 50
 	width 7cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:a2"
+
+\end_inset
+
+a2
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -368,7 +428,7 @@ name "fig:FPIsolator"
 
 \end_inset
 
-3.3 ve 3.4.
+figür a.
 \end_layout
 
 \end_inset

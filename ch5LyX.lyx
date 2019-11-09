@@ -1032,9 +1032,9 @@ S_{\mathrm{de}}=\frac{T^{2}}{4\pi^{2}}S_{\mathrm{ae}}\label{eq:5-6}
 \end_layout
 
 \begin_layout Standard
-Aşağıda TBDY 2018'e göre tasarlanan yapının doğrusal elastik olmayan spektral
- yer değiştirme değerinin belirlenmesi amacıyla yapılan hesap adımları özetlenmi
-ştir.
+Aşağıda TBDY 2018'e göre tasarlanan 3 katlı rijit birleşimlere sahip yapının
+ doğrusal elastik olmayan spektral yer değiştirme değerinin belirlenmesi
+ amacıyla yapılan hesap adımları özetlenmiştir.
  Yerel zemin sınıfı olarak ZB seçilmiş ve kısa periyot tasarım spektral
  ivmesi 
 \begin_inset Formula $S_{\mathrm{DS}}=1.35$
@@ -1067,14 +1067,14 @@ Aşağıda TBDY 2018'e göre tasarlanan yapının doğrusal elastik olmayan spek
 \end_inset
 
  olduğundan; 
-\begin_inset Formula $S_{\mathrm{ae}}=\frac{S_{\mathrm{D1}}}{T_{1}}=\frac{0.80}{1.23}=0.65\mathrm{g}$
+\begin_inset Formula $S_{\mathrm{a1}}=\frac{S_{\mathrm{D1}}}{T_{1}}=\frac{0.80}{1.23}=0.65\mathrm{g}$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $S_{\mathrm{a1}}=0.65\times9.81=6.38\mathrm{m/s^{2}}$
+\begin_inset Formula $S_{\mathrm{ae1}}=0.65\times9.81=6.38\mathrm{m/s^{2}}$
 \end_inset
 
 
@@ -1114,7 +1114,7 @@ noprefix "false"
 
 \end_inset
 
- kullanılarak;
+ kullanılarak elde edilebilir;
 \end_layout
 
 \begin_layout Standard
@@ -1139,7 +1139,7 @@ Bu değer 50 yılda aşılma olasılığı %10 olan tasarım depreminin yapıdan
 \end_inset
 
 , tasarıma esas alınan taban kesme kuvvetine karşılık gelen tepe yer değiştirmes
-i olup, Şekil 4.7'de verilmiş olan kapasite eğrisinden elde edilmiştir.
+i olup, Şekil XX'de verilmiş olan kapasite eğrisinden elde edilmiştir.
  Bu veriler ışığında yer değiştirme arttırma katsayısı 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
@@ -1195,12 +1195,2408 @@ name "fig:5.2"
 
 \end_layout
 
+\begin_layout Subsubsection*
+9 Katlı Yapının Yer Değiştirme Arttırma Katsayısının Kapasite Spektrumu
+ Yöntemi ile Elde Edilmesi
+\end_layout
+
+\begin_layout Standard
+Aşağıda TBDY 2018'e göre tasarlanan 9 katlı rijit birleşimlere sahip yapının,
+ aynı yerel zemin sınıfı ve spektral ivme değerleri kullanılarak, doğrusal
+ elastik olmayan spektral yer değiştirme değerinin belirlenmesi amacıyla
+ yapılan hesap adımları özetlenmiştir;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{1}=2.14\mathrm{\mathit{\mathrm{sn}}},T_{L}=6.00\mathrm{\mathit{\mathrm{sn}}}$
+\end_inset
+
+,
+\begin_inset Formula $T_{\mathrm{A}}=0.2\frac{S_{\mathrm{D1}}}{S_{\mathrm{DS}}}=0.12\mathrm{\mathit{\mathrm{sn}}}$
+\end_inset
+
+ ve 
+\begin_inset Formula $T_{\mathrm{B}}=\frac{S_{\mathrm{D1}}}{S_{\mathrm{DS}}}=0.59\mathrm{\mathit{\mathrm{sn}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{\mathrm{B}}\leq T_{1}\leq T_{\mathrm{L}}$
+\end_inset
+
+ olduğundan; 
+\begin_inset Formula $S_{\mathrm{a1}}=\frac{S_{\mathrm{D1}}}{T_{1}}=\frac{0.80}{2.14}=0.37\mathrm{g}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S_{\mathrm{ae1}}=0.37\times9.81=3.67\mathrm{m/s^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S_{\mathrm{de}}=\frac{T^{2}}{4\pi^{2}}S_{\mathrm{ae}}=\frac{2.14^{2}}{4\pi^{2}}\times3.67=0.426\mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{1}>T_{\mathrm{B}}$
+\end_inset
+
+ olduğundan; 
+\begin_inset Formula $C_{\mathrm{R}}=1\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula $S_{\mathrm{d1}}=S_{\mathrm{de}}=d_{1}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Elde edilen yer değiştirme değeri, eşdeğer tek serbestlik dereceli sisteme
+ ait olduğundan yapının gerçek yer değiştirme değeri Denklem 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:5-2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ kullanılarak elde edilebilir;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $d_{1}=0.426\mathrm{m};\phi_{\mathrm{n1}}=0.024;\Gamma_{1}=59.90$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $u_{\mathrm{n1}}=d_{1}\phi_{\mathrm{n1}}\Gamma_{1}\Rightarrow u_{\mathrm{n1}}=0.426\times0.024\times59.90=0.6124\mathrm{m}\rightarrow61.24\mathrm{cm}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bu değer 50 yılda aşılma olasılığı %10 olan tasarım depreminin yapıdan talep
+ ettiği yer değiştirme değerini göstermektedir.
+ 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısının hesaplanmasında kullanılan tasarım yer değiştirmesi 
+\begin_inset Formula $\left(∆_{\mathrm{d}}\right)$
+\end_inset
+
+, tasarıma esas alınan taban kesme kuvvetine karşılık gelen tepe yer değiştirmes
+i olup, Şekil XX'de verilmiş olan kapasite eğrisinden elde edilmiştir.
+ Bu veriler ışığında yer değiştirme arttırma katsayısı 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ ;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $C_{\mathrm{d}}=\frac{u_{n1}}{\Delta_{\mathrm{d}}}=\frac{61.24}{12.50}=4.90$
+\end_inset
+
+ olarak elde edilir.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/5_Rijit ve Yarı-Rijit Çerçevelerin Deplasman Arttırma Katsayısının Belirlenmesi/9_CS.pdf
+	lyxscale 40
+
+\end_inset
+
+
+\begin_inset VSpace 12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.3"
+
+\end_inset
+
+9 Katlı yapıya ait kapasite eğrisi ve talep eğrisi.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+20 Katlı Yapının Yer Değiştirme Arttırma Katsayısının Kapasite Spektrumu
+ Yöntemi ile Elde Edilmesi
+\end_layout
+
+\begin_layout Standard
+Aşağıda TBDY 2018'e göre tasarlanan 20 katlı rijit birleşimlere sahip yapının,
+ aynı yerel zemin sınıfı ve spektral ivme değerleri kullanılarak, doğrusal
+ elastik olmayan spektral yer değiştirme değerinin belirlenmesi amacıyla
+ yapılan hesap adımları özetlenmiştir;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{1}=3.57\mathrm{\mathit{\mathrm{sn}}},T_{L}=6.00\mathrm{\mathit{\mathrm{sn}}}$
+\end_inset
+
+,
+\begin_inset Formula $T_{\mathrm{A}}=0.2\frac{S_{\mathrm{D1}}}{S_{\mathrm{DS}}}=0.12\mathrm{\mathit{\mathrm{sn}}}$
+\end_inset
+
+ ve 
+\begin_inset Formula $T_{\mathrm{B}}=\frac{S_{\mathrm{D1}}}{S_{\mathrm{DS}}}=0.59\mathrm{\mathit{\mathrm{sn}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{\mathrm{B}}\leq T_{1}\leq T_{\mathrm{L}}$
+\end_inset
+
+ olduğundan; 
+\begin_inset Formula $S_{\mathrm{a1}}=\frac{S_{\mathrm{D1}}}{T_{1}}=\frac{0.80}{3.57}=0.22\mathrm{g}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S_{\mathrm{ae1}}=0.22\times9.81=2.20\mathrm{m/s^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S_{\mathrm{de}}=\frac{T^{2}}{4\pi^{2}}S_{\mathrm{ae}}=\frac{3.57^{2}}{4\pi^{2}}\times2.20=0.710\mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{1}>T_{\mathrm{B}}$
+\end_inset
+
+ olduğundan; 
+\begin_inset Formula $C_{\mathrm{R}}=1\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula $S_{\mathrm{d1}}=S_{\mathrm{de}}=d_{1}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Elde edilen yer değiştirme değeri, eşdeğer tek serbestlik dereceli sisteme
+ ait olduğundan yapının gerçek yer değiştirme değeri Denklem 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:5-2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ kullanılarak elde edilebilir;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $d_{1}=0.710\mathrm{m};\phi_{\mathrm{n1}}=0.020;\Gamma_{1}=66.93$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $u_{\mathrm{n1}}=d_{1}\phi_{\mathrm{n1}}\Gamma_{1}\Rightarrow u_{\mathrm{n1}}=0.710\times0.020\times66.93=0.9504\mathrm{m}\rightarrow95.04\mathrm{cm}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bu değer 50 yılda aşılma olasılığı %10 olan tasarım depreminin yapıdan talep
+ ettiği yer değiştirme değerini göstermektedir.
+ 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısının hesaplanmasında kullanılan tasarım yer değiştirmesi 
+\begin_inset Formula $\left(∆_{\mathrm{d}}\right)$
+\end_inset
+
+, tasarıma esas alınan taban kesme kuvvetine karşılık gelen tepe yer değiştirmes
+i olup, Şekil XX'de verilmiş olan kapasite eğrisinden elde edilmiştir.
+ Bu veriler ışığında yer değiştirme arttırma katsayısı 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ ;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $C_{\mathrm{d}}=\frac{u_{n1}}{\Delta_{\mathrm{d}}}=\frac{95.04}{17.78}=5.34$
+\end_inset
+
+ olarak elde edilir.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/5_Rijit ve Yarı-Rijit Çerçevelerin Deplasman Arttırma Katsayısının Belirlenmesi/20_CS.pdf
+	lyxscale 40
+
+\end_inset
+
+
+\begin_inset VSpace 12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.4"
+
+\end_inset
+
+20 Katlı yapıya ait kapasite eğrisi ve talep eğrisi.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Zaman Tanım Alanında Doğrusal Olmayan Dinamik Analiz
 \end_layout
 
+\begin_layout Standard
+Yapının doğrusal olmayan davranışını incelenmek üzere zaman tanım alanında
+ doğrusal olmayan dinamik analizler yapılmıştır.
+ Dinamik analizler statik analizlerden farklı olarak monotonik bir yükleme
+ modeli yerine yapıya doğrudan yer hareketine maruz bırakmaktadır.
+ Bu da yapının gerçek depremlerdeki davranışına daha yakın bir tepkiyi ölçme
+ imkanı verir.
+ Bu dinamik analizde yapıda dikkate alınması gereken sönümün etkisi Rayleigh
+ sönümüyle tanımlanmıştır.
+ Her bir çerçevenin kütle ve rijitlikle orantılı sönüm parametreleri, birinci
+ ve kütle katılım oranının yüzde 95'i bulduğu periyotlar kullanılarak %5
+ sönüm oranına göre belirlenmiştir.
+ Rayleigh sönümünde sönüm matrisi (C), kütle matrisi (M) ve rijitlik matrisi
+ (K)’nın ve Denklem 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:5-7"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de ifade edildiği gibi doğrusal bir fonksiyonudur.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C=\alpha M+\beta K\label{eq:5-7}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Burada α ve β sırasıyla kütle ve rijitlik matrisi katsayıları olup doğal
+ frekanslara bağlı olup Denklem 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:5-8"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'deki gibi tanımlanmaktadırlar.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\alpha=\xi\frac{2\omega_{i}\omega_{j}}{\omega_{i}+\omega_{j}},\hspace{1cm}\beta=\xi\frac{2}{\omega_{i}+\omega_{j}}\label{eq:5-8}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Burada 
+\begin_inset Formula $ω_{i}$
+\end_inset
+
+ ve 
+\begin_inset Formula $ω_{j}$
+\end_inset
+
+ , 
+\begin_inset Formula $i$
+\end_inset
+
+ ve 
+\begin_inset Formula $j$
+\end_inset
+
+ modlarının açısal frekansları ve 
+\begin_inset Formula $\xi$
+\end_inset
+
+’ de bu modların sahip olduğu sönüm oranıdır
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Chopra2015"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Subsection
 Deprem Kayıtlarının Seçimi ve Ölçeklendirilmesi
+\end_layout
+
+\begin_layout Standard
+Bu çalışmada kullanılan gerçek yer hareketleri seçilirken ATC 63 (2009)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "FEMAP695"
+literal "false"
+
+\end_inset
+
+ yönetmeliğinde önerilen depremler arasından faya uzak depremler kayıtları
+ dikkate alınmıştır.
+ Bu yönetmeliğe göre yer hareketlerinin seçiminde aşağıdaki kriterler göz
+ önüne alınmalıdır.
+ 
+\end_layout
+
+\begin_layout Itemize
+büyük magnitüdlere sahip deprem kayıtlarını kullanmayı, M ≥ 6.5, 
+\end_layout
+
+\begin_layout Itemize
+hem doğrultu atımlı (strike-slip), hem de ters atımlı (reverse) kaynak mekanizma
+sına sahip deprem kayıtları kullanmayı, 
+\end_layout
+
+\begin_layout Itemize
+hem kaya, hem de sert zeminde kaydedilmiş deprem kayıtları kullanmayı (Vs
+ >180 m s ), 
+\end_layout
+
+\begin_layout Itemize
+her depremden belirli kayıt sayısı kullanmayı (bir deprem için en fazla
+ iki kayıt), 
+\end_layout
+
+\begin_layout Itemize
+güçlü deprem kayıtları kullanmayı, PGA > 0.2g ve PGV >15cm / s .
+ 
+\end_layout
+
+\begin_layout Standard
+Ayrıca ATC 63 (2009)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "FEMAP695"
+literal "false"
+
+\end_inset
+
+ deprem kayıtlarının seçimini, tüm yapı tiplerine uygun olmasını ve farklı
+ deprem bölgelerinde kullanılabilir olmasını göz önüne alarak yapmıştır.
+\end_layout
+
+\begin_layout Standard
+Çizelge 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Deprem_Kayıtları"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de özellikleri verilen deprem kayıtları PEER veri tabanından 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Peer"
+literal "false"
+
+\end_inset
+
+ alınmış ve yatay elastik tasarım spektrumuna ölçeklenmiştir.
+\end_layout
+
+\begin_layout Standard
+Parametrik çalışmada iki boyutlu çerçeve sistemler kullanıldığı için TBDY
+ 2018
+\begin_inset CommandInset citation
+LatexCommand cite
+key "TBDY2018"
+literal "false"
+
+\end_inset
+
+ yönetmeliği uyarınca seçilen tüm kayıtlara ait spektrumların ortalamasının
+ 
+\begin_inset Formula $0.2T_{\mathrm{p}}$
+\end_inset
+
+ ve 
+\begin_inset Formula $1.5T_{\mathrm{p}}$
+\end_inset
+
+ periyotları arasındaki genliklerinin, tanımlanan tasarım spektrumunun aynı
+ periyot aralığındaki genliklerinden daha küçük olmaması koşulu göz önünde
+ bulundurularak, deprem yer hareketlerinin genlikleri ölçeklendirilmiştir.
+ Ölçeklendirilen gerçek deprem kayıtlarının ölçeklendirme katsayıları 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:EK-A.1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'da Çizelge 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Olceklendirme_Katsayıları"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ olarak verilmiştir.
+\begin_inset Float table
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "Deprem_Kayıtları"
+
+\end_inset
+
+Seçilen yer hareketi kayıtları
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="8">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Deprem İsmi
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Kayıt Numarası
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Yıl
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Büyüklük
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Mekanizma
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ Vs30 (m/sn)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+PGA (g)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+PGV (cm/sn)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ San Fernando
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+68
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1971
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+6.61
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Ters atımlı
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+316.46
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.21
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+19
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ Friuli_ Italy-01
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+125
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1976
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+6.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Ters atımlı
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+505.23
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.35
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+31
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ Imperial Valley-06
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+174
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1979
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+6.53
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Doğrultu atımlı
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+196.25
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.38
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+42
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ Superstition Hills-02
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+725
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1987
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+6.54
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Doğrultu atımlı
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+316.64
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.45
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+36
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ Northridge-01
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+953
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1994
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+6.69
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Ters atımlı
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+355.81
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.52
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+63
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ Northridge-01
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+960
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1994
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+6.69
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Ters atımlı
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+325.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.48
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+45
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ Kobe_ Japan
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1116
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1995
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+6.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Doğrultu atımlı
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+256
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.24
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+38
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ Kocaeli_ Turkey
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1158
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1999
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+7.51
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Doğrultu atımlı
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+281.86
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.36
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+59
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ Hector Mine
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1787
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1999
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+7.13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Doğrultu atımlı
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+726
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0.34
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+42
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Yer Değiştirme Arttırma Katsayısının Zaman Tanım Alanında Doğrusal Olmayan
+ Dinamik Analiz ile Elde Edilmesi
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayının hesaplanabilmesi için daha önce de bahsedildiği gibi depremin
+ yapıdan talep ettiği yer değiştirme değerine ihtiyaç vardır.
+ Doğrusal olmayan dinamik analiz sonucunda kullanılan her bir depremin en
+ büyük tepe yer değiştirmesi bize depremlerin yer değiştirme talebini verecektir.
+ Daha sonra elde edilen yer değiştirme talepleri tasarım yer değiştirme
+ değerine oranlanarak 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısı elde edilecektir.
 \end_layout
 
 \end_body

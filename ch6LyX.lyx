@@ -81,259 +81,56 @@
 ANALİZ SONUÇLARI
 \end_layout
 
-\begin_layout Section
-3 Katlı Yapıların Doğrusal Olmayan Analiz Sonuçları
+\begin_layout Standard
+Bu bölümde parametrik çalışma kapsamında yapılan statik ve dinamik analizlerin
+ sonuçları verilecektir.
+ Staik analizlerde yapıların eksenleri tepe deplasmanı ve taban kesme kuvveti
+ olan kapasite eğrileri gösterilecek ve dinamik analizlerde ise yapıların
+ kapasite eğrisi grafikleri üzerinde ki durumları işaretlenecektir.
+ Statik analiz sonuçları ilgili yapı ait farklı birleşim dönme rijitlikleri
+ ile karşılaştırmalı bir biçimde verilmiştir.
+ Ayıca dinamik analiz sonuçların yorumlamasında açıklık getirmesi adına
+ yukarıda bahsedilen üç duruma ait sonuçlar taban kesme kuvetinin yapının
+ etkin kütlesine oranı olan taban kesme kuvveti oranı ile tepe deplamanının
+ yapı yüksekliğine oranı olan tepe deplasmanı oranı olarak gösterilmiştir.
+ Dinamik analizler ise daha iyi yorumlanabilmesi için ilgili yapının statik
+ analiz sonuçları ile aynı şekil üzerinde gösterilecektir.
+ Doğrusal olmayan dinamik analiz sonuçlarının daha doğru değerlendirilmesi
+ amacı ile iki gerçek durum ve bir de literatürde sıkça karşılaşılan gerçek
+ olmayan duruma ait sonuçlar gösterilecektir.
+ Burada gerçek olmayan durumdan kasıt dinamik analizde iki uç sonucun aynı
+ anda oluşmadığıdır.
 \end_layout
 
 \begin_layout Standard
-Çalışmada elde edilen sonuçlara göre yalıtım birimlerinin artan eşdeğer
- sönüm oranına karşılık gelen büyük doğrusalsızlık sebebi ile ortak yalıtım
- düzleminde bulunan yapıların yüksek mod etkilerinin göreli yer değiştirme
- ve iç kuvvetlerinde önemli artışlara sebep olduğu görülmüştür.
- Bu artışların iki yapının açısal frekanslarının ayrıklaşması ile arttığı
- tespit edilmiştir.
- Dolayısıyla iki yapının aynı açısal frekansa sahip olması durumunda elde
- edilen iç kuvvet ve yer değiştirmeler, yalıtım birimlerinin aynı eşdeğer
- periyot ve sönüm değerleri için eşit bulunmaktadır.
- Bununla birlikte yalıtım birimlerinin artan eşdeğer sönüm değerleri için
- sismik yalıtımlı yapı taban kesme kuvvetlerinin üst katlara dağılımında
- meydana gelen dikdörtgen form yerini üst katlarda daha büyük kuvvetlerin
- oluştuğu ters üçgen formuna bıraktığı görülmüştür.
+Gerçek durumlar; 
+\end_layout
+
+\begin_layout Itemize
+yapının en büyük tepe yer değiştirmesi değerine ulaştığı andaki taban kesme
+ kuvveti 
+\end_layout
+
+\begin_layout Itemize
+yapının en büyük taban kesme kuvveti değerine ulaştığı andaki tepe yer değiştirm
+esi 
 \end_layout
 
 \begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
- 
+Gerçek olmayan durum ise;
 \end_layout
 
-\begin_layout Subsection
-Doğrusal Olmayan Statik Analizi Sonuçları
-\end_layout
-
-\begin_layout Standard
-Çalışmada elde edilen sonuçlara göre yalıtım birimlerinin artan eşdeğer
- sönüm oranına karşılık gelen büyük doğrusalsızlık sebebi ile ortak yalıtım
- düzleminde bulunan yapıların yüksek mod etkilerinin göreli yer değiştirme
- ve iç kuvvetlerinde önemli artışlara sebep olduğu görülmüştür.
- Bu artışların iki yapının açısal frekanslarının ayrıklaşması ile arttığı
- tespit edilmiştir.
- Dolayısıyla iki yapının aynı açısal frekansa sahip olması durumunda elde
- edilen iç kuvvet ve yer değiştirmeler, yalıtım birimlerinin aynı eşdeğer
- periyot ve sönüm değerleri için eşit bulunmaktadır.
- Bununla birlikte yalıtım birimlerinin artan eşdeğer sönüm değerleri için
- sismik yalıtımlı yapı taban kesme kuvvetlerinin üst katlara dağılımında
- meydana gelen dikdörtgen form yerini üst katlarda daha büyük kuvvetlerin
- oluştuğu ters üçgen formuna bıraktığı görülmüştür.
-\end_layout
-
-\begin_layout Subsection
-Doğrusal Olmayan Dinamik Analizi Sonuçları
-\end_layout
-
-\begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
- 
-\end_layout
-
-\begin_layout Standard
-Çalışmada elde edilen sonuçlara göre yalıtım birimlerinin artan eşdeğer
- sönüm oranına karşılık gelen büyük doğrusalsızlık sebebi ile ortak yalıtım
- düzleminde bulunan yapıların yüksek mod etkilerinin göreli yer değiştirme
- ve iç kuvvetlerinde önemli artışlara sebep olduğu görülmüştür.
- Bu artışların iki yapının açısal frekanslarının ayrıklaşması ile arttığı
- tespit edilmiştir.
- Dolayısıyla iki yapının aynı açısal frekansa sahip olması durumunda elde
- edilen iç kuvvet ve yer değiştirmeler, yalıtım birimlerinin aynı eşdeğer
- periyot ve sönüm değerleri için eşit bulunmaktadır.
- Bununla birlikte yalıtım birimlerinin artan eşdeğer sönüm değerleri için
- sismik yalıtımlı yapı taban kesme kuvvetlerinin üst katlara dağılımında
- meydana gelen dikdörtgen form yerini üst katlarda daha büyük kuvvetlerin
- oluştuğu ters üçgen formuna bıraktığı görülmüştür.
-\end_layout
-
-\begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
+\begin_layout Itemize
+yapının en büyük tepe yer değiştirmesine karşı en büyük taban kesme kuvveti
  
 \end_layout
 
 \begin_layout Section
-9 Katlı Yapıların Doğrusal Olmayan Analiz Sonuçları
-\end_layout
-
-\begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
- 
-\end_layout
-
-\begin_layout Standard
-Çalışmada elde edilen sonuçlara göre yalıtım birimlerinin artan eşdeğer
- sönüm oranına karşılık gelen büyük doğrusalsızlık sebebi ile ortak yalıtım
- düzleminde bulunan yapıların yüksek mod etkilerinin göreli yer değiştirme
- ve iç kuvvetlerinde önemli artışlara sebep olduğu görülmüştür.
- Bu artışların iki yapının açısal frekanslarının ayrıklaşması ile arttığı
- tespit edilmiştir.
- Dolayısıyla iki yapının aynı açısal frekansa sahip olması durumunda elde
- edilen iç kuvvet ve yer değiştirmeler, yalıtım birimlerinin aynı eşdeğer
- periyot ve sönüm değerleri için eşit bulunmaktadır.
- Bununla birlikte yalıtım birimlerinin artan eşdeğer sönüm değerleri için
- sismik yalıtımlı yapı taban kesme kuvvetlerinin üst katlara dağılımında
- meydana gelen dikdörtgen form yerini üst katlarda daha büyük kuvvetlerin
- oluştuğu ters üçgen formuna bıraktığı görülmüştür.
-\end_layout
-
-\begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
- 
-\end_layout
-
-\begin_layout Subsection
-Doğrusal Olmayan Statik Analizi Sonuçları
-\end_layout
-
-\begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
- 
-\end_layout
-
-\begin_layout Standard
-Çalışmada elde edilen sonuçlara göre yalıtım birimlerinin artan eşdeğer
- sönüm oranına karşılık gelen büyük doğrusalsızlık sebebi ile ortak yalıtım
- düzleminde bulunan yapıların yüksek mod etkilerinin göreli yer değiştirme
- ve iç kuvvetlerinde önemli artışlara sebep olduğu görülmüştür.
- Bu artışların iki yapının açısal frekanslarının ayrıklaşması ile arttığı
- tespit edilmiştir.
- Dolayısıyla iki yapının aynı açısal frekansa sahip olması durumunda elde
- edilen iç kuvvet ve yer değiştirmeler, yalıtım birimlerinin aynı eşdeğer
- periyot ve sönüm değerleri için eşit bulunmaktadır.
- Bununla birlikte yalıtım birimlerinin artan eşdeğer sönüm değerleri için
- sismik yalıtımlı yapı taban kesme kuvvetlerinin üst katlara dağılımında
- meydana gelen dikdörtgen form yerini üst katlarda daha büyük kuvvetlerin
- oluştuğu ters üçgen formuna bıraktığı görülmüştür.
-\end_layout
-
-\begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
- 
-\end_layout
-
-\begin_layout Subsection
-Doğrusal Olmayan Dinamik Analizi Sonuçları
-\end_layout
-
-\begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
- 
-\end_layout
-
-\begin_layout Standard
-Çalışmada elde edilen sonuçlara göre yalıtım birimlerinin artan eşdeğer
- sönüm oranına karşılık gelen büyük doğrusalsızlık sebebi ile ortak yalıtım
- düzleminde bulunan yapıların yüksek mod etkilerinin göreli yer değiştirme
- ve iç kuvvetlerinde önemli artışlara sebep olduğu görülmüştür.
- Bu artışların iki yapının açısal frekanslarının ayrıklaşması ile arttığı
- tespit edilmiştir.
- Dolayısıyla iki yapının aynı açısal frekansa sahip olması durumunda elde
- edilen iç kuvvet ve yer değiştirmeler, yalıtım birimlerinin aynı eşdeğer
- periyot ve sönüm değerleri için eşit bulunmaktadır.
- Bununla birlikte yalıtım birimlerinin artan eşdeğer sönüm değerleri için
- sismik yalıtımlı yapı taban kesme kuvvetlerinin üst katlara dağılımında
- meydana gelen dikdörtgen form yerini üst katlarda daha büyük kuvvetlerin
- oluştuğu ters üçgen formuna bıraktığı görülmüştür.
-\end_layout
-
-\begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
- 
+3 Katlı Yapıların Doğrusal Olmayan Statik Analiz Sonuçları
 \end_layout
 
 \begin_layout Section
-20 Katlı Yapıların Doğrusal Olmayan Analiz Sonuçları
-\end_layout
-
-\begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
- 
-\end_layout
-
-\begin_layout Standard
-Çalışmada elde edilen sonuçlara göre yalıtım birimlerinin artan eşdeğer
- sönüm oranına karşılık gelen büyük doğrusalsızlık sebebi ile ortak yalıtım
- düzleminde bulunan yapıların yüksek mod etkilerinin göreli yer değiştirme
- ve iç kuvvetlerinde önemli artışlara sebep olduğu görülmüştür.
- Bu artışların iki yapının açısal frekanslarının ayrıklaşması ile arttığı
- tespit edilmiştir.
- Dolayısıyla iki yapının aynı açısal frekansa sahip olması durumunda elde
- edilen iç kuvvet ve yer değiştirmeler, yalıtım birimlerinin aynı eşdeğer
- periyot ve sönüm değerleri için eşit bulunmaktadır.
- Bununla birlikte yalıtım birimlerinin artan eşdeğer sönüm değerleri için
- sismik yalıtımlı yapı taban kesme kuvvetlerinin üst katlara dağılımında
- meydana gelen dikdörtgen form yerini üst katlarda daha büyük kuvvetlerin
- oluştuğu ters üçgen formuna bıraktığı görülmüştür.
-\end_layout
-
-\begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
- 
-\end_layout
-
-\begin_layout Subsection
-Doğrusal Olmayan Statik Analiz Sonuçları
-\end_layout
-
-\begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
- 
-\end_layout
-
-\begin_layout Standard
-Çalışmada elde edilen sonuçlara göre yalıtım birimlerinin artan eşdeğer
- sönüm oranına karşılık gelen büyük doğrusalsızlık sebebi ile ortak yalıtım
- düzleminde bulunan yapıların yüksek mod etkilerinin göreli yer değiştirme
- ve iç kuvvetlerinde önemli artışlara sebep olduğu görülmüştür.
- Bu artışların iki yapının açısal frekanslarının ayrıklaşması ile arttığı
- tespit edilmiştir.
- Dolayısıyla iki yapının aynı açısal frekansa sahip olması durumunda elde
- edilen iç kuvvet ve yer değiştirmeler, yalıtım birimlerinin aynı eşdeğer
- periyot ve sönüm değerleri için eşit bulunmaktadır.
- Bununla birlikte yalıtım birimlerinin artan eşdeğer sönüm değerleri için
- sismik yalıtımlı yapı taban kesme kuvvetlerinin üst katlara dağılımında
- meydana gelen dikdörtgen form yerini üst katlarda daha büyük kuvvetlerin
- oluştuğu ters üçgen formuna bıraktığı görülmüştür.
-\end_layout
-
-\begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
- 
-\end_layout
-
-\begin_layout Subsection
-Doğrusal Olmayan Dinamik Analiz Sonuçları
-\end_layout
-
-\begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
- 
-\end_layout
-
-\begin_layout Standard
-Çalışmada elde edilen sonuçlara göre yalıtım birimlerinin artan eşdeğer
- sönüm oranına karşılık gelen büyük doğrusalsızlık sebebi ile ortak yalıtım
- düzleminde bulunan yapıların yüksek mod etkilerinin göreli yer değiştirme
- ve iç kuvvetlerinde önemli artışlara sebep olduğu görülmüştür.
- Bu artışların iki yapının açısal frekanslarının ayrıklaşması ile arttığı
- tespit edilmiştir.
- Dolayısıyla iki yapının aynı açısal frekansa sahip olması durumunda elde
- edilen iç kuvvet ve yer değiştirmeler, yalıtım birimlerinin aynı eşdeğer
- periyot ve sönüm değerleri için eşit bulunmaktadır.
- Bununla birlikte yalıtım birimlerinin artan eşdeğer sönüm değerleri için
- sismik yalıtımlı yapı taban kesme kuvvetlerinin üst katlara dağılımında
- meydana gelen dikdörtgen form yerini üst katlarda daha büyük kuvvetlerin
- oluştuğu ters üçgen formuna bıraktığı görülmüştür.
-\end_layout
-
-\begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
- 
+3 Katlı Yapıların Doğrusal Olmayan Dinamik Analiz Sonuçları
 \end_layout
 
 \end_body
