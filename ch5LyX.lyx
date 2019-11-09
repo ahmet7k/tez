@@ -799,7 +799,7 @@ Elde edilen ötelenme eğrisinin, çerçevenin deprem performansını belirleyeb
  ve modal katılım çarpanı kullanılarak çok serbestlik dereceli sisteme ait
  yer değiştirme değerleri tek serbestlik dereceli sisteme ait spektral yer
  değiştirme değerlerine dönüştürülecektir.
- Spektral ivme değerlerini elde etmek için Denklem 
+ Birinci moda ait modal sözde ivme değerlerini elde etmek için Denklem 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:5-1"
