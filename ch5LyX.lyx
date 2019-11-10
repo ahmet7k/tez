@@ -1565,8 +1565,16 @@ C=\alpha M+\beta K\label{eq:5-7}
 \end_layout
 
 \begin_layout Standard
-Burada α ve β sırasıyla kütle ve rijitlik matrisi katsayıları olup doğal
- frekanslara bağlı olup Denklem 
+Burada 
+\begin_inset Formula $α$
+\end_inset
+
+ ve 
+\begin_inset Formula $β$
+\end_inset
+
+ sırasıyla kütle ve rijitlik matrisi katsayıları olup doğal frekanslara
+ bağlı olup Denklem 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:5-8"
@@ -1826,7 +1834,7 @@ Deprem İsmi
 \uwave off
 \noun off
 \color none
-Kayıt Numarası
+Kayıt No
 \end_layout
 
 \end_inset
@@ -1914,7 +1922,10 @@ Mekanizma
 \uwave off
 \noun off
 \color none
- Vs30 (m/sn)
+\begin_inset Formula $\left(V_{\mathrm{S}}\right)_{30}\left[m/sn\right]$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1936,7 +1947,10 @@ Mekanizma
 \uwave off
 \noun off
 \color none
-PGA (g)
+\begin_inset Formula $PGA\left[g\right]$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1958,7 +1972,10 @@ PGA (g)
 \uwave off
 \noun off
 \color none
-PGV (cm/sn)
+\begin_inset Formula $PGV\left[cm/sn\right]$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2070,7 +2087,7 @@ PGV (cm/sn)
 \uwave off
 \noun off
 \color none
-Ters atımlı
+Ters
 \end_layout
 
 \end_inset
@@ -2226,7 +2243,7 @@ Ters atımlı
 \uwave off
 \noun off
 \color none
-6.5
+6.50
 \end_layout
 
 \end_inset
@@ -2248,7 +2265,7 @@ Ters atımlı
 \uwave off
 \noun off
 \color none
-Ters atımlı
+Ters
 \end_layout
 
 \end_inset
@@ -2426,7 +2443,7 @@ Ters atımlı
 \uwave off
 \noun off
 \color none
-Doğrultu atımlı
+Doğrultu
 \end_layout
 
 \end_inset
@@ -2604,7 +2621,7 @@ Doğrultu atımlı
 \uwave off
 \noun off
 \color none
-Doğrultu atımlı
+Doğrultu
 \end_layout
 
 \end_inset
@@ -2982,7 +2999,7 @@ Ters atımlı
 \uwave off
 \noun off
 \color none
-325.6
+325.60
 \end_layout
 
 \end_inset
@@ -3116,7 +3133,7 @@ Ters atımlı
 \uwave off
 \noun off
 \color none
-6.9
+6.90
 \end_layout
 
 \end_inset
@@ -3138,7 +3155,7 @@ Ters atımlı
 \uwave off
 \noun off
 \color none
-Doğrultu atımlı
+Doğrultu
 \end_layout
 
 \end_inset
@@ -3160,7 +3177,7 @@ Doğrultu atımlı
 \uwave off
 \noun off
 \color none
-256
+256.00
 \end_layout
 
 \end_inset
@@ -3316,7 +3333,7 @@ Doğrultu atımlı
 \uwave off
 \noun off
 \color none
-Doğrultu atımlı
+Doğrultu
 \end_layout
 
 \end_inset
@@ -3494,7 +3511,7 @@ Doğrultu atımlı
 \uwave off
 \noun off
 \color none
-Doğrultu atımlı
+Doğrultu
 \end_layout
 
 \end_inset
@@ -3516,7 +3533,7 @@ Doğrultu atımlı
 \uwave off
 \noun off
 \color none
-726
+726.00
 \end_layout
 
 \end_inset

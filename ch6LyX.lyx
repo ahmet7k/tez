@@ -90,11 +90,10 @@ Bu bölümde parametrik çalışma kapsamında yapılan statik ve dinamik analiz
  Statik analiz sonuçları ilgili yapı ait farklı birleşim dönme rijitlikleri
  ile karşılaştırmalı bir biçimde verilmiştir.
  Ayıca dinamik analiz sonuçların yorumlamasında açıklık getirmesi adına
- yukarıda bahsedilen üç duruma ait sonuçlar taban kesme kuvetinin yapının
- etkin kütlesine oranı olan taban kesme kuvveti oranı ile tepe deplamanının
- yapı yüksekliğine oranı olan tepe deplasmanı oranı olarak gösterilmiştir.
- Dinamik analizler ise daha iyi yorumlanabilmesi için ilgili yapının statik
- analiz sonuçları ile aynı şekil üzerinde gösterilecektir.
+ sonuçlar taban kesme kuvetinin yapının etkin kütlesine oranı olan taban
+ kesme kuvveti oranı ile tepe yer değiştirmesinin yapı yüksekliğine oranı
+ olan tepe deplasmanı oranı olarak gösterilmiş ve bu iki grafik yan yana
+ verilerek yapı davranışının daha iyi anlaşılması hedeflenmiştir.
  Doğrusal olmayan dinamik analiz sonuçlarının daha doğru değerlendirilmesi
  amacı ile iki gerçek durum ve bir de literatürde sıkça karşılaşılan gerçek
  olmayan duruma ait sonuçlar gösterilecektir.
@@ -108,12 +107,12 @@ Gerçek durumlar;
 
 \begin_layout Itemize
 yapının en büyük tepe yer değiştirmesi değerine ulaştığı andaki taban kesme
- kuvveti 
+ kuvveti ; Durum-1 olarak isimlendirilmiştir.
 \end_layout
 
 \begin_layout Itemize
 yapının en büyük taban kesme kuvveti değerine ulaştığı andaki tepe yer değiştirm
-esi 
+esi ; Durum-2 olarak isimlendirilmiştir.
 \end_layout
 
 \begin_layout Standard
@@ -122,7 +121,7 @@ Gerçek olmayan durum ise;
 
 \begin_layout Itemize
 yapının en büyük tepe yer değiştirmesine karşı en büyük taban kesme kuvveti
- 
+ ; Durum-3 olarak isimlendirilmiştir.
 \end_layout
 
 \begin_layout Section
@@ -130,6 +129,18 @@ yapının en büyük tepe yer değiştirmesine karşı en büyük taban kesme ku
 \end_layout
 
 \begin_layout Standard
+3 katlı çerçevelerin bütün birleşim dönme rijitliği parametrelerini kapsayan
+ kapasite eğrileri Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:6.1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de gösterilmiştir.
 \begin_inset Float figure
 wide false
 sideways false
@@ -144,7 +155,7 @@ status open
 \end_inset
 
 
-\begin_inset VSpace 12pt
+\begin_inset VSpace 6pt
 \end_inset
 
 
@@ -177,11 +188,427 @@ name "fig:6.1"
 3 Katlı Yapıların Doğrusal Olmayan Dinamik Analiz Sonuçları
 \end_layout
 
+\begin_layout Standard
+Rijit birleşimli çerçevelerin; Durum-1 sonuçları Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:6.2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de, Durum-2 sonuçları Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:6.3"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de, Durum-3 sonuçları ise Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:6.4"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de gösterilmiştir.
+\begin_inset Float figure
+placement h!
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/6_Analiz Sonuçları/3/3_R_1.pdf
+	lyxscale 12
+	width 7cm
+	height 6cm
+
+\end_inset
+
+
+\begin_inset space \hspace{}
+\length 0.5cm
+\end_inset
+
+
+\begin_inset Graphics
+	filename Grafikler/6_Analiz Sonuçları/3/3_R_11.pdf
+	lyxscale 12
+	width 7cm
+	height 6cm
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:6.2"
+
+\end_inset
+
+ Rijit birleşimli çerçevenin, en büyük tepe yer değiştirmesine karşı taban
+ kesme kuvveti ve oranları (Durum-1).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement h!
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/6_Analiz Sonuçları/3/3_R_2.pdf
+	lyxscale 12
+	width 7cm
+	height 6cm
+
+\end_inset
+
+
+\begin_inset space \hspace{}
+\length 0.5cm
+\end_inset
+
+
+\begin_inset Graphics
+	filename Grafikler/6_Analiz Sonuçları/3/3_R_22.pdf
+	lyxscale 12
+	width 7cm
+	height 6cm
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:6.3"
+
+\end_inset
+
+ Rijit birleşimli çerçevenin, en büyük tepe yer değiştirmesine karşı taban
+ kesme kuvveti ve oranları (Durum-2).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement h!
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/6_Analiz Sonuçları/3/3_R_3.pdf
+	lyxscale 12
+	width 7cm
+	height 6cm
+
+\end_inset
+
+
+\begin_inset space \hspace{}
+\length 0.5cm
+\end_inset
+
+
+\begin_inset Graphics
+	filename Grafikler/6_Analiz Sonuçları/3/3_R_33.pdf
+	lyxscale 12
+	width 7cm
+	height 6cm
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:6.4"
+
+\end_inset
+
+ Rijit birleşimli çerçevenin, en büyük tepe yer değiştirmesine karşı taban
+ kesme kuvveti ve oranları (Durum-3).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Yarı-rijit (20 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:6.5"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de, Durum-2 sonuçları Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:6.6"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de, Durum-3 sonuçları ise Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:6.7"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de gösterilmiştir.
+\begin_inset Float figure
+placement h!
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/6_Analiz Sonuçları/3/3_20_1.pdf
+	lyxscale 12
+	width 7cm
+	height 6cm
+
+\end_inset
+
+
+\begin_inset space \hspace{}
+\length 0.5cm
+\end_inset
+
+
+\begin_inset Graphics
+	filename Grafikler/6_Analiz Sonuçları/3/3_20_11.pdf
+	lyxscale 12
+	width 7cm
+	height 6cm
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:6.5"
+
+\end_inset
+
+ Yarı-rijit (20 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+ karşı taban kesme kuvveti ve oranları (Durum-1).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement h!
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/6_Analiz Sonuçları/3/3_20_2.pdf
+	lyxscale 12
+	width 7cm
+	height 6cm
+
+\end_inset
+
+
+\begin_inset space \hspace{}
+\length 0.5cm
+\end_inset
+
+
+\begin_inset Graphics
+	filename Grafikler/6_Analiz Sonuçları/3/3_20_22.pdf
+	lyxscale 12
+	width 7cm
+	height 6cm
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:6.6"
+
+\end_inset
+
+Yarı-rijit (20 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+ karşı taban kesme kuvveti ve oranları (Durum-2).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement h!
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/6_Analiz Sonuçları/3/3_20_3.pdf
+	lyxscale 12
+	width 7cm
+	height 6cm
+
+\end_inset
+
+
+\begin_inset space \hspace{}
+\length 0.5cm
+\end_inset
+
+
+\begin_inset Graphics
+	filename Grafikler/6_Analiz Sonuçları/3/3_20_33.pdf
+	lyxscale 12
+	width 7cm
+	height 6cm
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:6.7"
+
+\end_inset
+
+ Yarı-rijit (20 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+ karşı taban kesme kuvveti ve oranları (Durum-3).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 9 Katlı Yapıların Doğrusal Olmayan Statik Analiz Sonuçları
 \end_layout
 
 \begin_layout Standard
+9 katlı çerçevelerin bütün birleşim dönme rijitliği parametrelerini kapsayan
+ ötelenme eğrileri Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:6.22"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de gösterilmiştir.
 \begin_inset Float figure
 wide false
 sideways false
@@ -196,7 +623,7 @@ status open
 \end_inset
 
 
-\begin_inset VSpace 12pt
+\begin_inset VSpace 6pt
 \end_inset
 
 
@@ -234,6 +661,18 @@ name "fig:6.22"
 \end_layout
 
 \begin_layout Standard
+20 katlı çerçevelerin bütün birleşim dönme rijitliği parametrelerini kapsayan
+ ötelenme eğrileri Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:6.33"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de gösterilmiştir.
 \begin_inset Float figure
 wide false
 sideways false
@@ -248,7 +687,7 @@ status open
 \end_inset
 
 
-\begin_inset VSpace 12pt
+\begin_inset VSpace 6pt
 \end_inset
 
 

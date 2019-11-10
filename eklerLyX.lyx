@@ -182,7 +182,10 @@ Deprem İsmi
 \uwave off
 \noun off
 \color none
-H1-Ölçeklendirme Katsayısı
+\begin_inset Formula $H_{1}$
+\end_inset
+
+ Doğrultusu
 \end_layout
 
 \end_inset
@@ -204,7 +207,10 @@ H1-Ölçeklendirme Katsayısı
 \uwave off
 \noun off
 \color none
-H2-Ölçeklendirme Katsayısı
+\begin_inset Formula $H_{2}$
+\end_inset
+
+ Doğrultusu
 \end_layout
 
 \end_inset
@@ -699,7 +705,7 @@ H2-Ölçeklendirme Katsayısı
 \uwave off
 \noun off
 \color none
- "Kobe_ Japan"
+Kobe_ Japan
 \end_layout
 
 \end_inset
@@ -1392,7 +1398,7 @@ H2-Ölçeklendirme Katsayısı
 \uwave off
 \noun off
 \color none
- "Kobe_ Japan"
+Kobe_ Japan
 \end_layout
 
 \end_inset
@@ -2085,7 +2091,7 @@ H2-Ölçeklendirme Katsayısı
 \uwave off
 \noun off
 \color none
- "Kobe_ Japan"
+Kobe_ Japan
 \end_layout
 
 \end_inset

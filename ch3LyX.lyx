@@ -1428,7 +1428,7 @@ status open
 \end_inset
 
  
-\begin_inset VSpace 12pt
+\begin_inset VSpace 6pt
 \end_inset
 
 
@@ -1441,7 +1441,15 @@ name "fig:3.4"
 
 \end_inset
 
-FEMA P695'e Göre Genel Yapı Davranışı
+FEMA P695'e göre genel yapı davranışı
+\begin_inset CommandInset citation
+LatexCommand cite
+key "FEMAP695"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1452,6 +1460,68 @@ FEMA P695'e Göre Genel Yapı Davranışı
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsubsection*
+Yer değiştirme arttırma katsayısı ile ilgili yapılan çalışmalar
+\end_layout
+
+\begin_layout Subsubsection*
+Chia-Ming Uang and Ahmed Maarouf
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Uang1994"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Deprem tasarım yönetmelikleri, öngörülen tasarım deprem kuvveti seviyesindeki
+ elastik analizden hesaplanan ötelenmeleri, bir yer değiştirme arttırma
+ katsayısı (DAF) ile elastik analizden hesaplanan ötelenmeleri arttırarak,
+ büyük depremlerde meydana gelen maksimum tepe ve kat ötelenmelerini tahmin
+ eder.
+ Bazı deprem tasarım hükümlerinin karşılaştırılması, hem UBC hem de NEHRP'deki
+ ötelenme arttırma katsayısının sırasıyla 
+\begin_inset Formula $3R\mathrm{_{w}}/8$
+\end_inset
+
+ ve 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+'ye eşit olan yer değiştirme arttırma katsayısının çok düşük olduğunu ve
+ ihtiyatlı olmayan ötelenme tahminlerine yol açabileceğini göstermiştir.
+ Dört farklı tip binanın sismik tepkilerinin analitik bir incelemesi, büyük
+ depremlerde oluşan ötelenmelerin UBC veya NEHRP yaklaşımı tarafından öngörülenl
+erden çok daha yüksek olduğunu doğrulamıştır.
+ Yer değiştirme arttırma katsayısının, en büyük yer değiştirmelerin tahmin
+ edilmesi için en azından deprem yükü azaltma katsayısına (UBC'de 
+\begin_inset Formula $R_{\mathrm{w}}$
+\end_inset
+
+ ve NEHRP'de 
+\begin_inset Formula $R$
+\end_inset
+
+) yükseltilmesi önerilir.
+ Yapı ve depremin hakim periyodu arasındaki oranın, akma mekanizmalarının
+ tipleri ve yapısal dayanım fazlalığının DAF üzerindeki etkileri de sunulmuştur.
+\end_layout
+
+\begin_layout Standard
+UBC ve NEHRP'de kullanılan yer değiştirme arttırma katsayıları hükümlerde
+ önerilen değerlerden düşüktür ve bu nedenle ihtiyatlı olmadığı belirtilmiştir.
+ Bu çalışma, DAF'ın sırasıyla çatı ya da kat ötelenmesini tahmin etmek için
+ FRF'den biraz daha az ve DAF'den önemli ölçüde daha büyük olabileceğini
+ göstermiştir.
+ Bununla birlikte, sadelik için, FRF'ye eşit bir DAF'ın, büyük depremlerde
+ meydana gelebilecek maksimum kat ötelenmesi ve çatı ötelenmesini tahmin
+ etmek için kullanılması tavsiye etmiştir.
+ 
 \end_layout
 
 \end_body
