@@ -85,7 +85,7 @@
 \end_layout
 
 \begin_layout Chapter
-EK A.1: Seçilen Deprem Kayıtlarının Ölçeklendirme Katsayıları
+EK A.1: Seçilen Deprem Kayıtlarının Ölçeklendirilmesi
 \end_layout
 
 \begin_layout Standard
@@ -96,14 +96,269 @@ name "chap:EK-A.1"
 \end_inset
 
 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/8_Ekler/3_H1.pdf
+	lyxscale 12
+	width 12cm
+	height 6.5cm
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:8.1"
+
+\end_inset
+
+3 katlı yapılar için H1 doğrultusunda ölçeklendirilmiş ivme kayıtları
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/8_Ekler/3_H2.pdf
+	lyxscale 12
+	width 12cm
+	height 6.5cm
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:8.2"
+
+\end_inset
+
+3 katlı yapılar için H2 doğrultusunda ölçeklendirilmiş ivme kayıtları
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/8_Ekler/9_H1.pdf
+	lyxscale 12
+	width 12cm
+	height 6.5cm
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:8.3"
+
+\end_inset
+
+9 katlı yapılar için H1 doğrultusunda ölçeklendirilmiş ivme kayıtları
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/8_Ekler/9_H2.pdf
+	lyxscale 12
+	width 12cm
+	height 6.5cm
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:8.4"
+
+\end_inset
+
+9 katlı yapılar için H2 doğrultusunda ölçeklendirilmiş ivme kayıtları
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/8_Ekler/20_H1.pdf
+	lyxscale 12
+	width 12cm
+	height 6.5cm
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:8.5"
+
+\end_inset
+
+20 katlı yapılar için H1 doğrultusunda ölçeklendirilmiş ivme kayıtları
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/8_Ekler/20_H2.pdf
+	lyxscale 12
+	width 12cm
+	height 6.5cm
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:8.6"
+
+\end_inset
+
+20 katlı yapılar için H2 doğrultusunda ölçeklendirilmiş ivme kayıtları
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \begin_inset Float table
 placement h
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2302,278 +2557,6 @@ Kobe_ Japan
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Float table
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "tableappendix2"
-
-\end_inset
-
-Ekler bölümünde çizelge örneği.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="4">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Kolon A 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Kolon B 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Kolon C 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Kolon D 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Satır A 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Satır A 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Satır A 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Satır A 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Satır B 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Satır B 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Satır B 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Satır B 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Satır C 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Satır C 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Satır C 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Satır C 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
- Sed ac augue vel dui adipiscing placerat et nec metus.
- Donec bibendum sodales mollis.
- Cras in lacus justo, at vestibulum quam.
- Sed semper, est sit amet consectetur ornare, leo est lacinia velit, adipiscing
- elementum lectus felis at sem.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Chapter
-EK A.2: Diğer Haritalar
-\end_layout
-
-\begin_layout Standard
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
- Sed ac augue vel dui adipiscing placerat et nec metus.
- Donec bibendum sodales mollis.
- Cras in lacus justo, at vestibulum quam.
- Sed semper, est sit amet consectetur ornare, leo est lacinia velit, adipiscing
- elementum lectus felis at sem.
-\end_layout
-
-\begin_layout Standard
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
- Sed ac augue vel dui adipiscing placerat et nec metus.
- Donec bibendum sodales mollis.
- Cras in lacus justo, at vestibulum quam.
- Sed semper, est sit amet consectetur ornare, leo est lacinia velit, adipiscing
- elementum lectus felis at sem.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Chapter
-EK A.3: Diğer Diğer Haritalar
-\end_layout
-
-\begin_layout Standard
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
- Sed ac augue vel dui adipiscing placerat et nec metus.
- Donec bibendum sodales mollis.
- Cras in lacus justo, at vestibulum quam.
- Sed semper, est sit amet consectetur ornare, leo est lacinia velit, adipiscing
- elementum lectus felis at sem.
-\end_layout
-
-\begin_layout Standard
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
- Sed ac augue vel dui adipiscing placerat et nec metus.
- Donec bibendum sodales mollis.
- Cras in lacus justo, at vestibulum quam.
- Sed semper, est sit amet consectetur ornare, leo est lacinia velit, adipiscing
- elementum lectus felis at sem.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
 \end_inset
 
 

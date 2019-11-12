@@ -597,9 +597,12 @@ Yer değiştirme süneklik oranı genellikle yer değiştirme sünekliği olan '
 \end_layout
 
 \begin_layout Standard
-“Süneklik azaltma katsayısı”, bazı çalışmalarda “dayanım azaltma katsayısı”
- olarak adlandırılan (elastik sonrası davranış nedeniyle dayanım talebindeki
- azalma), 
+“
+\emph on
+Süneklik Azaltma Katsayısı
+\emph default
+”, bazı çalışmalarda “dayanım azaltma katsayısı” olarak adlandırılan (elastik
+ sonrası davranış nedeniyle dayanım talebindeki azalma), 
 \begin_inset Formula $R_{\mathrm{μ}}$
 \end_inset
 
@@ -641,9 +644,6 @@ literal "false"
 .
  Süneklik Bileşeni ile süneklik arasındaki ilişkiyi keşfetmek adına araştırmacıl
 arın yaptığı çok sayıda çalışma ve sonucunda türetilmiş birçok bağıntı mevcuttur.
-\end_layout
-
-\begin_layout Standard
 Belirli bir yer hareketi için, süneklik azaltma katsayısı 
 \begin_inset Formula $R_{\mathrm{μ}}$
 \end_inset
@@ -674,9 +674,6 @@ R_{\mathrm{\mu}}=R_{\mathrm{\mu}}\left(T,\mu_{i}\right)\label{eq:3-7}
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Formula $R_{\mathrm{μ}}$
 \end_inset
 
@@ -706,10 +703,6 @@ R_{\mathrm{\mu}}=R_{\mathrm{\mu}}\left(T,\mu=1\right)=1\label{eq:3-8}
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 Doğal periyodunun sıfıra yakınsadığı çok rijit yapılar için 
 \begin_inset Formula $\left(T→0\right)$
 \end_inset
@@ -729,10 +722,6 @@ R_{\mathrm{\mu}}=R_{\mathrm{\mu}}\left(T=0,\mu_{i}\right)=1\label{eq:3-9}
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 Hakim titreşim periyodunun büyük olduğu, çok esnek sistemler için 
 \begin_inset Formula $\left(T→∞\right)$
 \end_inset
@@ -767,11 +756,7 @@ R_{\mathrm{\mu}}=R_{\mathrm{\mu}}\left(T\rightarrow\infty,\mu_{i}\right)=\mu\lab
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-Miranda ve Bertero sistemin yatay dayanımı ile Yer Değiştirme süneklik talebi
+Miranda ve Bertero sistemin yatay dayanımı ile yer değiştirme süneklik talebi
  arasındaki değişimi Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -989,13 +974,16 @@ n PGA(en büyük yer ivmesi)'sı dikkate alındığında, bu tür kuvvetler öne
 \begin_layout Standard
 Yapıların dayanımını kaybetmeden elastik sınırın ötesinde deforme olma kabiliyet
 i, nihai yer değiştirmenin, 
-\begin_inset Formula $u$
+\begin_inset Formula $\left(\Delta_{\mathrm{u}}\right)$
 \end_inset
 
-, ilk akmadaki yer değiştirmeye, y'nin yer değiştirmesine oranı olarak tanımlana
-n yer değiştirme sünekliği ile ölçülür.
- Elastik olmayan sismik tasarım dayanımı, yapının sünekliğinin bir fonksiyonudur
- ve tasarım sismik kuvvetindeki herhangi bir azalma, süneklik talebini artırarak
+, ilk akmadaki yer değiştirmeye, 
+\begin_inset Formula $\left(\Delta_{\mathrm{y}}\right)$
+\end_inset
+
+ oranı olarak tanımlanan yer değiştirme sünekliği oranı ile ölçülür.
+ Elastik olmayan deprem tasarım dayanımı, yapının sünekliğinin bir fonksiyonudur
+ ve tasarım deprem kuvvetindeki herhangi bir azalma, süneklik talebini artırarak
  telafi edilmelidir.
  Bu nedenle, 
 \begin_inset Formula $Fe$
@@ -1056,24 +1044,27 @@ Eşit Yer Değiştirme ve Eşit Enerji Prensipleri
 Eşit yer değiştirme prensibi, elastik olmayan bir sistemin nihai yer değiştirmes
 inin, aynı başlangıç rijitliği olan bir elastik sistemin yer değiştirmesine
  eşit olduğunu belirtir.
- Eşit yer değiştirme prensibine göre, elastik ve elastik olmayan talep (aynı
- zamanda dayanım azaltma katsayısı=süneklik azaltma katsayısı) arasındaki
- oran, yer değiştirme sünekliği oranına eşittir (
-\begin_inset Formula $Rμ=μ$
+ Eşit yer değiştirme prensibine göre, elastik ve elastik olmayan talep arasındak
+i oran, yer değiştirme sünekliği oranına eşittir (
+\begin_inset Formula $R_{\mathrm{μ}}=μ$
 \end_inset
 
 ).
  Bu daha uzun periyotlu esnek yapılar için tartışmalı olarak geçerlidir.
  Aşırı bir örnek olarak, sonsuz esnek yapılar için maksimum yer değiştirme,
- inelastisite (elastik olmayanlık) seviyesine bakılmaksızın her zaman tepe
- yer değiştirmesine eşittir.
+ elastik olmayanlık seviyesine bakılmaksızın her zaman tepe yer değiştirmesine
+ eşittir.
  Öte yandan, eşit enerji ilkesi, elastik bir sistem tarafından dağıtılan
- enerjinin ve onun elastik olmayan karşılığına eşit olduğunu; böylece süneklik
- azaltma katsayısını 
-\begin_inset Formula $Rμ((2μ-1))$
+ enerjinin ve onun elastik olmayan karşılığına eşittir.
+ Böylece süneklik azaltma katsayısı 
+\begin_inset Formula $R_{\mathrm{μ}}=\sqrt{2μ-1}$
 \end_inset
 
-'e eşitler, burada μ elastik olmayan sistemin yerdeğiştirme sünekliğidir.
+'e eşittir, burada 
+\begin_inset Formula $μ$
+\end_inset
+
+ elastik olmayan sistemin yerdeğiştirme sünekliği oranıdır.
 \end_layout
 
 \begin_layout Standard
@@ -1213,11 +1204,11 @@ noprefix "false"
 \begin_inset Formula $C_{\mathrm{d}},$
 \end_inset
 
- katsayısı dayanım fazlalığı
+ katsayısı dayanım fazlalığı 
 \begin_inset Formula $\varOmega_{0}$
 \end_inset
 
-ve yer değiştirme süneklik oranının bir ürünü haline gelir(Denklem 
+ ve yer değiştirme süneklik oranının bir ürünü haline gelir(Denklem 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:3-12"

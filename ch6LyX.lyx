@@ -144,7 +144,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -3346,6 +3346,268 @@ name "fig:6.48"
 
  Yarı-rijit (8 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı en büyük taban kesme kuvveti ve oranları (Durum-3).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Yer Değiştirme Arttırma Katsayıları
+\end_layout
+
+\begin_layout Standard
+Bu bölümde yukarıda detaylı bir şekilde verilen doğrusal olmayan statik
+ ve dinamik analiz sonuçları neticesinde elde edilen yer değiştirme arttırma
+ katsayıları 
+\begin_inset Formula $\left(C_{\mathrm{d}}\right)$
+\end_inset
+
+ gösterilmiştir.
+ 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayıları daha önce de belirtildiği gibi yapının elastik ötesi davranışı
+ esnasında yaptığı en büyük yer değiştirmenin tasarım yer değiştirmesine
+ oranıdır.
+ Burada tasarım yer değiştirmesi olarak, hem birleşim dönme rijitliğinin
+ rijit olduğu durum için çizilen kapasite eğrisinden elde edilen yer değiştirme
+ değerleri dikkate alınarak hesaplanan rijit durumların 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısı (Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:6.49"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ ve Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:6.50"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) hem de yapıların kendi yarı-rijit birleşim dönme rijitlikleri için çizilen
+ kapasite eğrisinden elde edilen yer değiştirme değerleri dikkate alınarak
+ yarı-rijit durumların 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısı (Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:6.51"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ ve Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:6.52"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) hesaplanmıştır.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/6_Analiz Sonuçları/CD_S_R.pdf
+	lyxscale 12
+	width 12cm
+	height 10cm
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:6.49"
+
+\end_inset
+
+Statik analizlerle, rijit tasarım yerdeğiştirmesi ile hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayıları.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/6_Analiz Sonuçları/CD_D_R.pdf
+	lyxscale 12
+	width 12cm
+	height 10cm
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:6.50"
+
+\end_inset
+
+Dinamik analizlerle, rijit tasarım yerdeğiştirmesi ile hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayıları.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/6_Analiz Sonuçları/CD_S_YR.pdf
+	lyxscale 12
+	width 12cm
+	height 10cm
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:6.51"
+
+\end_inset
+
+Statik analizlerle, yarı-rijit tasarım yerdeğiştirmesi ile hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayıları.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/6_Analiz Sonuçları/CD_D_YR.pdf
+	lyxscale 12
+	width 12cm
+	height 10cm
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:6.52"
+
+\end_inset
+
+Dinamik analizlerle, yarı-rijit tasarım yerdeğiştirmesi ile hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayıları.
 \end_layout
 
 \end_inset

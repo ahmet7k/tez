@@ -81,8 +81,8 @@
 % ---------------------------------------------------------------- %
 \tezyoneticisi{Doç. Dr. Barlas Özden ÇAĞLAYAN}{\.Istanbul Teknik \"Universitesi}   
 
-\baslik{OPENSEES VE SEISMOSTRUCT PROGRAMLARININ}{DOĞRUSAL OLMAYAN DEPREM ANALİZLERİ İÇİN}{KARŞILAŞTIRILMASI}{}
-\title{COMPARISON OF OPENSEES AND SEISMOSTRUCT PROGRAMS}{FOR NONLINEAR EARTHQUAKE ANALYSIS}{}
+\baslik{YARI-RİJİT BİRLEŞİMLİ ÇELİK ÇERÇEVELERİN}{YER DEĞİŞTİRME ARTTIRMA KATSAYISININ}{ARAŞTIRILMASI}{}
+\title{INVESTIGATION OF DISPLACEMENT AMPLIFICATION FACTOR}{STEEL FRAMES WITH SEMI RIGID CONNECTIONS}{}
 
 % ---------------------------------------------------------------- %
 % Bu tarih beyaz kapakli ilk tezin bolume verildigi tarihtir.      %
@@ -115,7 +115,7 @@
 % yapi asagidadir. Ithaf sayfasi bulunmayacaksa argumani(ayiraclar %
 % arasini) bos birakiniz.                                          %
 % ---------------------------------------------------------------- %
-\ithaf{Ecem Şengüle,}
+\ithaf{Anneme ve Babama,}
 
 % ---------------------------------------------------------------- %
 % Asagida belirtilen tex uzantili dosyalarin icerigi               %
@@ -362,23 +362,15 @@ singlespacing
 \series bold
 EK A.1 :
 \series default
- Haritalar
+ Seçilen Deprem Kayıtlarının Ölçeklendirilmesi
 \series bold
 
 \begin_inset Newline newline
 \end_inset
 
-EK A.2 :
-\series default
- Diğer Haritalar
-\series bold
 
-\begin_inset Newline newline
-\end_inset
-
-EK A.3 :
 \series default
- Diğer Diğer Haritalar
+
 \begin_inset Note Note
 status open
 

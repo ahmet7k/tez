@@ -86,45 +86,19 @@ Genel Değerlendirme
 \end_layout
 
 \begin_layout Standard
-Çalışmada elde edilen sonuçlara göre yalıtım birimlerinin artan eşdeğer
- sönüm oranına karşılık gelen büyük doğrusalsızlık sebebi ile ortak yalıtım
- düzleminde bulunan yapıların yüksek mod etkilerinin göreli yer değiştirme
- ve iç kuvvetlerinde önemli artışlara sebep olduğu görülmüştür.
- Bu artışların iki yapının açısal frekanslarının ayrıklaşması ile arttığı
- tespit edilmiştir.
- Dolayısıyla iki yapının aynı açısal frekansa sahip olması durumunda elde
- edilen iç kuvvet ve yer değiştirmeler, yalıtım birimlerinin aynı eşdeğer
- periyot ve sönüm değerleri için eşit bulunmaktadır.
- Bununla birlikte yalıtım birimlerinin artan eşdeğer sönüm değerleri için
- sismik yalıtımlı yapı taban kesme kuvvetlerinin üst katlara dağılımında
- meydana gelen dikdörtgen form yerini üst katlarda daha büyük kuvvetlerin
- oluştuğu ters üçgen formuna bıraktığı görülmüştür.
-\end_layout
-
-\begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
- 
-\end_layout
-
-\begin_layout Standard
-Çalışmada elde edilen sonuçlara göre yalıtım birimlerinin artan eşdeğer
- sönüm oranına karşılık gelen büyük doğrusalsızlık sebebi ile ortak yalıtım
- düzleminde bulunan yapıların yüksek mod etkilerinin göreli yer değiştirme
- ve iç kuvvetlerinde önemli artışlara sebep olduğu görülmüştür.
- Bu artışların iki yapının açısal frekanslarının ayrıklaşması ile arttığı
- tespit edilmiştir.
- Dolayısıyla iki yapının aynı açısal frekansa sahip olması durumunda elde
- edilen iç kuvvet ve yer değiştirmeler, yalıtım birimlerinin aynı eşdeğer
- periyot ve sönüm değerleri için eşit bulunmaktadır.
- Bununla birlikte yalıtım birimlerinin artan eşdeğer sönüm değerleri için
- sismik yalıtımlı yapı taban kesme kuvvetlerinin üst katlara dağılımında
- meydana gelen dikdörtgen form yerini üst katlarda daha büyük kuvvetlerin
- oluştuğu ters üçgen formuna bıraktığı görülmüştür.
-\end_layout
-
-\begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
- 
+Bu çalışmada en yaygın çelik taşıyıcı sistemlerden biri olan süneklik düzeyi
+ yüksek moment dayanımlı çelik çerçevelerin yer değiştirme arttırma katsayıları
+ bulunmuştur.
+ Süneklik düzeyi yüksek çelik çerçevelerin tasarımında etkin göreli kat
+ ötelemeleri belirleyici unsur olması sebebiyle tasarımda kesit seçimini
+ dolayısıyla yapı maliyetini doğrudan etkilemektedir.3, 9 ve 20 katlı çelik
+ çerçeveler beş farklı birleşim rijitliği için, 18 adet 50 yılda aşılma
+ olasılığı % 10 olan tasarım depremi kayıtları kullanılarak yapılan doğrusal
+ olmayan dinamik analizleri ve doğrusal elastik olmayan statik itme analizlerine
+ tabi tutulmuştur.
+ Yapılan doğrusal elastik olmayan analizlerin sonuçları üzerinden yapıların
+ elastik ötesi davranışı incelenmiş ve deprem kayıtları kullanılarak, depremleri
+n yapılardan ne kadar yer değiştirme talep ettiği incelenmiştir.
 \end_layout
 
 \begin_layout Section
@@ -132,24 +106,15 @@ Gelecek Çalışmalara Yönelik Öneriler
 \end_layout
 
 \begin_layout Standard
-Çalışmada elde edilen sonuçlara göre yalıtım birimlerinin artan eşdeğer
- sönüm oranına karşılık gelen büyük doğrusalsızlık sebebi ile ortak yalıtım
- düzleminde bulunan yapıların yüksek mod etkilerinin göreli yer değiştirme
- ve iç kuvvetlerinde önemli artışlara sebep olduğu görülmüştür.
- Bu artışların iki yapının açısal frekanslarının ayrıklaşması ile arttığı
- tespit edilmiştir.
- Dolayısıyla iki yapının aynı açısal frekansa sahip olması durumunda elde
- edilen iç kuvvet ve yer değiştirmeler, yalıtım birimlerinin aynı eşdeğer
- periyot ve sönüm değerleri için eşit bulunmaktadır.
- Bununla birlikte yalıtım birimlerinin artan eşdeğer sönüm değerleri için
- sismik yalıtımlı yapı taban kesme kuvvetlerinin üst katlara dağılımında
- meydana gelen dikdörtgen form yerini üst katlarda daha büyük kuvvetlerin
- oluştuğu ters üçgen formuna bıraktığı görülmüştür.
-\end_layout
-
-\begin_layout Standard
-Tez çalışması kapsamında elde edilen sonuçlar aşağıda listelenmiştir.
- 
+Yarı rijit birleşimli çerçevelerin davranışlarının daha doğru tespit edilebilmes
+i için farklı özelliklere sahip çerçevelerin yer değiştirme taleplerinin
+ tam ölçekli deneylerle incelenmesi gerekmektedir.
+ Çelik çerçeveli yapıların yer değiştirme arttırma katsayıları için, birleşimler
+in çevrimsel yükler altında deney ve simulasyonlarının yapılması gerekmektedir.
+ Ayrıca farklı yükseklikte yapıların farklı zemin parametreleri ile de doğrusal
+ olmayan analizlerle elastik olamyan en büyük ötelenme talepleri tespit
+ edilmeli daha sonra yer değiştirme arttırma katsayıları arasında bir ilişki
+ kurulmalıdır.
 \end_layout
 
 \end_body
