@@ -1499,8 +1499,15 @@ Deprem tasarım yönetmelikleri, öngörülen tasarım deprem kuvveti seviyesind
  katsayısı (DAF) ile elastik analizden hesaplanan ötelenmeleri arttırarak,
  büyük depremlerde meydana gelen maksimum tepe ve kat ötelenmelerini tahmin
  eder.
- Bazı deprem tasarım hükümlerinin karşılaştırılması, hem UBC hem de NEHRP'deki
- ötelenme arttırma katsayısının sırasıyla 
+ Bazı deprem tasarım hükümlerinin karşılaştırılması, hem UBC
+\begin_inset CommandInset citation
+LatexCommand cite
+key "UBC-1991"
+literal "false"
+
+\end_inset
+
+ hem de NEHRP'deki ötelenme arttırma katsayısının sırasıyla 
 \begin_inset Formula $3R\mathrm{_{w}}/8$
 \end_inset
 
@@ -1511,8 +1518,16 @@ Deprem tasarım yönetmelikleri, öngörülen tasarım deprem kuvveti seviyesind
 'ye eşit olan yer değiştirme arttırma katsayısının çok düşük olduğunu ve
  ihtiyatlı olmayan ötelenme tahminlerine yol açabileceğini göstermiştir.
  Dört farklı tip binanın sismik tepkilerinin analitik bir incelemesi, büyük
- depremlerde oluşan ötelenmelerin UBC veya NEHRP yaklaşımı tarafından öngörülenl
-erden çok daha yüksek olduğunu doğrulamıştır.
+ depremlerde oluşan ötelenmelerin UBC
+\begin_inset CommandInset citation
+LatexCommand cite
+key "UBC-1991"
+literal "false"
+
+\end_inset
+
+ veya NEHRP yaklaşımı tarafından öngörülenlerden çok daha yüksek olduğunu
+ doğrulamıştır.
  Yer değiştirme arttırma katsayısının, en büyük yer değiştirmelerin tahmin
  edilmesi için en azından deprem yükü azaltma katsayısına (UBC'de 
 \begin_inset Formula $R_{\mathrm{w}}$

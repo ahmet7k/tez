@@ -118,8 +118,15 @@ Kapasite Spektrumu Metodu
 
 \begin_layout Standard
 Kapasite Spektrumu Yöntemi (Capacity Spectrum Method) adı altında Sigmund
- Freeman’ın geliştirdiği ve daha sonra ayrıntılı olarak ATC-40 dokümanında
- yer alan yöntemi oluşturmuştur.
+ Freeman’ın geliştirdiği ve daha sonra ayrıntılı olarak ATC-40
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ATC-40"
+literal "false"
+
+\end_inset
+
+ dokümanında yer alan yöntemi oluşturmuştur.
  Yapısal kapasite ve deprem talebi arasında açık bir karşılaştırma yapmak
  için, kapasite spektrumu metodu gibi yenilikçi yöntemler geliştirilmiştir.
  Bu metot, yapının kapasitesini (ötelenme eğrisi) yapıdaki taleplerle (tepki

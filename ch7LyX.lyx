@@ -105,6 +105,58 @@ Yer Değiştirme Arttırma Katsayıları
  hesaplanmıştır.
 \end_layout
 
+\begin_layout Standard
+Doğrusal elastik olmayan statik analizlerle, rijit tasarım yer değiştirmesine
+ bağlı hesaplanan 
+\begin_inset Formula $C_{d}$
+\end_inset
+
+ katsayılarında yapı birleşim dönme rijitliği azaldığında 
+\emph on
+Yer Değiştirme Arttırma Katsayı
+\emph default
+sı 'nın arttığı, sonuçlar ise 5.5'in üzerinde 8'in altındadır.
+\end_layout
+
+\begin_layout Standard
+Doğrusal elastik olmayan statik analizlerle, yarı-rijit tasarım yer değiştirmesi
+ne bağlı hesaplanan 
+\begin_inset Formula $C_{d}$
+\end_inset
+
+ katsayılarında yapı birleşim dönme rijitliği azaldığında 
+\emph on
+Yer Değiştirme Arttırma Katsayı
+\emph default
+sı 'nın azaldığı,sonuçlar ise 5.0 ile 5.5 arasındadır.
+\end_layout
+
+\begin_layout Standard
+Doğrusal elastik olmayan dinamik analizlerle, rijit tasarım yer değiştirmesine
+ bağlı hesaplanan 
+\begin_inset Formula $C_{d}$
+\end_inset
+
+ katsayılarında yapı birleşim dönme rijitliği azaldığında 
+\emph on
+Yer Değiştirme Arttırma Katsayı
+\emph default
+sı 'nın arttığı, sonuçlar ise 5.0 ile 5.5 arasındadır.
+\end_layout
+
+\begin_layout Standard
+Doğrusal elastik olmayan dinamik analizlerle, yarı-rijit tasarım yer değiştirmes
+ine bağlı hesaplanan 
+\begin_inset Formula $C_{d}$
+\end_inset
+
+ katsayılarında yapı birleşim dönme rijitliği azaldığında 
+\emph on
+Yer Değiştirme Arttırma Katsayı
+\emph default
+sı 'nın azaldığı,sonuçlar ise ortalma 4.0 ile 4.5 arasındadır.
+\end_layout
+
 \begin_layout Section
 Gelecek Çalışmalara Yönelik Öneriler
 \end_layout

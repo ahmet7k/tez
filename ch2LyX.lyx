@@ -1380,12 +1380,20 @@ name "fig:2.12"
 
 \begin_layout Subsection
 AISC Yönetmeliği
+\begin_inset CommandInset citation
+LatexCommand cite
+key "AISC360-16"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Yapısal çelik binalar yönetmeliği AISC 360-16 birleşimleri, rijit ve mafsallı
- olarak iki ana başlıkta gruplandırır daha sonra ,rijit birleşimleri de,
- rijit ve yarı-rijit olarak iki gruba ayırır.
+Yapısal çelik binalar yönetmeliği, birleşimleri, rijit ve mafsallı olarak
+ iki ana başlıkta gruplandırır daha sonra ,rijit birleşimleri de, rijit
+ ve yarı-rijit olarak iki gruba ayırır.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1398,13 +1406,23 @@ Birleşimin doğrusal olmayan davranışı düşük moment dönme seviyelerinde 
 \begin_inset Formula $K_{\mathrm{i}}$
 \end_inset
 
-, (Şekil C-B3.2'de gösterilmiştir) düşük moment seviyelerinde düğüm noktası
- tepkisini yeterli şekilde ifade edemez.
+, düşük moment seviyelerinde düğüm noktası tepkisini yeterli şekilde ifade
+ edemez.
  Servis yüklerinde sekant rijitliği 
 \begin_inset Formula $K_{\mathrm{s}}$
 \end_inset
 
-, birleşim rijitliğinin gerçek davranışını ifade eder.
+, birleşim rijitliğinin gerçek davranışını ifade eder(
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:2.13"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
 \begin_inset Formula 
 \begin{equation}
 K_{\mathrm{s}}=\frac{M_{\mathrm{s}}}{\theta_{\mathrm{s}}}\label{eq:Denklem2-13}
@@ -1444,7 +1462,7 @@ Burada;
  ise, birleşimin mafsallı olduğu kabul edilebilir.
  Bu iki limit arasındaki rijitlikdeki bağlantılar yarı-rijit olduğu ve bağlantın
 ın rijitliği, dayanıklılığı ve sünekliği tasarımda dikkate alınmalıdır.
- [AISC 360-16] 
+ 
 \begin_inset Float figure
 placement h
 wide false
@@ -1669,6 +1687,14 @@ Mevcut dönme kapasitesi
 
 \begin_layout Subsection
 Eurocode Yönetmeliği
+\begin_inset CommandInset citation
+LatexCommand cite
+key "EC3-1-8"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1894,11 +1920,19 @@ Kısmi Dayanımlı Birleşim: Tam dayanımlı veya mafsallı birleşim kriterler
 \begin_layout Subsection
 Türkiye Çelik Yapıların Tasarım Hesap ve Yapımına Dair Esaslar Yönetmeliği
  
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ÇYTHYEY"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Türkiye Çelik Yapılar Yönetmeliği (2016) birleşimleri mafsallı ve moment
- aktaran olarak iki ana gruba ayırmaktadır.
+Türkiye Çelik Yapılar Yönetmeliği, birleşimleri mafsallı ve moment aktaran
+ olarak iki ana gruba ayırmaktadır.
  Moment aktaran birleşimler ise kendi içinde rijit moment aktaran ve yarı-rijit
  (elastik) moment aktaran birleşimler olarak ikiye ayrılmaktadır.
 \end_layout
@@ -1935,11 +1969,18 @@ irme davranışını göz önüne alacak şekilde oluşturulacaktır.
  gerekmektedir.
  Bu durumda birleşimler, öngörülen göreli dönme hareketini sağlayacak yeterli
  dayanım, rijitlik ve şekildeğiştirme kapasitesine sahip olacaktır.
- [TÇY-2016]
 \end_layout
 
 \begin_layout Subsection
-Türkiye Bina Deprem Yönetmeliği
+Türkiye Bina Deprem Yönetmeliği 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "TBDY2018"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1959,7 +2000,15 @@ TBDY-2018 birleşimlerin yarı-rijit olarak dikkate alınmasına izin vermektedi
 \end_layout
 
 \begin_layout Subsection
-AS 4100 Standardı
+AS 4100 Standardı 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "AS-4100"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1991,6 +2040,14 @@ n parçası olarak tasarlanmıştır.
 
 \begin_layout Subsection
 Kanada Ulusal Yapı Standardı
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CISC-8"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2079,7 +2136,7 @@ noprefix "false"
 
 \end_inset
 
-'de gösterilmiş.
+'de gösterilmiştir.
 \begin_inset Float table
 placement h
 wide false
@@ -2114,7 +2171,7 @@ Birleşimlerin Sınıflandırma Sınırları
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\mathrm{\mathbf{Birleşim}}$
+\begin_inset Formula $\mathrm{\mathbf{\mathrm{Birleşim}}}$
 \end_inset
 
 
@@ -2126,7 +2183,7 @@ Birleşimlerin Sınıflandırma Sınırları
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\mathrm{\mathbf{Dayanım}}$
+\begin_inset Formula $\mathrm{\mathbf{\mathrm{Dayanım}}}$
 \end_inset
 
 
@@ -2138,7 +2195,7 @@ Birleşimlerin Sınıflandırma Sınırları
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\mathbf{Rijitlik}$
+\begin_inset Formula $\mathbf{\mathrm{Rijitlik}}$
 \end_inset
 
 
@@ -3246,6 +3303,14 @@ name "fig:2.19"
 \end_inset
 
 Moment dönme eğrisinin matematiksel ifadeleri
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CharalambosCBaniotopoulos2000"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3293,8 +3358,16 @@ AISC Yönetmeliği
 \end_layout
 
 \begin_layout Standard
-AISC 360-16 yönetmeliğinde yapının düğüm noktalarında plastik mafsallar
- oluşup sistemin bu şekilde enerji sönümlemesine izin verilmez.
+AISC 360-16
+\begin_inset CommandInset citation
+LatexCommand cite
+key "AISC360-16"
+literal "false"
+
+\end_inset
+
+ yönetmeliğinde yapının düğüm noktalarında plastik mafsallar oluşup sistemin
+ bu şekilde enerji sönümlemesine izin verilmez.
  Bu sebeple yarı-rijit (partially restrained) birleşimlerin sahip olması
  gereken dönme kapasitesine ait herhangi bir bilgi mevcut değildir.
  Öte yandan rijit birleşimlerin sahip olması gereken süneklik düzeyi, yapısal
@@ -3318,7 +3391,15 @@ Eurocode Yönetmeliği
 
 \begin_layout Standard
 Rijit plastik analiz durumunda, plastik bir mafsal konumundaki bir düğüm
- noktası yeterli dönme kapasitesine sahip olacaktır.
+ noktası yeterli dönme kapasitesine sahip olacaktır
+\begin_inset CommandInset citation
+LatexCommand cite
+key "EC3-1-8"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Itemize
@@ -3447,8 +3528,15 @@ Bu bölümün hükümlerine uygun olarak tasarlanan, takviye edilmemiş kaynakl�
 \begin_inset Formula $\phi_{C_{\mathrm{d}}}$
 \end_inset
 
- dönme kapasitesine sahip olduğu varsayılabilir.
- 
+ dönme kapasitesine sahip olduğu varsayılabilir
+\begin_inset CommandInset citation
+LatexCommand cite
+key "EC3-1-8"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \end_body

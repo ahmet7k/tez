@@ -78,22 +78,27 @@
 \begin_body
 
 \begin_layout Standard
-Rubber bearings are used to prevent vibrations in the buildings and to allow
- the bearings to be displaced due to thermal expansion in the bridges.
- The first use of rubber bearings in order to protect constructions against
- earthquake effects, occurred in Pestalozzi primary school in Skopje, Yugoslavia
- in 1969.
- The same horizontal and vertical stiffness of the rubber supports applied
- as a single block caused the bulge to occur due to the weight of the building
- on the side surfaces.
- The French engineer Eugène Freyssinet, who discovered that the axial loading
- capacities of the rubber layers were inversely proportional to their height,
- suggested strengthening the rubber layers by adding thin steel plates in
- the vertical direction.
- Here the bond between the layers is provided due to the friction force.
- Thanks to the vulcanization method used to ensure that the thin steel plates
- and rubber layers adhere to each other, studies and applications of modern
- seismic isolators have begun to increase.
+Moment resistant steel framed structures stand out with important performance
+ parameters of structure design such as safety, economy and aesthetics.
+ Moment resisting steel frames with high ductility capacity are frequently
+ used in low and medium rise office buildings in seismic zones.The high ductility
+ characteristics of the moment frames lie in the simplicity of the system's
+ energy dissipative mechanism when subjected to horizontal forces.In these
+ systems, especially under earthquake forces, a large number of yields in
+ the beams are achieved by inelastic deformation without reducing the strength
+ of the structure.It is debatable to what extent all column-beam connections
+ in a structure are fully rigid or ideally pinned in the design.
+ In fact, when the behavior of the joints used in the moment frame is examined,
+ it is necessary to use very specific detailing in order for the conections
+ to show rigid or ideal pinned behavior, whereas the majority of the joints
+ used are between the two rigid and pinned end boundary states.
+ These types of connections are classified as semi-rigid connections.
+\end_layout
+
+\begin_layout Standard
+The displacement amplification coefficient is used to obtain the displacement
+ value of the structure from the elastic displacement value in the inelastic
+ state.
 \end_layout
 
 \end_body
