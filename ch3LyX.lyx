@@ -109,9 +109,9 @@ adır.
  Tepki değiştirme katsayılarının kullanılmasının arkasındaki ana sebep,
  tasarımın ekonomik bir şekilde yapılması talebidir.
  Statik elastik analiz prosedürlerinin tepki değiştirme katsayılarıyla birlikte
- kullanılması, sismik tasarım pratiğinin temel taşıdır.
+ kullanılması, deprem tasarım pratiğinin temel taşıdır.
  Bazı tepki miktarlarını tahmin etmekte yetersiz olmakla birlikte, statik
- elastik prosedürler, tasarım uzmanı için aşağıdakileri içeren bir takım
+ elastik prosedürler, tasarım mühendisi için aşağıdakileri içeren bir takım
  nedenlerden dolayı önemlidir: 
 \end_layout
 
@@ -172,7 +172,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename TikZ/yapi davranis-2.pdf
+	filename Grafikler/3_Deplasman Arttırma Katsayısı/1.pdf
 	lyxscale 50
 	clip
 
@@ -1087,12 +1087,20 @@ Yer Değiştirme Arttırma Katsayısı
 \end_layout
 
 \begin_layout Standard
-ASCE 7-16 'da azaltılmış deprem yüklerine göre hesaplanan göreli kat ötelemeleri
-, etkin göreli kat ötelemelerine 
+ASCE 7-16'da (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ASCE7-16"
+literal "false"
+
+\end_inset
+
+) azaltılmış deprem yüklerine göre hesaplanan göreli kat ötelemelerini,
+ etkin göreli kat ötelemelerine 
 \begin_inset Formula $\frac{C_{d}}{I}$
 \end_inset
 
- oranı ile dönüştürmektedir.
+ oranı ile çarparak dönüştürmektedir.
  Burada; 
 \begin_inset Formula $I$
 \end_inset
@@ -1152,16 +1160,19 @@ Deprem Yükü Azaltma Katsayısı
 \end_layout
 
 \begin_layout Standard
-Bu minvalde(sonuç olarak) şiddetli bir deprem yer hareketi sırasında yapıların
- elastik olmayan deformasyona maruz kalması beklenir.
+Sonuç olarak, şiddetli bir deprem yer hareketi sırasında yapıların elastik
+ olmayan yer değiştirmelere maruz kalması beklenir.
  Yapılar, genel olarak, tasarımın gerektirdiğinden daha fazla bir dayanıma
  sahiptir.
- Bu fazla dayanım, deprem yer hareketi sırasındaki süneklik talebini azaltır
- ve daha önce de bahsedildiği gibi çeşitli kaynaklardan sağlanabilir.
+ Bu dayanım fazlalığı, deprem yer hareketi sırasındaki süneklik talebini
+ azaltır ve daha önce de bahsedildiği gibi çeşitli kaynaklardan sağlanabilir.
 \end_layout
 
 \begin_layout Standard
-Deprem yönetmelikleri her bir yapısal sistem için dayanım fazlalığı katsayısı
+Deprem yönetmelikleri her bir yapısal sistem için 
+\emph on
+Dayanım Fazlalığı Katsayısı
+\emph default
  
 \begin_inset Formula $\varOmega_{\mathrm{0}}$
 \end_inset
@@ -1185,12 +1196,16 @@ noprefix "false"
 \end_inset
 
 ).
- Bu nedenle, taşıyıcı sistem davranış katsayısı 
+ Bu nedenle, 
+\emph on
+Taşıyıcı Sistem Davranış Katsayısı
+\emph default
+ 
 \begin_inset Formula $R$
 \end_inset
 
-, yapının dayanım fazlalığı ve süneklik azaltma katsayısının çapraz ürünü
- haline gelir(Denklem 
+, yapının dayanım fazlalığı ve süneklik azaltma katsayılarının çarpımı haline
+ gelir (Denklem 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:3-11"
@@ -1208,7 +1223,8 @@ noprefix "false"
 \begin_inset Formula $\varOmega_{0}$
 \end_inset
 
- ve yer değiştirme süneklik oranının bir ürünü haline gelir(Denklem 
+ ve yer değiştirme süneklik oranının çarpımı olarak ifade edilebilir(Denklem
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:3-12"
@@ -1377,7 +1393,15 @@ ri'ni, etkin göreli kat ötelemeleri'ne dönüştüren katsayılar arasındaki
 \end_layout
 
 \begin_layout Standard
-Son yayınlanan ATC-63 proje raporunda (FEMA P695-2009)
+Son yayınlanan ATC-63 proje raporunda (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "FEMAP695"
+literal "false"
+
+\end_inset
+
+)
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
@@ -1404,7 +1428,7 @@ noprefix "false"
  de dahil olmak üzere binalar için deprem performans katsayılarını inceler.
  
 \begin_inset Float figure
-placement h!
+placement H
 wide false
 sideways false
 status open

@@ -120,7 +120,18 @@ name "CH1"
 \end_layout
 
 \begin_layout Standard
-Ana yaklaşım Tepki Değiştirme Katsayıları kavramında yatmaktadır.
+Moment dayanımlı çelik çerçeveler deprem bölgelerinde yüksek sünek davranışları
+ ile tercih edilen sistemlerdendir.
+ Deprem yer hareketi altında sistemde kiriş uçları akma ve plastik şekil
+ değiştirmelere maruz kalarak deprem kuvvetleri sönümlenmektedir.
+ Moment dayanımlı çelik çerçevelerin tasarımını, bu sistemlerin büyük yer
+ değiştirme yapabilme kabiliyetlerinin bir sonucu olarak göreli kat ötelemeleri
+ yönetmektedir.
+ 
+\end_layout
+
+\begin_layout Standard
+Ana yaklaşım tepki değiştirme katsayıları kavramında yatmaktadır.
  Yapısal sistemler için belirsiz modifikasyon faktörleri atama yaklaşımı,
  mühendislikteki rutin uygulamalara gelince çok pratik olabilir, ancak bu
  basitlik tasarıma daha yüksek belirsizlik getirir.
@@ -136,9 +147,13 @@ literal "false"
 
 'da belirtildiği gibi, Amerika Birleşik Devletleri'ndeki deprem yönetmeliklerind
 e tablolanan tepki değiştirme katsayılarının matematiksel bir temeli yoktur
- ve bunlar (R için değerler) zamanında elde edilen hükümlere ve bazı verilere
- dayanmaktadır fakat yazılanlar yönetmelik hükümlerinin periyodik olarak
- gözden geçirilmesi gerekir.
+ ve bunlar (
+\begin_inset Formula $R$
+\end_inset
+
+ için değerler) zamanında elde edilen hükümlere ve bazı verilere dayanmaktadır
+ fakat yazılanlar yönetmelik hükümlerinin periyodik olarak gözden geçirilmesi
+ gerekir.
  Bu faktörlere çeşitli yapısal sistemler için yönetmeliklere atanan sayısal
  değerler, titiz analizler ve deneylerle değil, uzman mühendislerin fikir
  birliği ile elde edildiği unutulmamalıdır.
@@ -146,7 +161,18 @@ e tablolanan tepki değiştirme katsayılarının matematiksel bir temeli yoktur
 \end_layout
 
 \begin_layout Standard
-CD anlatılacak.
+Bu sebeplerden dolayı, tepki değiştirme katsayılarının moment çerçeveleri
+ için çok daha önemli olan bir parametri ise
+\emph on
+ Yer Değiştirme Arttırma Katsayısı'
+\emph default
+dır.
+ Yapının elastik ötesi davranışı esnasında yaptığı en büyük yer değiştirme
+ değerinin, tasarıma esas alınan yatay kuvvetler altında yapmış olduğu yer
+ değiştirme değerine oranı olarak tanımlanan katsayının moment çerçeverli
+ için önemi açıktır.
+ Ayrıca moment dayanımlı çelik çerçevelerin davranışında birleşimlerinin
+ davranışı çok önemlidir.
 \end_layout
 
 \begin_layout Standard
@@ -204,7 +230,11 @@ Birinci bölümde, tez konusunun genel mahiyeti belirtilmiş, tezin amacı ve
 \end_layout
 
 \begin_layout Standard
-Üçüncü bölümde yer değiştirme arttırma katsayısını 
+Üçüncü bölümde 
+\emph on
+Yer Değiştirme Arttırma Katsayısını
+\emph default
+ 
 \begin_inset Formula $\left(C_{\mathrm{d}}\right)$
 \end_inset
 

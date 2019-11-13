@@ -170,6 +170,7 @@ status open
 \begin_inset Graphics
 	filename Grafikler/5_Rijit ve Yarı-Rijit Çerçevelerin Deplasman Arttırma Katsayısının Belirlenmesi/Capacity_Spect.pdf
 	lyxscale 40
+	scale 120
 
 \end_inset
 
@@ -217,574 +218,6 @@ Zarifliği ve sadeliğine rağmen, kapasite spektrumu metodu temel olarak iki
  tepki spektrumlarının tutarsız bir şekilde temsil ettiği görülmektedir.
  Bu konu son zamanlarda dikkat çekmiş ve yer değiştirme tahmininin tutarlılığını
  iyileştirmek için çaba gösterilmektedir.
-\begin_inset Float table
-placement h
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "structures2-1"
-
-\end_inset
-
-Çalışma kapsamında incelenen sistemlerin tabanı ankastre olması durumu için
- hesaplanan yapısal özellikleri.
-\end_layout
-
-\end_inset
-
-
-\begin_inset Tabular
-<lyxtabular version="3" rows="11" columns="5">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yapı #
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Kat Adedi
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $T_{1}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\omega_{1}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\omega_{\text{n}}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.1573
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-39.94
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.2546
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-24.68
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-64.62
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.3535
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-17.77
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-71.97
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.4530
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-13.87
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-75.06
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.5527
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-11.37
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-76.64
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.6526
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-9.63
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-77.56
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-7
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-7
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.7525
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8.35
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-78.13
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.8525
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-7.37
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-78.52
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-9
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-9
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.9525
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6.60
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-78.79
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.0526
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.97
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-78.98
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1139,7 +572,17 @@ Bu değer 50 yılda aşılma olasılığı %10 olan tasarım depreminin yapıdan
 \end_inset
 
 , tasarıma esas alınan taban kesme kuvvetine karşılık gelen tepe yer değiştirmes
-i olup, Şekil XX'de verilmiş olan kapasite eğrisinden elde edilmiştir.
+i olup, Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:6.1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de verilmiş olan kapasite eğrisinden elde edilmiştir.
  Bu veriler ışığında yer değiştirme arttırma katsayısı 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
@@ -1303,7 +746,17 @@ Bu değer 50 yılda aşılma olasılığı %10 olan tasarım depreminin yapıdan
 \end_inset
 
 , tasarıma esas alınan taban kesme kuvvetine karşılık gelen tepe yer değiştirmes
-i olup, Şekil XX'de verilmiş olan kapasite eğrisinden elde edilmiştir.
+i olup, Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:6.17"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de verilmiş olan kapasite eğrisinden elde edilmiştir.
  Bu veriler ışığında yer değiştirme arttırma katsayısı 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
@@ -1467,7 +920,17 @@ Bu değer 50 yılda aşılma olasılığı %10 olan tasarım depreminin yapıdan
 \end_inset
 
 , tasarıma esas alınan taban kesme kuvvetine karşılık gelen tepe yer değiştirmes
-i olup, Şekil XX'de verilmiş olan kapasite eğrisinden elde edilmiştir.
+i olup, Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:6.33"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de verilmiş olan kapasite eğrisinden elde edilmiştir.
  Bu veriler ışığında yer değiştirme arttırma katsayısı 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
@@ -1536,9 +999,9 @@ Yapının doğrusal olmayan davranışını incelenmek üzere zaman tanım alan�
  imkanı verir.
  Bu dinamik analizde yapıda dikkate alınması gereken sönümün etkisi Rayleigh
  sönümüyle tanımlanmıştır.
- Her bir çerçevenin kütle ve rijitlikle orantılı sönüm parametreleri, birinci
- ve kütle katılım oranının yüzde 95'i bulduğu periyotlar kullanılarak %5
- sönüm oranına göre belirlenmiştir.
+ Her bir çerçevenin kütle ve rijitlikle orantılı sönüm parametreleri için
+ birinci ve kütle katılım oranının yüzde 95'i bulduğu periyotlar kullanılarak,
+ bu iki periyot arasındaki sönüm oranın %5'den düşük olduğu göre belirlenmiştir.
  Rayleigh sönümünde sönüm matrisi (C), kütle matrisi (M) ve rijitlik matrisi
  (K)’nın ve Denklem 
 \begin_inset CommandInset ref
@@ -1661,7 +1124,7 @@ sına sahip deprem kayıtları kullanmayı,
 
 \begin_layout Itemize
 hem kaya, hem de sert zeminde kaydedilmiş deprem kayıtları kullanmayı (Vs
- >180 m s ), 
+ >180 m/s ), 
 \end_layout
 
 \begin_layout Itemize
@@ -1698,7 +1161,12 @@ noprefix "false"
 
 \end_inset
 
-'de özellikleri verilen deprem kayıtları PEER veri tabanından 
+'de 
+\begin_inset Formula $\left(V_{\mathrm{S}}\right)_{30}\left[m/sn\right],PGA\left[g\right],PGV\left[cm/sn\right]$
+\end_inset
+
+ olmak üzere, özellikleri verilen deprem kayıtları PEER veri tabanından
+ 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Peer"
@@ -1706,12 +1174,8 @@ literal "false"
 
 \end_inset
 
- alınmış ve yatay elastik tasarım spektrumuna ölçeklenmiştir.
-\end_layout
-
-\begin_layout Standard
-Parametrik çalışmada iki boyutlu çerçeve sistemler kullanıldığı için TBDY
- 2018
+ alınmış ve yatay elastik tasarım spektrumuna ölçeklenmiştir.Parametrik çalışmada
+ iki boyutlu çerçeve sistemler kullanıldığı için TBDY 2018
 \begin_inset CommandInset citation
 LatexCommand cite
 key "TBDY2018"
@@ -1784,9 +1248,8 @@ Seçilen yer hareketi kayıtları
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="10" columns="8">
+<lyxtabular version="3" rows="10" columns="7">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -1813,28 +1276,6 @@ Seçilen yer hareketi kayıtları
 \noun off
 \color none
 Deprem İsmi
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Kayıt No
 \end_layout
 
 \end_inset
@@ -1922,7 +1363,7 @@ Mekanizma
 \uwave off
 \noun off
 \color none
-\begin_inset Formula $\left(V_{\mathrm{S}}\right)_{30}\left[m/sn\right]$
+\begin_inset Formula $\left(V_{\mathrm{S}}\right)_{30}$
 \end_inset
 
 
@@ -1947,7 +1388,7 @@ Mekanizma
 \uwave off
 \noun off
 \color none
-\begin_inset Formula $PGA\left[g\right]$
+\begin_inset Formula $PGA$
 \end_inset
 
 
@@ -1972,7 +1413,7 @@ Mekanizma
 \uwave off
 \noun off
 \color none
-\begin_inset Formula $PGV\left[cm/sn\right]$
+\begin_inset Formula $PGV$
 \end_inset
 
 
@@ -2000,28 +1441,6 @@ Mekanizma
 \noun off
 \color none
  San Fernando
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-68
 \end_layout
 
 \end_inset
@@ -2199,28 +1618,6 @@ Ters
 \uwave off
 \noun off
 \color none
-125
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
 1976
 \end_layout
 
@@ -2356,28 +1753,6 @@ Ters
 \noun off
 \color none
  Imperial Valley-06
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-174
 \end_layout
 
 \end_inset
@@ -2555,28 +1930,6 @@ Doğrultu
 \uwave off
 \noun off
 \color none
-725
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
 1987
 \end_layout
 
@@ -2712,28 +2065,6 @@ Doğrultu
 \noun off
 \color none
  Northridge-01
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-953
 \end_layout
 
 \end_inset
@@ -2911,28 +2242,6 @@ Ters atımlı
 \uwave off
 \noun off
 \color none
-960
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
 1994
 \end_layout
 
@@ -3068,28 +2377,6 @@ Ters atımlı
 \noun off
 \color none
  Kobe_ Japan
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-1116
 \end_layout
 
 \end_inset
@@ -3267,28 +2554,6 @@ Doğrultu
 \uwave off
 \noun off
 \color none
-1158
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
 1999
 \end_layout
 
@@ -3424,28 +2689,6 @@ Doğrultu
 \noun off
 \color none
  Hector Mine
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-1787
 \end_layout
 
 \end_inset

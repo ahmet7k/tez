@@ -91,14 +91,18 @@ Bu çalışmada en yaygın çelik taşıyıcı sistemlerden biri olan süneklik 
  bulunmuştur.
  Süneklik düzeyi yüksek çelik çerçevelerin tasarımında etkin göreli kat
  ötelemeleri belirleyici unsur olması sebebiyle tasarımda kesit seçimini
- dolayısıyla yapı maliyetini doğrudan etkilemektedir.3, 9 ve 20 katlı çelik
- çerçeveler beş farklı birleşim rijitliği için, 18 adet 50 yılda aşılma
- olasılığı % 10 olan tasarım depremi kayıtları kullanılarak yapılan doğrusal
- olmayan dinamik analizleri ve doğrusal elastik olmayan statik itme analizlerine
- tabi tutulmuştur.
+ dolayısıyla yapı maliyetini doğrudan etkilemektedir.
+ 3, 9 ve 20 katlı çelik çerçeveler beş farklı birleşim rijitliği için, 18
+ adet 50 yılda aşılma olasılığı % 10 olan tasarım depremi kayıtları kullanılarak
+ yapılan doğrusal olmayan dinamik analizleri ve doğrusal elastik olmayan
+ statik itme analizlerine tabi tutulmuştur.
  Yapılan doğrusal elastik olmayan analizlerin sonuçları üzerinden yapıların
- elastik ötesi davranışı incelenmiş ve deprem kayıtları kullanılarak, depremleri
-n yapılardan ne kadar yer değiştirme talep ettiği incelenmiştir.
+ elastik ötesi davranışı ve deprem kayıtları kullanılarak, depremlerin yapılarda
+n ne kadar yer değiştirme talep ettiği belirlenmiş, 
+\emph on
+Yer Değiştirme Arttırma Katsayıları
+\emph default
+ hesaplanmıştır.
 \end_layout
 
 \begin_layout Section

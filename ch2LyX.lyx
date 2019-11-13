@@ -96,7 +96,7 @@ name "CH2"
  Sonuç olarak, pratik amaçlar için, Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Moment-Dönme İlişkisi"
+reference "fig:2.1"
 plural "false"
 caps "false"
 noprefix "false"
@@ -108,7 +108,7 @@ noprefix "false"
  Birleşimlerin düzlem içi davranışı, Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Moment-Dönme İlişkisi"
+reference "fig:2.1"
 plural "false"
 caps "false"
 noprefix "false"
@@ -122,6 +122,7 @@ de gösterilen moment-dönme
  eğrileriyle temsil edilebilir.
  
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -129,7 +130,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename TikZ/1.pdf
+	filename Grafikler/2_Yarı-Rijit Birleşimler/1.pdf
 	lyxscale 40
 
 \end_inset
@@ -147,7 +148,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Moment-Dönme İlişkisi"
+name "fig:2.1"
 
 \end_inset
 
@@ -199,7 +200,7 @@ noprefix "false"
 
 \end_inset
 
-de gösterildiği üzere kolon-kiriş birleşimleri(düğüm noktası) bir kolon
+ 'de gösterildiği üzere kolon-kiriş birleşimleri(düğüm noktası) bir kolon
  gövdesinde yer alan panel bölgesi ve bir veya iki birleşimden oluşur.
  Paneli bölgesi, kolon gövdesi ve bağlı kirişin yüksekliği boyunca kolonun
  başlıklarını içerir.
@@ -211,8 +212,8 @@ de gösterildiği üzere kolon-kiriş birleşimleri(düğüm noktası) bir kolon
  gelmektedir.
  Düğüm noktası ise birleşimle beraber bağlanan elemanlar arasındaki kolon
  gövdesi gibi iç etkileşim bölgelerini de kapsayan bölgeyi tarifler.
- 
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -252,6 +253,10 @@ Düğüm Noktası Tanımı
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 Denklem
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -262,7 +267,7 @@ noprefix "false"
 
 \end_inset
 
- de ifade edildiği gibi bir bağlantının düzlem içi eğilme
+ 'de ifade edildiği gibi bir bağlantının düzlem içi eğilme
 \begin_inset Formula $\left(M\right)$
 \end_inset
 
@@ -377,6 +382,7 @@ noprefix "false"
  bağlıdır.
  
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -424,6 +430,26 @@ literal "false"
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Section
+Birleşimlerin Sınıflandırılması
+\end_layout
+
+\begin_layout Standard
+Birleşimleri sınıflandırmak için birleşimlerin tepkisini niteleyen ana parametre
+leri incelemek yeterli olacaktır, bu parametreler rijitlik, dayanım(taşıma
+ kapasitesi) ve süneklik’tir.
+ Birleşimler literatürde genel olarak rijitlik ve dayanım özelliklerine
+ göre sınıflandırılırlar süneklik ise birleşimin 
+\begin_inset Formula $\left(M-\theta\right)$
+\end_inset
+
+ eğrisi ile anlaşılabilir.
+\end_layout
+
+\begin_layout Standard
 Yaygın olarak kullanılan birleşimlerin moment dönme ilişkileri Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -450,6 +476,7 @@ noprefix "false"
  eğrisi ile modellenebileceğidir.
  
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -498,22 +525,6 @@ literal "false"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Section
-Birleşimlerin Sınıflandırılması
-\end_layout
-
-\begin_layout Standard
-Birleşimleri sınıflandırmak için birleşimlerin tepkisini niteleyen ana parametre
-leri incelemek yeterli olacaktır, bu parametreler rijitlik, dayanım(taşıma
- kapasitesi) ve süneklik’tir.
- Birleşimler literatürde genel olarak rijitlik ve dayanım özelliklerine
- göre sınıflandırılırlar süneklik ise birleşimin 
-\begin_inset Formula $\left(M-\theta\right)$
-\end_inset
-
- eğrisi ile anlaşılabilir.
 \end_layout
 
 \begin_layout Standard
@@ -573,6 +584,7 @@ Burada
 
 , kiriş uzunluğudur.
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -580,7 +592,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename TikZ/BL1.pdf
+	filename Grafikler/2_Yarı-Rijit Birleşimler/a1.pdf
 	lyxscale 30
 	width 10cm
 
@@ -652,6 +664,7 @@ Burada
 
  kiriş üzerindeki düzgün yayılı yüktür.
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -659,7 +672,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename TikZ/BL2.pdf
+	filename Grafikler/2_Yarı-Rijit Birleşimler/a5.pdf
 	lyxscale 30
 	width 10cm
 
@@ -692,6 +705,10 @@ Ankastre Mesnetli, Düzgün Yayılı Yüklü Kiriş
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 B ucundaki dönme, A ucundaki dönme ile aynıdır ve buna karşılık denklemlerin
  süperpozisyonu ile A ucunda bulunan 
 \begin_inset CommandInset ref
@@ -793,6 +810,7 @@ noprefix "false"
  Bu şekil açıkça, kirişin ucundaki moment ve dönme arasındaki doğrusal ilişkiyi
  ifade etmektedir.
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -800,7 +818,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename TikZ/BL3.pdf
+	filename Grafikler/2_Yarı-Rijit Birleşimler/a4.pdf
 	lyxscale 30
 
 \end_inset
@@ -832,6 +850,10 @@ Kiriş için Moment-Dönme Çizgisi
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 Birleşimdeki moment, Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -866,6 +888,7 @@ burada,
 
 , birleşim dönme rijitliğidir.
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -873,7 +896,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename TikZ/BL4.pdf
+	filename Grafikler/2_Yarı-Rijit Birleşimler/a3.pdf
 	lyxscale 30
 
 \end_inset
@@ -905,6 +928,10 @@ Birleşim için Moment-Dönme Diyagramı
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -942,6 +969,7 @@ noprefix "false"
 
 'de gösterilen denge elde edilir.
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -949,7 +977,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename TikZ/BL5.pdf
+	filename Grafikler/2_Yarı-Rijit Birleşimler/a2.pdf
 	lyxscale 30
 
 \end_inset
@@ -981,6 +1009,10 @@ Kiriş Çizgisi ile Birleşim Çizgisinin Birleştirilmesi
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 Denklem 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1145,6 +1177,7 @@ noprefix "false"
 
  olması beklenir.
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1152,7 +1185,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename TikZ/BL3-1.pdf
+	filename Grafikler/2_Yarı-Rijit Birleşimler/24.pdf
 	lyxscale 30
 
 \end_inset
@@ -1185,6 +1218,10 @@ name "fig:2.10"
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 Geschwinder, 1991 yılındaki çalışmasında kiriş çizgisi ile birleştirilen
  rijit, yarı-rijit ve mafsallı birleşimlerini temsil eden üç farklı birleşim
  eğrisi Şekil 
@@ -1214,9 +1251,17 @@ noprefix "false"
  rijit olarak, birleşimin ankastre uç momentinin yüzde 20'sinden fazlasını
  almadığı sürece de mafsallı olarak sınıflandırılabileceğini göstermektedir.
  Bu iki nokta arasındaki herhangi bir davranış, yarı-rijit bir birleşim
- olarak kabul edilir.
- 
+ olarak kabul edilir
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Faridmehr2016"
+literal "false"
+
+\end_inset
+
+.
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1224,7 +1269,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename TikZ/BL2-1.pdf
+	filename Grafikler/2_Yarı-Rijit Birleşimler/23.pdf
 	lyxscale 30
 
 \end_inset
@@ -1256,6 +1301,10 @@ name "fig:2.11"
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 Şekil 12, kiriş çizgisine rijit, yarı-rijit ve mafsallı birleşiminin doğrusal
  çizgilerinin üst üste getirilmesini göstermektedir.
  Bu Şekilde gösterildiği gibi, doğrusal çizgiyi ankastre uç momentinin %90,
@@ -1286,6 +1335,7 @@ name "fig:2.11"
 
 'yi 18 den 20 ye çıkarmıştır.
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1293,7 +1343,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename TikZ/BL2-2.pdf
+	filename Grafikler/2_Yarı-Rijit Birleşimler/23_1.pdf
 	lyxscale 30
 
 \end_inset
@@ -1333,11 +1383,9 @@ AISC Yönetmeliği
 \end_layout
 
 \begin_layout Standard
-Yapısal Çelik Binalar için Yönetmelik AISC 360-16 birleşimleri, tam dayanımlı
- (fully restrained) = rijit ve basit(simple) = mafsallı olarak iki ana başlıkta
- gruplandırır daha sonra tam dayanımlı (fully restrained) = rijit birleşimleri
- de; tam dayanımlı (fully restrained) = rijit ve kısmi dayanımlı (partial
- restrained) = yarı-rijit olarak iki gruba ayırır.
+Yapısal çelik binalar yönetmeliği AISC 360-16 birleşimleri, rijit ve mafsallı
+ olarak iki ana başlıkta gruplandırır daha sonra ,rijit birleşimleri de,
+ rijit ve yarı-rijit olarak iki gruba ayırır.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1395,10 +1443,10 @@ Burada;
 
  ise, birleşimin mafsallı olduğu kabul edilebilir.
  Bu iki limit arasındaki rijitlikdeki bağlantılar yarı-rijit olduğu ve bağlantın
-ın rijitliği, dayanıklılığı ve sünekliği tasarımda dikkate alınmalıdır (Leon,
- 1994).
+ın rijitliği, dayanıklılığı ve sünekliği tasarımda dikkate alınmalıdır.
  [AISC 360-16] 
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1506,6 +1554,7 @@ edir.
  Birleşimin dayanımı, tasarım yüklerinin gerektirdiği moment taleplerine
  karşı koymak için yeterli olmalıdır.[AISC 360-16] 
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1644,6 +1693,7 @@ Eurocode yönetmeliği birleşimleri Şekil 2.15’de verilen başlangıç rijit
 , sınıflandırma sınırları ile karşılaştırarak sınıflandırılabilir.
  
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1762,6 +1812,7 @@ Bir düğüm noktası, bağlandığı elemanların tasarım momenti dayanımlar�
  karşılaştırılarak tam dayanımlı=rijit, mafsallı=mafsallı veya kısmi dayanımlı=y
 arı-rijit olarak sınıflandırılır.
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -2330,6 +2381,7 @@ literal "false"
 
 .
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -2396,6 +2448,7 @@ noprefix "false"
  Bu matematiksel ifadeler gerçekte gözlenen davranışa yakınlaştıkça analiz
  programlarının iş yükü artmaktadır.
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -2403,8 +2456,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename TikZ/4 grafik.pdf
-	lyxscale 50
+	filename Grafikler/2_Yarı-Rijit Birleşimler/2.pdf
+	lyxscale 40
 	scale 60
 
 \end_inset
@@ -3070,11 +3123,11 @@ literal "false"
 \begin_layout Standard
 Gupta ve Krawinkler tarafından moment dayanımlı çelik çerçevelerin deprem
  yükleri altındaki davranışları üzerine detaylı bir çalışma yapmıştır.
- Her üç SAC binası (3-, 9- ve 20 katlı binalar) üç sismik bölge (Los Angeles,
+ Her üç SAC binası (3, 9 ve 20 katlı binalar) üç deprem bölgesi (Los Angeles,
  Seattle ve Boston) için değerlendirildi.
- Bu çalışmada performansa dayalı sismik tasarımın gelişiminde ilerlemeye
- katkıda bulunmak ve moment dayanımlı çelik çerçeveli yapılarının sismik
- davranışını derinden anlamak amaçlanmıştır.
+ Bu çalışmada performansa dayalı deprem tasarımın gelişiminde ilerlemeye
+ katkıda bulunmak ve moment dayanımlı çelik çerçeveli yapılarının deprem
+ davranışını incelemeyi amaçlanmıştır.
  Zaman tanım alanında analiz için, 7 set 20 adet yer hareketi kaydı (Los
  Angeles için 3 set, Seattle için 2 set ve Boston için 2 set) kullanılmıştır.
  Moment dayanımlı çelik çerçevelerin çok esnek olduğu, P-∆ etkisinin yapıların
@@ -3162,6 +3215,7 @@ Birleşimlerin çerçeve davranışı üzerindeki etkisi, kısmi dayanımlı ve 
  ve yarı-rijit birleşimli moment çerçeveleri için uygulanabilir.
  
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -3239,8 +3293,8 @@ AISC Yönetmeliği
 \end_layout
 
 \begin_layout Standard
-AISC 2016 yönetmeliğinde yapının düğüm noktalarında plastik mafsallar oluşup
- sistemin bu şekilde enerji sönümlemesine izin verilmez.
+AISC 360-16 yönetmeliğinde yapının düğüm noktalarında plastik mafsallar
+ oluşup sistemin bu şekilde enerji sönümlemesine izin verilmez.
  Bu sebeple yarı-rijit (partially restrained) birleşimlerin sahip olması
  gereken dönme kapasitesine ait herhangi bir bilgi mevcut değildir.
  Öte yandan rijit birleşimlerin sahip olması gereken süneklik düzeyi, yapısal
@@ -3292,70 +3346,108 @@ Düğüm noktasının tasarım momenti dayanımı
  kontrol edilmesi gerekmez.
 \end_layout
 
-\begin_layout Itemize
-1 Bulonlu Birleşimler
+\begin_layout Standard
+Bulonlu Birleşimler için;
 \end_layout
 
 \begin_layout Itemize
-(1)Bir düğüm noktası Mj, Rd'nin tasarım momenti dayanımının, kolon gövdesindeki
- kayma tasarım dayanımına tabi olduğu kiriş-kolon birleşim bölgesi, dwc/tw
- 69 olması koşuluyla plastik küresel(global) analiz için yeterli dönme kapasites
-ine sahip olduğu varsayılabilir.
+Bir düğüm noktası 
+\begin_inset Formula $M_{\mathrm{j,Rd}}$
+\end_inset
+
+'nin tasarım momenti dayanımının, kolon gövdesindeki kayma tasarım dayanımına
+ tabi olduğu kiriş-kolon birleşim bölgesi, 
+\begin_inset Formula $d/t_{\mathrm{w}}\leq69\varepsilon$
+\end_inset
+
+ olması koşuluyla plastik global analiz için yeterli dönme kapasitesine
+ sahip olduğu varsayılabilir.
+ Burada 
+\begin_inset Formula $\varepsilon=\sqrt{235/f_{\mathrm{y}}}$
+\end_inset
+
+'dir.
 \end_layout
 
 \begin_layout Itemize
-(2)Aşağıdaki koşulların her ikisinin de karşılanması şartıyla, bir alın
- levhalı bulonlu veya başlıkları korniyerli olan bir düğüm noktasının plastik
- analiz için yeterli dönme kapasitesine sahip olduğu varsayılabilir:
-\end_layout
-
-\begin_layout Itemize
-a-Düğüm noktasının tasarım momenti dayanımı, kolon başlığında eğilme ile
- veya alın levhasının veya çekme bölgesindeki korniyerin eğilme momenti
- dayanımı ile yönetilir.
-\end_layout
-
-\begin_layout Itemize
-b Kolon başlığının veya alın levhasının yahut çekme bölgesindeki korniyerin
- t kalınlığı aşağıdaki denklemi sağlarsa: 
+Aşağıdaki koşulların her ikisinin de karşılanması şartıyla, bir alın levhalı
+ bulonlu veya başlıkları korniyerli olan bir düğüm noktasının plastik analiz
+ için yeterli dönme kapasitesine sahip olduğu varsayılabilir:
 \end_layout
 
 \begin_layout Standard
-t ≤ 0.36d fub fy 
+Düğüm noktasının tasarım momenti dayanımı, kolon başlığında eğilme ile veya
+ alın levhasının veya çekme bölgesindeki korniyerin eğilme momenti dayanımı
+ ile yönetilir.
 \end_layout
 
 \begin_layout Standard
-burada d : bulon çapı fub : bulon çekme dayanımı fy : kontrol edilen elemanın
- akma dayanımı 
-\end_layout
+Kolon başlığının veya alın levhasının yahut çekme bölgesindeki korniyerin
+ 
+\begin_inset Formula $t$
+\end_inset
 
-\begin_layout Itemize
-2 Kaynaklı Birleşimler
-\end_layout
+ kalınlığı aşağıdaki denklemi sağlarsa: 
+\begin_inset Formula $t≤0.36df_{ub}f_{\mathrm{y}}$
+\end_inset
 
-\begin_layout Standard
-a-Kaynaklanmış bir kiriş-kolon bağlantısının Cd dönme kapasitesinin, kolon
- gövdesinde basınç halinde güçlendirilmiş(takviye edilmeiş), gerilmemiş
- halde sertleştirilmemiş olması ve tasarımı kolon gövdesi kayma dayanımı
- yönetmiyorsa, tasarım momenti dayanımının sağlanması koşuluyla aşağıdaki
- ifade ile verilen değerden daha düşük olmadığı varsayılabilir
+ 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\phi Cd=0.025hc/hb$
+burada 
+\begin_inset Formula $d$
+\end_inset
+
+ : bulon çapı 
+\begin_inset Formula $f_{ub}$
+\end_inset
+
+ : bulon çekme dayanımı 
+\begin_inset Formula $f_{y}$
+\end_inset
+
+ : kontrol edilen elemanın akma dayanımı 
+\end_layout
+
+\begin_layout Standard
+Kaynaklı Birleşimler için;
+\end_layout
+
+\begin_layout Standard
+Kaynaklanmış bir kiriş-kolon bağlantısının 
+\begin_inset Formula $\phi_{C_{\mathrm{d}}}$
+\end_inset
+
+dönme kapasitesinin, kolon gövdesinde basınç halinde güçlendirilmiş(takviye
+ edilmiş), gerilmemiş halde sertleştirilmemiş olması ve tasarımı kolon gövdesi
+ kayma dayanımı yönetmiyorsa, tasarım momenti dayanımının sağlanması koşuluyla
+ aşağıdaki ifade ile verilen değerden daha düşük olmadığı varsayılabilir,
+\begin_inset Formula $\phi_{C_{\mathrm{d}}}=0.025h_{\mathrm{c}}/h_{\mathrm{b}}$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Burada; hb : kiriş kesiti yüksekliği, hc : kolon kesiti yüksekliği 
+Burada; 
+\begin_inset Formula $h_{\mathrm{b}}$
+\end_inset
+
+ : kiriş kesiti yüksekliği, 
+\begin_inset Formula $h_{\mathrm{c}}$
+\end_inset
+
+ : kolon kesiti yüksekliği 
 \end_layout
 
 \begin_layout Standard
-b-Bu bölümün hükümlerine uygun olarak tasarlanan, takviye edilmemiş kaynaklı
- bir kiriş kolon düğüm noktasının en az 0,015 radyan Cd dönme kapasitesine
- sahip olduğu varsayılabilir.
+Bu bölümün hükümlerine uygun olarak tasarlanan, takviye edilmemiş kaynaklı
+ bir kiriş kolon düğüm noktasının en az 0,015 radyan 
+\begin_inset Formula $\phi_{C_{\mathrm{d}}}$
+\end_inset
+
+ dönme kapasitesine sahip olduğu varsayılabilir.
  
 \end_layout
 
