@@ -85,7 +85,7 @@
 \end_layout
 
 \begin_layout Chapter
-EK A.1: Seçilen Deprem Kayıtlarının Ölçeklendirilmesi
+EK A.1: Yarı Rijit Birleşimli Yapıların Etkin Göreli Kat Ötelemeleri
 \end_layout
 
 \begin_layout Standard
@@ -96,6 +96,515 @@ name "chap:EK-A.1"
 \end_inset
 
 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/8_Ekler/GK_3_20.pdf
+	lyxscale 50
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:8.1"
+
+\end_inset
+
+3 katlı yarı-rijit (20EI/L) birleşimli yapının etkin göreli kat ötelemesi.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/8_Ekler/GK_3_15.5.pdf
+	lyxscale 50
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:8.1-2"
+
+\end_inset
+
+3 katlı yarı-rijit (15.5EI/L) birleşimli yapının etkin göreli kat ötelemesi.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/8_Ekler/GK_3_11.pdf
+	lyxscale 50
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:8.1-3"
+
+\end_inset
+
+3 katlı yarı-rijit (11EI/L) birleşimli yapının etkin göreli kat ötelemesi.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/8_Ekler/GK_3_8.pdf
+	lyxscale 50
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:8.1-4"
+
+\end_inset
+
+3 katlı yarı-rijit (8EI/L) birleşimli yapının etkin göreli kat ötelemesi.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/8_Ekler/GK_9_20.pdf
+	lyxscale 50
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:8.1-5"
+
+\end_inset
+
+9 katlı yarı-rijit (20EI/L) birleşimli yapının etkin göreli kat ötelemesi.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/8_Ekler/GK_9_15.5.pdf
+	lyxscale 50
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:8.1-2-1"
+
+\end_inset
+
+9 katlı yarı-rijit (15.5EI/L) birleşimli yapının etkin göreli kat ötelemesi.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/8_Ekler/GK_9_11.pdf
+	lyxscale 50
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:8.1-3-1"
+
+\end_inset
+
+9 katlı yarı-rijit (11EI/L) birleşimli yapının etkin göreli kat ötelemesi.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/8_Ekler/GK_9_8.pdf
+	lyxscale 50
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:8.1-4-1"
+
+\end_inset
+
+9 katlı yarı-rijit (8EI/L) birleşimli yapının etkin göreli kat ötelemesi.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/8_Ekler/GK_20_20.pdf
+	lyxscale 50
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:8.1-6"
+
+\end_inset
+
+20 katlı yarı-rijit (20EI/L) birleşimli yapının etkin göreli kat ötelemesi.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/8_Ekler/GK_20_15.5.pdf
+	lyxscale 50
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:8.1-2-2"
+
+\end_inset
+
+20 katlı yarı-rijit (15.5EI/L) birleşimli yapının etkin göreli kat ötelemesi.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/8_Ekler/GK_20_11.pdf
+	lyxscale 50
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:8.1-3-2"
+
+\end_inset
+
+20 katlı yarı-rijit (11EI/L) birleşimli yapının etkin göreli kat ötelemesi.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/8_Ekler/GK_20_8.pdf
+	lyxscale 50
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:8.1-4-2"
+
+\end_inset
+
+20 katlı yarı-rijit (8EI/L) birleşimli yapının etkin göreli kat ötelemesi.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+EK B.1: Seçilen Deprem Kayıtlarının Ölçeklendirilmesi
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:EK-B.1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -124,7 +633,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:8.1"
+name "fig:8.1-1"
 
 \end_inset
 
@@ -167,7 +676,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:8.2"
+name "fig:8.2-1"
 
 \end_inset
 
@@ -210,7 +719,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:8.3"
+name "fig:8.3-1"
 
 \end_inset
 
@@ -253,7 +762,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:8.4"
+name "fig:8.4-1"
 
 \end_inset
 
@@ -296,7 +805,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:8.5"
+name "fig:8.5-1"
 
 \end_inset
 
@@ -339,7 +848,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:8.6"
+name "fig:8.6-1"
 
 \end_inset
 
@@ -367,7 +876,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "Olceklendirme_Katsayıları"
+name "Olceklendirme_Katsayıları-1"
 
 \end_inset
 
@@ -498,7 +1007,7 @@ Deprem İsmi
 \uwave off
 \noun off
 \color none
- San Fernando
+San Fernando
 \end_layout
 
 \end_inset
@@ -575,7 +1084,7 @@ Deprem İsmi
 \uwave off
 \noun off
 \color none
- Friuli_ Italy-01
+Friuli_ Italy-01
 \end_layout
 
 \end_inset
@@ -652,7 +1161,7 @@ Deprem İsmi
 \uwave off
 \noun off
 \color none
- Imperial Valley-06
+Imperial Valley-06
 \end_layout
 
 \end_inset
@@ -729,7 +1238,7 @@ Deprem İsmi
 \uwave off
 \noun off
 \color none
- Superstition Hills-02
+Superstition Hills-02
 \end_layout
 
 \end_inset
@@ -806,7 +1315,7 @@ Deprem İsmi
 \uwave off
 \noun off
 \color none
- Northridge-01
+Northridge-01
 \end_layout
 
 \end_inset
@@ -883,7 +1392,7 @@ Deprem İsmi
 \uwave off
 \noun off
 \color none
- Northridge-01
+Northridge-01
 \end_layout
 
 \end_inset
@@ -1037,7 +1546,7 @@ Kobe_ Japan
 \uwave off
 \noun off
 \color none
- Kocaeli_ Turkey
+Kocaeli_ Turkey
 \end_layout
 
 \end_inset
@@ -1114,7 +1623,7 @@ Kobe_ Japan
 \uwave off
 \noun off
 \color none
- Hector Mine
+Hector Mine
 \end_layout
 
 \end_inset
@@ -1191,7 +1700,7 @@ Kobe_ Japan
 \uwave off
 \noun off
 \color none
- San Fernando
+San Fernando
 \end_layout
 
 \end_inset
@@ -1268,7 +1777,7 @@ Kobe_ Japan
 \uwave off
 \noun off
 \color none
- Friuli_ Italy-02
+Friuli_ Italy-02
 \end_layout
 
 \end_inset
@@ -1345,7 +1854,7 @@ Kobe_ Japan
 \uwave off
 \noun off
 \color none
- Imperial Valley-07
+Imperial Valley-07
 \end_layout
 
 \end_inset
@@ -1422,7 +1931,7 @@ Kobe_ Japan
 \uwave off
 \noun off
 \color none
- Superstition Hills-03
+Superstition Hills-03
 \end_layout
 
 \end_inset
@@ -1499,7 +2008,7 @@ Kobe_ Japan
 \uwave off
 \noun off
 \color none
- Northridge-01
+Northridge-01
 \end_layout
 
 \end_inset
@@ -1576,7 +2085,7 @@ Kobe_ Japan
 \uwave off
 \noun off
 \color none
- Northridge-01
+Northridge-01
 \end_layout
 
 \end_inset
@@ -1730,7 +2239,7 @@ Kobe_ Japan
 \uwave off
 \noun off
 \color none
- Kocaeli_ Turkey
+Kocaeli_ Turkey
 \end_layout
 
 \end_inset
@@ -1807,7 +2316,7 @@ Kobe_ Japan
 \uwave off
 \noun off
 \color none
- Hector Mine
+Hector Mine
 \end_layout
 
 \end_inset
@@ -1884,7 +2393,7 @@ Kobe_ Japan
 \uwave off
 \noun off
 \color none
- San Fernando
+San Fernando
 \end_layout
 
 \end_inset
@@ -1961,7 +2470,7 @@ Kobe_ Japan
 \uwave off
 \noun off
 \color none
- Friuli_ Italy-03
+Friuli_ Italy-03
 \end_layout
 
 \end_inset
@@ -2038,7 +2547,7 @@ Kobe_ Japan
 \uwave off
 \noun off
 \color none
- Imperial Valley-08
+Imperial Valley-08
 \end_layout
 
 \end_inset
@@ -2115,7 +2624,7 @@ Kobe_ Japan
 \uwave off
 \noun off
 \color none
- Superstition Hills-04
+Superstition Hills-04
 \end_layout
 
 \end_inset
@@ -2192,7 +2701,7 @@ Kobe_ Japan
 \uwave off
 \noun off
 \color none
- Northridge-01
+Northridge-01
 \end_layout
 
 \end_inset
@@ -2269,7 +2778,7 @@ Kobe_ Japan
 \uwave off
 \noun off
 \color none
- Northridge-01
+Northridge-01
 \end_layout
 
 \end_inset
@@ -2423,7 +2932,7 @@ Kobe_ Japan
 \uwave off
 \noun off
 \color none
- Kocaeli_ Turkey
+Kocaeli_ Turkey
 \end_layout
 
 \end_inset
@@ -2500,7 +3009,7 @@ Kobe_ Japan
 \uwave off
 \noun off
 \color none
- Hector Mine
+Hector Mine
 \end_layout
 
 \end_inset

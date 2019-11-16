@@ -1205,17 +1205,17 @@ literal "false"
  Ölçeklendirilen gerçek deprem kayıtlarının ölçeklendirme katsayıları 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "chap:EK-A.1"
+reference "chap:EK-B.1"
 plural "false"
 caps "false"
 noprefix "false"
 
 \end_inset
 
-'da Çizelge 
+'de Çizelge 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "Olceklendirme_Katsayıları"
+reference "Olceklendirme_Katsayıları-1"
 plural "false"
 caps "false"
 noprefix "false"

@@ -96,27 +96,260 @@ name "CH4"
 \end_layout
 
 \begin_layout Standard
+Parametrik çalışma kapsamında seçilen az,orta ve yüksek katlı binalar SAC
+ projesi kapsamında kullanılan ve detayları FEMA 355-C teknik dökümanında
+ verilen bina tipolojilerinde yararlanılmıştır.
+ Planda ve düşey kesitte herhangi bir düzensizlik içermeyen 3, 9 ve 20 katlı
+ üç tipik moment dayanımlı çelik çerçeveli binalar rijit birleşim kabuli
+ ile TBDY-2018 yönetmeliğinin tasarım şartları uyarınca kesitleri seçilmiştir.
+ Kesit seçimi için amerikan geniş başlıklı profiller tercih edilmiştir,
+ bu profillerin avrupa profillerinden avantajı daha çok kesit sayısının
+ fazla olmasıdır, bu sebeple de tasarımda daha optimize edilmiş elemanlar
+ seçilebilmiştir.
+ 
+\end_layout
+
+\begin_layout Standard
 Parametrik çalışma için binalar, deprem yüklerinin tamamının yapının dış
  akslarında bulunan çerçevelerle taşındığı binalardır.
  Tasarlanan örnek binaların hepsi planda düzenli bir aks sistemine sahiptir.
  Yatay yükler bir doğrultuda çaprazlı çerçevelerle, bir doğrultuda ise moment
  dayanımlı çelik çerçevelerle taşınmaktadır.
  Bu çalışmanın amacı, yarı rijit birleşimli moment dayanımlı çelik çerçevelerin
- birleşim dönme rijitliğinin yapının yer değiştirmesi üzerine etkisini incelemek
- olduğundan, binaların çaprazlı çerçeve doğrultusunun tasarımı ve davranışı
- tez kapsamının dışında tutulmuştur.
- Dolayısıyla sadece moment dayanımlı çelik çerçeveler tasarlanmış ve incelenmişt
-ir.
+ birleşim dönme rijitliğinin yapının yer değiştirmesi üzerine ilişkisini
+ incelemek olduğundan, binaların çaprazlı çerçeve doğrultusunun tasarımı
+ ve davranışı tez kapsamının dışında tutulmuştur.
+ Dolayısıyla sadece moment dayanımlı çelik çerçeveler tasarlanmış ve doğrusal
+ olmayan analizlerle incelenmiştir.
  
 \end_layout
 
-\begin_layout Section
-Yükler ve Yük Kombinasyonları
+\begin_layout Standard
+3 katlı yapı, y doğrultsunda 6, x doğrultusunda 4 eşit açıklıktan oluşmaktadır.
+ Toplamda 
+\begin_inset Formula $36\times54=1944m^{2}$
+\end_inset
+
+'lik bir kat alanına ve 
+\begin_inset Formula $3\times4=12m$
+\end_inset
+
+'lik yüksekliğe sahiptir.
 \end_layout
 
 \begin_layout Standard
-Binaların tasarımında kullanılan düşey ve deprem yükleri ile yükleme kombinasyon
-larının belirlenmesinde, TBDY-2018 yönetmeliği dikkate alınmıştır.
+9 katlı yapı her iki doğrultuda 5 açıklıklı kare bir plana sahiptir.
+ Toplamda 
+\begin_inset Formula $45x45=2025m^{2}$
+\end_inset
+
+'lik bir kat alanına ve 
+\begin_inset Formula $9\times4=36m$
+\end_inset
+
+'lik yüksekliğe sahiptir.
+ 
+\end_layout
+
+\begin_layout Standard
+20 katlı yapı, y doğrultsunda 6, x doğrultusunda 5 eşit açıklıktan oluşmaktadır.
+ Toplamda 
+\begin_inset Formula $30\times36=1080m^{2}$
+\end_inset
+
+'lik bir kat alanına ve 
+\begin_inset Formula $20\times4=80m$
+\end_inset
+
+'lik yüksekliğe sahiptir.
+ 
+\end_layout
+
+\begin_layout Standard
+3 ve 9 katlı yapılar 
+\begin_inset Formula $1.8m$
+\end_inset
+
+, 20 katlı yapı ise yaklaşık 
+\begin_inset Formula $1.5m$
+\end_inset
+
+ arayla yerleştirilen ikincil kirişlerle döşemelerden gelen ölü ve hareketli
+ yükleri ana kirişlere aktarmaktadır.
+\end_layout
+
+\begin_layout Standard
+Her üç yapının plan ve analizlerde kullanılan A ve G akslarındaki çerçevelerin
+ düşey kesitleri Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:4.1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:4.2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ ve Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:4.3"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 'de verilmiştir.
+ Üç yapının da iç açıklıklarındaki kirişler, uçları mafsallı ve sadece düşey
+ yük taşımaktadırlar.
+ Yapılar birbirine dik doğrultularda sadece dış çerçevelerle yatay yük taşımakta
+dır.
+ Yapının y doğrultusunda merkezi çaprazlı çerçeveler kullanılırken x doğrultudak
+i deprem yükleri sadece moment aktaran çerçeveler tarafından taşınmaktadır.
+ Özetle, 3 katlı yapı için, x doğrultusundaki tasarım depremi için, yapının
+ kütlenin yarısı A aksındaki çerçeve tarafından diğer yarısı G aksındaki
+ çerçeve tarafından taşınmaktadır.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/4_Parametrik Çalışma/3.pdf
+	lyxscale 50
+	clip
+
+\end_inset
+
+ 
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:4.1"
+
+\end_inset
+
+Parametrik çalışmada kullanılan birleşim dönme rijitlikleri.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/4_Parametrik Çalışma/9.pdf
+	lyxscale 50
+	clip
+
+\end_inset
+
+ 
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:4.2"
+
+\end_inset
+
+Parametrik çalışmada kullanılan birleşim dönme rijitlikleri.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/4_Parametrik Çalışma/20.pdf
+	lyxscale 50
+	clip
+
+\end_inset
+
+ 
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:4.3"
+
+\end_inset
+
+Parametrik çalışmada kullanılan birleşim dönme rijitlikleri.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -124,11 +357,17 @@ Moment Dayanımlı Çelik Çerçeveli Sistemlerin Tasarımı
 \end_layout
 
 \begin_layout Standard
-Parametrik çalışma kapsamında seçilen az,orta ve yüksek katlı binalar SAC
- projesi kapsamında kullanılan ve detayları FEMA 355-C teknik dökümanında
- verilen bina tipolojilerinde yararlanılmıştır.
- Planda ve düşey kesitte herhangi bir düzensizlik içermeyen 3, 9 ve 20 katlı
- üç tipik çelik çerçeve TBDY-2018 
+Analiz ve boyutlandırma hesaplarında, ayrıntıları ÇYTHYE’de(
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CYTHYEY"
+literal "false"
+
+\end_inset
+
+) açıklanan Yük ve Dayanım Katsayıları ile Tasarım Yöntemi (YDKT) kullanılmıştır.
+ Binaların tasarımında kullanılan yükleme kombinasyonlarının belirlenmesinde,
+ TBDY-2018
 \begin_inset CommandInset citation
 LatexCommand cite
 key "TBDY2018"
@@ -136,12 +375,344 @@ literal "false"
 
 \end_inset
 
- yönetmeliğinin vermiş olduğu sınır şartlara göre tasarlanmıştır.
- Moment dayanımlı çelik çerçeveli binalar rijit birleşim kabuli ile TBDY-2018
- yönetmeliğinin tasarım şartları uyarınca kesitler seçilmiştir.
- Kesit tipleri için amerikan geniş başlıklı profiller tercih edilmiştir,
- bu profillerin avrupa profillerinden avantajı daha çok tip kesit bulunması
- bu sebeple de tasarımda daha optimize edilmiş elemanlar seçilebilmiştir.
+ ve ÇYTHYE’de(
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CYTHYEY"
+literal "false"
+
+\end_inset
+
+) yönetmeliği dikkate alınmıştır.
+\end_layout
+
+\begin_layout Standard
+Yapıların her biri ofis binası olarak düşünülmüştür.
+ Normal katlarda; ölü yük 
+\begin_inset Formula $5kN/m^{2}$
+\end_inset
+
+,hareketi yük 
+\begin_inset Formula $2.5kN/m^{2}$
+\end_inset
+
+, çatı katında ise; ölü yük 
+\begin_inset Formula $4kN/m^{2}$
+\end_inset
+
+, hareketli yük 
+\begin_inset Formula $1kN/m^{2}$
+\end_inset
+
+alınmıştır.
+ Bütün yapılarda aynı harita spektral ivme katsayıları kullanılmıştır.
+\end_layout
+
+\begin_layout Standard
+Kısa periyot harita spektral ivme katsayısı, 
+\begin_inset Formula $S_{\mathrm{S}}=1.5$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $1.0$
+\end_inset
+
+ saniye periyot için harita spektral ivme katsayısı, 
+\begin_inset Formula $S_{1}=1.0$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+Yerel zemin etki katsayıları, 
+\begin_inset Formula $F_{\mathrm{S}}=0.90$
+\end_inset
+
+ ve 
+\begin_inset Formula $F_{1}=0.80$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+Bu durumda tasarım spektral ivme katsayıları 
+\begin_inset Formula $S_{\mathrm{DS}}$
+\end_inset
+
+ ve 
+\begin_inset Formula $S_{\mathrm{D1}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S_{\mathrm{DS}}=S_{\mathrm{S}}\times F_{\mathrm{S}}=1.5\times0.9=1.35$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S_{\mathrm{D1}}=S_{\mathrm{1}}\times F_{\mathrm{1}}=1.0\times0.8=0.80$
+\end_inset
+
+, olarak elde edilmiştir.
+ Bu veriler ışığında yatay tasarım elastik spektrumu Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:4.4"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 'de gösterilmiştir.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/4_Parametrik Çalışma/Tasarim_Spektrumu.pdf
+	lyxscale 50
+	clip
+
+\end_inset
+
+ 
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:4.4"
+
+\end_inset
+
+Yatay tasarım elastik spektrumu.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Düşey deprem etkisi ise 
+\begin_inset Formula $E_{\mathrm{d}}^{\left(z\right)}=\left(2/3\right)S_{\mathrm{DS}}G$
+\end_inset
+
+ şeklinde sabit yüklere dahil edilerek,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $G\left(1.2+0.3\left(2/3\right)1.35\right)=1.47G$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $G\left(0.9-0.3\left(2/3\right)1.35\right)=0.63G$
+\end_inset
+
+, şeklinde dikkate alınmıştır.
+\end_layout
+
+\begin_layout Standard
+Bina taşıyıcı sisteminin sabit ve hareketli yükler ile deprem ve rüzgar
+ kuvvetleri altında analizleri sonucunda elde edilen iç kuvvetler, ÇYTHYE
+ 5.3.1, TBDY 4.4 ve TBDY 9.2.5’e uygun olarak, aşağıdaki şekilde birleştirileceklerdi
+r.
+ Yatay doğrultuda etkiyen ve stabilite analizinde başlangıç kusurlarının
+ etkisini hesaba katmak amacıyla tanımlanan fiktif yükler, hem yatay, hem
+ de düşey yükleri içeren yük birleşimlerinde dikkate alınmıştır.
+\end_layout
+
+\begin_layout Standard
+Düşey yük birleşimleri için;
+\end_layout
+
+\begin_layout Standard
+1.4G
+\end_layout
+
+\begin_layout Standard
+1.2G+1.6Q
+\end_layout
+
+\begin_layout Standard
+Düşey yük ve deprem etkisi birleşimleri için;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $1.47G+0.5Q\pm E_{\mathrm{d}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $1.47G+0.5Q\pm0.3E_{\mathrm{d}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $0.63G\pm E_{\mathrm{d}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $0.63G\pm0.3E_{\mathrm{d}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Burada 
+\begin_inset Formula $G$
+\end_inset
+
+ sabit yükleri,
+\begin_inset Formula $Q$
+\end_inset
+
+ hareketli yükleri, 
+\begin_inset Formula $E_{\mathrm{d}}$
+\end_inset
+
+ ise ilgili doğrultudaki deprem yükünü tarif eder.
+\end_layout
+
+\begin_layout Standard
+Yapılar ofis binası olarak tasarlandığı için 
+\emph on
+Bina Önem Katsayısı
+\emph default
+ 
+\begin_inset Formula $I=1.0$
+\end_inset
+
+ olarak alınmıştır.
+ 
+\end_layout
+
+\begin_layout Standard
+Binaların taşıyıcı sistemi, deprem etkilerinin tamamının moment aktaran
+ süneklik düzeyi yüksek çelik çerçevelerle karşılandığı bina olduğu için;
+ 
+\emph on
+Taşıyıcı Sistem Davranış Katsayısı
+\emph default
+, 
+\begin_inset Formula $R=8$
+\end_inset
+
+ ve 
+\emph on
+Dayanım Fazlalığı Katasyısı
+\emph default
+, 
+\begin_inset Formula $D=3$
+\end_inset
+
+ alınmıştır.
+ Bu çalışma az,orta ve yüksek katlı yapılarda bir değerlendirme yapmayı
+ amaçladığı için yönetmeliğin, bina yükseklik sınıfı koşulu dikkate alınmamıştır.
+\end_layout
+
+\begin_layout Standard
+Gevrek malzemeden yapılmış dolgu duvarları ile çerçeve elemanlarının aralarında
+ esnek derzler yapılması, cephe elemanlarının dış çerçevelere esnek bağlantılarl
+a bağlanması veya dolgu duvar elemanının çerçeveden bağımsız olması durumu
+ dikkate alınmış ve 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ katsayısı binanın gözönüne alınan deprem doğrultusundaki hakim titreşim
+ periyodu için DD-3 deprem yer hareketinin elastik tasarım spektral ivmesi’nin,
+ DD-2 deprem yer hareketinin elastik tasarım spektral ivmesi’ne oranı olarak
+ tanımlanan katsayı : 
+\begin_inset Formula $\lambda=0.26/0.65=0.4$
+\end_inset
+
+ olarak hesaplanmıştır.
+ 
+\begin_inset Formula $\kappa$
+\end_inset
+
+ çelik bina olduğu için 0.5 alınmıştır.
+ Etkin göreli kat ötelemesi ise;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\lambda\frac{\delta_{\mathrm{i,max}}}{h_{\mathrm{i}}}\leq0.016\kappa\rightarrow\frac{\delta_{\mathrm{i,max}}}{h_{\mathrm{i}}}\leq0.02$
+\end_inset
+
+ oranı ile kontrol edilmiştir.
+\end_layout
+
+\begin_layout Standard
+Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:4.5"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 'de 3 katlı, Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:4.6"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 'da 9 katlı, Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:4.7"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 'de 20 katlı rijit birleşimli olarak tasarlanan yapıya ait göreli kat ötelemesi
+ gösterilmiştir.
  Çizelge
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -152,7 +723,7 @@ noprefix "false"
 
 \end_inset
 
-,
+ 'de 3 katlı yapının,
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "Kesitler_9"
@@ -162,7 +733,7 @@ noprefix "false"
 
 \end_inset
 
- ve 
+ 'de 9 katlı yapının ve 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "Kesitler_20"
@@ -172,7 +743,50 @@ noprefix "false"
 
 \end_inset
 
- 'de tasarlanan yapıların kesitleri verilmiştir.
+ 'de 20 katlı yapının kesitleri verilmiştir.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/4_Parametrik Çalışma/GK_3_R.pdf
+	lyxscale 50
+	clip
+
+\end_inset
+
+ 
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:4.5"
+
+\end_inset
+
+3 katlı rijit birleşimli yapının etkin göreli kat ötelemesi.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -180,7 +794,7 @@ noprefix "false"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -428,11 +1042,51 @@ W21x62
 \end_inset
 
 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/4_Parametrik Çalışma/GK_9_R.pdf
+	lyxscale 50
+	clip
+
+\end_inset
+
+ 
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:4.6"
+
+\end_inset
+
+9 katlı rijit birleşimli yapının etkin göreli kat ötelemesi.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \begin_inset Float table
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -908,11 +1562,51 @@ W27x129
 \end_inset
 
 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/4_Parametrik Çalışma/GK_20_R.pdf
+	lyxscale 50
+	clip
+
+\end_inset
+
+ 
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:4.7"
+
+\end_inset
+
+20 katlı rijit birleşimli yapının etkin göreli kat ötelemesi.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \begin_inset Float table
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1860,6 +2554,20 @@ W27x114
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:EK-A.1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de 3,9 ve 20 katlı yapıların yarı rijit birleşimli 3,9 ve 20 katlı yapıların
+ etkin göreli kat ötelemesi grafikleri verilmiştir.
+\end_layout
+
 \begin_layout Section
 Birleşim Dönme Rijitliklerinin Seçimi ve Modellenmesi
 \end_layout
@@ -1881,7 +2589,7 @@ noprefix "false"
  Bu seçimi Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:4.1"
+reference "fig:4.66"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1893,14 +2601,11 @@ noprefix "false"
  rijitliği ve en düşük yarı-rijit birleşim dönme rijitliği için ise Eurocode
  yönetmeliğinde yatay ötelenmesi tutulmuş çerçevelerde yarı-rijit birleşimler
  için üst sınır olan 8 EI/L kullanılmıştır.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1921,7 +2626,7 @@ status collapsed
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:4.1"
+name "fig:4.66"
 
 \end_inset
 
@@ -1942,7 +2647,7 @@ Parametrik çalışmada kullanılan birleşim dönme rijitlikleri.
 Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:4.2"
+reference "fig:4.67"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1957,9 +2662,6 @@ noprefix "false"
  uzunluklarının gözlemlenmesidir.
  Link Elemanlarının yüklenmesine gelince, kirişlerin tasarımında kullanılan
  aynı düşey yükler Link elemanlarına etkitilmiştir.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 placement H
 wide false
@@ -1985,7 +2687,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:4.2"
+name "fig:4.67"
 
 \end_inset
 
