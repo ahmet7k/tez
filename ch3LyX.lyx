@@ -1421,7 +1421,7 @@ noprefix "false"
 
 \end_inset
 
-'te
+'te 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
@@ -1494,11 +1494,11 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Deprem tasarım yönetmelikleri, öngörülen tasarım deprem kuvveti seviyesindeki
- elastik analizden hesaplanan ötelenmeleri, bir yer değiştirme arttırma
- katsayısı (DAF) ile elastik analizden hesaplanan ötelenmeleri arttırarak,
- büyük depremlerde meydana gelen maksimum tepe ve kat ötelenmelerini tahmin
- eder.
+1994 yılında yayınlanan çalışma, deprem tasarım yönetmelikleri, öngörülen
+ tasarım deprem kuvveti seviyesindeki elastik analizden hesaplanan ötelenmeleri,
+ bir yer değiştirme arttırma katsayısı (DAF) ile elastik analizden hesaplanan
+ ötelenmeleri arttırarak, büyük depremlerde meydana gelen maksimum tepe
+ ve kat ötelenmelerini edildiğine dikkat çeker.
  Bazı deprem tasarım hükümlerinin karşılaştırılması, hem UBC
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1552,6 +1552,738 @@ UBC ve NEHRP'de kullanılan yer değiştirme arttırma katsayıları hükümlerd
  meydana gelebilecek maksimum kat ötelenmesi ve çatı ötelenmesini tahmin
  etmek için kullanılması tavsiye etmiştir.
  
+\end_layout
+
+\begin_layout Subsubsection*
+Onur Şeker, Bülent Akbaş, Jay Shen ve A.
+ Zafer Öztürk
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Seker2013"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Yazarlar 2013 yılında, yer değiştirme arttırma katsayısı 5.5 ve 8.0 alarak,
+ 4,9 ve 20 katlı moment dayanımlı çelik çerçeveli yapılar doğrusal olmayan
+ statik ve dinamik analizlerle moment dayanımlı çerçevelerin yer değiştirme
+ arttırma katsayıları hesaplamıştır.
+ Dinamik analizlerde tasarım depremi (50 yılda aşılma olasılığı %10) ve
+ en büyük deprem (50 yılda aşılma olasılığı %2) spektrumlarına ölçekli gerçek
+ deprem kayıtları kullanılmıştır.
+ Ayrıca kirişlerde doğrusal olmayan kesit davranışı için pekleşmesiz ve
+ %5 pekleşmeli modeller kullanılmıştır.
+ Bulunan sonuçlar Çizelge
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "3.1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de gösterilmiştir.
+\begin_inset Float table
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "3.1"
+
+\end_inset
+
+Ortalma yer değiştirme arttırma katsayıları
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="9">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" rotate="90" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rotate="90" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tasarım Depremi
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rotate="90" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+En büyük Deprem
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SH = 0
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SH = %5
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SH = 0
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SH = %5
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tasarım
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8.0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8.0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8.0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8.0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+4 katlı
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.75
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.82
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.50
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.60
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.48
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.81
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.66
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.66
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+9 katlı
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.14
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.31
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.38
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.50
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.39
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.40
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.39
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+20 katlı
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.50
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.01
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.50
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.01
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.54
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.22
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.55
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.76
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Majid Mohammadi ve Bahram Kordbagh
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Mohammadi2017"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2017 yılında yapılan çalışmada, ötelenme, yüksek bina tasarımında baskın
+ bir özelliktir ve yapısal sistemlerin seçimini etkileyebileceği belirtilmiştir.
+ Yapısal hasarı kontrol etmek için gerçek ötelenmelerin güvenilir bir tahmini
+ hayati önem taşıdığından, karmaşık ayrıntıları göz önünde bulundurarak
+ ötelenmeyi tahmin etmek dikkate değerdir.
+ Güçlü depremler sırasında kat ötelenmesini tahmin etmek için, deprem tasarım
+ hükümleri genellikle elastik tasarım ötelenmelerini arttırmak için bir
+ ötelenme büyütme katsayısı (
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+) belirtir.
+ Bu yönetmeliklerin çoğunda, 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ miktarı, çubuk eleman modellerinden panel bölgesi etkilerini göz önünde
+ bulundurmadan hesaplanır.
+ Bu nedenle, mevcut makalede panel bölgesinin kat ötelenme ve 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ üzerindeki etkisi araştırılmıştır.
+ 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+, kat sayısından bağımsız olduğu için, 4 katlı çerçeve, panel bölgesinin
+ farklı kalınlıklarına sahip özel çelik moment çerçeveleri için ölçüt olarak
+ kullanılır.
+ Panel bölgesinin etkisi 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ için bir düzeltme katsayısı olarak sağlanır.
+ Sonuçlar, panel bölgesinin analitik modellerde dikkate alınması gerektiğini
+ göstermektedir; Aksi takdirde, kat ötelenmesi % 35'e kadar küçümsenmiş
+ olacaktır.
+ Son olarak, panel bölgesi kalınlığının bir fonksiyonu olarak 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ üzerindeki panel bölgesi etkilerini dikkate almak için Denklem
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:3-15"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 'de gösterilen bir ilişki elde edilmiştir.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\alpha=0.0136\left(\frac{d_{\mathrm{c}}}{t_{\mathrm{p}}}\right)+0.777\label{eq:3-14}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+burada 
+\begin_inset Formula $d_{\mathrm{c}}$
+\end_inset
+
+kolon kesitinin yüksekliği, 
+\begin_inset Formula $t_{\mathrm{p}}$
+\end_inset
+
+ise panel bölgesi kalınlığıdır.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+C_{\mathrm{d}}^{*}=\alpha\times C_{\mathrm{d}}\label{eq:3-15}
+\end{equation}
+
+\end_inset
+
+
 \end_layout
 
 \end_body

@@ -1031,10 +1031,6 @@ C=\alpha M+\beta K\label{eq:5-7}
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 Burada 
 \begin_inset Formula $α$
 \end_inset
@@ -1065,10 +1061,6 @@ noprefix "false"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 Burada 
 \begin_inset Formula $ω_{i}$
 \end_inset
@@ -1155,10 +1147,7 @@ literal "false"
 
  deprem kayıtlarının seçimini, tüm yapı tiplerine uygun olmasını ve farklı
  deprem bölgelerinde kullanılabilir olmasını göz önüne alarak yapmıştır.
-\end_layout
-
-\begin_layout Standard
-Çizelge 
+ Çizelge 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "Deprem_Kayıtları"

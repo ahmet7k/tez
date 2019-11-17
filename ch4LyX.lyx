@@ -97,11 +97,27 @@ name "CH4"
 
 \begin_layout Standard
 Parametrik çalışma kapsamında seçilen az,orta ve yüksek katlı binalar SAC
- projesi kapsamında kullanılan ve detayları FEMA 355-C teknik dökümanında
- verilen bina tipolojilerinde yararlanılmıştır.
+ (SEAOC,ATC,CUREe) projesi kapsamında kullanılan ve detayları FEMA 355-C
+ (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "FEMA-355C"
+literal "false"
+
+\end_inset
+
+) teknik dökümanında verilen bina tipolojilerinden yararlanılmıştır.
  Planda ve düşey kesitte herhangi bir düzensizlik içermeyen 3, 9 ve 20 katlı
  üç tipik moment dayanımlı çelik çerçeveli binalar rijit birleşim kabuli
- ile TBDY-2018 yönetmeliğinin tasarım şartları uyarınca kesitleri seçilmiştir.
+ ile TBDY-2018(
+\begin_inset CommandInset citation
+LatexCommand cite
+key "TBDY2018"
+literal "false"
+
+\end_inset
+
+) yönetmeliğinin tasarım şartları uyarınca kesitleri seçilmiştir.
  Kesit seçimi için amerikan geniş başlıklı profiller tercih edilmiştir,
  bu profillerin avrupa profillerinden avantajı daha çok kesit sayısının
  fazla olmasıdır, bu sebeple de tasarımda daha optimize edilmiş elemanlar
@@ -140,7 +156,7 @@ Parametrik çalışma için binalar, deprem yüklerinin tamamının yapının d�
 \begin_layout Standard
 9 katlı yapı her iki doğrultuda 5 açıklıklı kare bir plana sahiptir.
  Toplamda 
-\begin_inset Formula $45x45=2025m^{2}$
+\begin_inset Formula $45\times45=2025m^{2}$
 \end_inset
 
 'lik bir kat alanına ve 
@@ -228,7 +244,7 @@ i deprem yükleri sadece moment aktaran çerçeveler tarafından taşınmaktadı
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -253,7 +269,7 @@ name "fig:4.1"
 
 \end_inset
 
-Parametrik çalışmada kullanılan birleşim dönme rijitlikleri.
+3 katlı yapının plan ve A,G aksı kesiti.
 \end_layout
 
 \end_inset
@@ -271,7 +287,7 @@ Parametrik çalışmada kullanılan birleşim dönme rijitlikleri.
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -296,7 +312,7 @@ name "fig:4.2"
 
 \end_inset
 
-Parametrik çalışmada kullanılan birleşim dönme rijitlikleri.
+9 katlı yapının plan ve A,F aksı kesiti..
 \end_layout
 
 \end_inset
@@ -314,7 +330,7 @@ Parametrik çalışmada kullanılan birleşim dönme rijitlikleri.
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -339,7 +355,7 @@ name "fig:4.3"
 
 \end_inset
 
-Parametrik çalışmada kullanılan birleşim dönme rijitlikleri.
+20 katlı yapının plan ve A,G aksı kesiti.
 \end_layout
 
 \end_inset
@@ -384,6 +400,15 @@ literal "false"
 \end_inset
 
 ) yönetmeliği dikkate alınmıştır.
+ Tasarım ve analizler SAP2000 (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "SAP2000"
+literal "false"
+
+\end_inset
+
+) yazılımında yapılmıştır.
 \end_layout
 
 \begin_layout Standard
@@ -615,7 +640,7 @@ Burada
 \begin_layout Standard
 Yapılar ofis binası olarak tasarlandığı için 
 \emph on
-Bina Önem Katsayısı
+Bina Önem Katsayısı,
 \emph default
  
 \begin_inset Formula $I=1.0$
@@ -669,7 +694,7 @@ a bağlanması veya dolgu duvar elemanının çerçeveden bağımsız olması du
 \begin_inset Formula $\kappa$
 \end_inset
 
- çelik bina olduğu için 0.5 alınmıştır.
+ çelik binalar için 0.5 alınmıştır.
  Etkin göreli kat ötelemesi ise;
 \end_layout
 
@@ -2589,7 +2614,7 @@ noprefix "false"
  Bu seçimi Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:4.66"
+reference "fig:4.8"
 plural "false"
 caps "false"
 noprefix "false"
@@ -2626,7 +2651,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:4.66"
+name "fig:4.8"
 
 \end_inset
 
@@ -2647,26 +2672,31 @@ Parametrik çalışmada kullanılan birleşim dönme rijitlikleri.
 Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:4.67"
+reference "fig:4.9"
 plural "false"
 caps "false"
 noprefix "false"
 
 \end_inset
 
-'de, Link elemanlar ayrı birer elemanlar olarak tanımlanmıştır.
+'de, Link elemanlar ayrı birer eleman olarak tanımlanmıştır.
  Ayrıca, Link elemanı modellemesinde önemli bir nokta uzunluk tanımıdır.
- Analiz edilen tüm çerçeve durumlarda, Link elemanı uzunluğu 10 cm olarak
- seçilmiştir.
+ Tüm çerçeve analizlerinde, Link elemanı uzunluğu 10 cm olarak seçilmiştir.
  Bu varsayımın referansı, bazı gerçek birleşimlerin ve bunların yaklaşık
- uzunluklarının gözlemlenmesidir.
- Link Elemanlarının yüklenmesine gelince, kirişlerin tasarımında kullanılan
- aynı düşey yükler Link elemanlarına etkitilmiştir.
+ uzunluklarının gözlemlenmesi olmuştur.
+ Link elemanlarının yüklenmesi ise, kirişlerin tasarımında kullanılan aynı
+ düşey yükler Link elemanlarına etkitilmiştir.
+\end_layout
+
+\begin_layout Standard
+Bu çalışma kapsamında daha önce de bahsedildiği gibi yarı-rijit birleşimlerin
+ davranışını güçlü eksende eğilme yönetmektedir ve doğrusal olmayan kuvvetlerin
+ sadece güçlü eksen momenti ile birleşim davranışını etkilediği varsayılmıştır.
 \begin_inset Float figure
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -2687,11 +2717,137 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:4.67"
+name "fig:4.9"
 
 \end_inset
 
-Link eleman.
+Link elemanlar.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Kolonlar da ASCE 41-13 yönetmeliğinin önerdiği eksenel kuvvet-eğilme momenti
+ etkileşimli doğrusal olmayan davranış modeli kullanılmıştır.
+ Kirişlerin doğrusal olmayan davranışı için Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:4.10"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 'de gösterilen kesitlerin güçlü eksende eğilme davranışını modellendiği
+ moment-dönme ilişkisi ifade edilmiştir.
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/4_Parametrik Çalışma/Kiris_Mafsal.pdf
+	lyxscale 50
+	clip
+
+\end_inset
+
+ 
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:4.10"
+
+\end_inset
+
+Kiris elemanların doğrusal olmayan eğilme davranışı modeli.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Yarı rijit birleşimlerin modellenmesinde kullanılan link elemanların eğilme
+ davranışı Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:4.11"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 'de gösterilmiştir.
+ Burada dikkat çeken husus birleşimlerin kirişlerinden güçlü olduğudur.
+ Bu grafikte 
+\begin_inset Formula $M_{\mathrm{pb}}$
+\end_inset
+
+ birleşimin bağlandığı kirişin plastik moment kapasitesini, 
+\begin_inset Formula $\theta_{\mathrm{cy}}$
+\end_inset
+
+ise birleşimlerin birleşimin akma anındaki dönmesini göstermektedir.
+ Birleşimler için 0.02 dönme değerinde nihai moment kapasitesine ulaştığı
+ kabul edilmiştir.
+ Birleşimlerin nihai dönme değerleri için ise TBDY-2018 yönetmeliğinin süneklik
+ düzeyi yüksek kirişlerde kontrollü hasar için öngördüğü plastik dönme miktarıdı
+r.
+ Birleşimlerin pekleşme miktarı ise TBDY-2018 yönetmeliğince yapılan birleşimler
+in boyutlandırılmasında kullandığı pekleşme katsayısı olarak kabul edilmiştir.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/4_Parametrik Çalışma/Birlesim_Link.pdf
+	lyxscale 50
+	clip
+
+\end_inset
+
+ 
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:4.11"
+
+\end_inset
+
+Yarı rijit birleşimlerin doğrusal olmayan eğilme davranışı modeli.
 \end_layout
 
 \end_inset
