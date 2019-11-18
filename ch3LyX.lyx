@@ -454,10 +454,9 @@ Bağlılık katsayısı, bir yapının düşeyde her bir ana aksı doğrultusund
  hesaba katmak için tasarlanmıştır.
  Bu gibi viskoz bir sönümleme katsayısıları, akma anındaki bir çerçevede
  yer değiştirmeleri azaltmak için kullanılabilir ancak kuvvet taleplerini
- orantılı olarak azaltamayabilir-(,doğrusal olmayan davranış sergileyen
- çerçeve sistemindeki yer değiştirmeleri azaltmak için kullanılabilir, ancak
- özellikle yüksek sönümlü çerçevelerde kuvvet taleplerini orantılı olarak
- azaltamayabilir).
+ orantılı olarak azaltamayabilir,(doğrusal olmayan davranış sergileyen çerçeve
+ sistemindeki yer değiştirmeleri azaltmak için kullanılabilir, ancak özellikle
+ yüksek sönümlü çerçevelerde kuvvet taleplerini orantılı olarak azaltamayabilir).
  Tepki değiştirme katsayıları kuvvet temelli tasarım prosedürleriyle kullanıldığ
 ından sönümleme katsayısı yeni formülasyondan çıkarılmıştır.
 \begin_inset CommandInset citation
@@ -527,7 +526,7 @@ Dayanım fazlalığı katsayısı ile ilgili geçmiş çalışmalar
 \end_layout
 
 \begin_layout Subsubsection*
-Freeman
+Freeman 
 \end_layout
 
 \begin_layout Standard
@@ -843,7 +842,7 @@ El Centro, Kaliforniya Deprem kaydından elde ettikleri elastik ve elastik
 Periyotları yüksek ve orta periyot spektral bölgelerinde gelen yapıların
  elastik yer değiştirme değerinin elastik ötesi yer değiştirme değerine
  neredeyse eşit olduğunu (
-\begin_inset Formula $∆max\backsimeq∆e$
+\begin_inset Formula $∆_{\mathrm{max}}\backsimeq∆_{\mathrm{e}}$
 \end_inset
 
 ).
@@ -887,12 +886,12 @@ Orta periyotlu yapılarda ise enerjinin korunumu prensibi gereği, elastik
 
 \begin_layout Standard
 Çalışma sonucu birçok periyot aralığı için farklı 
-\begin_inset Formula $Rμ$
+\begin_inset Formula $R_{\mathrm{μ}}$
 \end_inset
 
  değerleri elde edilmiş ve belirli bir periyodun üzerindeki yapıların süneklik
  bileşeni (
-\begin_inset Formula $Rμ$
+\begin_inset Formula $R_{\mathrm{μ}}$
 \end_inset
 
 ) değerleri eşit yer değiştirme kuralına uygun şekilde yer değiştirme sünekliği
@@ -986,12 +985,12 @@ i, nihai yer değiştirmenin,
  ve tasarım deprem kuvvetindeki herhangi bir azalma, süneklik talebini artırarak
  telafi edilmelidir.
  Bu nedenle, 
-\begin_inset Formula $Fe$
+\begin_inset Formula $F_{\mathrm{e}}$
 \end_inset
 
  kuvveti tarafından tam olarak tarif edilen elastik talebin aksine, elastik
  olmayan talep, bir akma kuvveti 
-\begin_inset Formula $Fy$
+\begin_inset Formula $F_{\mathrm{y}}$
 \end_inset
 
  ve bir yer değiştirme sünekliği ile açıklanmaktadır.
@@ -1410,7 +1409,7 @@ literal "false"
 \begin_inset Formula $R$
 \end_inset
 
-'den daha küçük olduğu belirtilmiştir.
+ 'den daha küçük olduğu belirtilmiştir.
  Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1425,7 +1424,7 @@ noprefix "false"
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
- de dahil olmak üzere binalar için deprem performans katsayılarını inceler.
+'de dahil olmak üzere binalar için deprem performans katsayılarını inceler.
  
 \begin_inset Float figure
 placement H
@@ -1641,7 +1640,7 @@ Ortalma yer değiştirme arttırma katsayıları
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rotate="90" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1802,7 +1801,7 @@ SH = %5
 \begin_inset Text
 
 \begin_layout Plain Layout
-Tasarım
+Tasarım 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
@@ -2268,11 +2267,11 @@ burada
 \begin_inset Formula $d_{\mathrm{c}}$
 \end_inset
 
-kolon kesitinin yüksekliği, 
+ kolon kesitinin yüksekliği, 
 \begin_inset Formula $t_{\mathrm{p}}$
 \end_inset
 
-ise panel bölgesi kalınlığıdır.
+ ise panel bölgesi kalınlığıdır.
 \end_layout
 
 \begin_layout Standard

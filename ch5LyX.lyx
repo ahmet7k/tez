@@ -177,7 +177,7 @@ status open
 \begin_inset Graphics
 	filename Grafikler/5_Rijit ve Yarı-Rijit Çerçevelerin Deplasman Arttırma Katsayısının Belirlenmesi/Capacity_Spect.pdf
 	lyxscale 40
-	scale 120
+	scale 150
 
 \end_inset
 
@@ -1009,8 +1009,19 @@ Yapının doğrusal olmayan davranışını incelenmek üzere zaman tanım alan�
  Her bir çerçevenin kütle ve rijitlikle orantılı sönüm parametreleri için
  birinci ve kütle katılım oranının yüzde 95'i bulduğu periyotlar kullanılarak,
  bu iki periyot arasındaki sönüm oranın %5'den düşük olduğu göre belirlenmiştir.
- Rayleigh sönümünde sönüm matrisi (C), kütle matrisi (M) ve rijitlik matrisi
- (K)’nın ve Denklem 
+ Rayleigh sönümünde sönüm matrisi 
+\begin_inset Formula $\mathbf{C}$
+\end_inset
+
+, kütle matrisi 
+\begin_inset Formula $\mathbf{M}$
+\end_inset
+
+ ve rijitlik matrisi 
+\begin_inset Formula $\mathbf{K}$
+\end_inset
+
+’nın ve Denklem 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:5-7"
@@ -1026,17 +1037,17 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-C=\alpha M+\beta K\label{eq:5-7}
+\mathbf{C}=a_{0}\mathbf{M}+a_{1}\mathbf{K}\label{eq:5-7}
 \end{equation}
 
 \end_inset
 
 Burada 
-\begin_inset Formula $α$
+\begin_inset Formula $a_{0}$
 \end_inset
 
  ve 
-\begin_inset Formula $β$
+\begin_inset Formula $a_{1}$
 \end_inset
 
  sırasıyla kütle ve rijitlik matrisi katsayıları olup doğal frekanslara
@@ -1056,7 +1067,7 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\alpha=\xi\frac{2\omega_{i}\omega_{j}}{\omega_{i}+\omega_{j}},\hspace{1cm}\beta=\xi\frac{2}{\omega_{i}+\omega_{j}}\label{eq:5-8}
+a_{0}=\xi\frac{2\omega_{i}\omega_{j}}{\omega_{i}+\omega_{j}},\hspace{1cm}a_{1}=\xi\frac{2}{\omega_{i}+\omega_{j}}\label{eq:5-8}
 \end{equation}
 
 \end_inset
@@ -1113,7 +1124,11 @@ literal "false"
 \end_layout
 
 \begin_layout Itemize
-büyük magnitüdlere sahip deprem kayıtlarını kullanmayı, M ≥ 6.5, 
+büyük magnitüdlere sahip deprem kayıtlarını kullanmayı, 
+\begin_inset Formula $M_{w}≥6.5$
+\end_inset
+
+, 
 \end_layout
 
 \begin_layout Itemize
@@ -1122,8 +1137,11 @@ sına sahip deprem kayıtları kullanmayı,
 \end_layout
 
 \begin_layout Itemize
-hem kaya, hem de sert zeminde kaydedilmiş deprem kayıtları kullanmayı (Vs
- >180 m/s ), 
+hem kaya, hem de sert zeminde kaydedilmiş deprem kayıtları kullanmayı (
+\begin_inset Formula $V_{\mathrm{S}}>180m/s$
+\end_inset
+
+ ), 
 \end_layout
 
 \begin_layout Itemize
@@ -1132,7 +1150,15 @@ her depremden belirli kayıt sayısı kullanmayı (bir deprem için en fazla
 \end_layout
 
 \begin_layout Itemize
-güçlü deprem kayıtları kullanmayı, PGA > 0.2g ve PGV >15cm / s .
+güçlü deprem kayıtları kullanmayı, 
+\begin_inset Formula $PGA>0.2g$
+\end_inset
+
+ ve 
+\begin_inset Formula $PGV>15cm/s$
+\end_inset
+
+ .
  
 \end_layout
 
@@ -1191,10 +1217,10 @@ literal "false"
  periyotları arasındaki genliklerinin, tanımlanan tasarım spektrumunun aynı
  periyot aralığındaki genliklerinden daha küçük olmaması koşulu göz önünde
  bulundurularak, deprem yer hareketlerinin genlikleri ölçeklendirilmiştir.
- Ölçeklendirilen gerçek deprem kayıtlarının ölçeklendirme katsayıları 
+ Ölçeklendirilen gerçek deprem kayıtlarının ölçeklendirme katsayıları EK
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "chap:EK-B.1"
+reference "chap:EK-B"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1204,7 +1230,7 @@ noprefix "false"
 'de Çizelge 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "Olceklendirme_Katsayıları-1"
+reference "Olceklendirme_Katsayıları"
 plural "false"
 caps "false"
 noprefix "false"

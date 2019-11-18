@@ -325,7 +325,7 @@ Birleşimin dönme deformasyonu, bağlantı elemanlarının (bulonlar, alın lev
 \uwave default
 \noun default
 \color inherit
-ve 
+ ve 
 \family roman
 \series medium
 \shape up
@@ -363,13 +363,66 @@ ve
 
 \end_inset
 
-Bu deforme olabilirlik(deformasyon durumu), sadece kirişin başlıkları tarafından
- aktarılan ve kirişe etki eden eğilme momentine (M) statik olarak eşdeğer
- olan kuvvet çiftleri nedeniyledir, z kol kolunu göstermektedir.
- Günümüzde sıklıkla kullanılan bazı birleşim tipleri Şekil 
+Bu deforme olabilirlik, sadece kirişin başlıkları tarafından aktarılan ve
+ kirişe etki eden eğilme momentine statik olarak eşdeğer olan kuvvet çiftleri
+ nedeniyledir, z kuvvet kolunu göstermektedir.
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/2_Yarı-Rijit Birleşimler/Joint_Donme.pdf
+	lyxscale 50
+
+\end_inset
+
+
+\begin_inset VSpace 12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:2.3"
+
+\end_inset
+
+Kolon-Kiriş Birleşim Tipleri
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CharalambosCBaniotopoulos2000"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Günümüzde sıklıkla kullanılan bazı birleşim tipleri Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:2.3"
+reference "fig:2.4"
 plural "false"
 caps "false"
 noprefix "false"
@@ -390,7 +443,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename TikZ/kolon-kiris birlesimler.pdf
+	filename Grafikler/2_Yarı-Rijit Birleşimler/kolon-kiris birlesimler.pdf
 	lyxscale 50
 
 \end_inset
@@ -408,7 +461,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:2.3"
+name "fig:2.4"
 
 \end_inset
 
@@ -453,7 +506,7 @@ leri incelemek yeterli olacaktır, bu parametreler rijitlik, dayanım(taşıma
 Yaygın olarak kullanılan birleşimlerin moment dönme ilişkileri Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:2.4"
+reference "fig:2.5"
 plural "false"
 caps "false"
 noprefix "false"
@@ -502,7 +555,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:2.4"
+name "fig:2.5"
 
 \end_inset
 
@@ -545,7 +598,7 @@ Esnek veya yarı-rijit birleşimlere sahip kirişin performans davranışı üze
  bir yöntem ile göz önüne alındığında, A ucundaki moment, Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:2.5"
+reference "fig:2.6"
 plural "false"
 caps "false"
 noprefix "false"
@@ -565,7 +618,7 @@ noprefix "false"
 'de gösterildiği gibi tanımlanır.
 \begin_inset Formula 
 \begin{equation}
-M_{A}=\frac{4EI}{L}\theta_{A}+\frac{2EI}{L}\theta_{B}\label{eq:denklem2-3}
+M_{\mathrm{A}}=\frac{4EI}{L}\theta_{\mathrm{A}}+\frac{2EI}{L}\theta_{\mathrm{B}}\label{eq:denklem2-3}
 \end{equation}
 
 \end_inset
@@ -611,7 +664,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:2.5"
+name "fig:2.6"
 
 \end_inset
 
@@ -633,7 +686,7 @@ Düzgün düşey yüke sahip iki ucundan ankastre mesnetle tutulu kiriş için,
  Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:2.6"
+reference "fig:2.7"
 plural "false"
 caps "false"
 noprefix "false"
@@ -653,7 +706,7 @@ noprefix "false"
  olarak tanımlanır.
 \begin_inset Formula 
 \begin{equation}
-M_{A,Ankastre}=-\frac{wL^{2}}{12}\label{eq:Denklem2-4}
+M_{\mathrm{A,Ankastre}}=-\frac{wL^{2}}{12}\label{eq:Denklem2-4}
 \end{equation}
 
 \end_inset
@@ -691,7 +744,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:2.6"
+name "fig:2.7"
 
 \end_inset
 
@@ -743,7 +796,7 @@ noprefix "false"
 ' de gösterildiği gibi tanımlanır.
 \begin_inset Formula 
 \begin{equation}
-M_{A}=\frac{2EI}{L}\theta-\frac{wL^{2}}{12}\label{eq:Denklem2-5}
+M_{\mathrm{A}}=\frac{2EI}{L}\theta-\frac{wL^{2}}{12}\label{eq:Denklem2-5}
 \end{equation}
 
 \end_inset
@@ -771,7 +824,7 @@ Ankastre uçlu bir kiriş için, dönme sıfıra eşit olarak değerlendirildiğ
  A ucundaki moment aşağıdaki şekilde hesaplanır:
 \begin_inset Formula 
 \begin{equation}
-M_{A}=\frac{2EI}{L}\left(0\right)-\frac{wL^{2}}{12}\rightarrow M_{A}=-\frac{wL^{2}}{12}\label{eq:Denklem2-7}
+M_{\mathrm{A}}=\frac{2EI}{L}\left(0\right)-\frac{wL^{2}}{12}\rightarrow M_{\mathrm{A}}=-\frac{wL^{2}}{12}\label{eq:Denklem2-7}
 \end{equation}
 
 \end_inset
@@ -799,7 +852,7 @@ noprefix "false"
 , Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:2.7"
+reference "fig:2.8"
 plural "false"
 caps "false"
 noprefix "false"
@@ -836,7 +889,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:2.7"
+name "fig:2.8"
 
 \end_inset
 
@@ -857,7 +910,7 @@ Kiriş için Moment-Dönme Çizgisi
 Birleşimdeki moment, Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:2.8"
+reference "fig:2.9"
 plural "false"
 caps "false"
 noprefix "false"
@@ -914,7 +967,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:2.8"
+name "fig:2.9"
 
 \end_inset
 
@@ -935,7 +988,7 @@ Birleşim için Moment-Dönme Diyagramı
 Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:2.8"
+reference "fig:2.9"
 plural "false"
 caps "false"
 noprefix "false"
@@ -948,7 +1001,7 @@ r.
  Gerçekte durumda birleşim Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:2.8"
+reference "fig:2.9"
 plural "false"
 caps "false"
 noprefix "false"
@@ -960,7 +1013,7 @@ noprefix "false"
  Kiriş ve birleşim eğrilerinin üst üste getirilmesi durumunda, Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:2.9"
+reference "fig:2.10"
 plural "false"
 caps "false"
 noprefix "false"
@@ -995,7 +1048,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:2.9"
+name "fig:2.10"
 
 \end_inset
 
@@ -1122,7 +1175,7 @@ noprefix "false"
  Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:2.10"
+reference "fig:2.11"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1133,7 +1186,7 @@ noprefix "false"
  Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:2.10"
+reference "fig:2.11"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1203,7 +1256,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:2.10"
+name "fig:2.11"
 
 \end_inset
 
@@ -1227,7 +1280,7 @@ Geschwinder, 1991 yılındaki çalışmasında kiriş çizgisi ile birleştirile
  eğrisi Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:2.11"
+reference "fig:2.12"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1240,7 +1293,7 @@ noprefix "false"
  Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:2.11"
+reference "fig:2.12"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1287,7 +1340,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:2.11"
+name "fig:2.12"
 
 \end_inset
 
@@ -1361,7 +1414,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:2.12"
+name "fig:2.13"
 
 \end_inset
 
@@ -1402,11 +1455,11 @@ Birleşim Rijitliği
 
 \begin_layout Standard
 Birleşimin doğrusal olmayan davranışı düşük moment dönme seviyelerinde bile
- kendini gösterir, bağlantının başlangıç rijitliği 
+ kendini gösterir, başlangıç rijitliği 
 \begin_inset Formula $K_{\mathrm{i}}$
 \end_inset
 
-, düşük moment seviyelerinde düğüm noktası tepkisini yeterli şekilde ifade
+, düşük moment seviyelerinde birleşimin tepkisini yeterli şekilde ifade
  edemez.
  Servis yüklerinde sekant rijitliği 
 \begin_inset Formula $K_{\mathrm{s}}$
@@ -1415,7 +1468,7 @@ Birleşimin doğrusal olmayan davranışı düşük moment dönme seviyelerinde 
 , birleşim rijitliğinin gerçek davranışını ifade eder(
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:2.13"
+reference "fig:2.14"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1460,8 +1513,8 @@ Burada;
 \end_inset
 
  ise, birleşimin mafsallı olduğu kabul edilebilir.
- Bu iki limit arasındaki rijitlikdeki bağlantılar yarı-rijit olduğu ve bağlantın
-ın rijitliği, dayanıklılığı ve sünekliği tasarımda dikkate alınmalıdır.
+ Bu iki limit arasındaki rijitlikdeki birleşimler yarı-rijit olduğu ve birleşimi
+n rijitliği, dayanımı ve sünekliği tasarımda dikkate alınmalıdır.
  
 \begin_inset Float figure
 placement h
@@ -1490,7 +1543,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:2.13"
+name "fig:2.14"
 
 \end_inset
 
@@ -1515,7 +1568,7 @@ Birleşim Dayanımı
 Bir birleşimin dayanımı, Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:2.13"
+reference "fig:2.14"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1526,29 +1579,29 @@ noprefix "false"
 \begin_inset Formula $M_{n}$
 \end_inset
 
-, taşıyabileceği maksimum momenttir.
+, taşıyabileceği en büyük momenttir.
  Bir birleşimin dayanımı, nihai sınır durumu modeline veya fiziksel testlere
  dayanarak belirlenebilir.
  Moment-dönme tepkisi herhangi bir maksimum yük göstermiyorsa, dayanım 0.02
- radyan'lık bir dönme değerinde ki moment olarak alınabilir (Hsieh ve Deierlein,
+ radyan'lık bir dönme değerindeki moment olarak alınabilir (Hsieh ve Deierlein,
  1991; Leon ve diğ., 1996).
 \end_layout
 
 \begin_layout Standard
-Birleşimin basit bir bağlantı olarak değerlendirilebileceği daha düşük bir
- dayanım sınırının belirlenmesi de faydalıdır.
+Birleşimin basit olarak değerlendirilebileceği bir alt dayanım sınırının
+ belirlenmesi de faydalıdır.
  Kirişin eğilme momenti dayanımının % 20'sinden daha az bir dayanıma sahip
  ve bu dayanımda 0.02 radyan'lık bir dönme gösteren bileşimlere tasarım için
  eğilme dayanımının olmadığı kabul edilebilir.
  Ancak, birçok zayıf eksen birleşimin toplam dayanımının, birkaç güçlü eksen
- birleşimine kıyasla önemli olabileceği göz ardı edilmelidir (FEMA, 1997).
+ birleşimine kıyasla önemli olabileceği göz ardı edilmelidir.
 \end_layout
 
 \begin_layout Standard
 Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:2.14"
+reference "fig:2.15"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1559,18 +1612,17 @@ noprefix "false"
 \begin_inset Formula $M_{n}$
 \end_inset
 
- ile işaretli noktalar, örnek bağlantıların nihai dayanım durumlarını göstermekt
-edir.
- 
-\begin_inset Formula $M_{u}$
+ ile işaretli noktalar, örnek bağlantıların nihai dayanım durumlarını gösterirke
+n, 
+\begin_inset Formula $\theta_{u}$
 \end_inset
 
- ile işaretli noktalar, örnek birleşimlerin maksimum dönme durumlarını gösterir.
+ ile işaretli noktalar, örnek birleşimlerin en büyük dönme durumlarını gösterir.
  Tam dayanımlı bir birleşim bağlandığı kirişin dayanımından daha az bir
  dayanıma sahip olabileceği gibi kısmi dayanımlı bir birleşiminin bağlandığı
  kirişin dayanımından daha büyük bir dayanıma sahip olması da mümkündür.
  Birleşimin dayanımı, tasarım yüklerinin gerektirdiği moment taleplerine
- karşı koymak için yeterli olmalıdır.[AISC 360-16] 
+ karşı koymak için yeterli olmalıdır.
 \begin_inset Float figure
 placement h
 wide false
@@ -1598,7 +1650,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:2.14"
+name "fig:2.15"
 
 \end_inset
 
@@ -1630,29 +1682,27 @@ Birleşim dayanımı kirişin tam plastik moment dayanımını büyük ölçüde
 \end_layout
 
 \begin_layout Standard
-Kiriş dayanımı bağlantı dayanımını aşarsa, deformasyonlar bağlantıda konsantre
+Kirişin dayanımı birleşim dayanımını aşarsa, deformasyonlar birleşimde konsantre
  olabilir.
- Bir birleşimin gerekli sünekliği, özel uygulamaya bağlı olacaktır.
+ Bir birleşimin gerekli sünekliği, özel detaylandırmalara bağlı olacaktır.
  Örneğin, deprem tehlikesi olmayan bir alanda yatay ötelenmesi tutulmuş
  (çaprazlı) bir çerçeve için süneklik gereksinimi, genellikle deprem tehlikesi
  yüksek bir alanda gerekli süneklikten daha az olacaktır.
- Deprem tasarımı için dönme, süneklik gereksinimleri yapısal sisteme bağlıdır
- (AISC, 2016b).
- 
+ Deprem tasarımı için dönme, süneklik gereksinimleri yapısal sisteme bağlıdır.
 \end_layout
 
 \begin_layout Standard
 Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:2.13"
+reference "fig:2.14"
 plural "false"
 caps "false"
 noprefix "false"
 
 \end_inset
 
-'de, dönme kapasitesi,
+'de, dönme kapasitesi, 
 \begin_inset Formula $\theta_{u}$
 \end_inset
 
@@ -1660,16 +1710,14 @@ noprefix "false"
 \begin_inset Formula $0.8M_{n}$
 \end_inset
 
-'ye düştüğü noktadaki birleşimin dönme değeri olarak tanımlanabilir veya
- birleşim 
+'ye düştüğü noktadaki birleşimin dönme değeri olarak veya birleşimin 
 \begin_inset Formula $0.03$
 \end_inset
 
- radyanın ötesinde deforme oldu.
+ radyanın ötesinde deforme olduğu değer olarak tanımlanabilir.
  Bu ikinci kriter, çok büyük dönmeler meydana gelinceye kadar dayanım kaybının
- olmadığı birleşimlere uygulanmaya yöneliktir.
- Tasarımdaki bu büyük dönüşlere güvenmek akıllıca değildir.
- 
+ olmadığı birleşimlere yöneliktir.
+ Tasarımda bu büyük dönme değerlerine güvenmek akılcı değildir.
 \end_layout
 
 \begin_layout Standard
@@ -1678,11 +1726,11 @@ Mevcut dönme kapasitesi
 \end_inset
 
 , birleşimin doğrusal olmayan davranışını hesaba katan bir analiz tarafından
- belirlenen, dayanım sınırında gerekli olan dönme ile karşılaştırılmalıdır.
+ belirlenir ve dayanım sınırında gerekli olan dönme ile karşılaştırılmalıdır.
  Doğru bir analiz yapılmadığında, 0,03 radyan'lık bir dönme kapasitesinin
  yeterli olduğu kabul edilir.
  Bu dönme, özel moment çerçeveleri için sismik koşullarda belirtildiği gibi
- minimum kiriş-kolon birleşim kapasitesine eşittir (AISC, 2016b).
+ minimum kiriş-kolon birleşim kapasitesine eşittir.
 \end_layout
 
 \begin_layout Subsection
@@ -1745,7 +1793,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:2.15"
+name "fig:2.16"
 
 \end_inset
 
@@ -1864,7 +1912,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:2.16"
+name "fig:2.17"
 
 \end_inset
 
@@ -1882,12 +1930,12 @@ Dayanıma Göre Sınıflandırma Sınırları
 \end_layout
 
 \begin_layout Standard
-Tam Dayanımlı Birleşim: Tasarım dayanımı, bağlı olduğu elemanlarınkinden
+Tam dayanımlı birleşim: Tasarım dayanımı, bağlı olduğu elemanlarınkinden
  daha az olmamalıdır.
  Birleşim, Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:2.16"
+reference "fig:2.17"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1899,7 +1947,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-Mafsallı Birleşim: Elemanları veya yapıyı bir bütün olarak olumsuz yönde
+Mafsallı birleşim: Elemanları veya yapıyı bir bütün olarak olumsuz yönde
  etkileyen önemli momentler geliştirmeden, iç kuvvetleri aktarabilmelidir.
  Mafsallı bir birleşim, tasarım yükleri altında ortaya çıkan dönmeleri karşılaya
 bilmelidir(üstlenebilmelidir).
@@ -1913,7 +1961,7 @@ bilmelidir(üstlenebilmelidir).
 \end_layout
 
 \begin_layout Standard
-Kısmi Dayanımlı Birleşim: Tam dayanımlı veya mafsallı birleşim kriterlerini
+Kısmi dayanımlı birleşim: Tam dayanımlı veya mafsallı birleşim kriterlerini
  karşılamayan bir birleşim kısmi dayanımlı bir birleşim olarak sınıflandırılır.
 \end_layout
 
@@ -1922,7 +1970,7 @@ Türkiye Çelik Yapıların Tasarım Hesap ve Yapımına Dair Esaslar Yönetmeli
  
 \begin_inset CommandInset citation
 LatexCommand cite
-key "ÇYTHYEY"
+key "CYTHYEY"
 literal "false"
 
 \end_inset
@@ -1938,7 +1986,7 @@ Türkiye Çelik Yapılar Yönetmeliği, birleşimleri mafsallı ve moment aktara
 \end_layout
 
 \begin_layout Standard
-Mafsallı Birleşimler: Eğilme momentinin sıfır veya sıfıra yakın olduğu,
+Mafsallı birleşimler: Eğilme momentinin sıfır veya sıfıra yakın olduğu,
  buna karşılık birleşen elemanlar arasında göreli dönme hareketine izin
  veren birleşimlerdir.
  Bu birleşimlerin dönme kapasitesi, yapısal analiz ile hesaplanan gerekli
@@ -1949,19 +1997,19 @@ Mafsallı Birleşimler: Eğilme momentinin sıfır veya sıfıra yakın olduğu,
 \end_layout
 
 \begin_layout Standard
-Moment Aktaran Birleşimler: Moment aktaran birleşimler,rijit moment aktaran
+Moment aktaran birleşimler: Moment aktaran birleşimler,rijit moment aktaran
  ve yarı rijit (elastik) moment aktaran birleşimler olarak ikiye ayrılmaktadır.
  
 \end_layout
 
 \begin_layout Standard
-Rijit Moment Aktaran Birleşimler: Birleşen elemanlar arasındaki göreli dönme
+Rijit moment aktaran birleşimler: Birleşen elemanlar arasındaki göreli dönme
  hareketinin tam olarak sınırlandırıldığı ve göreli dönme hareketinin sıfır
  olmasını sağlayacak yeterli dayanım ve rijitliğe sahip olacaktır.
 \end_layout
 
 \begin_layout Standard
-Yarı Rijit Moment Aktaran Birleşimler: Birleşen elemanlar arasındaki göreli
+Yarı rijit moment aktaran birleşimler: Birleşen elemanlar arasındaki göreli
  dönme hareketinin tam olarak sınırlandırılmadığı bu durumda yapı sistemlerinin
  analizi için geliştirilen analitik modellerde, birleşimlerin kuvvet-şekildeğişt
 irme davranışını göz önüne alacak şekilde oluşturulacaktır.
@@ -2017,20 +2065,20 @@ Avustralya Çelik Yapılar Standardı birleşimleri, mafsallı birleşim, rijit
 \end_layout
 
 \begin_layout Standard
-Rijit Birleşim: Bu birleşimler, görel dönmenin olmadığı birleşimlerdir.
+Rijit birleşim: Bu birleşimler, görel dönmenin olmadığı birleşimlerdir.
  Bu tür bağlantıların, kiriş ucu ile bağlı elemanlar arasındaki açıyı korumak
  için yeterli rijitliğe sahip olduğu varsayılmaktadır.
  
 \end_layout
 
 \begin_layout Standard
-Basit Birleşim: Bu birleşim kiriş uçlarında eğilme momentlerinin oluşmadığı
+Basit birleşim: Bu birleşim kiriş uçlarında eğilme momentlerinin oluşmadığı
  ve kirişlerin mafsallı bir şekilde mesnetlendiği varsayılmaktadır.
  
 \end_layout
 
 \begin_layout Standard
-Yarı-Rijit Birleşim: Bu birleşimler, sınırlı ve kontrollü bir rijitlik sağlamak
+Yarı rijit birleşim: Bu birleşimler, sınırlı ve kontrollü bir rijitlik sağlamak
  için özel olarak tasarlanmıştır.
  Seçilen birleşim rijitliği kullanılarak kiriş, elastik birleşimli bir çerçeveni
 n parçası olarak tasarlanmıştır.
@@ -2072,19 +2120,19 @@ Mafsallı: Mafsallı birleşim kirişlerin ve tali kirişlerin uçlarının yük
 \end_layout
 
 \begin_layout Standard
-Yarı-Rijit: Bu birleşimde, bağlı elemanlar arasındaki açılar, uygulanan
+Yarı rijit: Bu birleşimde, bağlı elemanlar arasındaki açılar, uygulanan
  eğilme momentleri altında değişir ayrıca yanal yüklere karşı yeterli stabilites
 ini sağlamak için yeterli kapasiteyi koruyarak, elemanlar arasındaki momentleri
  yeniden dağıtabilir.
 \end_layout
 
 \begin_layout Standard
-Ayrıca yarı-rijit çerçevelerin tasarımı ve inşaası aşağıdaki gereklilikleri
+Ayrıca yarı rijit çerçevelerin tasarımı ve inşaası aşağıdaki gereklilikleri
  karşılayacaktır:
 \end_layout
 
 \begin_layout Itemize
-Birleşimlerin maksimum kapasitelerine kadar moment / dönme tepkisi, test
+Birleşimlerin en büyük kapasitelerine kadar moment - dönme tepkisi, test
  ile oluşturulmuş ve teknik literatürde yayınlanmış veya saygın bir test
  laboratuarından alınmalıdır.
  
@@ -2110,7 +2158,7 @@ Hindistan Ulusal Yapı Standardı
 
 \begin_layout Standard
 2016 yılında yüyürlüğe giren yönetmelik kolon-kiriş birleşimlerini, basit,
- rijit ve yarı-rijit olarak üç gruba ayırır.
+ rijit ve yarı rijit olarak üç gruba ayırır.
  Birleşimler nihai dayanımlarına göre veya başlangıç elastik rijitliklerine
  ve Bjorhovde sınıflandırmasına göre sınıflandırılır.
  Boyutsuz moment parametresini (
@@ -2244,7 +2292,7 @@ Rijit
 \begin_inset Text
 
 \begin_layout Plain Layout
-Yarı-Rijit
+Yarı rijit
 \end_layout
 
 \end_inset
@@ -2322,7 +2370,7 @@ Mafsallı
 \end_layout
 
 \begin_layout Standard
-Rijit Birleşimler: Yüksek katlı ve ince yapılarda rijitlik gereklilikleri
+Rijit birleşimler: Yüksek katlı ve ince yapılarda rijitlik gereklilikleri
  rijit bağlantıların kullanılmasını zorunlu kılabilir.
  Rijit birleşimler kolonlara önemli miktarda momen aktarır ve birleşimdeki
  deformasyonların çok küçük kaldığı varsayılır.
@@ -2334,7 +2382,7 @@ Rijit Birleşimler: Yüksek katlı ve ince yapılarda rijitlik gereklilikleri
 \end_layout
 
 \begin_layout Standard
-Mafsallı Birleşimler: Yalnızca bazı eksantriklik derecelerinde kaymayı transfer
+Mafsallı birleşimler: Yalnızca bazı eksantriklik derecelerinde kaymayı transfer
  ettiği varsayılır ve yaklaşık beş kat yüksekliğine kadar olan çerçevelerde
  kullanılır.
  Bu gibi çerçevelerde, yatay yüke dirençli bir sistem, çaprazlar veya perde
@@ -2344,7 +2392,7 @@ Mafsallı Birleşimler: Yalnızca bazı eksantriklik derecelerinde kaymayı tran
 \end_layout
 
 \begin_layout Standard
-Yarı-Rijit Birleşimler: Yukarıda belirtilen iki tip arasında yer almaktadır.
+Yarı rijit birleşimler: Yukarıda belirtilen iki tip arasında yer almaktadır.
  Gerçekte, mafsallı birleşimler, yarı-rijit birleşimlerde olduğu gibi bir
  dereceye kadar dönme rijitliğine sahiptir.
  Birleşimlerin moment-dönme ilişkisi, özel tasarım için yapılan deneylere
@@ -2360,7 +2408,7 @@ Yarı-Rijit Birleşimler: Yukarıda belirtilen iki tip arasında yer almaktadır
 \end_layout
 
 \begin_layout Standard
-2002 yılında basılan yönetmeliğe göre Yapının sismik analizini yaparken,
+2002 yılında basılan yönetmeliğe göre yapının sismik analizini yaparken,
  kat döşemesi düzlemi ve çatının deformasyon durumuna göre rijit, yarı-rijit
  ve esnek çapraz fıçı tahtası(clapboard) karar verilir, daha sonra, yatay
  ötelenmesi tutulmuş (çaprazlı çerçeve) sistemin düzenlemesine göre yatay
@@ -2413,7 +2461,7 @@ noprefix "false"
  başlığı ve birleşimler Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:2.17"
+reference "fig:2.18"
 plural "false"
 caps "false"
 noprefix "false"
@@ -2465,7 +2513,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:2.17"
+name "fig:2.18"
 
 \end_inset
 
@@ -2491,7 +2539,7 @@ Yarı rijit birleşimli çelik çerçevelerin analizlerinde moment dönme ilişk
  ifade eden eğriler matematiksel olarak Şekil
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:2.18"
+reference "fig:2.19"
 plural "false"
 caps "false"
 noprefix "false"
@@ -2532,7 +2580,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:2.18"
+name "fig:2.19"
 
 \end_inset
 
@@ -2574,7 +2622,7 @@ Sonlu eleman modeller
 Deneysel modeller 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Matematik Modeller
 \end_layout
 
@@ -2670,7 +2718,7 @@ literal "false"
  
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Analitik Modeller
 \end_layout
 
@@ -2804,7 +2852,7 @@ literal "false"
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Mekanik Modeller
 \end_layout
 
@@ -2889,20 +2937,20 @@ Bir düğüm noktası genellikle bir bütün olarak kabul edilir ve buna göre
  Birleşim davranışın genel tahmini aşağıdaki sekiz bileşenle ifade edilir:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Bileşen metodunun uygulanması, aşağıdaki adımları gerektirir: 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Düşünülen bağlantı için aktif bileşenlerin tanımlanması
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Her bir temel bileşen için rijitlik ve / veya dayanım özelliklerinin değerlendir
 ilmesi (başlangıç dönme rijitliği, tasarım dayanımı, deformasyon eğrisi)
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Tüm bileşenlerin birleşitirilmesi ve tüm bağlantının rijitliği ve / veya
  dayanım özelliklerinin değerlendirilmesi (başlangıç dönme rijitliği, tasarım
  dayanımı, deformasyon eğrisi)
@@ -2923,7 +2971,7 @@ literal "false"
 n hem eğilme dayanımı hem de dönme rijitliğini öngörmüştür.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Sonlu Eleman Modeller
 \end_layout
 
@@ -2996,7 +3044,7 @@ literal "false"
  gösterilebilir..
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Deneysel Modeller
 \end_layout
 
@@ -3047,7 +3095,7 @@ literal "false"
 , 1951 ve 1985 yılları arasında 70'den fazla deneysel çalışma için bir literatür
  taraması yaptı.
  Nethercot veri bankası, Goverdhan tarafından gövdesinde korniyer olan ve
- olmayan t-stub(yarı I kesitli) bağlantı terstlerini içerir.
+ olmayan t-stub(yarım I kesit) bağlantı terstlerini içerir.
 \end_layout
 
 \begin_layout Standard
@@ -3210,13 +3258,17 @@ SAC raporunda yarı rijit bağlantılı iki SAC binasının sismik performansı
  üzerine Maison ve Kasai tarafından bir çalışma yapılmıştır.
  Çalışmada Los Angeles, Kaliforniya için 3 katlı bina ve Seattle, Washington
  için 9 katlı bina ele alınmıştır.
- Kısmş dayanımlı bağlantılı çerçeveler, tam dayanımlı (rijit) bağlantılara
+ Kısmi dayanımlı bağlantılı çerçeveler, tam dayanımlı (rijit) bağlantılara
  sahip orijinal çerçevelerle karşılaştırılmıştır.
- Dinamik analiz için,% 10'luk aşılma olasılığına uyacak şekilde ölçeklendirilmiş
- üç adet 20 zemin hareket kaydı seti, 50 yıldaki % 2'lik aşılma olasılığına
- ve % 50'dekine ulaşılma olasılığına uygulanmıştır.
+ Dinamik analiz için,% 10 'luk aşılma olasılığına uyacak şekilde ölçeklendirilmi
+ş üç adet 20 zemin hareket kaydı seti, 50 yıldaki % 2 'lik aşılma olasılığına
+ ve %50 'dekine ulaşılma olasılığına uygulanmıştır.
  Yarı-rijit birleşimli binaların rijit birleşimli binalarla benzer sünek
  performans gösterdiği ve daha fazla bağlılığa sahip olduğu görülmüştür.
+\end_layout
+
+\begin_layout Standard
+NOT:detaylı anlatılacak
 \end_layout
 
 \begin_layout Section
@@ -3234,16 +3286,16 @@ Moment dayanımlı bağlantıların bir başka sınıflandırması da dayanımla
  Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:2.19"
+reference "fig:2.20"
 plural "false"
 caps "false"
 noprefix "false"
 
 \end_inset
 
-, kiriş-kolon bağlantısının moment-dönme diyagramını göstermektedir.
+, kolon-kiriş bağlantısının moment-dönme diyagramını göstermektedir.
  Tasarım amaçları için, gerçek bağlantı davranışı, aşağıdaki özelliklerin
- ayırt edilebildiği bir bi-lineer veya üç-lineer diyagramla gösterilebilir:
+ ayırt edilebildiği bir bi-lineer diyagramla gösterilebilir:
 \end_layout
 
 \begin_layout Itemize
@@ -3269,7 +3321,7 @@ Birleşimlerin çerçeve davranışı üzerindeki etkisi, kısmi dayanımlı ve 
  yatay ötelenmesi tutulmamış çerçeveler (moment çerçeveleri) genellikle
  stabilite ve deformasyon koşullarına göre tasarlanır.
  Bu nedenle, kısmi dayanımlı birleşimler esasen çaprazlı çerçeveler için
- ve yarı-rijit birleşimli moment çerçeveleri için uygulanabilir.
+ ve yarı rijit birleşimli moment çerçeveleri için uygulanabilir.
  
 \begin_inset Float figure
 placement h
@@ -3298,7 +3350,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:2.19"
+name "fig:2.20"
 
 \end_inset
 
@@ -3355,10 +3407,6 @@ literal "false"
 
 \begin_layout Subsubsection*
 AISC Yönetmeliği
-\end_layout
-
-\begin_layout Standard
-AISC 360-16
 \begin_inset CommandInset citation
 LatexCommand cite
 key "AISC360-16"
@@ -3366,8 +3414,12 @@ literal "false"
 
 \end_inset
 
- yönetmeliğinde yapının düğüm noktalarında plastik mafsallar oluşup sistemin
- bu şekilde enerji sönümlemesine izin verilmez.
+ 
+\end_layout
+
+\begin_layout Standard
+Yapının düğüm noktalarında plastik mafsallar oluşup sistemin bu şekilde
+ enerji sönümlemesine izin verilmez.
  Bu sebeple yarı-rijit (partially restrained) birleşimlerin sahip olması
  gereken dönme kapasitesine ait herhangi bir bilgi mevcut değildir.
  Öte yandan rijit birleşimlerin sahip olması gereken süneklik düzeyi, yapısal
@@ -3387,11 +3439,6 @@ de ise
 
 \begin_layout Subsubsection*
 Eurocode Yönetmeliği
-\end_layout
-
-\begin_layout Standard
-Rijit plastik analiz durumunda, plastik bir mafsal konumundaki bir düğüm
- noktası yeterli dönme kapasitesine sahip olacaktır
 \begin_inset CommandInset citation
 LatexCommand cite
 key "EC3-1-8"
@@ -3399,7 +3446,12 @@ literal "false"
 
 \end_inset
 
-.
+
+\end_layout
+
+\begin_layout Standard
+Rijit plastik analiz durumunda, plastik bir mafsal konumundaki bir düğüm
+ noktası yeterli dönme kapasitesine sahip olacaktır.
 \end_layout
 
 \begin_layout Itemize
@@ -3453,90 +3505,7 @@ Bir düğüm noktası
 \begin_layout Itemize
 Aşağıdaki koşulların her ikisinin de karşılanması şartıyla, bir alın levhalı
  bulonlu veya başlıkları korniyerli olan bir düğüm noktasının plastik analiz
- için yeterli dönme kapasitesine sahip olduğu varsayılabilir:
-\end_layout
-
-\begin_layout Standard
-Düğüm noktasının tasarım momenti dayanımı, kolon başlığında eğilme ile veya
- alın levhasının veya çekme bölgesindeki korniyerin eğilme momenti dayanımı
- ile yönetilir.
-\end_layout
-
-\begin_layout Standard
-Kolon başlığının veya alın levhasının yahut çekme bölgesindeki korniyerin
- 
-\begin_inset Formula $t$
-\end_inset
-
- kalınlığı aşağıdaki denklemi sağlarsa: 
-\begin_inset Formula $t≤0.36df_{ub}f_{\mathrm{y}}$
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Standard
-burada 
-\begin_inset Formula $d$
-\end_inset
-
- : bulon çapı 
-\begin_inset Formula $f_{ub}$
-\end_inset
-
- : bulon çekme dayanımı 
-\begin_inset Formula $f_{y}$
-\end_inset
-
- : kontrol edilen elemanın akma dayanımı 
-\end_layout
-
-\begin_layout Standard
-Kaynaklı Birleşimler için;
-\end_layout
-
-\begin_layout Standard
-Kaynaklanmış bir kiriş-kolon bağlantısının 
-\begin_inset Formula $\phi_{C_{\mathrm{d}}}$
-\end_inset
-
-dönme kapasitesinin, kolon gövdesinde basınç halinde güçlendirilmiş(takviye
- edilmiş), gerilmemiş halde sertleştirilmemiş olması ve tasarımı kolon gövdesi
- kayma dayanımı yönetmiyorsa, tasarım momenti dayanımının sağlanması koşuluyla
- aşağıdaki ifade ile verilen değerden daha düşük olmadığı varsayılabilir,
-\begin_inset Formula $\phi_{C_{\mathrm{d}}}=0.025h_{\mathrm{c}}/h_{\mathrm{b}}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Burada; 
-\begin_inset Formula $h_{\mathrm{b}}$
-\end_inset
-
- : kiriş kesiti yüksekliği, 
-\begin_inset Formula $h_{\mathrm{c}}$
-\end_inset
-
- : kolon kesiti yüksekliği 
-\end_layout
-
-\begin_layout Standard
-Bu bölümün hükümlerine uygun olarak tasarlanan, takviye edilmemiş kaynaklı
- bir kiriş kolon düğüm noktasının en az 0,015 radyan 
-\begin_inset Formula $\phi_{C_{\mathrm{d}}}$
-\end_inset
-
- dönme kapasitesine sahip olduğu varsayılabilir
-\begin_inset CommandInset citation
-LatexCommand cite
-key "EC3-1-8"
-literal "false"
-
-\end_inset
-
-.
+ için yeterli dönme kapasitesine sahip olduğu varsayılabilir.
 \end_layout
 
 \end_body

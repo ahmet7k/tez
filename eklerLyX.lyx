@@ -85,17 +85,20 @@
 \end_layout
 
 \begin_layout Chapter
-EK A.1: Yarı Rijit Birleşimli Yapıların Etkin Göreli Kat Ötelemeleri
+EK A: Yarı Rijit Birleşimli Yapıların Etkin Göreli Kat Ötelemeleri
 \end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset label
 LatexCommand label
-name "chap:EK-A.1"
+name "chap:EK-A"
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -591,13 +594,13 @@ name "fig:8.1-4-2"
 \end_layout
 
 \begin_layout Chapter
-EK B.1: Seçilen Deprem Kayıtlarının Ölçeklendirilmesi
+EK B: Seçilen Deprem Kayıtlarının Ölçeklendirilmesi
 \end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset label
 LatexCommand label
-name "chap:EK-B.1"
+name "chap:EK-B"
 
 \end_inset
 
@@ -608,7 +611,7 @@ name "chap:EK-B.1"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -651,7 +654,7 @@ name "fig:8.1-1"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -694,7 +697,7 @@ name "fig:8.2-1"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -737,7 +740,7 @@ name "fig:8.3-1"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -780,7 +783,7 @@ name "fig:8.4-1"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -823,7 +826,7 @@ name "fig:8.5-1"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -867,7 +870,7 @@ name "fig:8.6-1"
 placement h
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -876,7 +879,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "Olceklendirme_Katsayıları-1"
+name "Olceklendirme_Katsayıları"
 
 \end_inset
 

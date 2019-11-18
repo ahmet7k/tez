@@ -159,7 +159,7 @@ Parametrik çalışma için binalar, deprem yüklerinin tamamının yapının d�
 \begin_inset Formula $45\times45=2025m^{2}$
 \end_inset
 
-'lik bir kat alanına ve 
+ 'lik bir kat alanına ve 
 \begin_inset Formula $9\times4=36m$
 \end_inset
 
@@ -173,7 +173,7 @@ Parametrik çalışma için binalar, deprem yüklerinin tamamının yapının d�
 \begin_inset Formula $30\times36=1080m^{2}$
 \end_inset
 
-'lik bir kat alanına ve 
+ 'lik bir kat alanına ve 
 \begin_inset Formula $20\times4=80m$
 \end_inset
 
@@ -769,9 +769,6 @@ noprefix "false"
 \end_inset
 
  'de 20 katlı yapının kesitleri verilmiştir.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 placement H
 wide false
@@ -812,9 +809,6 @@ name "fig:4.5"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float table
 placement H
 wide false
@@ -2580,9 +2574,10 @@ W27x114
 \end_layout
 
 \begin_layout Standard
+EK
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "chap:EK-A.1"
+reference "chap:EK-A"
 plural "false"
 caps "false"
 noprefix "false"
@@ -2810,7 +2805,7 @@ noprefix "false"
 \begin_inset Formula $\theta_{\mathrm{cy}}$
 \end_inset
 
-ise birleşimlerin birleşimin akma anındaki dönmesini göstermektedir.
+ ise birleşimlerin birleşimin akma anındaki dönmesini göstermektedir.
  Birleşimler için 0.02 dönme değerinde nihai moment kapasitesine ulaştığı
  kabul edilmiştir.
  Birleşimlerin nihai dönme değerleri için ise TBDY-2018 yönetmeliğinin süneklik
