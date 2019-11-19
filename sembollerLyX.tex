@@ -1,34 +1,111 @@
 \global\long\def\tabcolsep{1pt}%
-\renewcommand\arraystretch{1.1}%
+\global\long\def\arraystretch{1.1}%
 
-\noindent \hspace{-3mm} %
-\begin{longtable}[c]{>{\raggedright}p{1cm}l>{\raggedright}p{13.4cm}}
+\hspace{-3mm}%
+\begin{longtable}[c]{>{\raggedright}p{1.5cm}l>{\raggedright}p{13.4cm}}
 $a_{0}$  & :  & Rayleigh sönüm matrisi için kütle matrisi çarpanı\tabularnewline
+$a_{1}$  & :  & Rayleigh sönüm matrisi için rijitlik matrisi çarpanı\tabularnewline
 $a_{1}$  & :  & Birinci moda ait modal ivme\tabularnewline
 $C_{\mathrm{d}}$  & :  & Yer değiştirme arttırma katsayısı\tabularnewline
+$C_{\mathrm{R}}$  & :  & Spektral yer değiştirme oranı\tabularnewline
 $\mathbf{C}$  & :  & Sönüm matrisi\tabularnewline
+$d$ & : & Bulon çapı\tabularnewline
 $d_{1}$ & : & Birinci moda ait modal yer değiştirme\tabularnewline
 $d_{\mathrm{c}}$ & : & Kolon en kesit yüksekliği\tabularnewline
-$E_{\text{s}}$  & :  & Donatı çeliğinin elastisite modülü\tabularnewline
+$D$  & :  & Dayanım fazlalığı katsayısı\tabularnewline
+$E$  & :  & Elastisite modülü\tabularnewline
+$F_{\mathrm{b}}$  & :  & Kiriş başlıkları tarafından aktarılan kuvvet\tabularnewline
 $F_{\text{y}}$  & :  & Akma gerilmesi\tabularnewline
-$\mathbf{K}$  & :  & Eleman rijitlik matrisi\tabularnewline
+$F_{\text{S}}$  & :  & Kısa periyot bölgesi için yerel zemin etki katsayısı\tabularnewline
+$F_{\text{1}}$  & :  & 1.0 saniye periyot için yerel zemin etki katsayısı\tabularnewline
+$g$ & : & Yer çekimi ivmesi\tabularnewline
+$h_{\mathrm{i}}$ & : & i'inci katın yüksekliği\tabularnewline
+$I$ & : & Bina önem katsayısı\tabularnewline
+$I$ & : & Atalet momenti\tabularnewline
+$I_{\mathrm{b}}$ & : & Kiriş atalet momenti\tabularnewline
+$L$ & : & Kiriş uzunluğu\tabularnewline
+$\mathbf{K}$  & :  & Rijitlik matrisi\tabularnewline
+$K_{\mathrm{o}}$  & :  & Alın levhalı ve başlık levhalı birleşim bölgesi rijitliği\tabularnewline
+$K_{\mathrm{S}}$  & :  & Sekant rijitliği\tabularnewline
+$m_{t1}$ & : & Birinci moda ait modal etkin kütle\tabularnewline
+$m^{1}$ & : & Boyutsuz moment parametresi\tabularnewline
 $M$ & : & Moment\tabularnewline
+$M_{\mathrm{A}}$ & : & A ucundaki moment\tabularnewline
+$M_{\mathrm{B}}$ & : & B ucundaki moment\tabularnewline
+$M_{\mathrm{j,Rd}}$ & : & Birleşimin tasarım momenti dayanımı\tabularnewline
+$M_{\mathrm{n}}$ & : & Nihai eğilme momenti dayanımı\tabularnewline
 $M_{\mathrm{p}}$ & : & Plastik eğilme momenti kapasitesi \tabularnewline
+$M_{\mathrm{pl,Rd}}$ & : & Tasarım plastik momenti dayanımı \tabularnewline
+$M_{\mathrm{s}}$ & : & Servis yükleri altındaki moment\tabularnewline
 $M_{\mathrm{w}}$ & : & Moment büyüklüğü\tabularnewline
 $\mathbf{M}$  & :  & Kütle matrisi\tabularnewline
 $N$  & :  & Eksenel kuvvet\tabularnewline
-$\mathbf{Q}$  & :  & Serbestlik derecesindeki kuvvetler\tabularnewline
+$R$  & :  & Taşıyıcı sistem davranış katsayısı\tabularnewline
+$R_{\mathrm{S}}$  & :  & Dayanım fazlalığı çarpanı\tabularnewline
+$R_{\mathrm{y}}$  & :  & Akma dayanımı azaltma katsayısı\tabularnewline
+$R_{\mathrm{R}}$  & :  & Bağlılık çarpanı\tabularnewline
+$R_{\mathrm{\mu}}$  & :  & Süneklik azaltma katsayısı\tabularnewline
+$R_{\mathrm{\xi}}$  & :  & Sönüm çarpanı\tabularnewline
+$N_{\mathrm{Ed}}$  & :  & Tasarım eksenel kuvveti\tabularnewline
+$S_{\mathrm{a}}$ & : & Spektral ivme\tabularnewline
+$S_{\mathrm{ae}}$ & : & Elastik spektral ivme\tabularnewline
+$S_{\mathrm{de}}$ & : & Elastik tasarım spektral yer değiştirmesi\tabularnewline
+$S_{\mathrm{d1}}$ & : & Doğrusal elastik olmayan spektral yer değiştirme\tabularnewline
+$S_{\mathrm{DS}}$ & : & Kısa periyot tasarım spektral ivme katsayısı\tabularnewline
+$S_{\mathrm{D1}}$ & : & 1.0 saniye periyot için tasarım spektral ivme katsayısı\tabularnewline
+$S_{\mathrm{j}}$ & : & Dönme rijitliği\tabularnewline
+$S_{\mathrm{S}}$ & : & Kısa periyot harita spektral ivme katsayısı\tabularnewline
+$S_{\mathrm{1}}$ & : & 1.0 saniye periyot için harita spektral ivme katsayısı\tabularnewline
+$S_{\mathrm{j,ini}}$ & : & Başlangıç dönme rijitliği\tabularnewline
+$t_{\mathrm{p}}$ & : & Panel bölgesi kalınlığı\tabularnewline
+$t_{\mathrm{w}}$ & : & Kolon gövde kalınlığı\tabularnewline
+$T_{\mathrm{A}}$  & :  & Yatay elastik tasarım ivme spektrumu köşe periyodu\tabularnewline
+$T_{\mathrm{B}}$  & :  & Yatay elastik tasarım ivme spektrumu köşe periyodu\tabularnewline
+$T_{\mathrm{L}}$  & :  & Yatay elastik tasarım spektrumunda sabit yer değiştirme bölgesine
+geçiş periyodu\tabularnewline
+$T_{\mathrm{p}}$  & :  & Binanın hakim doğal titreşim periyodu\tabularnewline
+$V_{\mathrm{d}}$  & :  & Tasarıma esas alınan taban kesme kuvveti\tabularnewline
+$V_{\mathrm{e}}$  & :  & Yapının elastik kalması durumunda sistemde oluşacak en büyük taban
+kesme kuvveti\tabularnewline
+$\left(V_{\mathrm{S}}\right)_{30}$ & :  & Üst 30 metredeki ortalama kayma dalgası hızı\tabularnewline
 $V_{\mathrm{t}}$  & :  & Yapı taban kesme kuvveti \tabularnewline
+$V_{\mathrm{t1}}$  & :  & İtme analizi sırasında yapının tepesinde elde edilen birinci moda
+ait taban kesme kuvveti\tabularnewline
+$V_{\mathrm{y}}$  & :  & Yapının akma durumundaki taban kesme kuvveti\tabularnewline
+$z$  & :  & Kuvvet kolu\tabularnewline
+$w$  & :  & Düzgün yayılı yük\tabularnewline
+$\alpha$  & :  & $C_{\mathrm{d}}$ düzeltme katsayısı\tabularnewline
+$\delta_{\mathrm{i,max}}$  & :  & Binanın i'inci katındaki etkin göreli kat ötelemelerinin kat içindeki
+en büyük değeri\tabularnewline
 $w_{\text{i}}$  & :  & Mander modelinde düşey donatıların eksenleri arasındaki uzaklık\tabularnewline
 $w_{\text{i}}$  & :  & Yapının $i$. moduna ait açısal frekansı\tabularnewline
 $w_{\text{j}}$  & :  & Yapının $j$. moduna ait açısal frekansı\tabularnewline
-$\kappa$  & :  & Eğrilik\tabularnewline
-$\xi$  & :  & Menegotto-Pinto modelinde son çevrimdeki plastik birim şekil değiştirme
-değeri\tabularnewline
+$\gamma$  & :  & Panel bölgesi kayma deformasyonu\tabularnewline
+$\lambda$  & :  & Göreli kat ötelemelerinin sınıflandırılmasında kullanılan amprik katsayı\tabularnewline
+$\Delta_{\mathrm{d}}$  & :  & Tasarıma esas alınan taban kesme kuvvetine karşılık gelen tepe yer
+değiştirmesi\tabularnewline
+$\Delta_{\mathrm{e}}$  & :  & Yapının elastik kalması durumunda sistemde oluşacak tepe yer değiştirmesi\tabularnewline
+$\Delta_{\mathrm{y}}$  & :  & Akma dayanımına karşılık gelen tepe yer değiştirmesi\tabularnewline
+$\Delta_{\mathrm{max}}$  & :  & Yapının nihai tepe yer değiştirmesi\tabularnewline
+$\mu$  & :  & Yer değiştirme süneklik oranı\tabularnewline
+$\theta$  & :  & Dönme\tabularnewline
+$\theta_{\mathrm{A}}$  & :  & Kirişin A ucundaki dönme\tabularnewline
+$\theta_{\mathrm{B}}$  & :  & Kirişin B ucundaki dönme\tabularnewline
+$\theta_{\mathrm{b}}$  & :  & Kirişin dönmesi\tabularnewline
+$\theta_{C}$  & :  & Kolonun dönmesi\tabularnewline
+$\theta_{cy}$  & :  & Birleşim akma dönmesi\tabularnewline
+$\theta_{\mathrm{n}}$  & :  & En büyük moment kapasitesindeki dönme\tabularnewline
+$\theta_{\mathrm{s}}$  & :  & Servis yükleri altındaki dönme\tabularnewline
+$\theta_{\mathrm{u}}$  & :  & Nihai dönme kapasitesi\tabularnewline
+$\theta^{1}$  & :  & Boyutsuz dönme parametresi\tabularnewline
 $\xi_{i}$  & :  & Yapının $i.$ açısal frekansına karşılık gelen sönüm oranı \tabularnewline
 $\xi_{j}$  & :  & Yapının $j.$ açısal frekansına karşılık gelen sönüm oranı \tabularnewline
+$\phi_{n1}$  & :  & Binanın tepesinde birinci moda ait mod şekli genliği\tabularnewline
+$\varOmega$  & :  & Dayanım fazlalığı katsayısı\tabularnewline
+$\varphi$  & :  & Birleşim dönmesi\tabularnewline
+$\Gamma$  & :  & Modal katkı çarpanı\tabularnewline
 \end{longtable}
 
 \noindent 
 \global\long\def\tabcolsep{6pt}%
-\renewcommand\arraystretch{1.0}%
+\global\long\def\arraystretch{1.0}%
