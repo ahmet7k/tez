@@ -3420,21 +3420,17 @@ literal "false"
 \begin_layout Standard
 Yapının düğüm noktalarında plastik mafsallar oluşup sistemin bu şekilde
  enerji sönümlemesine izin verilmez.
- Bu sebeple yarı-rijit (partially restrained) birleşimlerin sahip olması
- gereken dönme kapasitesine ait herhangi bir bilgi mevcut değildir.
+ Bu sebeple yarı-rijit birleşimlerin sahip olması gereken dönme kapasitesine
+ ait herhangi bir bilgi mevcut değildir.
  Öte yandan rijit birleşimlerin sahip olması gereken süneklik düzeyi, yapısal
  sistemin türüne ve deprem tasarımına göre değişmektedir.
  Örneğin süneklik düzeyi yüksek moment dayanımlı çelik çerçevelerde birleşimleri
 n sünek davranabilemesi için dönme kapasitesi 
-\begin_inset Formula $u$
+\begin_inset Formula $\theta_{\mathrm{u}}$
 \end_inset
 
 , 0.04 radyan’dan, süneklik düzeyi sınırlı olan moment dayanımlı çelik çerçeveler
-de ise 
-\begin_inset Formula $u$
-\end_inset
-
-, 0.02 radyan’dan büyük olmalıdır.
+de ise, 0.02 radyan’dan büyük olmalıdır.
 \end_layout
 
 \begin_layout Subsubsection*
