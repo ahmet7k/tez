@@ -168,6 +168,7 @@ noprefix "false"
  karşılık gelen elastik olmayan talep spektrumu ile birlikte elasto-plastik
  olarak tepki veren bir yapının kapasite spektrumunu göstermektedir.
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -182,7 +183,7 @@ status open
 \end_inset
 
 
-\begin_inset VSpace 12pt
+\begin_inset VSpace 6pt
 \end_inset
 
 
@@ -603,6 +604,7 @@ noprefix "false"
 
  olarak elde edilir.
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -616,7 +618,7 @@ status open
 \end_inset
 
 
-\begin_inset VSpace 12pt
+\begin_inset VSpace 6pt
 \end_inset
 
 
@@ -777,6 +779,7 @@ noprefix "false"
 
  olarak elde edilir.
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -790,7 +793,7 @@ status open
 \end_inset
 
 
-\begin_inset VSpace 12pt
+\begin_inset VSpace 6pt
 \end_inset
 
 
@@ -951,6 +954,7 @@ noprefix "false"
 
  olarak elde edilir.
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -964,7 +968,7 @@ status open
 \end_inset
 
 
-\begin_inset VSpace 12pt
+\begin_inset VSpace 6pt
 \end_inset
 
 
@@ -1008,7 +1012,23 @@ Yapının doğrusal olmayan davranışını incelenmek üzere zaman tanım alan�
  sönümüyle tanımlanmıştır.
  Her bir çerçevenin kütle ve rijitlikle orantılı sönüm parametreleri için
  birinci ve kütle katılım oranının yüzde 95'i bulduğu periyotlar kullanılarak,
- bu iki periyot arasındaki sönüm oranın %5'den düşük olduğu göre belirlenmiştir.
+ bu iki periyot arasındaki sönüm oranın %5'den düşük olduğu duruma göre
+ belirlenmiştir.
+ 
+\end_layout
+
+\begin_layout Standard
+Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5.5"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 'de doğal frekans-sönüm oranı ilişkisi, Rayleigh sönümü ile gösterilmiştir.
  Rayleigh sönümünde sönüm matrisi 
 \begin_inset Formula $\mathbf{C}$
 \end_inset
@@ -1032,6 +1052,51 @@ noprefix "false"
 \end_inset
 
 'de ifade edildiği gibi doğrusal bir fonksiyonudur.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/5_Rijit ve Yarı-Rijit Çerçevelerin Deplasman Arttırma Katsayısının Belirlenmesi/Raleigh_Damping.pdf
+	lyxscale 40
+
+\end_inset
+
+
+\begin_inset VSpace 12pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.5"
+
+\end_inset
+
+Doğal Frekans-Sönüm Oranı İlişkisi ve Rayleigh Sönümü.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1067,7 +1132,7 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-a_{0}=\xi\frac{2\omega_{i}\omega_{j}}{\omega_{i}+\omega_{j}},\hspace{1cm}a_{1}=\xi\frac{2}{\omega_{i}+\omega_{j}}\label{eq:5-8}
+a_{0}=\zeta\frac{2\omega_{i}\omega_{j}}{\omega_{i}+\omega_{j}},\hspace{1cm}a_{1}=\zeta\frac{2}{\omega_{i}+\omega_{j}}\label{eq:5-8}
 \end{equation}
 
 \end_inset
@@ -1089,10 +1154,10 @@ Burada
 \end_inset
 
  modlarının açısal frekansları ve 
-\begin_inset Formula $\xi$
+\begin_inset Formula $\zeta$
 \end_inset
 
-’ de bu modların sahip olduğu sönüm oranıdır
+ ise bu modların sahip olduğu sönüm oranıdır
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Chopra2015"
@@ -1137,7 +1202,7 @@ sına sahip deprem kayıtları kullanmayı,
 \end_layout
 
 \begin_layout Itemize
-hem kaya, hem de sert zeminde kaydedilmiş deprem kayıtları kullanmayı (
+sert zeminde kaydedilmiş deprem kayıtları kullanmayı (
 \begin_inset Formula $V_{\mathrm{S}}>180m/s$
 \end_inset
 
@@ -1196,8 +1261,9 @@ literal "false"
 
 \end_inset
 
- alınmış ve yatay elastik tasarım spektrumuna ölçeklenmiştir.Parametrik çalışmada
- iki boyutlu çerçeve sistemler kullanıldığı için TBDY 2018
+ alınmış ve yatay elastik tasarım spektrumuna ölçeklenmiştir.
+ Parametrik çalışmada iki boyutlu çerçeve sistemler kullanıldığı için TBDY
+ 2018
 \begin_inset CommandInset citation
 LatexCommand cite
 key "TBDY2018"
@@ -1218,6 +1284,7 @@ literal "false"
  periyot aralığındaki genliklerinden daha küçük olmaması koşulu göz önünde
  bulundurularak, deprem yer hareketlerinin genlikleri ölçeklendirilmiştir.
  Ölçeklendirilen gerçek deprem kayıtlarının ölçeklendirme katsayıları EK
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "chap:EK-B"
@@ -1239,7 +1306,7 @@ noprefix "false"
 
  olarak verilmiştir.
 \begin_inset Float table
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -2878,7 +2945,7 @@ Yer Değiştirme Arttırma Katsayısının Zaman Tanım Alanında Doğrusal Olma
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
- katsayısı elde edilecektir.
+ katsayısı elde edilir.
 \end_layout
 
 \end_body

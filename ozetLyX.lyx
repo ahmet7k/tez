@@ -85,26 +85,105 @@ Moment dayanımlı çelik çerçeveli yapılar emniyet,ekonomi ve estetik gibi
  Moment çerçevelerinin yüksek süneklik özellikleri yatay kuvvetlere maruz
  kaldığında sistemin enerji sönümm mekanizmasındaki basitlikte yatmaktadır.
  Bu sistemlerde özellikle deprem kuvvetleri altında yapının dayanımında
- azalma olmadan kirişlerde çok sayıda akma elastik olmayan şekil değiştirme
+ azalma olmadan kirişlerde çok sayıda akma, elastik olmayan şekil değiştirme
  ile sağlanır.
+\end_layout
+
+\begin_layout Standard
+Bu tip yapılarda plastik mafsalların kolonlardan önce kirişlerde oluşmasını
+ sağlamak, yapının sünekliğini arttırıp, göçmesini geciktirmek için güçlü
+ kolon zayıf kiriş ilkesi uygulanır.
+ Az katlı büyük açıklıklı yapılarda uygulanan bu ilke gerekenden daha büyük
+ kolon kesitlerinin seçilmesine ve ekonomik olmayan, aşırı güvenli tasarımlarla
+ sonuçlanmaktadır.
+ Bu sorunu gidermek için özellikle Amerika’da uygulanan yöntem yapıların
+ sadece dış çerçevelerini yatay yük taşıyan sistemler olarak tasarlamaktır.
+ Ancak bu yapıların başlıca dezavantajlarından biri, sistemin yeniden dağılım
+ imkânının sınırlı olmasıdır.
+ 1994 Northridge ve 1995 Kobe depremleri sırasında rijit birleşimli moment
+ dayanımlı çelik çerçeveli yapılarda ve özellikle tamamen kaynaklı birleşimlerde
+ ağır ve beklenilmeyen hasarlar oluşmuş ve bu tip yapıların tasarım yöntemlerini
+n gözden geçirilmesine neden olmuştur.
+\end_layout
+
+\begin_layout Standard
+Bu keşiflerin ardından, SAC Ortak Girişimi olarak bilinen profesyonel dernekleri
+n ve araştırmacılardan oluşan bir konsorsiyum, bu beklenmeyen davranışın
+ nedenlerini belirlemek ve daha sağlam moment çerçevesi inşası için öneriler
+ geliştirmek için kapsamlı bir çalışma yürütmüştür.
+\end_layout
+
+\begin_layout Standard
+Çatlakların ve hasarların, temel birleşim geometrisi, temel malzemelerin
+ kontrolünün eksikliği, iç yapıdaki düşük tokluğa sahip kaynak dolgu metallerini
+n kullanılması, kolon başlıklarında divot kırılması, karşılama levhası kaynaklı
+ hasarlar, yetersiz kalite kontrol ve diğer faktörlerin bir sonucu olduğu
+ tespit edildi.
+ Ortaya çıkan araştırma, mevcut özel moment çerçeveleri için yönetmelik
+ tasarım gerekliliklerinin temelini oluşturmuştur.
+\end_layout
+
+\begin_layout Standard
+Moment çerçeveleri büyük yer değiştirme yapabilme özellikleri hem avantaj
+ hemde dezavantajı olarak söylenebilir.
+ 
 \end_layout
 
 \begin_layout Standard
 Bir yapıdaki bütün kolon-kiriş birleşimlerinin tasarımda tam rijit veya
  ideal mafsallı kabulünün ne derece doğru olduğu tartışma konusudur.
- Gerçekte moment çerçevesinde kullanılan birleşimlerin davranışı incelendiğinde
- birleşimlerin rijit veya ideal mafsal davranışı göstermesi için çok özel
- detaylandırmaların kullanılması şarttır halbuki kullanılan birleşimlerin
- çoğunluğu rijit ve mafsallı iki uç sınır durumun arasında kalmaktadır.
+ Gerçekte moment çerçevesinde kullanılan birleşimlerin güçlü veya zayıf
+ eksende olsun, davranışı incelendiğinde birleşimlerin rijit veya ideal
+ mafsal davranışı göstermesi için çok özel detaylandırmaların kullanılması
+ şarttır halbuki kullanılan birleşimlerin çoğunluğu rijit ve mafsallı iki
+ uç sınır durumun arasında kalmaktadır.
  Bu birleşim türleri yarı-rijit birleşim olarak sınıflandırılmaktadır.
  
 \end_layout
 
 \begin_layout Standard
-Yer değiştirme arttırma katsayısı, yapının elastik durumdaki yer değiştirme
+Geçtiğimiz yarım asırlık süreçte yapısal tasarım için mühendislerin kullandığı
+ bilgisayar destekli yazılım araçları önemli gelişme kaydetmiştir.
+ Ancak hala çelik yapıların modellenmesi ve tasarımı aşamasında yapılan
+ bazı kabuller göze çarpmaktadır.
+ Özellikle deprem bölgesinde tasarlanan bir çelik yapı için güvenlik ve
+ ekonomi amacı büyük önem arz eder.
+ Deprem yönetmeliklerinde yer alan yapısal tasarım felsefesi, makul bir
+ oluşma olasılığı olan bir depremde bile mutlak güvenlik ve hasarsızlığın
+ sağlanamayacağının altını çizmektedir.
+ Bununla birlikte, bazı yapısal ve yapısal olmayan hasarlara izin verip
+ elastik olmayan enerjiyi sönümleyerek yapılarda yüksek bir yaşam güvenliği
+ seviyesini ekonomik olarak sağlamayı hedefler.
+ Bu tasarım felsefesinin bir sonucu olarak, yönetmeliklerde öngörülen yatay
+ tasarım kuvveti yapıyı elastik aralıkta tutmak için gereken yatay kuvvetten
+ daha düşüktür.
+ Yapının elastik zarfta tutulması, yanal harekete maruz kalan tüm yapısal
+ elemanların, herhangi bir kalıcı deformasyon ve hasar almadan başlangıç
+ durumuna geri dönmesinin garanti edilmesi anlamına gelir ki bu durumu korumak,
+ uygulanabilir ve rasyonel olmaktan uzaktır.
+\end_layout
+
+\begin_layout Standard
+Moment çerçevelerinin tasarımı göz önüne alındığında tasarımı yöneten ana
+ parametrenin yer değiştirme olduğu ortaya çıkar.
+ Bu çalışmada literatürde ve deprem yönetmeliklerinde moment dayanımlı çelik
+ çerçeveli yapıların tasarımında birleşim dönme rijitliği kavramı ve yönetmelikl
+erin tasarımda kullanılacak gerçek yer değiştirme için tepki değişitirme
+ katsayısı kavramı üzerinde durmaktadır.
+ Yer değiştirme arttırma katsayısı, yapının elastik durumdaki yer değiştirme
  değerinden, elastik ötesi durumdaki yer değiştirme değerini elde etmek
  için kullanılmaktadır.
- 
+ Bu amaç doğrultusunda az,orta ve yüksek katlı rijit birleşimli moment çerçeveli
+ yapılar belirlenen deprem düzeyi için tasarlanmış, beş farklı dönme rijitliği
+ ile doğrusal elastik olmayan statik ve dinamik analizlerle incelenmiştir.
+ 15 adet çelik çerçeve statik itme analizleri ve tasarım depremi seviyesinde
+ ölçeklendirilmiş 18 adet gerçek yer hareketi ile dinamik analizler yapılmıştır.
+ Bu analiz sonuçları ile her bir çelik çerçve için yer değiştirme arttırma
+ katsayısı hesaplanmıştır.
+\end_layout
+
+\begin_layout Standard
+Sonuç olarak,
 \end_layout
 
 \end_body

@@ -97,25 +97,121 @@ name "CH1"
  imalat ve montaj edilebilirliği, sürdürülebilir bir yapı malzemesi olması
  ve yüksek dayanım/ağırlık oranları, yüksek süneklik kapasiteleri, rijitlikleri,
  öngörülebilir göçme kapasiteleri nedeniyle yaygın olarak kullanılmaktadır.
- Günümüzde yapısal tasarım için mühendislerin kullandığı bilgisayar destekli
- yazılım araçları önemli gelişme kaydetmiştir.
- Ancak hala çelik yapıların modellenmesi ve tasarımı aşamasında bazı kabuller
- göze çarpmaktadır.
- Tasarlanan çelik yapı özellikle deprem bölgelerinde ise tasarımın güvenlik
- ve ekonomi amacı büyük önem kazanmaktadır.
- Deprem yönetmeliklerinde yer alan yapısal tasarım felsefesi, makul bir
- oluşma olasılığı olan bir depremde bile mutlak güvenlik ve hasarsızlığın
- sağlanamayacağının altını çizmektedir.
- Bununla birlikte, bazı yapısal ve yapısal olmayan hasarlara izin verip
- elastik olmayan enerjiyi sönümleyerek yapılarda yüksek bir yaşam güvenliği
- seviyesini ekonomik olarak sağlamayı hedefler.
- Bu tasarım felsefesinin bir sonucu olarak, yönetmeliklerde öngörülen yatay
- tasarım kuvveti yapıyı elastik aralıkta tutmak için gereken yatay kuvvetten
- daha düşüktür.
- Yapının elastik zarfta tutulması, yanal harekete maruz kalan tüm yapısal
- elemanların, herhangi bir kalıcı deformasyon ve hasar almadan başlangıç
- durumuna geri dönmesinin garanti edilmesi anlamına gelir.
- Bu durumu korumak, uygulanabilir ve rasyonel olmaktan uzaktır.
+ 
+\end_layout
+
+\begin_layout Standard
+Moment dayanımlı çelik çerçeveler, 1800'lerin sonunda demir ve betonarme
+ çok katlı yapılar için geliştirildi.
+ Binalar daha uzun ve daha hafifleştikçe ve mühendisler bu yeni yapısal
+ montaj yönteminin avantajlarını anladıkları için çerçevelerin yanal yüklere
+ karşı davranışı konusunda araştırmalara itti.
+ Hardy Cross (1885-1959) gibi mühendisler, pek çok binanın moment dağıtım
+ yöntemini kullanarak başarıyla inşa edilmesi sağlayarak rijit çerçeve davranışı
+nı anlamamız için temel sağlamıştır.
+ Gelişmiş malzemelerin ve birleşim yöntemlerinin (kaynak, bulon, vb.) geliştirilm
+esi analitik gelişime paraleldi ve rijit çerçeve konstrüksiyonu 1900'lerin
+ başından günümüze kadar hızla büyüdü.
+ Daha hafif yapıya ve daha ince elemanlara olan talep açıkça belirlendi
+ ve bugün de devam ediyor.
+ 
+\end_layout
+
+\begin_layout Standard
+II.
+ Dünya Savaşı'ndan sonra, mühendisler kirişleri kolonlara bağlamak için
+ üst ve alt kiriş başlılarında korniyerler veya yarım I profiller kullanarak
+ birleşimler tasarlamaya başladı.
+ 1950'lerde, yapı inşaatına kaynak tanıtımı yapıldığı için, korniyerler
+ ve yarım I kesitler, başlık üst levhaları, kolon başlıklarına kaynaklanarak
+ değiştirildi, sonra kiriş başlıklarına perçinlendi.
+ 1960'larda perçinleme, ekonomik değildi ve yerini yüksek dayanımlı bir
+ bulon ile değiştirdi.
+ Son olarak, 1970'lerin başında, mühendisler bugün kiriş başlıları kaynaklı
+ ve gövdesiden ek lavhalı bulonlu olarak bilinen birleşim türünü kullanmaya
+ başladılar.
+ Bu gelişmelerin sonucunda, mühendisler çelik moment çerçevelerinin depremlerde
+ üstün performans sergilediğini görmeye başladılar.
+\end_layout
+
+\begin_layout Standard
+Bu yapıların göze çarpan üstün performansının bir sonucu olarak, 1960'ların
+ yapı yönetmetmelikleri çelik moment çerçeveleri için tercih edilen tasarım
+ kriterlerini benimsemiştir.
+ Bu yönetmelikler uyarınca, yanal kuvvet dirençli sistem olarak çerçeve
+ sisteme sahip binalar, desteklenmiş çerçeveler için belirtilen deprem kuvvetler
+in üçte ikisi ve perde duvarlı yapıları taşımak için belirtilen kuvvetlerin
+ yarısı için tasarlanabilir oldular.
+ 1960'larda ve 1970'lerde, araştırmacılar çelik moment çerçevelerinin çevrimsel
+ laboratuvar testlerini yapmaya başladı.
+ Güçlü depremlerde üstün elastik olmayan davranışlar elde etmek için bu
+ yapıların detaylandırılmasında bazı kontrollerin gerekli olduğu belirlenmiştir.
+ 
+\end_layout
+
+\begin_layout Standard
+Batı Amerika'da bu dönemde inşa edilen hemen hemen her yüksek bina, çelik
+ moment çerçeve konstrüksiyonu idi.
+ 1960'larda ve 1970'lerde tasarlanan bu yapılarda, her kiriş-kolon bağlantısında
+ moment dayanımlı bağlantılar kullanmaya meyilliydi, bu da yanal kuvvet
+ direncinin dağıtılması için yüksek bağlılık(hiperstatiklik) ve alternatif
+ yük yolları sağladı.
+ Bununla birlikte, 1980'lerde mühendisler tasarımlarını ekonomikleştirmeye
+ ve daha konsantre yanal kuvvet dayanımına sahip,daha büyük açıklık ile
+ daha az açklık sayısı ve daha az moment dayanımlı çerçeveler kullanarak,
+ pahalı saha kaynağını en aza indirmeye başlamıştı.
+ Nadir de olsa, bazı yüksek yapılara binanın her bir tarafında yalnızca
+ tek bir moment dayanımlı çerçevesi kullanılmıştır.
+\end_layout
+
+\begin_layout Standard
+1994 Northridge depreminin ardından mühendisler, bir dizi modern, özel moment
+ dayanımlı çelik çerçeve yapısının, kaynaklı kiriş-kolon bağlantılarında
+ beklenmeyen gevrek kırılmalar yaşandığını keşfettiğine şaşırdı.
+\end_layout
+
+\begin_layout Standard
+Benzer hasar ve hatta bazı binaların yıkılması, Japonya depremi 1995 Kobe'de
+ 1 yıl sonra meydana geldi.
+ Bu keşiflerin ardından, SAC Ortak Girişimi olarak bilinen profesyonel dernekler
+in ve araştırmacılardan oluşan bir konsorsiyum, bu beklenmeyen davranışın
+ nedenlerini belirlemek ve daha sağlam moment çerçevesi inşası için öneriler
+ geliştirmek üzere federal olarak finanse edilen, uzun bir araştırma ve
+ geliştirme programı yürütmüştür.
+\end_layout
+
+\begin_layout Standard
+Çatlakların ve hasarların, temel birleşim geometrisi, temel malzemelerin
+ kontrolünün eksikliği, iç yapıdaki düşük tokluğa sahip kaynak dolgu metallerini
+n kullanılması, kolon başlıklarında divot kırılması, karşılama levhası kaynaklı
+ hasarlar, yetersiz kalite kontrol ve diğer faktörlerin bir sonucu olduğu
+ tespit edildi.
+ Ortaya çıkan araştırma, mevcut özel moment çerçeveleri için yönetmelik
+ tasarım gerekliliklerinin temelini oluşturmuştur.
+\end_layout
+
+\begin_layout Standard
+Moment çerçeveleri büyük yer değiştirme yapabilme özellikleri hem avantaj
+ hemde dezavantajı olarak söylenebilir.
+ Rijit bir çerçevenin yanal yer değiştirme bileşenlerinin, konsol bir kirişin
+ yer değiştirme bileşenlerine benzer iki bileşenden kaynaklandığı düşünülebilir.
+ Bir bileşen eğilme yer değişitmesi ve diğeri konsolun kesme kuvveti kaynaklı
+ yer değiştirmesine benzetilebilir.
+ Normalde, derinlik/açıklık oranı 10 veya daha fazla olduğunda dikdörtgen
+ kesitli konsol elemanlar için, eğilme yer değiştirmesi, çok daha baskın
+ olan bileşendir.
+ Bu fenomeni çok katlı moment çerçevelerinin yer değiştirme karakteriği
+ olarak düşünülebilir.
+\end_layout
+
+\begin_layout Standard
+Kesme kaynaklı yer değiştirmeler ise, toplam yer değiştirmeye küçük bir
+ katkıda bulunur ve bu nedenle yer değiştirmelerin hesaplanmasında genellikle
+ ihmal edilir.
+ Öte yandan rijit ve az katlı bir çerçevenin yer değiştirme özellikleri
+ tam tersidir; Özellikle az katlı binalarda kesme kuvveti kaynaklı yer değiştirm
+eler, çoğunlukla yer değiştirmelerin genel resmine hakimdir ve toplam yer
+ değiştirmelerin büyük bir yüzdesini oluşturabilir.
  
 \end_layout
 
@@ -127,6 +223,46 @@ Moment dayanımlı çelik çerçeveler deprem bölgelerinde yüksek sünek davra
  Moment dayanımlı çelik çerçevelerin tasarımını, bu sistemlerin büyük yer
  değiştirme yapabilme kabiliyetlerinin bir sonucu olarak göreli kat ötelemeleri
  yönetmektedir.
+ Ayrıca moment dayanımlı çelik çerçevelerin davranışında birleşimlerinin
+ davranışı çok önemlidir.
+\end_layout
+
+\begin_layout Standard
+Moment çerçeveleri için diğer önemli husus ise birleşimlerdir.
+ Çerçevenin ana elemanları olan kolon ve kirişleri birbirine bağlandığı
+ bölge çerçeve davranışı için önemlidir.
+ Birleşimler yaygın kullanılan I profiller için, gerek bağlandığı elemanın
+ güçlü ekseninde gerekse zayıf ekseninde ve kutu-boru profiller için davranışlar
+ı, birleşim araçlarının çeşitliliği sebebi ile birbirinden çok farklıdır.
+ Çerçvede kullanılan birleşimin rijitlik ve dayanım gibi iki karakteristik
+ özelliği detaylı incelendiğinde, çerçeve davranışında birleşimlerin davranışını
+ önemli kılar.
+ Daha önce de bahsedilen gelişen imkanlar mühendislere daha hassas modelleme
+ imkanı vermektedir.
+ Moment dayanımlı çerçeveler kullanılmaya başladığından beri araştırmalara
+ konu olan birleşimlerin davranışı günümüzde de devam etmektedir.
+\end_layout
+
+\begin_layout Standard
+Geçtiğimiz yarım asırlık süreçte yapısal tasarım için mühendislerin kullandığı
+ bilgisayar destekli yazılım araçları önemli gelişme kaydetmiştir.
+ Ancak hala çelik yapıların modellenmesi ve tasarımı aşamasında yapılan
+ bazı kabuller göze çarpmaktadır.
+ Özellikle deprem bölgesinde tasarlanan bir çelik yapı için güvenlik ve
+ ekonomi amacı büyük önem arz eder.
+ Deprem yönetmeliklerinde yer alan yapısal tasarım felsefesi, makul bir
+ oluşma olasılığı olan bir depremde bile mutlak güvenlik ve hasarsızlığın
+ sağlanamayacağının altını çizmektedir.
+ Bununla birlikte, bazı yapısal ve yapısal olmayan hasarlara izin verip
+ elastik olmayan enerjiyi sönümleyerek yapılarda yüksek bir yaşam güvenliği
+ seviyesini ekonomik olarak sağlamayı hedefler.
+ Bu tasarım felsefesinin bir sonucu olarak, yönetmeliklerde öngörülen yatay
+ tasarım kuvveti yapıyı elastik aralıkta tutmak için gereken yatay kuvvetten
+ daha düşüktür.
+ Yapının elastik zarfta tutulması, yanal harekete maruz kalan tüm yapısal
+ elemanların, herhangi bir kalıcı deformasyon ve hasar almadan başlangıç
+ durumuna geri dönmesinin garanti edilmesi anlamına gelir ki bu durumu korumak,
+ uygulanabilir ve rasyonel olmaktan uzaktır.
  
 \end_layout
 
@@ -171,8 +307,7 @@ dır.
  değerinin, tasarıma esas alınan yatay kuvvetler altında yapmış olduğu yer
  değiştirme değerine oranı olarak tanımlanan katsayının moment çerçeverli
  için önemi açıktır.
- Ayrıca moment dayanımlı çelik çerçevelerin davranışında birleşimlerinin
- davranışı çok önemlidir.
+ 
 \end_layout
 
 \begin_layout Section
