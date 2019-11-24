@@ -81,10 +81,6 @@
 PARAMETRİK ÇALIŞMA
 \end_layout
 
-\begin_layout Section
-Parametrik Çalışmada Kullanılacak Yapılar
-\end_layout
-
 \begin_layout Standard
 \begin_inset CommandInset label
 LatexCommand label
@@ -92,13 +88,11 @@ name "CH4"
 
 \end_inset
 
- 
-\end_layout
-
-\begin_layout Standard
-Parametrik çalışma kapsamında seçilen az,orta ve yüksek katlı binalar SAC
- (SEAOC,ATC,CUREe) projesi kapsamında kullanılan ve detayları FEMA 355-C
- (
+ Yarı rijit birleşimli çelik çerçevelerin yer değiştirme arttırma katsayılarının
+ belirlenebilmesi için belli parametreler ile bir dizi analizin yapılması
+ gerekir.
+ Bu kapsamda seçilen az, orta ve yüksek katlı binalar SAC (SEAOC,ATC,CUREe)
+ projesi kapsamında kullanılan ve detayları FEMA 355-C 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "FEMA-355C"
@@ -106,10 +100,10 @@ literal "false"
 
 \end_inset
 
-) teknik dökümanında verilen bina tipolojilerinden yararlanılmıştır.
+ teknik dökümanında verilen bina tipolojilerinden yararlanılmıştır.
  Planda ve düşey kesitte herhangi bir düzensizlik içermeyen 3, 9 ve 20 katlı
  üç tipik moment dayanımlı çelik çerçeveli binalar rijit birleşim kabuli
- ile TBDY-2018(
+ ile TBDY-2018 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "TBDY2018"
@@ -117,12 +111,16 @@ literal "false"
 
 \end_inset
 
-) yönetmeliğinin tasarım şartları uyarınca kesitleri seçilmiştir.
+ yönetmeliğinin tasarım şartları uyarınca kesitleri seçilmiştir.
  Kesit seçimi için amerikan geniş başlıklı profiller tercih edilmiştir,
  bu profillerin avrupa profillerinden avantajı daha çok kesit sayısının
  fazla olmasıdır, bu sebeple de tasarımda daha optimize edilmiş elemanlar
  seçilebilmiştir.
  
+\end_layout
+
+\begin_layout Section
+Parametrik Çalışmada Kullanılacak Yapılar
 \end_layout
 
 \begin_layout Standard
@@ -237,9 +235,6 @@ i deprem yükleri sadece moment aktaran çerçeveler tarafından taşınmaktadı
  kütlenin yarısı A aksındaki çerçeve tarafından diğer yarısı G aksındaki
  çerçeve tarafından taşınmaktadır.
  
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 placement H
 wide false
@@ -280,9 +275,6 @@ name "fig:4.1"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 placement H
 wide false
@@ -323,9 +315,6 @@ name "fig:4.2"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 placement H
 wide false
@@ -373,7 +362,7 @@ Moment Dayanımlı Çelik Çerçeveli Sistemlerin Tasarımı
 \end_layout
 
 \begin_layout Standard
-Analiz ve boyutlandırma hesaplarında, ayrıntıları ÇYTHYE’de(
+Tasarım ve analiz hesaplarında, ayrıntıları ÇYTHYE’de 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "CYTHYEY"
@@ -381,7 +370,7 @@ literal "false"
 
 \end_inset
 
-) açıklanan Yük ve Dayanım Katsayıları ile Tasarım Yöntemi (YDKT) kullanılmıştır.
+ açıklanan Yük ve Dayanım Katsayıları ile Tasarım Yöntemi (YDKT) kullanılmıştır.
  Binaların tasarımında kullanılan yükleme kombinasyonlarının belirlenmesinde,
  TBDY-2018
 \begin_inset CommandInset citation
@@ -391,7 +380,7 @@ literal "false"
 
 \end_inset
 
- ve ÇYTHYE’de(
+ ve ÇYTHYE 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "CYTHYEY"
@@ -399,8 +388,8 @@ literal "false"
 
 \end_inset
 
-) yönetmeliği dikkate alınmıştır.
- Tasarım ve analizler SAP2000 (
+ yönetmeliği dikkate alınmıştır.
+ Tasarım ve analizler SAP2000 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "SAP2000"
@@ -408,7 +397,82 @@ literal "false"
 
 \end_inset
 
-) yazılımında yapılmıştır.
+ yazılımında yapılmıştır.
+\end_layout
+
+\begin_layout Standard
+Plan ve kesitleri yukarıda gösterilen yapıların sadece tek doğrultuda ve
+ dış cephesi moment çerçevesi olup iç kısımdaki sistem sadece düşey yük
+ taşımak üzere düşünülmüştür.
+ Bu sebeple yapıdaki moment çerçevelerininin yatay yükler altındaki davranışının
+ incelemek için iki boyutlu çerçeveleri dikkate almak yeterli olacaktır.
+ Burada dikkat edilmesi gereken husus moment çerçevelerinin diğer doğrultuda
+ bulunan düşey yük taşıyıcı sistem ile olan etkileşimidir bu davranış Şekil
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:4.4"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+' deki gibi modellenebilir.
+ İki boyutlu sistemi gerçek üç boyutlu sisteme eşdeğer hale getirmek amacıyla
+ kullanılan yaslanan kolonlar, iki ucu mafsallı kolon ve kirişlerle teşkil
+ edilmektedir.
+ Dolayısıyla yatay yönde herhangi bir taşıyıcı özelliğe sahip olmadığı halde
+ iç açıklıklardaki P-∆ etkilerini eşdeğer sisteme aktarmaktadır.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Grafikler/4_Parametrik Çalışma/P-Delta_Columns.pdf
+	lyxscale 50
+	height 7cm
+	clip
+
+\end_inset
+
+ 
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:4.4"
+
+\end_inset
+
+Yaslanan kolonların modellenmesi
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Foutch2002"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -491,7 +555,7 @@ Bu durumda tasarım spektral ivme katsayıları
  Bu veriler ışığında yatay tasarım elastik spektrumu Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:4.4"
+reference "fig:4.5"
 plural "false"
 caps "false"
 noprefix "false"
@@ -507,7 +571,7 @@ noprefix "false"
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -528,7 +592,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:4.4"
+name "fig:4.5"
 
 \end_inset
 
@@ -709,7 +773,7 @@ a bağlanması veya dolgu duvar elemanının çerçeveden bağımsız olması du
 Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:4.5"
+reference "fig:4.6"
 plural "false"
 caps "false"
 noprefix "false"
@@ -719,7 +783,7 @@ noprefix "false"
  'de 3 katlı, Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:4.6"
+reference "fig:4.7"
 plural "false"
 caps "false"
 noprefix "false"
@@ -729,7 +793,7 @@ noprefix "false"
  'da 9 katlı, Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:4.7"
+reference "fig:4.8"
 plural "false"
 caps "false"
 noprefix "false"
@@ -794,7 +858,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:4.5"
+name "fig:4.6"
 
 \end_inset
 
@@ -1086,7 +1150,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:4.6"
+name "fig:4.7"
 
 \end_inset
 
@@ -1606,7 +1670,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:4.7"
+name "fig:4.8"
 
 \end_inset
 
@@ -2956,7 +3020,7 @@ noprefix "false"
  Bu seçimi Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:4.8"
+reference "fig:4.9"
 plural "false"
 caps "false"
 noprefix "false"
@@ -2993,7 +3057,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:4.8"
+name "fig:4.9"
 
 \end_inset
 
@@ -3014,7 +3078,7 @@ Parametrik çalışmada kullanılan birleşim dönme rijitlikleri.
 Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:4.9"
+reference "fig:4.10"
 plural "false"
 caps "false"
 noprefix "false"
@@ -3038,7 +3102,7 @@ Bu çalışma kapsamında daha önce de bahsedildiği gibi yarı-rijit birleşim
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -3059,7 +3123,7 @@ status collapsed
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:4.9"
+name "fig:4.10"
 
 \end_inset
 
@@ -3082,7 +3146,7 @@ Kolonlar da ASCE 41-13 yönetmeliğinin önerdiği eksenel kuvvet-eğilme moment
  Kirişlerin doğrusal olmayan davranışı için Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:4.10"
+reference "fig:4.11"
 plural "false"
 caps "false"
 noprefix "false"
@@ -3092,11 +3156,14 @@ noprefix "false"
  'de gösterilen kesitlerin güçlü eksende eğilme davranışını modellendiği
  moment-dönme ilişkisi ifade edilmiştir.
  
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -3117,7 +3184,7 @@ status collapsed
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:4.10"
+name "fig:4.11"
 
 \end_inset
 
@@ -3135,7 +3202,7 @@ Kiris elemanların doğrusal olmayan eğilme davranışı modeli.
  davranışı Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:4.11"
+reference "fig:4.12"
 plural "false"
 caps "false"
 noprefix "false"
@@ -3164,7 +3231,7 @@ in boyutlandırılmasında kullandığı pekleşme katsayısı olarak kabul edil
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -3185,7 +3252,7 @@ status collapsed
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:4.11"
+name "fig:4.12"
 
 \end_inset
 

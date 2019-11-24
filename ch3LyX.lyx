@@ -454,9 +454,10 @@ Bağlılık katsayısı, bir yapının düşeyde her bir ana aksı doğrultusund
  hesaba katmak için tasarlanmıştır.
  Bu gibi viskoz bir sönümleme katsayısıları, akma anındaki bir çerçevede
  yer değiştirmeleri azaltmak için kullanılabilir ancak kuvvet taleplerini
- orantılı olarak azaltamayabilir,(doğrusal olmayan davranış sergileyen çerçeve
- sistemindeki yer değiştirmeleri azaltmak için kullanılabilir, ancak özellikle
- yüksek sönümlü çerçevelerde kuvvet taleplerini orantılı olarak azaltamayabilir).
+ orantılı olarak azaltamayabilir, (doğrusal olmayan davranış sergileyen
+ çerçeve sistemindeki yer değiştirmeleri azaltmak için kullanılabilir, ancak
+ özellikle yüksek sönümlü çerçevelerde kuvvet taleplerini orantılı olarak
+ azaltamayabilir).
  Tepki değiştirme katsayıları kuvvet temelli tasarım prosedürleriyle kullanıldığ
 ından sönümleme katsayısı yeni formülasyondan çıkarılmıştır.
 \begin_inset CommandInset citation
@@ -610,7 +611,11 @@ Süneklik Azaltma Katsayısı
 \end_inset
 
  yanal akma dayanımının, yer değiştirme sünekliği oranını μ daha düşük veya
- önceden belirlenmiş bir hedef süneklik oranı μi durumundaki 
+ önceden belirlenmiş bir hedef süneklik oranı 
+\begin_inset Formula $μ_{\mathrm{i}}$
+\end_inset
+
+ durumundaki 
 \begin_inset Formula $F_{\mathrm{y}}\left(\mu=\mu_{i}\right)$
 \end_inset
 
@@ -658,16 +663,16 @@ noprefix "false"
 
 \end_inset
 
-'deki gibi tanımlanır.; Öncelikle titreşim periyodundan ve elastik olmayan
- deformasyon seviyesinden ve sistemin sönümleme ve histeretik davranışından
- çok daha az derecede etkilenir.
- [11]
+'deki gibi tanımlanır.
+ Öncelikle titreşim periyodundan ve elastik olmayan deformasyon seviyesinden
+ ve sistemin sönümleme ve histeretik davranışından çok daha az derecede
+ etkilenir.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-R_{\mathrm{\mu}}=R_{\mathrm{\mu}}\left(T,\mu_{i}\right)\label{eq:3-7}
+R_{\mathrm{\mu}}=R_{\mathrm{\mathrm{\mu}}}\left(T,\mu_{i}\right)\label{eq:3-7}
 \end{equation}
 
 \end_inset
@@ -1070,7 +1075,7 @@ i oran, yer değiştirme sünekliği oranına eşittir (
 Bu şekilde bir tasarım ekonomik ve uygulanabilir olmayacaktır.
  Ekonomik ve uygulanabilir tasarım ancak yapıda sınırlı hasar oluşmasının
  baştan kabul edilmesi ile yapılabilecektir.
- Buna göre tasarlanmış bir yapı elasto-plastik davranış gösterecektir.
+ Buna göre tasarlanmış bir yapı elasto-plastik davranış gösterecektir
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Dhakal2011"
@@ -1078,7 +1083,7 @@ literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Section
@@ -1086,7 +1091,7 @@ Yer Değiştirme Arttırma Katsayısı
 \end_layout
 
 \begin_layout Standard
-ASCE 7-16'da (
+ASCE 7-16'da 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "ASCE7-16"
@@ -1094,8 +1099,8 @@ literal "false"
 
 \end_inset
 
-) azaltılmış deprem yüklerine göre hesaplanan göreli kat ötelemelerini,
- etkin göreli kat ötelemelerine 
+ azaltılmış deprem yüklerine göre hesaplanan göreli kat ötelemelerini, etkin
+ göreli kat ötelemelerine 
 \begin_inset Formula $\frac{C_{d}}{I}$
 \end_inset
 
@@ -1392,7 +1397,7 @@ ri'ni, etkin göreli kat ötelemeleri'ne dönüştüren katsayılar arasındaki
 \end_layout
 
 \begin_layout Standard
-Son yayınlanan ATC-63 proje raporunda (
+Son yayınlanan ATC-63 proje raporunda 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "FEMAP695"
@@ -1400,7 +1405,7 @@ literal "false"
 
 \end_inset
 
-)
+ 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
@@ -1498,15 +1503,8 @@ literal "false"
  bir yer değiştirme arttırma katsayısı (DAF) ile elastik analizden hesaplanan
  ötelenmeleri arttırarak, büyük depremlerde meydana gelen maksimum tepe
  ve kat ötelenmelerini edildiğine dikkat çeker.
- Bazı deprem tasarım hükümlerinin karşılaştırılması, hem UBC
-\begin_inset CommandInset citation
-LatexCommand cite
-key "UBC-1991"
-literal "false"
-
-\end_inset
-
- hem de NEHRP'deki ötelenme arttırma katsayısının sırasıyla 
+ Bazı deprem tasarım hükümlerinin karşılaştırılması, hem UBC hem de NEHRP'deki
+ ötelenme arttırma katsayısının sırasıyla 
 \begin_inset Formula $3R\mathrm{_{w}}/8$
 \end_inset
 
@@ -1517,16 +1515,8 @@ literal "false"
 'ye eşit olan yer değiştirme arttırma katsayısının çok düşük olduğunu ve
  ihtiyatlı olmayan ötelenme tahminlerine yol açabileceğini göstermiştir.
  Dört farklı tip binanın sismik tepkilerinin analitik bir incelemesi, büyük
- depremlerde oluşan ötelenmelerin UBC
-\begin_inset CommandInset citation
-LatexCommand cite
-key "UBC-1991"
-literal "false"
-
-\end_inset
-
- veya NEHRP yaklaşımı tarafından öngörülenlerden çok daha yüksek olduğunu
- doğrulamıştır.
+ depremlerde oluşan ötelenmelerin UBC veya NEHRP yaklaşımı tarafından öngörülenl
+erden çok daha yüksek olduğunu doğrulamıştır.
  Yer değiştirme arttırma katsayısının, en büyük yer değiştirmelerin tahmin
  edilmesi için en azından deprem yükü azaltma katsayısına (UBC'de 
 \begin_inset Formula $R_{\mathrm{w}}$
@@ -2232,8 +2222,8 @@ literal "false"
 
  için bir düzeltme katsayısı olarak sağlanır.
  Sonuçlar, panel bölgesinin analitik modellerde dikkate alınması gerektiğini
- göstermektedir; Aksi takdirde, kat ötelenmesi % 35'e kadar küçümsenmiş
- olacaktır.
+ göstermektedir.
+ Aksi takdirde, kat ötelenmesi % 35'e kadar küçümsenmiş olacaktır.
  Son olarak, panel bölgesi kalınlığının bir fonksiyonu olarak 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
@@ -2259,10 +2249,6 @@ noprefix "false"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 burada 
 \begin_inset Formula $d_{\mathrm{c}}$
 \end_inset

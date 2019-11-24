@@ -2154,6 +2154,14 @@ Yapının tasarımı, nihai yükte birleşimlerin sekant rijitliğini kullanan
 
 \begin_layout Subsection
 Hindistan Ulusal Yapı Standardı
+\begin_inset CommandInset citation
+LatexCommand cite
+key "India2016"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2409,20 +2417,10 @@ Yarı rijit birleşimler: Yukarıda belirtilen iki tip arasında yer almaktadır
 
 \begin_layout Standard
 2002 yılında basılan yönetmeliğe göre yapının sismik analizini yaparken,
- kat döşemesi düzlemi ve çatının deformasyon durumuna göre rijit, yarı-rijit
- ve esnek çapraz fıçı tahtası(clapboard) karar verilir, daha sonra, yatay
- ötelenmesi tutulmuş (çaprazlı çerçeve) sistemin düzenlemesine göre yatay
- ötelenmeyi tutan kuvvet elemanları arasındaki ortak çalışmaya karar vermiş
- ve çeşitli elemanlar arasında depremin iç kuvvet analizini yapmıştır.
- 
-\end_layout
-
-\begin_layout Standard
-(When making seismic analysis of structure, it should decide rigid, semi-rigid
- and flexible cross clapboard according to the deformation situation of
- floor and roof in the plane, then decided the common work between anti-lateral
- force members according to the arrangement of anti-lateral system, and
- make internal force analysis of earthquake among various members.) 
+ rijit, yarı-rijit ve esnek birleşimlerin kullanılabilir.
+ Daha sonra, sisteminde doğru iç kuvvetlerin belirlenebilmesi için, yatay
+ ötelenmesinin tutulup tutulmamasına göre birleşimlerin rijitliğinin dikkate
+ alınması gerekir.
 \end_layout
 
 \begin_layout Section

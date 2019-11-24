@@ -3530,6 +3530,23 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
+Çalışmada hesapanan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayıları yapıların hem rijit tasarım yer değiştirmesine oranla hemde
+ kendi kapasite eğrilerinden hesaplanan tasarım yer değiştirmesine (yarı-rijit
+ tasarım yer değiştirmesi) oranları ile verilmiştir.
+ Burada yapıların birleşim rijitliğinin tasarım yer değiştirmene dolayısıyla
+ yer değiştirme sünekliği ile arasındaki değişimi gözlemek için her iki
+ tasarım yer değişitirmesi ile 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısı hesaplanmıştır.
+\end_layout
+
+\begin_layout Standard
 Sonuçları istatistiksel olarak da yorumlayabilmek için, Çizelge 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -3914,20 +3931,45 @@ Ortalama + Standart Sapma
 
 \end_inset
 
-Bu karşılaştırmalı grafikten aşağıdaki yorumlar yapılabilir;
-\end_layout
-
-\begin_layout Itemize
-Beklendiği üzere, birleşim rijitliği azaldıkça yapının elastik rijitliğinde
- azalma görülmektetir.
  
 \end_layout
 
 \begin_layout Standard
+Doğrusal elastik olmayan statik analizlerde, rijit tasarım yerdeğiştirmesi
+ ile hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayılarının
+\end_layout
+
+\begin_layout Itemize
+3 katlı yapıda, birleşim dönme rijitliği azaldıkça 6.07 'den 7.61 'e arttığı,
+\end_layout
+
+\begin_layout Itemize
+9 katlı yapıda, birleşim dönme rijitliği azaldıkça 4.90 'dan 6.61 'e arttığı,
+\end_layout
+
+\begin_layout Itemize
+20 katlı yapıda, birleşim dönme rijitliği azaldıkça 5.34 'den 7.13 'e arttığı
+ gözlenmektedir.
+\end_layout
+
+\begin_layout Itemize
+Tüm yapılar için ise 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısı ortalama 6.50 olarak hesaplanmıştır.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -3972,10 +4014,10 @@ Statik analizlerle, yarı-rijit tasarım yerdeğiştirmesi ile hesaplanan
 
 
 \begin_inset Float table
-placement h
+placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -4238,10 +4280,44 @@ Ortalama + Standart Sapma
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Doğrusal elastik olmayan statik analizlerde, yarı-rijit tasarım yerdeğiştirmesi
+ ile hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayılarının
+\end_layout
+
+\begin_layout Itemize
+3 katlı yapıda, birleşim dönme rijitliği azaldıkça 6.07 'den 4.86 'ya azaldığı,
+\end_layout
+
+\begin_layout Itemize
+9 katlı yapıda, birleşim dönme rijitliği azaldıkça 4.90 'dan 3.86 'ya azaldığı,
+\end_layout
+
+\begin_layout Itemize
+20 katlı yapıda, birleşim dönme rijitliği azaldıkça 5.34 'den 4.31 'e azaldığı
+ gözlenmektedir.
+\end_layout
+
+\begin_layout Itemize
+Tüm yapılar için ise 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısı ortalama 4.84 olarak hesaplanmıştır.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -4286,10 +4362,10 @@ Dinamik analizlerle, rijit tasarım yerdeğiştirmesi ile hesaplanan
 
 
 \begin_inset Float table
-placement h
+placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -4565,10 +4641,44 @@ Ortalama + Standart Sapma
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Doğrusal elastik olmayan dinamik analizlerde, rijit tasarım yerdeğiştirmesi
+ ile hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayılarının
+\end_layout
+
+\begin_layout Itemize
+3 katlı yapıda, birleşim dönme rijitliği azaldıkça 4.95 'den 5.95 'e arttığı,
+\end_layout
+
+\begin_layout Itemize
+9 katlı yapıda, birleşim dönme rijitliği azaldıkça 4.22 'den 5.24 'e arttığı,
+\end_layout
+
+\begin_layout Itemize
+20 katlı yapıda, birleşim dönme rijitliği azaldıkça 4.63 'den 5.22 'ye arttığı
+ gözlenmektedir.
+\end_layout
+
+\begin_layout Itemize
+Tüm yapılar için ise 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısı ortalama 5.15 olarak hesaplanmıştır.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -4613,10 +4723,10 @@ Dinamik analizlerle, yarı-rijit tasarım yerdeğiştirmesi ile hesaplanan
 
 
 \begin_inset Float table
-placement h
+placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -4879,6 +4989,36 @@ Ortalama + Standart Sapma
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Doğrusal elastik olmayan statik analizlerde, yarı-rijit tasarım yerdeğiştirmesi
+ ile hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayılarının
+\end_layout
+
+\begin_layout Itemize
+3 katlı yapıda, birleşim dönme rijitliği azaldıkça 4.95 'den 3.80 'e azaldığı,
+\end_layout
+
+\begin_layout Itemize
+9 katlı yapıda, birleşim dönme rijitliği azaldıkça 4.22 'den 3.06 'ya azaldığı,
+\end_layout
+
+\begin_layout Itemize
+20 katlı yapıda, birleşim dönme rijitliği azaldıkça 4.63 'den 3.15 'e azaldığı
+ gözlenmektedir.
+\end_layout
+
+\begin_layout Itemize
+Tüm yapılar için ise 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısı ortalama 3.86 olarak hesaplanmıştır.
 \end_layout
 
 \end_body
