@@ -168,7 +168,7 @@ Moment-Dönme İlişkisi
 \begin_layout Standard
 Her türlü gerçek kolon-kiriş birleşimi, tam rijit ve ideal mafsallı iki
  uç durum arasında kalan bir dönme rijitliğine sahiptir.
- Böylece, birleşimlerin yarı-rijit olarak modellenmesi daha gerçekçidir.
+ Böylece, birleşimlerin yarı rijit olarak modellenmesi daha gerçekçidir.
  Bununla birlikte, mühendislik uygulamalarında, bazı birleşimler, eğer rijitlikl
 eri çok küçükse, birleşimlerin herhangi bir önemli moment iletememesi ve
  böylece neredeyse serbest dönüşe izin vermesi durumunda mafsallıymış gibi
@@ -200,7 +200,7 @@ noprefix "false"
 
 \end_inset
 
- 'de gösterildiği üzere kolon-kiriş birleşimleri(düğüm noktası) bir kolon
+ 'de gösterildiği üzere kolon-kiriş bağlantısı (düğüm noktası) bir kolon
  gövdesinde yer alan panel bölgesi ve bir veya iki birleşimden oluşur.
  Paneli bölgesi, kolon gövdesi ve bağlı kirişin yüksekliği boyunca kolonun
  başlıklarını içerir.
@@ -213,7 +213,7 @@ noprefix "false"
  Düğüm noktası ise birleşimle beraber bağlanan elemanlar arasındaki kolon
  gövdesi gibi iç etkileşim bölgelerini de kapsayan bölgeyi tarifler.
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -271,7 +271,7 @@ noprefix "false"
 \begin_inset Formula $\left(M\right)$
 \end_inset
 
-'den kaynaklı dönme deformasyonu, 
+ 'den kaynaklı dönme deformasyonu, 
 \begin_inset Formula $\theta$
 \end_inset
 
@@ -284,7 +284,6 @@ noprefix "false"
 \end_inset
 
  toplamıdır.
- 
 \begin_inset Formula 
 \begin{equation}
 \theta=\gamma+\varphi\label{eq:Denklem2-1}
@@ -367,7 +366,7 @@ Bu deforme olabilirlik, sadece kirişin başlıkları tarafından aktarılan ve
  kirişe etki eden eğilme momentine statik olarak eşdeğer olan kuvvet çiftleri
  nedeniyledir, z kuvvet kolunu göstermektedir.
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -415,10 +414,6 @@ literal "false"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 Günümüzde sıklıkla kullanılan bazı birleşim tipleri Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -435,7 +430,7 @@ noprefix "false"
  bağlıdır.
  
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -529,7 +524,7 @@ noprefix "false"
  eğrisi ile modellenebileceğidir.
  
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -577,10 +572,6 @@ literal "false"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 Yönetmeliklerin birleşimleri sınıflandırdıklarını incelemeden önce tez kapsamınd
 a birleşim dönme rijitliği seçiminde tercih edilen AISC yönetmeliğinin sınıfland
 ırma kavramını irdelemek yönetmeliklerin birleşimleri sınıflandırma prensibini
@@ -592,7 +583,7 @@ Kiriş Çizgi Konsepti
 \end_layout
 
 \begin_layout Standard
-Esnek veya yarı-rijit birleşimlere sahip kirişin performans davranışı üzerine
+Esnek veya yarı rijit birleşimlere sahip kirişin performans davranışı üzerine
  düşey yüklenmesine dayanan birleşim tepkisi araştırılması esastır.
  Her iki ucunda dönmeye sahip bir kiriş için eğim-deplasman gibi klasik
  bir yöntem ile göz önüne alındığında, A ucundaki moment, Şekil 
@@ -678,10 +669,6 @@ Kiriş Uç Momentleri ve Uç Dönmeleri
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 Düzgün düşey yüke sahip iki ucundan ankastre mesnetle tutulu kiriş için,
  Şekil 
 \begin_inset CommandInset ref
@@ -717,7 +704,7 @@ Burada
 
  kiriş üzerindeki düzgün yayılı yüktür.
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -758,10 +745,6 @@ Ankastre Mesnetli, Düzgün Yayılı Yüklü Kiriş
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 B ucundaki dönme, A ucundaki dönme ile aynıdır ve buna karşılık denklemlerin
  süperpozisyonu ile A ucunda bulunan 
 \begin_inset CommandInset ref
@@ -903,10 +886,6 @@ Kiriş için Moment-Dönme Çizgisi
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 Birleşimdeki moment, Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1062,10 +1041,6 @@ Kiriş Çizgisi ile Birleşim Çizgisinin Birleştirilmesi
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 Denklem 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1197,7 +1172,7 @@ noprefix "false"
 \begin_inset Formula $\left(u\right)$
 \end_inset
 
- sıfir olduğunda birleşim momentinin veya negatif momentin başladığını,
+ sıfır olduğunda birleşim momentinin veya negatif momentin başladığını,
  ankastre uç momentine oranının (1) üstündeki momentin 1 olduğunu gösterir.
  Rijitlik oranı arttıkça kirişin ucundaki moment azalır.
  Bu Şekil ayrıca, kiriş ucundaki moment azalırken, açıklık momentin aynı
@@ -1276,7 +1251,7 @@ name "fig:2.11"
 
 \begin_layout Standard
 Geschwinder, 1991 yılındaki çalışmasında kiriş çizgisi ile birleştirilen
- rijit, yarı-rijit ve mafsallı birleşimlerini temsil eden üç farklı birleşim
+ rijit, yarı rijit ve mafsallı birleşimlerini temsil eden üç farklı birleşim
  eğrisi Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1303,7 +1278,7 @@ noprefix "false"
 'den, birleşim ankastre uç momentinin en az yüzde 90'ına dayanabildiği sürece
  rijit olarak, birleşimin ankastre uç momentinin yüzde 20'sinden fazlasını
  almadığı sürece de mafsallı olarak sınıflandırılabileceğini göstermektedir.
- Bu iki nokta arasındaki herhangi bir davranış, yarı-rijit bir birleşim
+ Bu iki nokta arasındaki herhangi bir davranış, yarı rijit bir birleşim
  olarak kabul edilir
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1314,7 +1289,7 @@ literal "false"
 
 .
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -1358,37 +1333,36 @@ name "fig:2.12"
 \end_layout
 
 \begin_layout Standard
-Şekil 12, kiriş çizgisine rijit, yarı-rijit ve mafsallı birleşiminin doğrusal
+Şekil 12, kiriş çizgisine rijit, yarı rijit ve mafsallı birleşiminin doğrusal
  çizgilerinin üst üste getirilmesini göstermektedir.
  Bu Şekilde gösterildiği gibi, doğrusal çizgiyi ankastre uç momentinin %90,
- % 20'sine kadar alırsak, 
+ % 20 'sine kadar alırsak, 
 \begin_inset Formula $\frac{k_{s}L}{EI}$
 \end_inset
 
- ilişkisi sırasıyla sırasıyla rijit, yarı-rijit ve basit birleşimler olarak
+ ilişkisi sırasıyla sırasıyla rijit, yarı rijit ve basit birleşimler olarak
  belirlenebilir.
  Bu ilişkilerde, birleşimin sekant rijitliği, 
 \begin_inset Formula $k_{\mathrm{s}}$
 \end_inset
 
-, servis yükleri altındaki momentin,
+, servis yükleri altındaki momentin, 
 \begin_inset Formula $M_{s}$
 \end_inset
 
-, servis yüklerindeki dönmeye,
+, servis yüklerindeki dönmeye, 
 \begin_inset Formula $\theta_{\mathrm{s}}$
 \end_inset
 
 , oranı olarak tanımlanır.
- AISC yönetmeliği 2005 ve daha sonraki yıllarda rijit birleşimler için doğrusal
- çizgiyi ankastre uç momentinin %100'ü olarak değiştirerek sekant rijitliği
- 
+ AISC yönetmeliği 2005 ve daha sonraki yıllarda rijit birleşimler için sekant
+ rijitliği 
 \begin_inset Formula $K_{\mathrm{s}}$
 \end_inset
 
 'yi 18 den 20 ye çıkarmıştır.
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -1446,7 +1420,7 @@ literal "false"
 \begin_layout Standard
 Yapısal çelik binalar yönetmeliği, birleşimleri, rijit ve mafsallı olarak
  iki ana başlıkta gruplandırır daha sonra ,rijit birleşimleri de, rijit
- ve yarı-rijit olarak iki gruba ayırır.
+ ve yarı rijit olarak iki gruba ayırır.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1506,18 +1480,18 @@ Burada;
 \begin_inset Formula $\frac{K_{s}L}{EI}≥20$
 \end_inset
 
- ise, birleşimin rijit olduğu kabul edilebilir (başka bir deyişle bağlanan
- elemanlar arasındaki açıyı koruyabilir).
+ ise, birleşimin rijit olduğu kabul edilebilir (bağlanan elemanlar arasındaki
+ açı korunur).
  
 \begin_inset Formula $\frac{K_{s}L}{EI}\leq2$
 \end_inset
 
  ise, birleşimin mafsallı olduğu kabul edilebilir.
- Bu iki limit arasındaki rijitlikdeki birleşimler yarı-rijit olduğu ve birleşimi
+ Bu iki limit arasındaki rijitlikdeki birleşimler yarı rijit olduğu ve birleşimi
 n rijitliği, dayanımı ve sünekliği tasarımda dikkate alınmalıdır.
  
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -1547,7 +1521,7 @@ name "fig:2.14"
 
 \end_inset
 
-Yarı-Rijit Bir Birleşimin Rijitlik,Dayanım ve Süneklik Karakteristikleri
+yarı rijit Bir Birleşimin Rijitlik,Dayanım ve Süneklik Karakteristikleri
 \end_layout
 
 \end_inset
@@ -1583,8 +1557,7 @@ noprefix "false"
  Bir birleşimin dayanımı, nihai sınır durumu modeline veya fiziksel testlere
  dayanarak belirlenebilir.
  Moment-dönme tepkisi herhangi bir maksimum yük göstermiyorsa, dayanım 0.02
- radyan'lık bir dönme değerindeki moment olarak alınabilir (Hsieh ve Deierlein,
- 1991; Leon ve diğ., 1996).
+ radyan'lık bir dönme değerindeki moment olarak alınabilir.
 \end_layout
 
 \begin_layout Standard
@@ -1624,7 +1597,7 @@ n,
  Birleşimin dayanımı, tasarım yüklerinin gerektirdiği moment taleplerine
  karşı koymak için yeterli olmalıdır.
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -1673,22 +1646,17 @@ Birleşimin Sünekliği
 
 \begin_layout Standard
 Birleşim dayanımı kirişin tam plastik moment dayanımını büyük ölçüde aşarsa,
- yapısal sistemin sünekliği kiriş tarafından kontrol edilir ve bağlantı
- elastik olarak kabul edilebilir.
- Birleşim dayanımı, yalnızca kirişin tam plastik moment dayanımını(eğilme
- kapasitesini) kısmen(az miktarda) aşıyorsa, kiriş nihai dayanımına ulaşmadan
- önce birleşim büyük ölçüde elastik olmayan deformasyona maruz kalabilir.
- 
-\end_layout
-
-\begin_layout Standard
-Kirişin dayanımı birleşim dayanımını aşarsa, deformasyonlar birleşimde konsantre
- olabilir.
+ birleşimlerin elastik kaldığı varsayımı ile, yapısal sistemin sünekliği
+ kiriş tarafından kontrol edilir.
+ Birleşim dayanımı, yalnızca kirişin tam plastik moment dayanımını kısmen
+ aşıyorsa, kiriş nihai dayanımına ulaşmadan önce birleşim büyük ölçüde elastik
+ olmayan deformasyona maruz kalabilir.
+ Kirişin dayanımı birleşim dayanımını aşarsa, deformasyonlar birleşimde
+ konsantre olabilir.
  Bir birleşimin gerekli sünekliği, özel detaylandırmalara bağlı olacaktır.
- Örneğin, deprem tehlikesi olmayan bir alanda yatay ötelenmesi tutulmuş
- (çaprazlı) bir çerçeve için süneklik gereksinimi, genellikle deprem tehlikesi
- yüksek bir alanda gerekli süneklikten daha az olacaktır.
- Deprem tasarımı için dönme, süneklik gereksinimleri yapısal sisteme bağlıdır.
+ Örneğin, deprem tehlikesi olmayan bir alanda bir çerçeve için süneklik
+ gereksinimi, genellikle deprem tehlikesi yüksek bir alanda gerekli süneklikten
+ daha az olacaktır.
 \end_layout
 
 \begin_layout Standard
@@ -1718,10 +1686,7 @@ noprefix "false"
  Bu ikinci kriter, çok büyük dönmeler meydana gelinceye kadar dayanım kaybının
  olmadığı birleşimlere yöneliktir.
  Tasarımda bu büyük dönme değerlerine güvenmek akılcı değildir.
-\end_layout
-
-\begin_layout Standard
-Mevcut dönme kapasitesi 
+ Mevcut dönme kapasitesi 
 \begin_inset Formula $\theta_{u}$
 \end_inset
 
@@ -1760,14 +1725,15 @@ Birleşimin Rijitliği
 Eurocode yönetmeliği birleşimleri Şekil 2.15’de verilen başlangıç rijitliklerine
  bağlı olarak karşılaştırılmaları ile rijit, yarı rijit ve mafsallı olarak
  sınıflandırır.
- Bir birleşim, başlangıç dönme rijitliği 
+ Bir birleşimin, başlangıç dönme rijitliği 
 \begin_inset Formula $S_{j}$
 \end_inset
 
-, sınıflandırma sınırları ile karşılaştırarak sınıflandırılabilir.
+, aşağıda verilen sınıflandırma sınırları ile karşılaştırarak sınıflandırılabili
+r.
  
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -1810,68 +1776,52 @@ Rijitliğe Göre Sınıflandırma Sınırları
 
 \end_layout
 
-\begin_layout Standard
-Birleşimlerin sınıflandırılmasında rijitlik sınırları
-\end_layout
-
 \begin_layout Itemize
-Rijit Birleşim
-\begin_inset space \hspace{}
-\length 0.95cm
-\end_inset
-
- 
-\begin_inset Formula $\rightarrow S_{j,ini}\geq25EI/L$
-\end_inset
-
- (yatay ötelenmesi tutulmamış çerçeve)
+Rijit Birleşim;
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hspace{}
-\length 3.6cm
+yatay ötelenmesi tutulmamış çerçeve için :
+\begin_inset Formula $S_{j,ini}\geq25EI/L$
 \end_inset
 
-
-\begin_inset Formula $\rightarrow S_{j,ini}\geq8EI/L$
-\end_inset
-
- (yatay ötelenmesi tutulmuş çerçeve)
-\end_layout
-
-\begin_layout Itemize
-Yarı-Rijit Birleşim
-\begin_inset space \hspace{}
-\length 0.25cm
-\end_inset
-
- 
-\begin_inset Formula $\rightarrow0.5EI/L<S_{j,ini}<25EI/L$
-\end_inset
-
- (yatay ötelenmesi tutulmamış çerçeve)
+,
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hspace{}
-\length 3.6cm
+yatay ötelenmesi tutulmuş çerçeve için :
+\begin_inset Formula $S_{j,ini}\geq8EI/L$
 \end_inset
 
 
-\begin_inset Formula $\rightarrow0.5EI/L<S_{j,ini}<8EI/L$
-\end_inset
-
- (yatay ötelenmesi tutulmuş çerçeve)
 \end_layout
 
 \begin_layout Itemize
-Mafsallı Birleşim
-\begin_inset space \hspace{}
-\length 0.4cm
+Yarı rijit Birleşim; 
+\end_layout
+
+\begin_layout Standard
+yatay ötelenmesi tutulmamış çerçeve için : 
+\begin_inset Formula $0.5EI/L<S_{j,ini}<25EI/L$
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Standard
+yatay ötelenmesi tutulmuş çerçeve için : 
+\begin_inset Formula $0.5EI/L<S_{j,ini}<8EI/L$
 \end_inset
 
  
-\begin_inset Formula $\rightarrow S_{j,ini}\leq0.5EI/L$
+\end_layout
+
+\begin_layout Itemize
+Mafsallı Birleşim;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S_{j,ini}\leq0.5EI/L$
 \end_inset
 
 
@@ -1883,10 +1833,10 @@ Birleşimin Dayanımı
 
 \begin_layout Standard
 Bir düğüm noktası, bağlandığı elemanların tasarım momenti dayanımları ile
- karşılaştırılarak tam dayanımlı=rijit, mafsallı=mafsallı veya kısmi dayanımlı=y
-arı-rijit olarak sınıflandırılır.
+ karşılaştırılarak tam dayanımlı, mafsallı veya kısmi dayanımlı olarak sınıfland
+ırılır.
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -1950,7 +1900,7 @@ noprefix "false"
 Mafsallı birleşim: Elemanları veya yapıyı bir bütün olarak olumsuz yönde
  etkileyen önemli momentler geliştirmeden, iç kuvvetleri aktarabilmelidir.
  Mafsallı bir birleşim, tasarım yükleri altında ortaya çıkan dönmeleri karşılaya
-bilmelidir(üstlenebilmelidir).
+bilmelidir.
  Tasarım momenti dayanımı 
 \begin_inset Formula $M_{j,Rd}$
 \end_inset
@@ -1981,8 +1931,8 @@ literal "false"
 \begin_layout Standard
 Türkiye Çelik Yapılar Yönetmeliği, birleşimleri mafsallı ve moment aktaran
  olarak iki ana gruba ayırmaktadır.
- Moment aktaran birleşimler ise kendi içinde rijit moment aktaran ve yarı-rijit
- (elastik) moment aktaran birleşimler olarak ikiye ayrılmaktadır.
+ Moment aktaran birleşimler ise kendi içinde rijit moment aktaran ve yarı
+ rijit (elastik) moment aktaran birleşimler olarak ikiye ayrılmaktadır.
 \end_layout
 
 \begin_layout Standard
@@ -1992,7 +1942,7 @@ Mafsallı birleşimler: Eğilme momentinin sıfır veya sıfıra yakın olduğu,
  Bu birleşimlerin dönme kapasitesi, yapısal analiz ile hesaplanan gerekli
  dönme hareketi ile uyumlu olmalıdır.
  Ayrıca yeteri kadar dönme yeteneğine sahip olacak ve sadece kesme kuvveti
- etkisi dikkate alınarak boyutlandırılmasını, birleşimlerin dönme miktarını
+ etkisi dikkate alınarak boyutlandırılması ayrıca birleşimlerin dönme miktarının
  kirişlerin uç dönmeleri ile uyumlu olası gerekmektedir.
 \end_layout
 
@@ -2011,12 +1961,12 @@ Rijit moment aktaran birleşimler: Birleşen elemanlar arasındaki göreli dönm
 \begin_layout Standard
 Yarı rijit moment aktaran birleşimler: Birleşen elemanlar arasındaki göreli
  dönme hareketinin tam olarak sınırlandırılmadığı bu durumda yapı sistemlerinin
- analizi için geliştirilen analitik modellerde, birleşimlerin kuvvet-şekildeğişt
-irme davranışını göz önüne alacak şekilde oluşturulacaktır.
+ analizi için geliştirilen analitik modellerde, birleşimlerin kuvvet-şekil
+ değiştirme davranışını göz önüne alacak şekilde oluşturulacaktır.
  Bu davranış karakteristiklerinin analitik veya deneysel olarak belgelenmesi
  gerekmektedir.
  Bu durumda birleşimler, öngörülen göreli dönme hareketini sağlayacak yeterli
- dayanım, rijitlik ve şekildeğiştirme kapasitesine sahip olacaktır.
+ dayanım, rijitlik ve şekil değiştirme kapasitesine sahip olacaktır.
 \end_layout
 
 \begin_layout Subsection
@@ -2032,7 +1982,7 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-TBDY-2018 birleşimlerin yarı-rijit olarak dikkate alınmasına izin vermektedir.
+TBDY-2018 birleşimlerin yarı rijit olarak dikkate alınmasına izin vermektedir.
  Tam dayanımlı bulonlu alın levhalı birleşimler ile bulonlu başlık levhalı
  birleşimler, birleşim rijitliğini ifade eden dönme yayları kullanılarak
  modellenecektir.
@@ -2044,7 +1994,7 @@ TBDY-2018 birleşimlerin yarı-rijit olarak dikkate alınmasına izin vermektedi
 \begin_inset Formula $EI_{bn}=\frac{1}{\frac{3}{l_{b}K_{o}}+\frac{1}{EI_{b}}}$
 \end_inset
 
-,'ye göre hesaplanacaktır.
+ 'ye göre hesaplanacaktır.
 \end_layout
 
 \begin_layout Subsection
@@ -2061,11 +2011,11 @@ literal "false"
 
 \begin_layout Standard
 Avustralya Çelik Yapılar Standardı birleşimleri, mafsallı birleşim, rijit
- birleşim ve yarı-rijit birleşim olarak üç başlık altında sınıflandırmıştır;
+ birleşim ve yarı rijit birleşim olarak üç başlık altında sınıflandırmıştır;
 \end_layout
 
 \begin_layout Standard
-Rijit birleşim: Bu birleşimler, görel dönmenin olmadığı birleşimlerdir.
+Rijit birleşim: Bu birleşimler, göreli dönmenin olmadığı birleşimlerdir.
  Bu tür bağlantıların, kiriş ucu ile bağlı elemanlar arasındaki açıyı korumak
  için yeterli rijitliğe sahip olduğu varsayılmaktadır.
  
@@ -2100,7 +2050,7 @@ literal "false"
 
 \begin_layout Standard
 2015 yılında yayınlanan standartda birleşimlerde üç temel yapı tipi ve bununla
- ilişkili tasarım varsayımları, yani, "rijit", "mafsallı" ve "yarı-rijit"
+ ilişkili tasarım varsayımları, yani, "rijit", "mafsallı" ve "yarı rijit"
  yapının tamamı veya bir kısmı için kullanılabilir.
  İç kuvvetlerin ve eğilme momentlerinin yapı boyunca dağılımı, seçilen yapım
  tipine veya tiplerine ve direnecek kuvvetlere bağlı olacaktır.
@@ -2127,14 +2077,14 @@ ini sağlamak için yeterli kapasiteyi koruyarak, elemanlar arasındaki momentle
 \end_layout
 
 \begin_layout Standard
-Ayrıca yarı rijit çerçevelerin tasarımı ve inşaası aşağıdaki gereklilikleri
+Ayrıca yarı rijit çerçevelerin tasarımı ve inşası aşağıdaki gereklilikleri
  karşılayacaktır:
 \end_layout
 
 \begin_layout Itemize
 Birleşimlerin en büyük kapasitelerine kadar moment - dönme tepkisi, test
  ile oluşturulmuş ve teknik literatürde yayınlanmış veya saygın bir test
- laboratuarından alınmalıdır.
+ laboratuvarından alınmalıdır.
  
 \end_layout
 
@@ -2165,7 +2115,7 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-2016 yılında yüyürlüğe giren yönetmelik kolon-kiriş birleşimlerini, basit,
+2016 yılında yürürlüğe giren yönetmelik kolon-kiriş birleşimlerini, basit,
  rijit ve yarı rijit olarak üç gruba ayırır.
  Birleşimler nihai dayanımlarına göre veya başlangıç elastik rijitliklerine
  ve Bjorhovde sınıflandırmasına göre sınıflandırılır.
@@ -2194,7 +2144,7 @@ noprefix "false"
 
 'de gösterilmiştir.
 \begin_inset Float table
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -2380,7 +2330,7 @@ Mafsallı
 \begin_layout Standard
 Rijit birleşimler: Yüksek katlı ve ince yapılarda rijitlik gereklilikleri
  rijit bağlantıların kullanılmasını zorunlu kılabilir.
- Rijit birleşimler kolonlara önemli miktarda momen aktarır ve birleşimdeki
+ Rijit birleşimler kolonlara önemli miktarda moment aktarır ve birleşimdeki
  deformasyonların çok küçük kaldığı varsayılır.
  Yatay ötelenmesi tutulmamış çerçevelerde stabilite için gerekli olan ve
  aynı zamanda yanal yüklere direnç sağlayan katkılar vardır.
@@ -2401,7 +2351,7 @@ Mafsallı birleşimler: Yalnızca bazı eksantriklik derecelerinde kaymayı tran
 
 \begin_layout Standard
 Yarı rijit birleşimler: Yukarıda belirtilen iki tip arasında yer almaktadır.
- Gerçekte, mafsallı birleşimler, yarı-rijit birleşimlerde olduğu gibi bir
+ Gerçekte, mafsallı birleşimler, yarı rijit birleşimlerde olduğu gibi bir
  dereceye kadar dönme rijitliğine sahiptir.
  Birleşimlerin moment-dönme ilişkisi, özel tasarım için yapılan deneylere
  veya uzman literatüründe sunulan testlerden elde edilen ilişkiye dayanarak
@@ -2417,7 +2367,7 @@ Yarı rijit birleşimler: Yukarıda belirtilen iki tip arasında yer almaktadır
 
 \begin_layout Standard
 2002 yılında basılan yönetmeliğe göre yapının sismik analizini yaparken,
- rijit, yarı-rijit ve esnek birleşimlerin kullanılabilir.
+ rijit, yarı rijit ve esnek birleşimlerin kullanılabilir.
  Daha sonra, sisteminde doğru iç kuvvetlerin belirlenebilmesi için, yatay
  ötelenmesinin tutulup tutulmamasına göre birleşimlerin rijitliğinin dikkate
  alınması gerekir.
@@ -2484,7 +2434,7 @@ literal "false"
 
 .
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -2551,7 +2501,7 @@ noprefix "false"
  Bu matematiksel ifadeler gerçekte gözlenen davranışa yakınlaştıkça analiz
  programlarının iş yükü artmaktadır.
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -2561,7 +2511,7 @@ status open
 \begin_inset Graphics
 	filename Grafikler/2_Yarı-Rijit Birleşimler/2.pdf
 	lyxscale 40
-	scale 60
+	scale 75
 
 \end_inset
 
@@ -2592,10 +2542,6 @@ Moment dönme eğrisinin matematiksel ifadeleri
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 Kolon-kiriş birleşim davranışının belirlenmesi literatürde beş başlık altında
  incelenebilir;
 \end_layout
@@ -2627,7 +2573,7 @@ Matematik Modeller
 \begin_layout Standard
 Matematik modeller esas olarak moment-dönme eğrisinin matematiksel gösteriminin
  parametrelerini kiriş-kolon bağlantılarının geometrik ve mekanik özellikleri
- açısından ifade etmek için kullanılan ampirik formülasyonlara dayanmaktadır.
+ açısından ifade etmek için kullanılan ampirik formülasyonlar a dayanmaktadır.
  Birleşimlerin moment-dönme ilişkilerini belirlemek için en yaygın kullanılan
  yaklaşım, deneysel verileri regresyon analizleri ile birleşimin geometrik
  ve mekanik özelliklerini ifade eden bir eğri uydurmaktır.
@@ -2745,7 +2691,7 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Analitik modeller, birleşimin rijitlik ve dayanım parameterelerini sınır
+Analitik modeller, birleşimin rijitlik ve dayanım parametrelerini sınır
  durum (limit) analizler kullanarak moment davranışını elde eder.
  Buradaki rijitlik parametresi birleşimin dönme rijitliği ve dayanım parametresi
  ise birleşimin moment taşıma kapasitesidir.
@@ -2753,7 +2699,7 @@ Analitik modeller, birleşimin rijitlik ve dayanım parameterelerini sınır
 \end_layout
 
 \begin_layout Standard
-Bu yaklaşımı benimseme örnekleri arasında, bulonlu uzaltılmış alın levhalı
+Bu yaklaşımı benimseme örnekleri arasında, bulonlu uzatılmış alın levhalı
  birleşimler için Yee ve Melchers (1985)
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -2774,7 +2720,7 @@ literal "false"
 \end_layout
 
 \begin_layout Subsubsection*
-AISC yaklaşımı, Akma Çizgileri Metodu
+Akma Çizgileri Metodu
 \end_layout
 
 \begin_layout Standard
@@ -2789,8 +2735,9 @@ lir: Sanal iş yöntemi, çelik levhaların analizi için tercih edilen yöntemd
  Bir levhanın akma çizgisi kontrol eden modeli belirlemek için, çeşitli
  akma çizgisi modelleri düşünülmelidir.
  En düşük göçme yükünü üreten model en düşük üst sınır çözümü olarak kabul
- edilir.Bir alın levhası veya kolon başlığının dayanımını belirlemek için
- akma çizgisi teorisinin uygulanması üç temel adımı gerektirir:
+ edilir.
+ Bir alın levhası veya kolon başlığının dayanımını belirlemek için akma
+ çizgisi teorisinin uygulanması üç temel adımı gerektirir:
 \end_layout
 
 \begin_layout Standard
@@ -2815,7 +2762,7 @@ Bu tasarım prosedürleri temel olarak, Oklahoma Üniversitesi ve Virginia
 
 \begin_layout Standard
 Geçmiş yıllarda yapılan çalışmalarda, alın levhalı bulonlu birleşimlere
- ait çok sayıda akma çizgisi modeli araştırıları için Srouji vd., (1983)
+ ait çok sayıda akma çizgisi modeli araştırmaları için Srouji vd., (1983)
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Srouji1983"
@@ -2923,7 +2870,7 @@ literal "false"
 \end_layout
 
 \begin_layout Subsubsection*
-Eurocode yaklaşımı, Bileşen Metodu
+Bileşen Metodu
 \end_layout
 
 \begin_layout Standard
@@ -2949,7 +2896,7 @@ ilmesi (başlangıç dönme rijitliği, tasarım dayanımı, deformasyon eğrisi
 \end_layout
 
 \begin_layout Itemize
-Tüm bileşenlerin birleşitirilmesi ve tüm bağlantının rijitliği ve / veya
+Tüm bileşenlerin birleştirilmesi ve tüm bağlantının rijitliği ve / veya
  dayanım özelliklerinin değerlendirilmesi (başlangıç dönme rijitliği, tasarım
  dayanımı, deformasyon eğrisi)
 \end_layout
@@ -2988,9 +2935,9 @@ Deneysel testlerin maliyeti çok yüksek olabilir; bu nedenle, birleşim elemanl
  ancak doğrusal olmayanlıkların karmaşık etkileşimi önemli yakınsama problemleri
  doğurur ve ayrıca doğru bir modele ulaşmak, bu gelişmiş analiz tekniklerinin
  kullanımıyla bile her zaman mümkün olmayabilir.
- Ayrıca elemanların malzeme ve geometrik nonlineerliği, temas yüzeyi tanımı,
- sürtünme davranışının ifadesi ve ön gerilme gibi davranış özelliklerinin
- kullanılan yazılıma çok hassas bir şekilde dikte edilmesi bu metodun en
+ Ayrıca elemanların malzeme ve geometrik doğrusal olmayanlığı, temas yüzeyi
+ tanımı, sürtünme davranışının ifadesi ve ön gerilme gibi davranış özelliklerini
+n kullanılan yazılıma çok hassas bir şekilde dikte edilmesi bu metodun en
  önemli zorluklarındandır.
 \end_layout
 
@@ -3047,9 +2994,9 @@ Deneysel Modeller
 \end_layout
 
 \begin_layout Standard
-Yarı-rijit bağlantı davranışı hakkında bilgi edinmenin en doğru yolu fiziksel
+yarı rijit bağlantı davranışı hakkında bilgi edinmenin en doğru yolu fiziksel
  testlerdir.
- Laboratuarda deneyler yapılması, özellikle testler, bağlantı elemanlarının
+ Laboratuvarda deneyler yapılması, özellikle testler, bağlantı elemanlarının
  farklı geometrik özelliklerine sahip tüm bağlantı tiplerini, özellikle
  farklı levha kalınlıkları, farklı birleşen kolon-kiriş elemanları, farklı
  kalitede kaynak tipleri, farklı sayıda bulon kullanımı ve bulonlarda bulunan
@@ -3075,7 +3022,7 @@ literal "false"
 
 \end_inset
 
-.Bu veri bankası çift gövde korniyerli, tek gövde korniyerli, kısa alın lehvalı
+.Bu veri bankası çift gövde korniyerli, tek gövde korniyerli, kısa alın levhalı
  ve uzun alın levhalı birleşimler üzerinde yapılan testleri içermektedir.
 \end_layout
 
@@ -3093,7 +3040,7 @@ literal "false"
 , 1951 ve 1985 yılları arasında 70'den fazla deneysel çalışma için bir literatür
  taraması yaptı.
  Nethercot veri bankası, Goverdhan tarafından gövdesinde korniyer olan ve
- olmayan t-stub(yarım I kesit) bağlantı terstlerini içerir.
+ olmayan t-stub(yarım I kesit) bağlantı testlerini içerir.
 \end_layout
 
 \begin_layout Standard
@@ -3122,8 +3069,8 @@ literal "false"
 
 \end_inset
 
- tarafından SERICON isimli Avrupada yapılmış test sonuçlarını kapsayan veri
- bankası geliştirilmiştir.
+ tarafından SERICON isimli Avrupa da yapılmış test sonuçlarını kapsayan
+ veri bankası geliştirilmiştir.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -3131,7 +3078,7 @@ Birleşim Davranışının Modellenmesi ile ilgili Geçmiş Çalışmalar
 \end_layout
 
 \begin_layout Subsubsection*
-Lui and Chen (1986) in Çalışması
+Lui ve Chen (1986) in Çalışması
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Lui1986"
@@ -3143,9 +3090,8 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Esnek(flexible) birleşimlere sahip çelik çerçevelerin doğrusal olmayan davranışl
-arı üzerine yapılan en eski çalışmalardan biri Lui ve Chen tarafından yapılmıştı
-r.
+Esnek birleşimlere sahip çelik çerçevelerin doğrusal olmayan davranışları
+ üzerine yapılan en eski çalışmalardan biri Lui ve Chen tarafından yapılmıştır.
  Çalışma esas olarak kolon-kiriş elemanının ve birleşim elemanlarının formülasyo
 nuna dayandırıldı.
  Sayısal örnekler de teyit edildi.
@@ -3159,7 +3105,7 @@ nuna dayandırıldı.
 \end_layout
 
 \begin_layout Subsubsection*
-Lui and Chen (1987) in Çalışması
+Lui ve Chen (1987) in Çalışması
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Lui1987"
@@ -3188,7 +3134,7 @@ Benzer bir çalışma Lui ve Chen tarafından yanal ötelenmesi tutulmuş ve tut
 \end_layout
 
 \begin_layout Subsubsection*
-Elnashai and Elghazouli (1994) nin Çalışması
+Elnashai ve Elghazouli (1994) nin Çalışması
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Elnashai1994"
@@ -3202,11 +3148,11 @@ literal "false"
 \begin_layout Standard
 Yarı rijit çelik çerçevelerin tasarımı ve sismik davranışı hakkında Elnashai
  ve Elghazouli tarafından detaylı bir çalışma yapılmıştır.
- Rijit ve yarı-rijit kiriş-kolon birleşimleri olan 2 katlı tek açıklıklı
+ Rijit ve yarı rijit kiriş-kolon birleşimleri olan 2 katlı tek açıklıklı
  çerçevenin yarısı test edilmiştir.
  Monotonik, çevrimsel ve dinamik testlerden elde edilen sonuçlar analitik
  modelden elde edilen sonuçlarla karşılaştırıldı.
- Yarı-rijit birleşimlere sahip çerçevelerin yeterli deprem dayanımı gösterdiği,
+ yarı rijit birleşimlere sahip çerçevelerin yeterli deprem dayanımı gösterdiği,
  bu yüzden sünek ve kararlı bir histeretik davranış sergiledikleri hem deneysel
  hem de analitik çalışmalarla ifade edildi.
 \end_layout
@@ -3261,12 +3207,123 @@ SAC raporunda yarı rijit bağlantılı iki SAC binasının sismik performansı
  Dinamik analiz için,% 10 'luk aşılma olasılığına uyacak şekilde ölçeklendirilmi
 ş üç adet 20 zemin hareket kaydı seti, 50 yıldaki % 2 'lik aşılma olasılığına
  ve %50 'dekine ulaşılma olasılığına uygulanmıştır.
- Yarı-rijit birleşimli binaların rijit birleşimli binalarla benzer sünek
+ yarı rijit birleşimli binaların rijit birleşimli binalarla benzer sünek
  performans gösterdiği ve daha fazla bağlılığa sahip olduğu görülmüştür.
 \end_layout
 
 \begin_layout Standard
-NOT:detaylı anlatılacak
+SAC projesinde depremselliği yüksek bölgelerde yarı rijit (kısmi dayanımlı)
+ birleşimli çerçevelerin performansının değerlendirilmesi için yapılan analitik
+ çalışma da Maison ve Kasai 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Maison2000"
+literal "false"
+
+\end_inset
+
+ dokuz adet Northridge depremi öncesi yapılan kaynaklı moment dayanımlı
+ çerçeve incelenmiştir.
+ Bu çerçeveler, orjinal kiriş ve kolon boyutları sabit tutulup, birleşim
+ özellikleri parametrik olarak değiştirilerek incelenmiştir.
+ Bu çalışmada yatay yük taşıyan sistemin, sadece dış (perimeter) çerçeveler
+ olduğunun belirtilmesi önemlidir.
+ Ayrıca, kullanılan yapıların gerçeğe uygun tasarımları gerektiği kadar
+ yansıtmadığı çalışmada da belirtilmiştir.
+ Yatay yük sadece dış çerçevelerle taşındığında kiriş kesitleri çok büyük
+ olmaktadır.
+ İncelenen üç, dokuz ve yirmi katlı çerçevelerin depremselliği düşük, orta
+ ve yüksek bölgelerde bulunduğu kabul edilmiştir.
+ Analizler sırasında üç farklı birleşim rijitliği 
+\begin_inset Formula $30EI/L,10EI/L,5EI/L$
+\end_inset
+
+ , üç farklı birleşim kapasitesi 
+\begin_inset Formula $1.0M_{\mathrm{pb}},0.66M_{\mathrm{pb}},0.33M_{\mathrm{pb}}$
+\end_inset
+
+ ve iki farklı pekleşme oranı 
+\begin_inset Formula $1.1,1.4$
+\end_inset
+
+ göz önüne alınmıştır.
+ Çalışma sırasında, 171 farklı çerçevenin elastik olmayan statik itme analizi
+ ve dinamik analizi yapılmıştır.
+ Dinamik analizler, 50 yıllık süre içinde aşılma olasılığı %2 ve %10’nu
+ yansıtacak şekilde ölçeklendirilen 20 farklı yer hareketi kullanılarak
+ yapılmıştır.
+ Birleşim özelliklerinin, yapının doğal periyoduna, taban kesme kuvvetine,
+ kat ötelemesine, toplam enerji sönümlendirme kapasitesine ve birleşim dönme
+ talebine etkisi incelenmiştir.
+\end_layout
+
+\begin_layout Standard
+Bu detaylı çalışmada yazarlar aşağıdaki sonuçları elde etmişlerdir.
+\end_layout
+
+\begin_layout Itemize
+Çerçevelerin akma dayanımları ve akma sonrası rijitlikleri, birleşimin akma
+ momenti ve akma sonrası rijitliğinden doğrudan etkilenmektedir.
+ Bunun yanında çerçevelerin elastik rijitlikleri ise, birleşimin rijitliğinden
+ çok fazla etkilenmemektedir.
+\end_layout
+
+\begin_layout Itemize
+Rijitlik oranları 30, 10 ve 5 olan yarı rijit birleşimli (kısmi dayanımlı)
+ çerçevelerin doğal titreşim periyodu, rijit birleşimli çerçevelerden sırasıyla
+ 1.05, 1.16 ve 1.33 kat daha büyük olmuştur.
+\end_layout
+
+\begin_layout Itemize
+Az katlı yapılarda, kat öteleme açıları ve birleşim dönmeleri diğer çerçevelerde
+n daha büyük olmuştur.
+\end_layout
+
+\begin_layout Subsubsection*
+Peker (2009) in Çalışması
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PEKER2009"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Çelik yapılarda uygulamada sık kullanılan zayıf eksen kolon-kiriş çerçeve
+ birleşimlerinin davranışını açıklamaya yönelik, sayısal ve İTÜ Yapı ve
+ Deprem Laboratuvarında deneysel bir araştırma gerçekleştirilmiştir.
+ Çoğunlukla yarı rijit olarak bilinen zayıf eksen birleşimlerinin rijit
+ davranış da gösterebildiğini göstermiştir.
+ Ayrıca yazar zayıf eksen birleşimlerinin yarı rijit olarak modellenmesi
+ için bir sayısal model önermiştir.
+\end_layout
+
+\begin_layout Subsubsection*
+Yemez (2007) in Çalışması
+\begin_inset CommandInset citation
+LatexCommand cite
+key "YEMEZ2007"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Yazar, I-kirişin kutu kesit kolona t-bağlantı elemanı ile bulonlu birleşimini
+ tek yönde ve çift yönde tekrarlı yükleme koşulları altında davranışına
+ odaklanmıştır.
+ Tersinir tekrarlı yükleme performansları değerlendirilirse her iki birleşim
+ de yeterli dayanım seviyesinde yüksek plastik dönme ve kabul edilebilir
+ enerji yutma kapasitesi sağlamıştır.
+ Dolayısıyla bu birleşimler yarı rijit kısmen güçlü birleşimler olarak depremsel
+liği düşük olan bölgelerde moment aktaran çelik çerçevelerde veya yüksek
+ depremsel bölgelerde çaprazlı çerçeveler ile takviyeli çelik çerçevelerde
+ kullanılabilir olduğunu göstermiştir.
 \end_layout
 
 \begin_layout Section
@@ -3277,7 +3334,7 @@ Birleşim Dönme Kapasitesi
 Moment dayanımlı bağlantıların bir başka sınıflandırması da dayanımlarıyla
  ilgilidir.
  Bir "tam dayanımlı" birleşim, en azından bağladığı elemanların nihai eğilme
- dayanımınına ulaştırabilen bir birleşimdir.
+ dayanımına ulaştırabilen bir birleşimdir.
  Bir "kısmi dayanımlı" bağlantısı, bağlandığı elemanlarınkinden daha düşük
  bir tasarım dayanımına sahiptir.
  Moment dayanımlı bir bağlantının dönme kapasitesi de önemli olabilir.
@@ -3293,7 +3350,7 @@ noprefix "false"
 
 , kolon-kiriş bağlantısının moment-dönme diyagramını göstermektedir.
  Tasarım amaçları için, gerçek bağlantı davranışı, aşağıdaki özelliklerin
- ayırt edilebildiği bir bi-lineer diyagramla gösterilebilir:
+ ayırt edilebildiği bir iki doğrulu diyagramla gösterilebilir:
 \end_layout
 
 \begin_layout Itemize
@@ -3313,8 +3370,8 @@ Birleşimlerin dönme kapasitesi
 \end_layout
 
 \begin_layout Standard
-Birleşimlerin çerçeve davranışı üzerindeki etkisi, kısmi dayanımlı ve yarı-rijit
- bağlantılar için ayrı olarak ele alınır.
+Birleşimlerin çerçeve davranışı üzerindeki etkisi, kısmi dayanımlı ve yarı
+ rijit bağlantılar için ayrı olarak ele alınır.
  Çaprazlı çerçeveler genel olarak dayanım koşullarına göre tasarlanır ve
  yatay ötelenmesi tutulmamış çerçeveler (moment çerçeveleri) genellikle
  stabilite ve deformasyon koşullarına göre tasarlanır.
@@ -3374,7 +3431,7 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Yarı-rijit birleşimli sistemler de plastik analizin sağlanması için, düğüm
+yarı rijit birleşimli sistemler de plastik analizin sağlanması için, düğüm
  noktalarının yeterli dönme kapasitesinin kontrol edilmesi gerekir.
  Belirli bir mafsal tipi için mevcut dönme kapasitesi, sistem incelemelerinden
  elde edilen bu mafsal için gerekli dönme kapasitesi ile karşılaştırılmalıdır.
@@ -3418,7 +3475,7 @@ literal "false"
 \begin_layout Standard
 Yapının düğüm noktalarında plastik mafsallar oluşup sistemin bu şekilde
  enerji sönümlemesine izin verilmez.
- Bu sebeple yarı-rijit birleşimlerin sahip olması gereken dönme kapasitesine
+ Bu sebeple yarı rijit birleşimlerin sahip olması gereken dönme kapasitesine
  ait herhangi bir bilgi mevcut değildir.
  Öte yandan rijit birleşimlerin sahip olması gereken süneklik düzeyi, yapısal
  sistemin türüne ve deprem tasarımına göre değişmektedir.
@@ -3452,7 +3509,7 @@ Rijit plastik analiz durumunda, plastik bir mafsal konumundaki bir düğüm
 Bulonlu veya kaynaklı bir düğüm noktasının dönme kapasitesi, 6.4.2 veya 6.4.3'te
  verilen hükümler kullanılarak belirlenmelidir.
  Bu maddelerde verilen tasarım yöntemleri sadece S235, S275 ve S355 çelik
- sınıfları için ve bağlı elemandaki 
+ sınıfları için ve bağlı elemanda ki 
 \begin_inset Formula $N_{Ed}$
 \end_inset
 

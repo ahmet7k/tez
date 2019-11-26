@@ -92,13 +92,16 @@ Bu çalışmada en yaygın çelik taşıyıcı sistemlerden biri olan süneklik 
  Süneklik düzeyi yüksek çelik çerçevelerin tasarımında etkin göreli kat
  ötelemeleri belirleyici unsur olması sebebiyle tasarımda kesit seçimini
  dolayısıyla yapı maliyetini doğrudan etkilemektedir.
- 3, 9 ve 20 katlı çelik çerçeveler beş farklı birleşim rijitliği için, 18
- adet 50 yılda aşılma olasılığı % 10 olan tasarım depremi kayıtları kullanılarak
- yapılan doğrusal olmayan dinamik analizleri ve doğrusal elastik olmayan
- statik itme analizlerine tabi tutulmuştur.
- Yapılan doğrusal elastik olmayan analizlerin sonuçları üzerinden yapıların
- elastik ötesi davranışı ve deprem kayıtları kullanılarak, depremlerin yapılarda
-n ne kadar yer değiştirme talep ettiği belirlenmiş, 
+ Ayrıca tasarımda genellikle dikkate alınmayan birleşim rijitliği yapının
+ davranışını değiştirmektedir.
+ Etkin göreli kat ötelenmelerinin belirlenmesi için kullanılan yer değiştirme
+ arttırma katsayısının belirlenmesi için 3, 9 ve 20 katlı çelik çerçeveler
+ beş farklı birleşim rijitliği için, 18 adet 50 yılda aşılma olasılığı %
+ 10 olan tasarım depremi kayıtları kullanılarak yapılan doğrusal olmayan
+ dinamik ve doğrusal elastik olmayan statik itme analizlerine tabi tutulmuştur.
+ Doğrusal elastik olmayan analizlerin sonuçları üzerinden yapıların elastik
+ ötesi davranışı ve deprem kayıtları kullanılarak, depremlerin yapılardan
+ ne kadar yer değiştirme talep ettiği belirlenmiş, 
 \emph on
 Yer Değiştirme Arttırma Katsayıları
 \emph default
@@ -106,55 +109,292 @@ Yer Değiştirme Arttırma Katsayıları
 \end_layout
 
 \begin_layout Standard
-Doğrusal elastik olmayan statik analizlerle, rijit tasarım yer değiştirmesine
- bağlı hesaplanan 
-\begin_inset Formula $C_{d}$
+3 katlı yapılar için bulunan sonuçlar aşağıda maddeler halinde özetlenmiştir.
+\end_layout
+
+\begin_layout Itemize
+Birleşim rijitliğindeki azalma yapıların elastik rijitliğini azaltmıştır.
+\end_layout
+
+\begin_layout Itemize
+Birleşim rijitliğindeki azalma yapıların ilk akma noktasını daha az bir
+ dayanımda ve daha fazla bir tepe yer değiştirmesinde meydana getirmektedir.
+\end_layout
+
+\begin_layout Itemize
+Rijit birleşimli çerçevelerin dinamik analiz sonuçları ise, en büyük tepe
+ yer değiştirmenin olduğu durumda (Durum-1), ortalama %2 civarında bir tepe
+ yer değiştirmesi oranına karşılık %25 civarında bir taban kesme kuvveti
+ oranı görülmektedir.
+ En büyük taban kesme kuvvetinin olduğu durumda (Durum-2) ise, %50 civarında
+ bir taban kesme kuvveti oranına karşılık ortalama %1.5 civarında bir tepe
+ yer değiştirmesi meydana gelmektedir.
+\end_layout
+
+\begin_layout Itemize
+Yarı rijit birleşimli çerçevelerin dinamik analiz sonuçları ise, rijitlik
+ azaldıkça, en büyük tepe yer değiştirmenin olduğu durumda (Durum-1), ortalama
+ %2.1'den %2.5'e artan bir tepe yer değiştirmesi oranına karşılık %25 civarında
+ bir taban kesme kuvveti oranı görülmektedir.
+ En büyük taban kesme kuvvetinin olduğu durumda (Durum-2) ise, %50 civarında
+ bir taban kesme kuvveti oranına karşılık ortalama %1.5 civarında bir tepe
+ yer değiştirmesi meydana gelmektedir.
+\end_layout
+
+\begin_layout Itemize
+Statik analizler sonucu, birleşim rijitliği azaldıkça, rijit tasarım yer
+ değiştirme ile hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
- katsayılarında yapı birleşim dönme rijitliği azaldığında 
-\emph on
-Yer Değiştirme Arttırma Katsayı
-\emph default
-sı 'nın arttığı, sonuçlar ise 5.5'in üzerinde 8'in altındadır.
+ katsayısının 6.07 'den 7.61 'e arttığı görülmektedir.
+ 
+\end_layout
+
+\begin_layout Itemize
+Dinamik analizler sonucu, birleşim rijitliği azaldıkça, rijit tasarım yer
+ değiştirme ile hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısının 4.95 'den 5.95 'e arttığı görülmektedir.
+ 
+\end_layout
+
+\begin_layout Itemize
+Statik analizler sonucu, birleşim rijitliği azaldıkça, yarı rijit tasarım
+ yer değiştirme ile hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısının 6.07 'den 4.86 'ya azaldığı görülmektedir.
+\end_layout
+
+\begin_layout Itemize
+Dinamik analizler sonucu, birleşim rijitliği azaldıkça, yarı rijit tasarım
+ yer değiştirme ile hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısının 4.95 'den 3.80 'e azaldığı görülmektedir.
 \end_layout
 
 \begin_layout Standard
-Doğrusal elastik olmayan statik analizlerle, yarı-rijit tasarım yer değiştirmesi
-ne bağlı hesaplanan 
-\begin_inset Formula $C_{d}$
+9 katlı yapılar için bulunan sonuçlar aşağıda maddeler halinde özetlenmiştir.
+\end_layout
+
+\begin_layout Itemize
+Birleşim rijitliğindeki azalma yapıların elastik rijitliğini azaltmıştır.
+\end_layout
+
+\begin_layout Itemize
+Birleşim rijitliğindeki azalma yapıların ilk akma noktasını daha az bir
+ dayanımda ve daha fazla bir tepe yer değiştirmesinde meydana getirmektedir.
+\end_layout
+
+\begin_layout Itemize
+Rijit birleşimli çerçevelerin dinamik analiz sonuçları ise, en büyük tepe
+ yer değiştirmenin olduğu durumda (Durum-1), ortalama %1.7 civarında bir
+ tepe yer değiştirmesi oranına karşılık %25 civarında bir taban kesme kuvveti
+ oranı görülmektedir.
+ En büyük taban kesme kuvvetinin olduğu durumda (Durum-2) ise, %40 civarında
+ bir taban kesme kuvveti oranına karşılık ortalama %0.9 civarında bir tepe
+ yer değiştirmesi meydana gelmektedir.
+\end_layout
+
+\begin_layout Itemize
+Yarı rijit birleşimli çerçevelerin dinamik analiz sonuçları ise, rijitlik
+ azaldıkça, en büyük tepe yer değiştirmenin olduğu durumda (Durum-1), ortalama
+ %1.7'den %1.9'e artan bir tepe yer değiştirmesi oranına karşılık %17 civarında
+ bir taban kesme kuvveti oranı görülmektedir.
+ En büyük taban kesme kuvvetinin olduğu durumda (Durum-2) ise, %40 civarında
+ bir taban kesme kuvveti oranına karşılık ortalama %0.9 civarında bir tepe
+ yer değiştirmesi meydana gelmektedir.
+\end_layout
+
+\begin_layout Itemize
+Statik analizler sonucu, birleşim rijitliği azaldıkça, rijit tasarım yer
+ değiştirme ile hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
- katsayılarında yapı birleşim dönme rijitliği azaldığında 
-\emph on
-Yer Değiştirme Arttırma Katsayı
-\emph default
-sı 'nın azaldığı,sonuçlar ise 5.0 ile 5.5 arasındadır.
+ katsayısının 4.90 'dan 6.61 'e arttığı görülmektedir.
+ 
+\end_layout
+
+\begin_layout Itemize
+Dinamik analizler sonucu, birleşim rijitliği azaldıkça, rijit tasarım yer
+ değiştirme ile hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısının 4.22 'den 5.24 'e arttığı görülmektedir.
+ 
+\end_layout
+
+\begin_layout Itemize
+Statik analizler sonucu, birleşim rijitliği azaldıkça, yarı rijit tasarım
+ yer değiştirme ile hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısının 4.90 'dan 3.86 'ya azaldığı görülmektedir.
+\end_layout
+
+\begin_layout Itemize
+Dinamik analizler sonucu, birleşim rijitliği azaldıkça, yarı rijit tasarım
+ yer değiştirme ile hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+katsayısının 4.22 'den 3.06 'ya azaldığı görülmektedir.
+ 
 \end_layout
 
 \begin_layout Standard
-Doğrusal elastik olmayan dinamik analizlerle, rijit tasarım yer değiştirmesine
- bağlı hesaplanan 
-\begin_inset Formula $C_{d}$
+20 katlı yapılar için bulunan sonuçlar aşağıda maddeler halinde özetlenmiştir.
+\end_layout
+
+\begin_layout Itemize
+Birleşim rijitliğindeki azalma yapıların elastik rijitliğini azaltmıştır.
+\end_layout
+
+\begin_layout Itemize
+Birleşim rijitliğindeki azalma yapıların ilk akma noktasını daha az bir
+ dayanımda ve daha fazla bir tepe yer değiştirmesinde meydana getirmektedir.
+\end_layout
+
+\begin_layout Itemize
+Rijit birleşimli çerçevelerin dinamik analiz sonuçları ise, en büyük tepe
+ yer değiştirmenin olduğu durumda (Durum-1), ortalama %1.5 civarında bir
+ tepe yer değiştirmesi oranına karşılık %8 civarında bir taban kesme kuvveti
+ oranı görülmektedir.
+ En büyük taban kesme kuvvetinin olduğu durumda (Durum-2) ise, %27 civarında
+ bir taban kesme kuvveti oranına karşılık ortalama %0.4 civarında bir tepe
+ yer değiştirmesi meydana gelmektedir.
+\end_layout
+
+\begin_layout Itemize
+Yarı rijit birleşimli çerçevelerin dinamik analiz sonuçları ise, rijitlik
+ azaldıkça, en büyük tepe yer değiştirmenin olduğu durumda (Durum-1), ortalama
+ %1.5'den %1.7'e artan bir tepe yer değiştirmesi oranına karşılık %8 civarında
+ bir taban kesme kuvveti oranı görülmektedir.
+ En büyük taban kesme kuvvetinin olduğu durumda (Durum-2) ise, %25 civarında
+ bir taban kesme kuvveti oranına karşılık ortalama %0.4 civarında bir tepe
+ yer değiştirmesi meydana gelmektedir.
+\end_layout
+
+\begin_layout Itemize
+Statik analizler sonucu, birleşim rijitliği azaldıkça, rijit tasarım yer
+ değiştirme ile hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
- katsayılarında yapı birleşim dönme rijitliği azaldığında 
-\emph on
-Yer Değiştirme Arttırma Katsayı
-\emph default
-sı 'nın arttığı, sonuçlar ise 5.0 ile 5.5 arasındadır.
+ katsayısının 5.34 'den 7.13 'e arttığı görülmektedir.
+ 
+\end_layout
+
+\begin_layout Itemize
+Dinamik analizler sonucu, birleşim rijitliği azaldıkça, rijit tasarım yer
+ değiştirme ile hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısının 4.63 'den 5.22 'ye arttığı görülmektedir.
+ 
+\end_layout
+
+\begin_layout Itemize
+Statik analizler sonucu, birleşim rijitliği azaldıkça, yarı rijit tasarım
+ yer değiştirme ile hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+katsayısının 5.34 'den 4.31 'e azaldığı görülmektedir.
+\end_layout
+
+\begin_layout Itemize
+Dinamik analizler sonucu, birleşim rijitliği azaldıkça, yarı rijit tasarım
+ yer değiştirme ile hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısının 4.63 'den 3.15 'e azaldığı görülmektedir.
+ 
 \end_layout
 
 \begin_layout Standard
-Doğrusal elastik olmayan dinamik analizlerle, yarı-rijit tasarım yer değiştirmes
-ine bağlı hesaplanan 
-\begin_inset Formula $C_{d}$
+Tüm yapılar için;
+\end_layout
+
+\begin_layout Itemize
+Statik ve dinamik doğrusal olmayan analizlerde birleşim rijitliği azaldıkça,
+ rijit tasarım yer değiştirmesi ile hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
- katsayılarında yapı birleşim dönme rijitliği azaldığında 
-\emph on
-Yer Değiştirme Arttırma Katsayı
-\emph default
-sı 'nın azaldığı,sonuçlar ise ortalma 4.0 ile 4.5 arasındadır.
+ katsayısıları, sabit tasarım yer değişitmesine karşı (rijit birleşimli
+ yapının tasarım yer değişirmesi), nihai yer değiştirmenin artması sonucu
+ artmıştır.
+\end_layout
+
+\begin_layout Itemize
+Statik ve dinamik doğrusal olmayan analizlerde birleşim rijitliği azaldıkça,
+ yarı rijit tasarım yer değiştirmesi ile hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısıları, nihai yer değiştirmenin artmasına karşı, tasarım yer değişitmesi
+nin (yarı rijit birleşimli yapının tasarım yer değişirmesi) daha fazla artması
+ sonucu azalmıştır.
+\end_layout
+
+\begin_layout Itemize
+Bu durum, birleşim rijitliği azaldıkça, rijit tasarım yer değiştirmesi ile
+ hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısılarının artması, yapıların kendi tasarım yer değiştirmesi ile
+ hesaplanan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısılarının ise azalması bize, birleşim rijitliğinin azalmasının yapıların
+ süneklik oranının azaldığını göstermiştir.
+\end_layout
+
+\begin_layout Itemize
+Statik analizler sonucu, ortalama 4.84 olarak bulunan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısı AISC ve TBDY-2018 yönetmeliklerinin sırasıyla kullandığı 5.50
+ ve 8.00 değerinden daha düşüktür.
+\end_layout
+
+\begin_layout Itemize
+Dinamik analizler sonucu, ortalama 3.86 olarak bulunan 
+\begin_inset Formula $C_{\mathrm{d}}$
+\end_inset
+
+ katsayısı AISC ve TBDY-2018 yönetmeliklerinin sırasıyla kullandığı 5.50
+ ve 8.00 değerinden daha düşüktür.
+\end_layout
+
+\begin_layout Itemize
+Sonuçlar çelik çerçeveli bir yapıda birleşim rijitliğinin yapının davranışını
+ değiştirdiğini, dolayısı ile çelik çerçeveli yapılar için önemli bir tepki
+ değiştrme katsayısı olan yer değiştirme arttırma katsayısının değiştirdiği
+ anlaşılmaktadır.
+\end_layout
+
+\begin_layout Itemize
+Bulunan yer değiştirme arttırma katsayılarındaki farklılık, moment dayanımlı
+ bir çelik çerçevenin doğrusal olmayan değerlendirmesi yapılması durumunda
+ yapıda kullanılan birleşimlerin rijitliklerinin göz ardı edilmemesi gerektiğini
+ göstermektedir.
+ 
 \end_layout
 
 \begin_layout Section
@@ -164,13 +404,14 @@ Gelecek Çalışmalara Yönelik Öneriler
 \begin_layout Standard
 Yarı rijit birleşimli çerçevelerin davranışlarının daha doğru tespit edilebilmes
 i için farklı özelliklere sahip çerçevelerin yer değiştirme taleplerinin
- tam ölçekli deneylerle incelenmesi gerekmektedir.
+ sonlu eleman modeller ve tam ölçekli deneylerle incelenmesi gerekmektedir.
  Çelik çerçeveli yapıların yer değiştirme arttırma katsayıları için, birleşimler
 in çevrimsel yükler altında deney ve simulasyonlarının yapılması gerekmektedir.
- Ayrıca farklı yükseklikte yapıların farklı zemin parametreleri ile de doğrusal
- olmayan analizlerle elastik olamyan en büyük ötelenme talepleri tespit
- edilmeli daha sonra yer değiştirme arttırma katsayıları arasında bir ilişki
- kurulmalıdır.
+ Ayrıca farklı yükseklik sınıfındaki yapıların farklı taşıyıcı sistem davranış
+ katsayıları ile tasarımı ile tasarlanmış moment dayanımlı çelik çerçevelerin
+ de doğrusal olmayan analizlerle elastik olamayan en büyük ötelenme talepleri
+ tespit edilmeli daha sonra yer değiştirme arttırma katsayıları arasında
+ bir ilişki kurulmalıdır.
 \end_layout
 
 \end_body

@@ -148,9 +148,6 @@ noprefix "false"
 \end_inset
 
 'de gösterilmiştir.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 placement H
 wide false
@@ -202,7 +199,7 @@ Bu karşılaştırmalı grafikten aşağıdaki yorumlar yapılabilir;
 
 \begin_layout Itemize
 Beklendiği üzere, birleşim rijitliği azaldıkça yapının elastik rijitliğinde
- azalma görülmektetir.
+ azalma görülmektedir.
  
 \end_layout
 
@@ -217,7 +214,7 @@ Birleşim rijitliğinde ki azalmadan dolayı, yapı rijitliği azaldıkça yapı
 \end_layout
 
 \begin_layout Itemize
-Birleşim rijitliği azaldıkça, yapı stabilitesinin kararsız duruma geçmeden
+Birleşim rijitliği azaldıkça, yapı dayanımında azalma durumuna geçmeden
  önceki nihai yer değiştirmesinde küçük bir artış gözlenmiştir.
 \end_layout
 
@@ -261,7 +258,7 @@ noprefix "false"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -301,7 +298,7 @@ name "fig:6.2"
 
 \end_inset
 
- Rijit birleşimli çerçevenin, en büyük tepe yer değiştirmesine karşı taban
+Rijit birleşimli çerçevenin, en büyük tepe yer değiştirmesine karşı taban
  kesme kuvveti ve oranları (Durum-1).
 \end_layout
 
@@ -317,7 +314,7 @@ name "fig:6.2"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -357,8 +354,8 @@ name "fig:6.3"
 
 \end_inset
 
- Rijit birleşimli çerçevenin, en büyük taban kesme kuvvetine karşı tepe
- yer değiştirmesi ve oranları (Durum-2).
+Rijit birleşimli çerçevenin, en büyük taban kesme kuvvetine karşı tepe yer
+ değiştirmesi ve oranları (Durum-2).
 \end_layout
 
 \end_inset
@@ -373,7 +370,7 @@ name "fig:6.3"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -413,8 +410,8 @@ name "fig:6.4"
 
 \end_inset
 
- Rijit birleşimli çerçevenin, en büyük tepe yer değiştirmesine karşı en
- büyük taban kesme kuvveti ve oranları (Durum-3).
+Rijit birleşimli çerçevenin, en büyük tepe yer değiştirmesine karşı en büyük
+ taban kesme kuvveti ve oranları (Durum-3).
 \end_layout
 
 \end_inset
@@ -428,7 +425,7 @@ name "fig:6.4"
 \end_layout
 
 \begin_layout Standard
-3 katlı yarı-rijit (20 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları
+3 katlı yarı rijit (20 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları
  Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -464,7 +461,7 @@ noprefix "false"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -504,7 +501,7 @@ name "fig:6.5"
 
 \end_inset
 
- Yarı-rijit (20 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (20 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı taban kesme kuvveti ve oranları (Durum-1).
 \end_layout
 
@@ -520,7 +517,7 @@ name "fig:6.5"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -560,7 +557,7 @@ name "fig:6.6"
 
 \end_inset
 
-Yarı-rijit (20 EI/L) birleşimli çerçevenin,en büyük taban kesme kuvvetine
+Yarı rijit (20 EI/L) birleşimli çerçevenin,en büyük taban kesme kuvvetine
  karşı tepe yer değiştirmesi ve oranları (Durum-2).
 \end_layout
 
@@ -576,7 +573,7 @@ Yarı-rijit (20 EI/L) birleşimli çerçevenin,en büyük taban kesme kuvvetine
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -616,7 +613,7 @@ name "fig:6.7"
 
 \end_inset
 
- Yarı-rijit (20 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (20 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı en büyük taban kesme kuvveti ve oranları (Durum-3).
 \end_layout
 
@@ -631,7 +628,7 @@ name "fig:6.7"
 \end_layout
 
 \begin_layout Standard
-3 katlı yarı-rijit (15.5 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları
+3 katlı yarı rijit (15.5 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları
  Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -667,7 +664,7 @@ noprefix "false"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -707,7 +704,7 @@ name "fig:6.8"
 
 \end_inset
 
- Yarı-rijit (15.5 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (15.5 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı taban kesme kuvveti ve oranları (Durum-1).
 \end_layout
 
@@ -723,7 +720,7 @@ name "fig:6.8"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -763,7 +760,7 @@ name "fig:6.9"
 
 \end_inset
 
-Yarı-rijit (15.5 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
+Yarı rijit (15.5 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
  karşı tepe yer değiştirmesi ve oranları (Durum-2).
 \end_layout
 
@@ -779,7 +776,7 @@ Yarı-rijit (15.5 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvveti
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -819,7 +816,7 @@ name "fig:6.10"
 
 \end_inset
 
- Yarı-rijit (15.5 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (15.5 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı en büyük taban kesme kuvveti ve oranları (Durum-3).
 \end_layout
 
@@ -834,7 +831,7 @@ name "fig:6.10"
 \end_layout
 
 \begin_layout Standard
-3 katlı yarı-rijit (11 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları
+3 katlı yarı rijit (11 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları
  Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -870,7 +867,7 @@ noprefix "false"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -910,7 +907,7 @@ name "fig:6.11"
 
 \end_inset
 
- Yarı-rijit (11 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (11 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı taban kesme kuvveti ve oranları (Durum-1).
 \end_layout
 
@@ -926,7 +923,7 @@ name "fig:6.11"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -966,7 +963,7 @@ name "fig:6.12"
 
 \end_inset
 
-Yarı-rijit (11 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
+Yarı rijit (11 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
  karşı tepe yer değiştirmesi ve oranları (Durum-2).
 \end_layout
 
@@ -982,7 +979,7 @@ Yarı-rijit (11 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1022,7 +1019,7 @@ name "fig:6.13"
 
 \end_inset
 
- Yarı-rijit (11 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (11 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı en büyük taban kesme kuvveti ve oranları (Durum-3).
 \end_layout
 
@@ -1037,7 +1034,7 @@ name "fig:6.13"
 \end_layout
 
 \begin_layout Standard
-3 katlı yarı-rijit (8 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları Şekil
+3 katlı yarı rijit (8 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları Şekil
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1073,7 +1070,7 @@ noprefix "false"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1113,7 +1110,7 @@ name "fig:6.14"
 
 \end_inset
 
- Yarı-rijit (8 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (8 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı taban kesme kuvveti ve oranları (Durum-1).
 \end_layout
 
@@ -1129,7 +1126,7 @@ name "fig:6.14"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1169,7 +1166,7 @@ name "fig:6.15"
 
 \end_inset
 
-Yarı-rijit (8 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
+Yarı rijit (8 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
  karşı tepe yer değiştirmesi ve oranları (Durum-2).
 \end_layout
 
@@ -1185,7 +1182,7 @@ Yarı-rijit (8 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1225,7 +1222,7 @@ name "fig:6.16"
 
 \end_inset
 
- Yarı-rijit (8 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (8 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı en büyük taban kesme kuvveti ve oranları (Durum-3).
 \end_layout
 
@@ -1256,9 +1253,6 @@ noprefix "false"
 \end_inset
 
 'de gösterilmiştir.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 placement H
 wide false
@@ -1310,7 +1304,7 @@ Bu karşılaştırmalı grafikten aşağıdaki yorumlar yapılabilir;
 
 \begin_layout Itemize
 Beklendiği üzere, birleşim rijitliği azaldıkça yapının elastik rijitliğinde
- azalma görülmektetir.
+ azalma görülmektedir.
  
 \end_layout
 
@@ -1325,7 +1319,7 @@ Birleşim rijitliğinde ki azalmadan dolayı, yapı rijitliği azaldıkça yapı
 \end_layout
 
 \begin_layout Itemize
-Birleşim rijitliği azaldıkça, yapı stabilitesinin kararsız duruma geçmeden
+Birleşim rijitliği azaldıkça, yapı dayanımında azalma durumuna geçmeden
  önceki nihai yer değiştirmesinde küçük bir artış gözlenmiştir.
 \end_layout
 
@@ -1369,7 +1363,7 @@ noprefix "false"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1409,7 +1403,7 @@ name "fig:6.18"
 
 \end_inset
 
- Rijit birleşimli çerçevenin, en büyük tepe yer değiştirmesine karşı taban
+Rijit birleşimli çerçevenin, en büyük tepe yer değiştirmesine karşı taban
  kesme kuvveti ve oranları (Durum-1).
 \end_layout
 
@@ -1425,7 +1419,7 @@ name "fig:6.18"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1465,8 +1459,8 @@ name "fig:6.19"
 
 \end_inset
 
- Rijit birleşimli çerçevenin, en büyük taban kesme kuvvetine karşı tepe
- yer değiştirmesi ve oranları (Durum-2).
+Rijit birleşimli çerçevenin, en büyük taban kesme kuvvetine karşı tepe yer
+ değiştirmesi ve oranları (Durum-2).
 \end_layout
 
 \end_inset
@@ -1481,7 +1475,7 @@ name "fig:6.19"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1521,8 +1515,8 @@ name "fig:6.20"
 
 \end_inset
 
- Rijit birleşimli çerçevenin, en büyük tepe yer değiştirmesine karşı en
- büyük taban kesme kuvveti ve oranları (Durum-3).
+Rijit birleşimli çerçevenin, en büyük tepe yer değiştirmesine karşı en büyük
+ taban kesme kuvveti ve oranları (Durum-3).
 \end_layout
 
 \end_inset
@@ -1536,7 +1530,7 @@ name "fig:6.20"
 \end_layout
 
 \begin_layout Standard
-9 katlı yarı-rijit (20 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları
+9 katlı yarı rijit (20 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları
  Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1567,12 +1561,12 @@ noprefix "false"
 
 \end_inset
 
-'de gösterilmişir.
+'de gösterilmiştir.
 \begin_inset Float figure
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1612,7 +1606,7 @@ name "fig:6.21"
 
 \end_inset
 
- Yarı-rijit (20 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (20 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı taban kesme kuvveti ve oranları (Durum-1).
 \end_layout
 
@@ -1628,7 +1622,7 @@ name "fig:6.21"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1668,7 +1662,7 @@ name "fig:6.22"
 
 \end_inset
 
-Yarı-rijit (20 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
+Yarı rijit (20 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
  karşı tepe yer değiştirmesi ve oranları (Durum-2).
 \end_layout
 
@@ -1684,7 +1678,7 @@ Yarı-rijit (20 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1724,7 +1718,7 @@ name "fig:6.23"
 
 \end_inset
 
- Yarı-rijit (20 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (20 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı en büyük taban kesme kuvveti ve oranları (Durum-3).
 \end_layout
 
@@ -1739,7 +1733,7 @@ name "fig:6.23"
 \end_layout
 
 \begin_layout Standard
-9 katlı yarı-rijit (15.5 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları
+9 katlı yarı rijit (15.5 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları
  Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1770,12 +1764,12 @@ noprefix "false"
 
 \end_inset
 
-'de gösterilmişir.
+'de gösterilmiştir.
 \begin_inset Float figure
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1815,7 +1809,7 @@ name "fig:6.24"
 
 \end_inset
 
- Yarı-rijit (15.5 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (15.5 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı taban kesme kuvveti ve oranları (Durum-1).
 \end_layout
 
@@ -1831,7 +1825,7 @@ name "fig:6.24"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1871,7 +1865,7 @@ name "fig:6.25"
 
 \end_inset
 
-Yarı-rijit (15.5 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
+Yarı rijit (15.5 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
  karşı tepe yer değiştirmesi ve oranları (Durum-2).
 \end_layout
 
@@ -1887,7 +1881,7 @@ Yarı-rijit (15.5 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvveti
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1927,7 +1921,7 @@ name "fig:6.26"
 
 \end_inset
 
- Yarı-rijit (15.5 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (15.5 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı en büyük taban kesme kuvveti ve oranları (Durum-3).
 \end_layout
 
@@ -1942,7 +1936,7 @@ name "fig:6.26"
 \end_layout
 
 \begin_layout Standard
-9 katlı yarı-rijit (11 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları
+9 katlı yarı rijit (11 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları
  Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1973,12 +1967,12 @@ noprefix "false"
 
 \end_inset
 
-'de gösterilmişir.
+'de gösterilmiştir.
 \begin_inset Float figure
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2018,7 +2012,7 @@ name "fig:6.27"
 
 \end_inset
 
- Yarı-rijit (11 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (11 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı taban kesme kuvveti ve oranları (Durum-1).
 \end_layout
 
@@ -2034,7 +2028,7 @@ name "fig:6.27"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2074,7 +2068,7 @@ name "fig:6.28"
 
 \end_inset
 
-Yarı-rijit (11 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
+Yarı rijit (11 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
  karşı tepe yer değiştirmesi ve oranları (Durum-2).
 \end_layout
 
@@ -2090,7 +2084,7 @@ Yarı-rijit (11 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2130,7 +2124,7 @@ name "fig:6.29"
 
 \end_inset
 
- Yarı-rijit (11 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (11 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı en büyük taban kesme kuvveti ve oranları (Durum-3).
 \end_layout
 
@@ -2145,7 +2139,7 @@ name "fig:6.29"
 \end_layout
 
 \begin_layout Standard
-9 katlı yarı-rijit (8 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları Şekil
+9 katlı yarı rijit (8 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları Şekil
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2176,12 +2170,12 @@ noprefix "false"
 
 \end_inset
 
-'de gösterilmişir.
+'de gösterilmiştir.
 \begin_inset Float figure
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2221,7 +2215,7 @@ name "fig:6.30"
 
 \end_inset
 
- Yarı-rijit (8 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (8 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı taban kesme kuvveti ve oranları (Durum-1).
 \end_layout
 
@@ -2237,7 +2231,7 @@ name "fig:6.30"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2277,7 +2271,7 @@ name "fig:6.31"
 
 \end_inset
 
-Yarı-rijit (8 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
+Yarı rijit (8 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
  karşı tepe yer değiştirmesi ve oranları (Durum-2).
 \end_layout
 
@@ -2293,7 +2287,7 @@ Yarı-rijit (8 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2333,7 +2327,7 @@ name "fig:6.32"
 
 \end_inset
 
- Yarı-rijit (8 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (8 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı en büyük taban kesme kuvveti ve oranları (Durum-3).
 \end_layout
 
@@ -2364,9 +2358,6 @@ noprefix "false"
 \end_inset
 
 'de gösterilmiştir.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 placement H
 wide false
@@ -2418,7 +2409,7 @@ Bu karşılaştırmalı grafikten aşağıdaki yorumlar yapılabilir;
 
 \begin_layout Itemize
 Beklendiği üzere, birleşim rijitliği azaldıkça yapının elastik rijitliğinde
- azalma görülmektetir.
+ azalma görülmektedir.
  
 \end_layout
 
@@ -2433,7 +2424,7 @@ Birleşim rijitliğinde ki azalmadan dolayı, yapı rijitliği azaldıkça yapı
 \end_layout
 
 \begin_layout Itemize
-Birleşim rijitliği azaldıkça, yapı stabilitesinin kararsız duruma geçmeden
+Birleşim rijitliği azaldıkça, yapı dayanımında azalma durumuna geçmeden
  önceki nihai yer değiştirmesinde küçük bir artış gözlenmiştir.
 \end_layout
 
@@ -2477,7 +2468,7 @@ noprefix "false"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2517,7 +2508,7 @@ name "fig:6.34"
 
 \end_inset
 
- Rijit birleşimli çerçevenin, en büyük tepe yer değiştirmesine karşı taban
+Rijit birleşimli çerçevenin, en büyük tepe yer değiştirmesine karşı taban
  kesme kuvveti ve oranları (Durum-1).
 \end_layout
 
@@ -2533,7 +2524,7 @@ name "fig:6.34"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2573,8 +2564,8 @@ name "fig:6.35"
 
 \end_inset
 
- Rijit birleşimli çerçevenin, en büyük taban kesme kuvvetine karşı tepe
- yer değiştirmesi ve oranları (Durum-2).
+Rijit birleşimli çerçevenin, en büyük taban kesme kuvvetine karşı tepe yer
+ değiştirmesi ve oranları (Durum-2).
 \end_layout
 
 \end_inset
@@ -2629,8 +2620,8 @@ name "fig:6.36"
 
 \end_inset
 
- Rijit birleşimli çerçevenin, en büyük tepe yer değiştirmesine karşı en
- büyük taban kesme kuvveti ve oranları (Durum-3).
+Rijit birleşimli çerçevenin, en büyük tepe yer değiştirmesine karşı en büyük
+ taban kesme kuvveti ve oranları (Durum-3).
 \end_layout
 
 \end_inset
@@ -2644,7 +2635,7 @@ name "fig:6.36"
 \end_layout
 
 \begin_layout Standard
-20 katlı yarı-rijit (20 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları
+20 katlı yarı rijit (20 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları
  Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2680,7 +2671,7 @@ noprefix "false"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2720,7 +2711,7 @@ name "fig:6.37"
 
 \end_inset
 
- Yarı-rijit (20 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (20 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı taban kesme kuvveti ve oranları (Durum-1).
 \end_layout
 
@@ -2736,7 +2727,7 @@ name "fig:6.37"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2776,7 +2767,7 @@ name "fig:6.38"
 
 \end_inset
 
- Yarı-rijit (20 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
+Yarı rijit (20 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
  karşı tepe yer değiştirmesi ve oranları (Durum-2).
 \end_layout
 
@@ -2792,7 +2783,7 @@ name "fig:6.38"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2832,7 +2823,7 @@ name "fig:6.39"
 
 \end_inset
 
- Yarı-rijit (20 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (20 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı en büyük taban kesme kuvveti ve oranları (Durum-3).
 \end_layout
 
@@ -2847,7 +2838,7 @@ name "fig:6.39"
 \end_layout
 
 \begin_layout Standard
-20 katlı yarı-rijit (15.5 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları
+20 katlı yarı rijit (15.5 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları
  Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2883,7 +2874,7 @@ noprefix "false"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2923,7 +2914,7 @@ name "fig:6.40"
 
 \end_inset
 
- Yarı-rijit (15.5 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (15.5 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı taban kesme kuvveti ve oranları (Durum-1).
 \end_layout
 
@@ -2939,7 +2930,7 @@ name "fig:6.40"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -2979,7 +2970,7 @@ name "fig:6.41"
 
 \end_inset
 
- Yarı-rijit (15.5 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
+Yarı rijit (15.5 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
  karşı tepe yer değiştirmesi ve oranları (Durum-2).
 \end_layout
 
@@ -2995,7 +2986,7 @@ name "fig:6.41"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -3035,7 +3026,7 @@ name "fig:6.42"
 
 \end_inset
 
- Yarı-rijit (15.5 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (15.5 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı en büyük taban kesme kuvveti ve oranları (Durum-3).
 \end_layout
 
@@ -3050,7 +3041,7 @@ name "fig:6.42"
 \end_layout
 
 \begin_layout Standard
-20 katlı yarı-rijit (11 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları
+20 katlı yarı rijit (11 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları
  Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -3086,7 +3077,7 @@ noprefix "false"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -3126,7 +3117,7 @@ name "fig:6.43"
 
 \end_inset
 
- Yarı-rijit (11 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (11 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı taban kesme kuvveti ve oranları (Durum-1).
 \end_layout
 
@@ -3142,7 +3133,7 @@ name "fig:6.43"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -3182,7 +3173,7 @@ name "fig:6.44"
 
 \end_inset
 
- Yarı-rijit (11 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
+Yarı rijit (11 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
  karşı tepe yer değiştirmesi ve oranları (Durum-2).
 \end_layout
 
@@ -3198,7 +3189,7 @@ name "fig:6.44"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -3238,7 +3229,7 @@ name "fig:6.45"
 
 \end_inset
 
- Yarı-rijit (11 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (11 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı en büyük taban kesme kuvveti ve oranları (Durum-3).
 \end_layout
 
@@ -3253,7 +3244,7 @@ name "fig:6.45"
 \end_layout
 
 \begin_layout Standard
-20 katlı yarı-rijit (8 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları
+20 katlı yarı rijit (8 EI/L) birleşimli çerçevelerin; Durum-1 sonuçları
  Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -3289,7 +3280,7 @@ noprefix "false"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -3329,7 +3320,7 @@ name "fig:6.46"
 
 \end_inset
 
- Yarı-rijit (8 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (8 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı taban kesme kuvveti ve oranları (Durum-1).
 \end_layout
 
@@ -3345,7 +3336,7 @@ name "fig:6.46"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -3385,7 +3376,7 @@ name "fig:6.47"
 
 \end_inset
 
- Yarı-rijit (8 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
+Yarı rijit (8 EI/L) birleşimli çerçevenin, en büyük taban kesme kuvvetine
  karşı tepe yer değiştirmesi ve oranları (Durum-2).
 \end_layout
 
@@ -3401,7 +3392,7 @@ name "fig:6.47"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -3441,7 +3432,7 @@ name "fig:6.48"
 
 \end_inset
 
- Yarı-rijit (8 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
+Yarı rijit (8 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmesine
  karşı en büyük taban kesme kuvveti ve oranları (Durum-3).
 \end_layout
 
@@ -3500,9 +3491,9 @@ noprefix "false"
 
 \end_inset
 
-) hem de yapıların kendi yarı-rijit birleşim dönme rijitlikleri için çizilen
+) hem de yapıların kendi yarı rijit birleşim dönme rijitlikleri için çizilen
  kapasite eğrisinden elde edilen yer değiştirme değerleri dikkate alınarak
- yarı-rijit durumların 
+ yarı rijit durumların 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
@@ -3530,16 +3521,16 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-Çalışmada hesapanan 
+Çalışmada hesaplanan 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
- katsayıları yapıların hem rijit tasarım yer değiştirmesine oranla hemde
- kendi kapasite eğrilerinden hesaplanan tasarım yer değiştirmesine (yarı-rijit
- tasarım yer değiştirmesi) oranları ile verilmiştir.
+ katsayıları yapıların hem rijit tasarım yer değiştirmesine oranla hem de
+ kendi kapasite eğrilerinden hesaplanan tasarım yer değiştirmesine (yarı
+ rijit tasarım yer değiştirmesi) oranları ile verilmiştir.
  Burada yapıların birleşim rijitliğinin tasarım yer değiştirmene dolayısıyla
  yer değiştirme sünekliği ile arasındaki değişimi gözlemek için her iki
- tasarım yer değişitirmesi ile 
+ tasarım yer değiştirmesi ile 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
@@ -3571,7 +3562,7 @@ noprefix "false"
 
 \end_inset
 
-'de statik analizlerin yarı-rijit kapasite eğrilerinden elde edilen 
+'de statik analizlerin yarı rijit kapasite eğrilerinden elde edilen 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
@@ -3599,7 +3590,7 @@ noprefix "false"
 
 \end_inset
 
-'de dinamik analizlerin yarı-rijit kapasite eğrilerinden elde edilen 
+'de dinamik analizlerin yarı rijit kapasite eğrilerinden elde edilen 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
@@ -3637,7 +3628,7 @@ name "fig:6.49"
 
 \end_inset
 
-Statik analizlerle, rijit tasarım yerdeğiştirmesi ile hesaplanan 
+Statik analizlerle, rijit tasarım yer değiştirmesi ile hesaplanan 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
@@ -3669,7 +3660,7 @@ name "Statik_Rijit_Cd"
 
 \end_inset
 
-Statik analizlerle, rijit tasarım yerdeğiştirmesi ile hesaplanan 
+Statik analizlerle, rijit tasarım yer değiştirmesi ile hesaplanan 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
@@ -3935,7 +3926,7 @@ Ortalama + Standart Sapma
 \end_layout
 
 \begin_layout Standard
-Doğrusal elastik olmayan statik analizlerde, rijit tasarım yerdeğiştirmesi
+Doğrusal elastik olmayan statik analizlerde, rijit tasarım yer değiştirmesi
  ile hesaplanan 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
@@ -3998,7 +3989,7 @@ name "fig:6.50"
 
 \end_inset
 
-Statik analizlerle, yarı-rijit tasarım yerdeğiştirmesi ile hesaplanan 
+Statik analizlerle, yarı rijit tasarım yer değiştirmesi ile hesaplanan 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
@@ -4030,7 +4021,7 @@ name "Statik_Yarı-Rijit_Cd"
 
 \end_inset
 
-Statik analizlerle, yarı-rijit tasarım yerdeğiştirmesi ile hesaplanan 
+Statik analizlerle, yarı rijit tasarım yer değiştirmesi ile hesaplanan 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
@@ -4283,7 +4274,7 @@ Ortalama + Standart Sapma
 \end_layout
 
 \begin_layout Standard
-Doğrusal elastik olmayan statik analizlerde, yarı-rijit tasarım yerdeğiştirmesi
+Doğrusal elastik olmayan statik analizlerde, yarı rijit tasarım yer değiştirmesi
  ile hesaplanan 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
@@ -4346,7 +4337,7 @@ name "fig:6.51"
 
 \end_inset
 
-Dinamik analizlerle, rijit tasarım yerdeğiştirmesi ile hesaplanan 
+Dinamik analizlerle, rijit tasarım yer değiştirmesi ile hesaplanan 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
@@ -4378,7 +4369,7 @@ name "Dinamik_Rijit_Cd"
 
 \end_inset
 
-Dinamik analizlerle, rijit tasarım yerdeğiştirmesi ile hesaplanan 
+Dinamik analizlerle, rijit tasarım yer değiştirmesi ile hesaplanan 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
@@ -4644,7 +4635,7 @@ Ortalama + Standart Sapma
 \end_layout
 
 \begin_layout Standard
-Doğrusal elastik olmayan dinamik analizlerde, rijit tasarım yerdeğiştirmesi
+Doğrusal elastik olmayan dinamik analizlerde, rijit tasarım yer değiştirmesi
  ile hesaplanan 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
@@ -4707,7 +4698,8 @@ name "fig:6.52"
 
 \end_inset
 
-Dinamik analizlerle, yarı-rijit tasarım yerdeğiştirmesi ile hesaplanan 
+Dinamik analizlerle, yarı rijit tasarım yer değiştirmesi ile hesaplanan
+ 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
@@ -4739,7 +4731,8 @@ name "Dinamik_Yarı-Rijit_Cd"
 
 \end_inset
 
-Dinamik analizlerle, yarı-rijit tasarım yerdeğiştirmesi ile hesaplanan 
+Dinamik analizlerle, yarı rijit tasarım yer değiştirmesi ile hesaplanan
+ 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
@@ -4992,7 +4985,7 @@ Ortalama + Standart Sapma
 \end_layout
 
 \begin_layout Standard
-Doğrusal elastik olmayan statik analizlerde, yarı-rijit tasarım yerdeğiştirmesi
+Doğrusal elastik olmayan statik analizlerde, yarı rijit tasarım yer değiştirmesi
  ile hesaplanan 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset

@@ -100,9 +100,9 @@ literal "false"
 
 \end_inset
 
- teknik dökümanında verilen bina tipolojilerinden yararlanılmıştır.
+ teknik dokümanında verilen bina tipolojilerinden yararlanılmıştır.
  Planda ve düşey kesitte herhangi bir düzensizlik içermeyen 3, 9 ve 20 katlı
- üç tipik moment dayanımlı çelik çerçeveli binalar rijit birleşim kabuli
+ üç tipik moment dayanımlı çelik çerçeveli binalar rijit birleşim kabulü
  ile TBDY-2018 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -113,7 +113,7 @@ literal "false"
 
  yönetmeliğinin tasarım şartları uyarınca kesitleri seçilmiştir.
  Kesit seçimi için amerikan geniş başlıklı profiller tercih edilmiştir,
- bu profillerin avrupa profillerinden avantajı daha çok kesit sayısının
+ bu profillerin Avrupa profillerinden avantajı daha çok kesit sayısının
  fazla olmasıdır, bu sebeple de tasarımda daha optimize edilmiş elemanlar
  seçilebilmiştir.
  
@@ -139,7 +139,7 @@ Parametrik çalışma için binalar, deprem yüklerinin tamamının yapının d�
 \end_layout
 
 \begin_layout Standard
-3 katlı yapı, y doğrultsunda 6, x doğrultusunda 4 eşit açıklıktan oluşmaktadır.
+3 katlı yapı, y doğrultusunda 6, x doğrultusunda 4 eşit açıklıktan oluşmaktadır.
  Toplamda 
 \begin_inset Formula $36\times54=1944m^{2}$
 \end_inset
@@ -166,7 +166,7 @@ Parametrik çalışma için binalar, deprem yüklerinin tamamının yapının d�
 \end_layout
 
 \begin_layout Standard
-20 katlı yapı, y doğrultsunda 6, x doğrultusunda 5 eşit açıklıktan oluşmaktadır.
+20 katlı yapı, y doğrultusunda 6, x doğrultusunda 5 eşit açıklıktan oluşmaktadır.
  Toplamda 
 \begin_inset Formula $30\times36=1080m^{2}$
 \end_inset
@@ -404,7 +404,7 @@ literal "false"
 Plan ve kesitleri yukarıda gösterilen yapıların sadece tek doğrultuda ve
  dış cephesi moment çerçevesi olup iç kısımdaki sistem sadece düşey yük
  taşımak üzere düşünülmüştür.
- Bu sebeple yapıdaki moment çerçevelerininin yatay yükler altındaki davranışının
+ Bu sebeple yapıdaki moment çerçevelerinin yatay yükler altındaki davranışının
  incelemek için iki boyutlu çerçeveleri dikkate almak yeterli olacaktır.
  Burada dikkat edilmesi gereken husus moment çerçevelerinin diğer doğrultuda
  bulunan düşey yük taşıyıcı sistem ile olan etkileşimidir bu davranış Şekil
@@ -423,7 +423,7 @@ noprefix "false"
  kullanılan yaslanan kolonlar, iki ucu mafsallı kolon ve kirişlerle teşkil
  edilmektedir.
  Dolayısıyla yatay yönde herhangi bir taşıyıcı özelliğe sahip olmadığı halde
- iç açıklıklardaki P-∆ etkilerini eşdeğer sisteme aktarmaktadır.
+ iç açıklıklarındaki P-∆ etkilerini eşdeğer sisteme aktarmaktadır.
 \begin_inset Float figure
 placement H
 wide false
@@ -727,7 +727,7 @@ Taşıyıcı Sistem Davranış Katsayısı
 
  ve 
 \emph on
-Dayanım Fazlalığı Katasyısı
+Dayanım Fazlalığı Katsayısı
 \emph default
 , 
 \begin_inset Formula $D=3$
@@ -746,7 +746,7 @@ a bağlanması veya dolgu duvar elemanının çerçeveden bağımsız olması du
 \begin_inset Formula $\lambda$
 \end_inset
 
- katsayısı binanın gözönüne alınan deprem doğrultusundaki hakim titreşim
+ katsayısı binanın göz önüne alınan deprem doğrultusundaki hakim titreşim
  periyodu için DD-3 deprem yer hareketinin elastik tasarım spektral ivmesi’nin,
  DD-2 deprem yer hareketinin elastik tasarım spektral ivmesi’ne oranı olarak
  tanımlanan katsayı : 
@@ -2649,7 +2649,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-TBDY 2018'nin etkin göreli kat ötelemeleri şartına göre tasarlanan iki boyutlu
+TBDY-2018'nin etkin göreli kat ötelemeleri şartına göre tasarlanan iki boyutlu
  çerçeveler SAP2000
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -3156,9 +3156,6 @@ noprefix "false"
  'de gösterilen kesitlerin güçlü eksende eğilme davranışını modellendiği
  moment-dönme ilişkisi ifade edilmiştir.
  
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 placement H
 wide false
@@ -3219,7 +3216,7 @@ noprefix "false"
 \begin_inset Formula $\theta_{\mathrm{cy}}$
 \end_inset
 
- ise birleşimlerin birleşimin akma anındaki dönmesini göstermektedir.
+ ise birleşimin akma anındaki dönmesini göstermektedir.
  Birleşimler için 0.02 dönme değerinde nihai moment kapasitesine ulaştığı
  kabul edilmiştir.
  Birleşimlerin nihai dönme değerleri için ise TBDY-2018 yönetmeliğinin süneklik

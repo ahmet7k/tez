@@ -119,16 +119,16 @@ esi analitik gelişime paraleldi ve rijit çerçeve konstrüksiyonu 1900'lerin
 
 \begin_layout Standard
 II.
- Dünya Savaşı'ndan sonra, mühendisler kirişleri kolonlara bağlamak için
- üst ve alt kiriş başlılarında korniyerler veya yarım I profiller kullanarak
- birleşimler tasarlamaya başladı.
- 1950'lerde, yapı inşaatına kaynak tanıtımı yapıldığı için, korniyerler
- ve yarım I kesitler, başlık üst levhaları, kolon başlıklarına kaynaklanarak
+ Dünya Savaşından sonra, mühendisler kirişleri kolonlara bağlamak için üst
+ ve alt kiriş başlıklarında korniyer veya yarım I profiller kullanarak birleşiml
+er tasarlamaya başladı.
+ 1950'lerde, yapı inşaatına kaynak tanıtımı yapıldığı için, korniyer ve
+ yarım I kesitler, başlık üst levhaları, kolon başlıklarına kaynaklanarak
  değiştirildi, sonra kiriş başlıklarına perçinlendi.
- 1960'larda perçinleme, ekonomik değildi ve yerini yüksek dayanımlı bir
- bulon ile değiştirdi.
+ 1960'larda perçinleme, ekonomik değildi ve yerini yüksek dayanımlı bulonlara
+ bıraktı.
  Son olarak, 1970'lerin başında, mühendisler bugün kiriş başlıları kaynaklı
- ve gövdesiden ek lavhalı bulonlu olarak bilinen birleşim türünü kullanmaya
+ ve gövdesinden ek levhalı bulonlu olarak bilinen birleşim türünü kullanmaya
  başladılar.
  Bu gelişmelerin sonucunda, mühendisler çelik moment çerçevelerinin depremlerde
  üstün performans sergilediğini görmeye başladılar.
@@ -136,7 +136,7 @@ II.
 
 \begin_layout Standard
 Bu yapıların göze çarpan üstün performansının bir sonucu olarak, 1960'ların
- yapı yönetmetmelikleri çelik moment çerçeveleri için tercih edilen tasarım
+ yapı yönetmelikleri çelik moment çerçeveleri için tercih edilen tasarım
  kriterlerini benimsemiştir.
  Bu yönetmelikler uyarınca, yanal kuvvet dirençli sistem olarak çerçeve
  sisteme sahip binalar, desteklenmiş çerçeveler için belirtilen deprem kuvvetler
@@ -154,11 +154,10 @@ Batı Amerika'da bu dönemde inşa edilen hemen hemen her yüksek bina, çelik
  moment çerçeve konstrüksiyonu idi.
  1960'larda ve 1970'lerde tasarlanan bu yapılarda, her kiriş-kolon bağlantısında
  moment dayanımlı bağlantılar kullanmaya meyilliydi, bu da yanal kuvvet
- direncinin dağıtılması için yüksek bağlılık(hiperstatiklik) ve alternatif
- yük yolları sağladı.
+ direncinin dağıtılması için yüksek bağlılık ve alternatif yük yolları sağladı.
  Bununla birlikte, 1980'lerde mühendisler tasarımlarını ekonomikleştirmeye
- ve daha konsantre yanal kuvvet dayanımına sahip,daha büyük açıklık ile
- daha az açklık sayısı ve daha az moment dayanımlı çerçeveler kullanarak,
+ ve daha konsantre yanal kuvvet dayanımına sahip, daha büyük açıklık ile
+ daha az açıklık sayısı ve daha az moment dayanımlı çerçeveler kullanarak,
  pahalı saha kaynağını en aza indirmeye başlamıştı.
  Nadir de olsa, bazı yüksek yapılara binanın her bir tarafında yalnızca
  tek bir moment dayanımlı çerçevesi kullanılmıştır.
@@ -200,7 +199,7 @@ Moment çerçeveleri büyük yer değiştirme yapabilme özellikleri hem avantaj
  Normalde, derinlik/açıklık oranı 10 veya daha fazla olduğunda dikdörtgen
  kesitli konsol elemanlar için, eğilme yer değiştirmesi, çok daha baskın
  olan bileşendir.
- Bu fenomeni çok katlı moment çerçevelerinin yer değiştirme karakteriği
+ Bu fenomeni çok katlı moment çerçevelerinin yer değiştirme karakteristiği
  olarak düşünülebilir.
 \end_layout
 
@@ -234,7 +233,7 @@ Moment çerçeveleri için diğer önemli husus ise birleşimlerdir.
  Birleşimler yaygın kullanılan I profiller için, gerek bağlandığı elemanın
  güçlü ekseninde gerekse zayıf ekseninde ve kutu-boru profiller için davranışlar
 ı, birleşim araçlarının çeşitliliği sebebi ile birbirinden çok farklıdır.
- Çerçvede kullanılan birleşimin rijitlik ve dayanım gibi iki karakteristik
+ Çerçevede kullanılan birleşimin rijitlik ve dayanım gibi iki karakteristik
  özelliği detaylı incelendiğinde, çerçeve davranışında birleşimlerin davranışını
  önemli kılar.
  Daha önce de bahsedilen gelişen imkanlar mühendislere daha hassas modelleme
@@ -288,7 +287,7 @@ e tablolanan tepki değiştirme katsayılarının matematiksel bir temeli yoktur
 \end_inset
 
  için değerler) zamanında elde edilen hükümlere ve bazı verilere dayanmaktadır
- fakat yazılanlar yönetmelik hükümlerinin periyodik olarak gözden geçirilmesi
+ fakat yazılan yönetmelik hükümlerinin periyodik olarak gözden geçirilmesi
  gerekir.
  Bu faktörlere çeşitli yapısal sistemler için yönetmeliklere atanan sayısal
  değerler, titiz analizler ve deneylerle değil, uzman mühendislerin fikir
@@ -298,14 +297,14 @@ e tablolanan tepki değiştirme katsayılarının matematiksel bir temeli yoktur
 
 \begin_layout Standard
 Bu sebeplerden dolayı, tepki değiştirme katsayılarının moment çerçeveleri
- için çok daha önemli olan bir parametri ise
+ için çok daha önemli olan bir parametre ise
 \emph on
- Yer Değiştirme Arttırma Katsayısı'
+ Yer Değiştirme Arttırma Katsayısı '
 \emph default
 dır.
  Yapının elastik ötesi davranışı esnasında yaptığı en büyük yer değiştirme
  değerinin, tasarıma esas alınan yatay kuvvetler altında yapmış olduğu yer
- değiştirme değerine oranı olarak tanımlanan katsayının moment çerçeverli
+ değiştirme değerine oranı olarak tanımlanan katsayının moment çerçeveli
  için önemi açıktır.
  
 \end_layout
@@ -322,7 +321,7 @@ Bu çalışmanın amacı, Türkiye Bina Deprem Yönetmeliği 2018’e göre tasa
 \end_layout
 
 \begin_layout Standard
-Bu amaç için doğrulsal olmayan analizlerden oluşan bir parametrik çalışma
+Bu amaç için doğrusal olmayan analizlerden oluşan bir parametrik çalışma
  yapılmalıdır.
  Bu çalışmada için, az, orta ve yüksek katlı üç bina ve her bina için beş
  farklı birleşim dönme rijitliği parametreleri ana değişkenler olarak düşünülmüş
@@ -330,7 +329,7 @@ tür.
  Yükleme koşulları ve zemin sınıfı parametreleri sabit tutulmuştur.
  Tasarlanan yapılara ilgili parametrelerde, doğrusal olmayan statik ve zaman
  tanım alanında doğrusal olmayan dinamik analizlerle yapıların yer değiştirme
- arttırma katsayısıları elde edilecektir.
+ arttırma katsayıları elde edilecektir.
  Bu sonuçlar doğrultusunda, yapıların birleşimlerinin davranışı daha detaylı
  bir yaklaşımla dikkate alındığında belirlenen yer değiştirme arttırma katsayıla
 rı ile yapıların tasarımının en başında kullanılan yönetmelik hükümleri
@@ -349,11 +348,11 @@ Birinci bölümde, tez konusunun genel mahiyeti belirtilmiş, tezin amacı ve
 \end_layout
 
 \begin_layout Standard
-İkinci bölüm, yarı-rijit birleşimleri kapsamaktadır, bu bölümde yarı-rijit
+İkinci bölüm, yarı rijit birleşimleri kapsamaktadır, bu bölümde yarı-rijit
  birleşimler geçmişte yapılmış önemli çalışmalarla anlatılmış, birleşimlerin
  sınıflandırılması uluslar arası kabul görmüş yönetmeliklerin konuya bakışı
  incelenmiş daha sonra yarı-rijit birleşimlerin davranışının modellenmesine
- yer veilmiş ve birleşimlerin dönme kapasiteleri anlatılmıştır.
+ yer verilmiş ve birleşimlerin dönme kapasiteleri anlatılmıştır.
  
 \end_layout
 
@@ -368,8 +367,8 @@ Yer Değiştirme Arttırma Katsayısını
 
  ve bu katsayıyı daha iyi kavrayabilmek için diğer tepki değiştirme katsayıları
  anlatılmıştır.
- Bu bölümde kısaca eşit yerdeğiştirme ve eşit enerji prensiplerine yer verilmişt
-ir.
+ Bu bölümde kısaca eşit yer değiştirme ve eşit enerji prensiplerine yer
+ verilmiştir.
 \end_layout
 
 \begin_layout Standard

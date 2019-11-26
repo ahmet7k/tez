@@ -97,7 +97,7 @@ Bu bölümde etkin göreli kat ötelenmelerinin elde edilmesinde kullanılan
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
- ‘yi daha iyi kavrayabilmek için diğer tepki değiştirme katsayıları da geçmişte
+‘yi daha iyi kavrayabilmek için diğer tepki değiştirme katsayıları da geçmişte
  yapılan çalışmaları ile özetlenecektir.
  Böylece konunun daha sağlıklı ve anlaşılır bir şekilde ele alınması amaçlanmakt
 adır.
@@ -142,7 +142,8 @@ Taşıyıcı sistem davranış katsayısının
 \begin_inset Formula $\left(R\right)$
 \end_inset
 
- katsayısının yapısal davranışdaki anlamı daha açık şekilde ifade edilmelidir.
+ katsayısının yapısal davranış açısından anlamı daha açık şekilde ifade
+ edilmelidir.
  Şekil 3.1'de şematize edilmiş olan genel yapı davranışına ait tipik Taban
  kesme kuvveti 
 \begin_inset Formula $\left(V\mathrm{_{t}}\right)$
@@ -219,7 +220,7 @@ Tepki değiştirme katsayısı, R, belirtilen yer hareketi altında tamamen doğ
 \begin_inset Formula $V_{\mathrm{d}}$
 \end_inset
 
-'ye oranını temsil eder.
+ 'ye oranını temsil eder.
 \begin_inset Formula 
 \begin{equation}
 R=\frac{V_{\mathrm{e}}}{V_{\mathrm{d}}}\label{eq:3-1}
@@ -231,10 +232,10 @@ R=\frac{V_{\mathrm{e}}}{V_{\mathrm{d}}}\label{eq:3-1}
 \begin_inset Formula $R$
 \end_inset
 
- katsayısı, başlangıç akmasını aşan ve yapısal sistemin nihai yük Yer Değiştirme
-ına yaklaşmak için yeterince büyük olan yer değiştirmelerde sönümleme, dayanım
- fazlalığı ve yapısal sistemde doğal olan(içsel) sünekliği hesaba katmayı
- amaçlayan ampirik bir tepki azaltma faktörüdür 
+ katsayısı, başlangıç akmasını aşan ve yapısal sistemin nihai yük yer değiştirme
+sine yaklaşmak için yeterince büyük olan yer değiştirmelerde sönümleme,
+ dayanım fazlalığı ve yapısal sistemde doğal olan(içsel) sünekliği hesaba
+ katmayı amaçlayan ampirik bir tepki azaltma faktörüdür 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "FEMA450"
@@ -285,7 +286,7 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-1980'lerin ortasında, Berkeley California Üniversitesi'ndeki deneysel bir
+1980'lerin ortasında, Berkeley California Üniversitesi 'ndeki deneysel bir
  araştırma programından elde edilen veriler, yönetmelikle uyumlu çelik çapraz
  çerçeveli yapıların sismik tepkisine ilişkin geliştirilmiş bir anlayış
  geliştirmek ve tepki değiştirme katsayıları için taslak bir formülasyon
@@ -294,7 +295,7 @@ literal "false"
  dış merkez olarak desteklenmiş çelik çerçeve sisteminin deprem simülatörü
  testinden elde edilen veriler kullanılarak elde edildi.
  Kuvvet Yer Değiştirme eğrileri, her deprem simülasyonu ve her model için
- maksimum taban kesme kuvvetine karşılık gelen zamanda çatı Yer Değiştirmeının
+ maksimum taban kesme kuvvetine karşılık gelen zamanda tepe yer değiştirmesinin
  çizilmesiyle geliştirilmiştir.
  Her test için, deprem simülatör platformlarının ivme-tepki geçmişi kullanılarak
  elastik ivme tepki spektrumu üretildi.
@@ -302,7 +303,7 @@ literal "false"
 \begin_inset Formula $R$
 \end_inset
 
-'yi dayanım fazlalığı, süneklik ve viskoz sönümleme olan üç faktörün ürünü
+ 'yi dayanım fazlalığı, süneklik ve viskoz sönümleme olan üç faktörün ürünü
  olarak tanımladılar:
 \end_layout
 
@@ -452,12 +453,11 @@ Bağlılık katsayısı, bir yapının düşeyde her bir ana aksı doğrultusund
 
 , ilave viskoz sönümleme araçlarının (yapısal olmayan elemanlar) etkisini
  hesaba katmak için tasarlanmıştır.
- Bu gibi viskoz bir sönümleme katsayısıları, akma anındaki bir çerçevede
- yer değiştirmeleri azaltmak için kullanılabilir ancak kuvvet taleplerini
- orantılı olarak azaltamayabilir, (doğrusal olmayan davranış sergileyen
- çerçeve sistemindeki yer değiştirmeleri azaltmak için kullanılabilir, ancak
- özellikle yüksek sönümlü çerçevelerde kuvvet taleplerini orantılı olarak
- azaltamayabilir).
+ Bu gibi viskoz bir sönümleme katsayıları, akma anındaki bir çerçevede yer
+ değiştirmeleri azaltmak için kullanılabilir ancak kuvvet taleplerini orantılı
+ olarak azaltmayabilir, (doğrusal olmayan davranış sergileyen çerçeve sisteminde
+ki yer değiştirmeleri azaltmak için kullanılabilir, ancak özellikle yüksek
+ sönümlü çerçevelerde kuvvet taleplerini orantılı olarak azaltmayabilir).
  Tepki değiştirme katsayıları kuvvet temelli tasarım prosedürleriyle kullanıldığ
 ından sönümleme katsayısı yeni formülasyondan çıkarılmıştır.
 \begin_inset CommandInset citation
@@ -478,10 +478,10 @@ Dayanım Fazlalığı Katsayısı
 Bir yapının gerçek dayanımı, tasarım dayanımından daha yüksektir.
  Bu durum, genel tasarım basitleştirmelerinden kaynaklanmaktadır, ancak
  modern bilgisayar destekli araçlar, mühendisin yapıyı, inşa edilen duruma
- yakın bir şekilde modellemesine ve tasarlamasına olanak sağlamaktadaır.
+ yakın bir şekilde modellemesine ve tasarlamasına olanak sağlamaktadır.
  Yine de tasarım süreci boyunca, malzemelerin gerçek dayanımının hesapta
  kullanılan dayanımdan daha yüksek olması, yönetmeliklerdeki sınır koşulları
- (güçlü kolon-zayıf kiriş koşulu, enkesit koşulları, göreli kat ötelemeleri
+ (güçlü kolon-zayıf kiriş koşulu, en kesit koşulları, göreli kat ötelemeleri
  sınırları), yük ve malzeme katsayıları, yapısal olmayan elemanların katkısının
  gözardı edilmesi, yükleme anında sistemde oluşan yeniden dağılım gibi önemli
  basitleştirmeler ve varsayımlar mevcuttur.
@@ -528,23 +528,38 @@ Dayanım fazlalığı katsayısı ile ilgili geçmiş çalışmalar
 
 \begin_layout Subsubsection*
 Freeman 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Freeman1990"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 1990'da yapılan bu çalışmada yazar, ikisi 4.
- derece deprem bölgesinde , diğeri 3.derece deprem bölgesinde inşa edilmiş
+ derece deprem bölgesinde, diğeri 3.derece deprem bölgesinde inşa edilmiş
  üç katlı üç çelik moment çerçevesi için dayanım fazlalığı katsayılarını
  sırasıyla 1.9, 3.6 ve 3.3 olarak hesaplamıştır.
 \end_layout
 
 \begin_layout Subsubsection*
-Osteraas and Krawinkler 
+Osteraas ve Krawinkler 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Osteraas1990"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Bu çalışmada, Üniforma Yapı Yönetmeliğine uygun olarak tasarlanan çelik
- çerçevelerin dayanım fazlalığı, süneklik kapasiteleri ve süneklik talepleri
- incelenmiştir.
+Bu çalışmada, UBC yönetmeliğine uygun olarak tasarlanan çelik çerçevelerin
+ dayanım fazlalığı, süneklik kapasiteleri ve süneklik talepleri incelenmiştir.
  Çeşitli çerçeve boyutlarına ve yüksekliğine sahip moment çerçeveleri, çevre
  çerçeveleri ve çaprazlı çerçeveler sabit bir üçgen yük dağılımı kullanılarak
  doğrusal elastik olmayan statik analize tabi tutulmuştur.
@@ -552,7 +567,15 @@ Bu çalışmada, Üniforma Yapı Yönetmeliğine uygun olarak tasarlanan çelik
 \end_layout
 
 \begin_layout Subsubsection*
-Balendra and Huang 
+Balendra ve Huang 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Balendra2003"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -578,7 +601,7 @@ Belirli bir yer hareketine veya yanal yüklemeye maruz kalan yapısal sistemin
 \end_inset
 
 ” (süneklik talebi) oranıyla verilir ve maksimum mutlak göreli yer değiştirmenin
- akma yerdeğiştirmesine oranı olarak tanımlanır.
+ akma yer değiştirmesine oranı olarak tanımlanır.
 \end_layout
 
 \begin_layout Standard
@@ -619,7 +642,7 @@ Süneklik Azaltma Katsayısı
 \begin_inset Formula $F_{\mathrm{y}}\left(\mu=\mu_{i}\right)$
 \end_inset
 
-yanal akma dayanımına oranı (gerçek süneklik/varolan süneklik oranı) olarak
+ yanal akma dayanımına oranı (gerçek süneklik/var olan süneklik) olarak
  tanımlanır.
  
 \end_layout
@@ -652,7 +675,7 @@ Belirli bir yer hareketi için, süneklik azaltma katsayısı
 \begin_inset Formula $R_{\mathrm{μ}}$
 \end_inset
 
-, yapı periyodunun, sönümün, davranış tipinin ve yerdeğiştirme süneklik
+, yapı periyodunun, sönümün, davranış tipinin ve yer değiştirme süneklik
  oranının bir fonksiyonu olarak Denklem 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -744,11 +767,11 @@ si, maksimum yer değiştirmesine yakınlaşır.
 \begin_inset Formula $\left(μ=1\right)$
 \end_inset
 
-'ye eşittir, bu nedenle Yer Değiştirme süneklik oranı 
+ 'ye eşittir, bu nedenle Yer Değiştirme süneklik oranı 
 \begin_inset Formula $μ=u_{\mathrm{max}}/u_{\mathrm{y}}$
 \end_inset
 
-'ye oranına eşittir ve bu sistemler için dayanım azaltma katsayısı aşağıdaki
+ 'ye oranına eşittir ve bu sistemler için dayanım azaltma katsayısı aşağıdaki
  denklem ile ifade edilir: 
 \end_layout
 
@@ -827,7 +850,7 @@ Süneklik azaltma katsayısı ile ilgili yapılan çalışmalar
 \end_layout
 
 \begin_layout Subsubsection*
-Newmark and Hall 
+Newmark ve Hall 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Newmark1973"
@@ -839,18 +862,18 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-El Centro, Kaliforniya Deprem kaydından elde ettikleri elastik ve elastik
+El Centro ve Kaliforniya deprem kaydından elde ettikleri elastik ve elastik
  olmayan tepki spektrumuna dayanarak yazarlar şunları gözlemlemiştir:
 \end_layout
 
 \begin_layout Standard
 Periyotları yüksek ve orta periyot spektral bölgelerinde gelen yapıların
  elastik yer değiştirme değerinin elastik ötesi yer değiştirme değerine
- neredeyse eşit olduğunu (
-\begin_inset Formula $∆_{\mathrm{max}}\backsimeq∆_{\mathrm{e}}$
+ neredeyse eşit olduğunu 
+\begin_inset Formula $\left(∆_{\mathrm{max}}\backsimeq∆_{\mathrm{e}}\right)$
 \end_inset
 
-).
+.
  Literatürde 
 \emph on
 Eşit Yer Değiştirme Kuralı
@@ -861,7 +884,7 @@ Eşit Yer Değiştirme Kuralı
  bakılarak tahmin edilebiliyor olması, sistemin ne kadar sünek tasarlanması
  gerektiğinin yani deprem enerjisinin ne kadarının elastik dayanımla ne
  kadarının elastik olmayan deformasyonlarla tüketilebileceğinin görülmesine
- imkân sağlamıştır.
+ imkan sağlamıştır.
 \end_layout
 
 \begin_layout Standard
@@ -877,8 +900,8 @@ Gözlemlerinin bir sonucu olarak yazarlar, elastik spektrumlardan elastik
 \begin_layout Standard
 Orta periyotlu yapılarda ise enerjinin korunumu prensibi gereği, elastik
  sistemde monotonik yükler etkisinde oluşan kuvvet-deformasyon ilişkisinin,
- elastik ötesi durumda, pekleşmesiz elasto-plastik davranıştakinin aynısı
- olacağı sonucuna varılmıştır.
+ elastik ötesi durumda, pekleşmesiz elasto-plastik davranışa benzer olacağı
+ sonucuna varılmıştır.
 \end_layout
 
 \begin_layout Standard
@@ -951,7 +974,7 @@ Bu çalışmada ise, kaya zemin üzerinde kaydedilen çeşitli depremlere ait
 \end_layout
 
 \begin_layout Section
-Eşit Yerdeğiştirme ve Eşit Enerji Prensipleri
+Eşit Yer Değiştirme ve Eşit Enerji Prensipleri
 \end_layout
 
 \begin_layout Standard
@@ -1068,7 +1091,7 @@ i oran, yer değiştirme sünekliği oranına eşittir (
 \begin_inset Formula $μ$
 \end_inset
 
- elastik olmayan sistemin yerdeğiştirme sünekliği oranıdır.
+ elastik olmayan sistemin yer değiştirme sünekliği oranıdır.
 \end_layout
 
 \begin_layout Standard
@@ -1091,7 +1114,7 @@ Yer Değiştirme Arttırma Katsayısı
 \end_layout
 
 \begin_layout Standard
-ASCE 7-16'da 
+ASCE 7-16 'da 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "ASCE7-16"
@@ -1148,7 +1171,7 @@ e, yapının güçlü yer hareketlerine maruz kaldığında hasar almasını, an
 \emph on
 Taşıyıcı Sistem Davranış Katsayısı
 \emph default
-"na 
+" 'na 
 \begin_inset Formula $\left(R\right)$
 \end_inset
 
@@ -1351,7 +1374,7 @@ Dayanım Fazlalığı Katsayısı
 Süneklik Azaltma Katsayısı
 \emph default
  2,67 anlamına gelir.
- Fakat TBDY 2018 azaltılmış deprem yüklerine göre hesaplanan göreli kat
+ Fakat TBDY-2018 azaltılmış deprem yüklerine göre hesaplanan göreli kat
  ötelemelerini, etkin göreli kat ötelemelerine dönüştürülmesi amacıyla 
 \begin_inset Formula $R/I$
 \end_inset
@@ -1486,7 +1509,7 @@ Yer değiştirme arttırma katsayısı ile ilgili yapılan çalışmalar
 \end_layout
 
 \begin_layout Subsubsection*
-Chia-Ming Uang and Ahmed Maarouf
+Uang ve Maarouf
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Uang1994"
@@ -1544,8 +1567,7 @@ UBC ve NEHRP'de kullanılan yer değiştirme arttırma katsayıları hükümlerd
 \end_layout
 
 \begin_layout Subsubsection*
-Onur Şeker, Bülent Akbaş, Jay Shen ve A.
- Zafer Öztürk
+Şeker, Akbaş, Shen ve Öztürk
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Seker2013"
@@ -2174,7 +2196,7 @@ Tasarım
 \end_layout
 
 \begin_layout Subsubsection*
-Majid Mohammadi ve Bahram Kordbagh
+Mohammadi ve Kordbagh
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Mohammadi2017"
