@@ -105,7 +105,7 @@ During the 1994 Northridge and 1995 Kobe earthquakes, heavy and unexpected
  and especially in fully welded connections, leading to a review of the
  design methods of such structures.
  Following this discovery, a consortium of professional associations and
- researchers known as the SAC Joint Venture conducted extensive work to
+ researchers known as the SAC joint venture conducted extensive work to
  identify the causes of this unexpected behavior and develop recommendations
  for building a more robust moment framework.
  Cracks and damages were found to be the result of basic joint geometry,
@@ -157,12 +157,15 @@ Over the past half century, computer aided software tools used by engineers
 When the design of moment frames is considered, the main parameter that
  governs the design is displacement.
  This study focuses on the concept of connection rotation stiffness in the
- design of steel frame structures with moment resistance in the literature
- and earthquake regulations, and the concept of the reaction coefficient
- of change for the actual displacement of regulations to be used in design.
- The displacement amplification coefficient is used to obtain the displacement
- value of the structure from the elastic displacement value in the inelastic
- state.
+ design of steel frame structures with moment resistance in the earthquake
+ regulations, and the concept of the reaction coefficient of change for
+ the actual displacement of regulations to be used in design.
+ The 
+\emph on
+Displacement Amplification Facto
+\emph default
+r is used to obtain the displacement value of the structure from the elastic
+ displacement value in the inelastic state.
  For this purpose, low, medium and high storied rigid connections moment
  framed structures were designed for the earthquake level determined and
  examined with five different rotational stiffnesses by linear inelastic
@@ -182,9 +185,11 @@ In low, medium and high-rise frames,
  for dynamic analysis are less than the values of 5.50 and 8.00 used by AISC
  and TBDY-2018 regulations, respectively.
  The results show that the stiffness of the connection in a steel-frame
- structure changes the behavior of the structure, thereby changing the displacem
-ent amplification factor, which is an important response coefficient for
- steel-frame structures.
+ structure changes the behavior of the structure, thereby changing the 
+\emph on
+Displacement Amplification Factor
+\emph default
+, which is an important response coefficient for steel-frame structures.
  The difference in the displacement amplification coefficients shows that
  the rigidity of the connections used in the structure should not be ignored
  if a non-linear evaluation of a moment resisting steel frame is performed.

@@ -93,7 +93,11 @@ name "CH3"
 
 \begin_layout Standard
 Bu bölümde etkin göreli kat ötelenmelerinin elde edilmesinde kullanılan
- Yer Değiştirme Arttırma Katsayısı, 
+ 
+\emph on
+Yer Değiştirme Arttırma Katsayısı
+\emph default
+, 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
@@ -122,8 +126,8 @@ Kullanımı kolaydır ve tasarımcının yapısal dinamikleri derinlemesine kavr
 \end_layout
 
 \begin_layout Itemize
-Ön tasarımı daha kesin yöntemlerle daha sonra değerlendirmek üzere bir yapı
- ortaya koymak için kullanılabilir.
+Tasarımı daha kesin yöntemlerle daha sonra değerlendirmek üzere bir yapı
+ ortaya koymak için (ön tasarım) kullanılabilir.
  
 \end_layout
 
@@ -146,11 +150,11 @@ Taşıyıcı sistem davranış katsayısının
  edilmelidir.
  Şekil 3.1'de şematize edilmiş olan genel yapı davranışına ait tipik Taban
  kesme kuvveti 
-\begin_inset Formula $\left(V\mathrm{_{t}}\right)$
+\begin_inset Formula $\left(V\right)$
 \end_inset
 
  - Yer değiştirme 
-\begin_inset Formula $\left(∆_{\mathrm{tepe}}\right)$
+\begin_inset Formula $\left(∆\right)$
 \end_inset
 
  grafiği görülmektedir.
@@ -297,8 +301,8 @@ literal "false"
  Kuvvet Yer Değiştirme eğrileri, her deprem simülasyonu ve her model için
  maksimum taban kesme kuvvetine karşılık gelen zamanda tepe yer değiştirmesinin
  çizilmesiyle geliştirilmiştir.
- Her test için, deprem simülatör platformlarının ivme-tepki geçmişi kullanılarak
- elastik ivme tepki spektrumu üretildi.
+ Her test için, deprem simülatör platformlarının ivme-tepki geçmişi sonuçlarını
+ kullanılarak elastik ivme tepki spektrumu üretildi.
  Berkeley araştırmacıları, deneysel verileri kullanarak 
 \begin_inset Formula $R$
 \end_inset
@@ -308,7 +312,11 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $R=R_{\mathrm{S}}R_{\mathrm{μ}}R_{\mathrm{\xi}}$
+\begin_inset Formula 
+\begin{equation}
+R=R_{\mathrm{S}}R_{\mathrm{\mu}}R_{\mathrm{\xi}}\label{eq:3-2}
+\end{equation}
+
 \end_inset
 
 
@@ -347,10 +355,7 @@ Bu denklemde
 
 bölünerek hesaplandı.
  Sönüm katsayısı 1’e ayarlandı.
-\end_layout
-
-\begin_layout Standard
-Uygulamalı Teknoloji Konseyi tarafından yürütülen çalışmalar
+ Uygulamalı Teknoloji Konseyi tarafından yürütülen çalışmalar
 \begin_inset CommandInset citation
 LatexCommand cite
 key "ATC-19"
@@ -366,13 +371,13 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $R=R_{\mathrm{S}}R_{\mathrm{μ}}R_{\mathrm{R}}$
+\begin_inset Formula 
+\begin{equation}
+R=R_{\mathrm{S}}R_{\mathrm{\mu}}R_{\mathrm{R}}\label{eq:3-3}
+\end{equation}
+
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 burada 
 \begin_inset Formula $R_{\mathrm{S}}$
 \end_inset
@@ -395,7 +400,7 @@ burada
 , Denklem 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "eq:3-2"
+reference "eq:3-4"
 plural "false"
 caps "false"
 noprefix "false"
@@ -410,7 +415,7 @@ noprefix "false"
  ise, Denklem 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "eq:3-3"
+reference "eq:3-5"
 plural "false"
 caps "false"
 noprefix "false"
@@ -424,7 +429,7 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-R_{\mathrm{S}}=\frac{V\mathrm{_{y}}}{V_{\mathrm{d}}}\label{eq:3-2}
+R_{\mathrm{S}}=\frac{V\mathrm{_{y}}}{V_{\mathrm{d}}}\label{eq:3-4}
 \end{equation}
 
 \end_inset
@@ -435,7 +440,7 @@ R_{\mathrm{S}}=\frac{V\mathrm{_{y}}}{V_{\mathrm{d}}}\label{eq:3-2}
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-R_{\mathrm{\mu}}=\frac{V\mathrm{_{e}}}{V_{\mathrm{y}}}\label{eq:3-3}
+R_{\mathrm{\mu}}=\frac{V\mathrm{_{e}}}{V_{\mathrm{y}}}\label{eq:3-5}
 \end{equation}
 
 \end_inset
@@ -459,7 +464,7 @@ Bağlılık katsayısı, bir yapının düşeyde her bir ana aksı doğrultusund
 ki yer değiştirmeleri azaltmak için kullanılabilir, ancak özellikle yüksek
  sönümlü çerçevelerde kuvvet taleplerini orantılı olarak azaltmayabilir).
  Tepki değiştirme katsayıları kuvvet temelli tasarım prosedürleriyle kullanıldığ
-ından sönümleme katsayısı yeni formülasyondan çıkarılmıştır.
+ından sönümleme katsayısı yeni formülasyondan çıkarılmıştır
 \begin_inset CommandInset citation
 LatexCommand cite
 key "ATC-19"
@@ -467,7 +472,7 @@ literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Section
@@ -484,14 +489,14 @@ Bir yapının gerçek dayanımı, tasarım dayanımından daha yüksektir.
  (güçlü kolon-zayıf kiriş koşulu, en kesit koşulları, göreli kat ötelemeleri
  sınırları), yük ve malzeme katsayıları, yapısal olmayan elemanların katkısının
  gözardı edilmesi, yükleme anında sistemde oluşan yeniden dağılım gibi önemli
- basitleştirmeler ve varsayımlar mevcuttur.
+ basitleştirmeler ve varsayımlardan kaynaklanır.
  Bu varsayımlar ve tasarım uygulamaları genellikle güvenli tarafta kalacak
  şekilde ihtiyatlı bir tasarıma kayma eğilimindedir bu sebepten de sonuç
  olarak gerçek dayanım tasarım dayanımından yüksektir.
  Denklem 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "eq:3-4"
+reference "eq:3-6"
 plural "false"
 caps "false"
 noprefix "false"
@@ -514,7 +519,7 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\varOmega=\frac{V_{\mathrm{y}}}{V_{d}}\label{eq:3-4}
+\varOmega=\frac{V_{\mathrm{y}}}{V_{d}}\label{eq:3-6}
 \end{equation}
 
 \end_inset
@@ -607,7 +612,7 @@ Belirli bir yer hareketine veya yanal yüklemeye maruz kalan yapısal sistemin
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\mu=\frac{u_{\mathrm{max}}}{u_{\mathrm{y}}}\label{eq:3-5}
+\mu=\frac{u_{\mathrm{max}}}{u_{\mathrm{y}}}\label{eq:3-7}
 \end{equation}
 
 \end_inset
@@ -650,7 +655,7 @@ Süneklik Azaltma Katsayısı
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-R_{\mathrm{\mu}}=\frac{F_{\mathrm{y}}\left(\mu=1\right)}{F_{\mathrm{y}}\left(\mu=\mu_{i}\right)}\label{eq:3-6}
+R_{\mathrm{\mu}}=\frac{F_{\mathrm{y}}\left(\mu=1\right)}{F_{\mathrm{y}}\left(\mu=\mu_{i}\right)}\label{eq:3-8}
 \end{equation}
 
 \end_inset
@@ -679,7 +684,7 @@ Belirli bir yer hareketi için, süneklik azaltma katsayısı
  oranının bir fonksiyonu olarak Denklem 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "eq:3-7"
+reference "eq:3-9"
 plural "false"
 caps "false"
 noprefix "false"
@@ -695,7 +700,7 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-R_{\mathrm{\mu}}=R_{\mathrm{\mathrm{\mu}}}\left(T,\mu_{i}\right)\label{eq:3-7}
+R_{\mathrm{\mu}}=R_{\mathrm{\mathrm{\mu}}}\left(T,\mu_{i}\right)\label{eq:3-9}
 \end{equation}
 
 \end_inset
@@ -707,7 +712,7 @@ R_{\mathrm{\mu}}=R_{\mathrm{\mathrm{\mu}}}\left(T,\mu_{i}\right)\label{eq:3-7}
  tanımından (Denklem 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "eq:3-6"
+reference "eq:3-8"
 plural "false"
 caps "false"
 noprefix "false"
@@ -725,7 +730,7 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-R_{\mathrm{\mu}}=R_{\mathrm{\mu}}\left(T,\mu=1\right)=1\label{eq:3-8}
+R_{\mathrm{\mu}}=R_{\mathrm{\mu}}\left(T,\mu=1\right)=1\label{eq:3-10}
 \end{equation}
 
 \end_inset
@@ -744,7 +749,7 @@ Doğal periyodunun sıfıra yakınsadığı çok rijit yapılar için
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-R_{\mathrm{\mu}}=R_{\mathrm{\mu}}\left(T=0,\mu_{i}\right)=1\label{eq:3-9}
+R_{\mathrm{\mu}}=R_{\mathrm{\mu}}\left(T=0,\mu_{i}\right)=1\label{eq:3-11}
 \end{equation}
 
 \end_inset
@@ -778,7 +783,7 @@ si, maksimum yer değiştirmesine yakınlaşır.
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-R_{\mathrm{\mu}}=R_{\mathrm{\mu}}\left(T\rightarrow\infty,\mu_{i}\right)=\mu\label{eq:3-10}
+R_{\mathrm{\mu}}=R_{\mathrm{\mu}}\left(T\rightarrow\infty,\mu_{i}\right)=\mu\label{eq:3-12}
 \end{equation}
 
 \end_inset
@@ -909,11 +914,7 @@ Orta periyotlu yapılarda ise enerjinin korunumu prensibi gereği, elastik
  Düşük periyotlu yapıların rijitliği çok yüksek olacağından ivmeye, orta
  periyotlu yapıların hıza, uzun periyotlu yapıların ise yer değiştirmeye
  duyarlı olduğu sonucu ortaya çıkmıştır.
- 
-\end_layout
-
-\begin_layout Standard
-Çalışma sonucu birçok periyot aralığı için farklı 
+ Çalışma sonucu birçok periyot aralığı için farklı 
 \begin_inset Formula $R_{\mathrm{μ}}$
 \end_inset
 
@@ -968,7 +969,7 @@ Bu çalışmada ise, kaya zemin üzerinde kaydedilen çeşitli depremlere ait
  sınıfı koşulları, %5 sönüm oranına sahip ve yer değiştirme süneklik oranları
  2 ile 6 arasında değişen tek serbestlik dereceli sistemler üzerinde analizler
  yapılmıştır.
- Çalışma ayrıca, deprem büyüklüğün ve mesafenin sonuçlara etkisinin önemsiz
+ Çalışma ayrıca, deprem büyüklüğünün ve mesafenin sonuçlara etkisinin önemsiz
  olduğunu, zemin koşullarının süneklik azaltma faktörü üzerinde önemli bir
  etkisi olduğunu göstermiştir.
 \end_layout
@@ -1092,10 +1093,6 @@ i oran, yer değiştirme sünekliği oranına eşittir (
 \end_inset
 
  elastik olmayan sistemin yer değiştirme sünekliği oranıdır.
-\end_layout
-
-\begin_layout Standard
-Bu şekilde bir tasarım ekonomik ve uygulanabilir olmayacaktır.
  Ekonomik ve uygulanabilir tasarım ancak yapıda sınırlı hasar oluşmasının
  baştan kabul edilmesi ile yapılabilecektir.
  Buna göre tasarlanmış bir yapı elasto-plastik davranış gösterecektir
@@ -1160,7 +1157,7 @@ e, yapının güçlü yer hareketlerine maruz kaldığında hasar almasını, an
  elastik davranış göstermesi, yani hiç hasar almaması, ekonomik ve akılcı
  olmadığından arzu edilen bir tasarım yaklaşımı değildir.
  Kabul gören tasarım yöntemi, yapının üzerine gelen yükleri, elastik aralıkta
- tutmak yerine bir miktar elastik-ötesi deformasyon yaparak karşılaması,
+ tutmak yerine bir miktar elastik ötesi deformasyon yaparak karşılaması,
  başka bir deyişle elastik ötesi enerji tüketme kapasitesini kullanmasıdır.
  Bu amaçla yapı, elastik tasarım spektrumlarından elde edilen ve taşıyıcı
  sistemin süneklik düzeyine, malzeme türüne, taşıyıcı sistemin yapısına,
@@ -1235,7 +1232,7 @@ Taşıyıcı Sistem Davranış Katsayısı
  gelir (Denklem 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "eq:3-11"
+reference "eq:3-13"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1254,7 +1251,7 @@ noprefix "false"
  
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "eq:3-12"
+reference "eq:3-14"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1267,7 +1264,7 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-R=\frac{V_{e}}{V_{\mathrm{d}}}=\frac{V_{\mathrm{e}}}{V_{\mathrm{y}}}\times\frac{V_{\mathrm{y}}}{V_{\mathrm{d}}}\Rightarrow R=R_{\mathrm{\mu}}\times\varOmega_{0}\label{eq:3-11}
+R=\frac{V_{e}}{V_{\mathrm{d}}}=\frac{V_{\mathrm{e}}}{V_{\mathrm{y}}}\times\frac{V_{\mathrm{y}}}{V_{\mathrm{d}}}\Rightarrow R=R_{\mathrm{\mu}}\times\varOmega_{0}\label{eq:3-13}
 \end{equation}
 
 \end_inset
@@ -1278,7 +1275,7 @@ R=\frac{V_{e}}{V_{\mathrm{d}}}=\frac{V_{\mathrm{e}}}{V_{\mathrm{y}}}\times\frac{
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-C_{\mathrm{d}}=\frac{\Delta_{\mathrm{max}}}{\Delta_{\mathrm{d}}}=\frac{\Delta_{\mathrm{max}}}{\Delta_{\mathrm{y}}}\times\frac{\Delta_{\mathrm{y}}}{\Delta_{\mathrm{d}}}\Rightarrow C_{\mathrm{d}}=\mu\times\varOmega_{0}\label{eq:3-12}
+C_{\mathrm{d}}=\frac{\Delta_{\mathrm{max}}}{\Delta_{\mathrm{d}}}=\frac{\Delta_{\mathrm{max}}}{\Delta_{\mathrm{y}}}\times\frac{\Delta_{\mathrm{y}}}{\Delta_{\mathrm{d}}}\Rightarrow C_{\mathrm{d}}=\mu\times\varOmega_{0}\label{eq:3-14}
 \end{equation}
 
 \end_inset
@@ -1345,13 +1342,13 @@ literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-C_{\mathrm{d}}=\frac{\delta}{\delta_{\mathrm{e}}}R\label{eq:3-13}
+C_{\mathrm{d}}=\frac{\delta}{\delta_{\mathrm{e}}}R\label{eq:3-15}
 \end{equation}
 
 \end_inset
@@ -1522,10 +1519,10 @@ literal "false"
 
 \begin_layout Standard
 1994 yılında yayınlanan çalışma, deprem tasarım yönetmelikleri, öngörülen
- tasarım deprem kuvveti seviyesindeki elastik analizden hesaplanan ötelenmeleri,
+ tasarım deprem kuvveti seviyesindeki elastik analizden hesaplanan ötelemeleri,
  bir yer değiştirme arttırma katsayısı (DAF) ile elastik analizden hesaplanan
- ötelenmeleri arttırarak, büyük depremlerde meydana gelen maksimum tepe
- ve kat ötelenmelerini edildiğine dikkat çeker.
+ ötelemeleri arttırarak, büyük depremlerde meydana gelen maksimum tepe ve
+ kat ötelemelerini edildiğine dikkat çeker.
  Bazı deprem tasarım hükümlerinin karşılaştırılması, hem UBC hem de NEHRP'deki
  ötelenme arttırma katsayısının sırasıyla 
 \begin_inset Formula $3R\mathrm{_{w}}/8$
@@ -1538,8 +1535,8 @@ literal "false"
 'ye eşit olan yer değiştirme arttırma katsayısının çok düşük olduğunu ve
  ihtiyatlı olmayan ötelenme tahminlerine yol açabileceğini göstermiştir.
  Dört farklı tip binanın sismik tepkilerinin analitik bir incelemesi, büyük
- depremlerde oluşan ötelenmelerin UBC veya NEHRP yaklaşımı tarafından öngörülenl
-erden çok daha yüksek olduğunu doğrulamıştır.
+ depremlerde oluşan ötelemelerin UBC veya NEHRP yaklaşımı tarafından öngörülenle
+rden çok daha yüksek olduğunu doğrulamıştır.
  Yer değiştirme arttırma katsayısının, en büyük yer değiştirmelerin tahmin
  edilmesi için en azından deprem yükü azaltma katsayısına (UBC'de 
 \begin_inset Formula $R_{\mathrm{w}}$
@@ -2210,12 +2207,12 @@ literal "false"
 \begin_layout Standard
 2017 yılında yapılan çalışmada, ötelenme, yüksek bina tasarımında baskın
  bir özelliktir ve yapısal sistemlerin seçimini etkileyebileceği belirtilmiştir.
- Yapısal hasarı kontrol etmek için gerçek ötelenmelerin güvenilir bir tahmini
+ Yapısal hasarı kontrol etmek için gerçek ötelemelerin güvenilir bir tahmini
  hayati önem taşıdığından, karmaşık ayrıntıları göz önünde bulundurarak
  ötelenmeyi tahmin etmek dikkate değerdir.
  Güçlü depremler sırasında kat ötelenmesini tahmin etmek için, deprem tasarım
- hükümleri genellikle elastik tasarım ötelenmelerini arttırmak için bir
- ötelenme büyütme katsayısı (
+ hükümleri genellikle elastik tasarım ötelemelerini arttırmak için bir ötelenme
+ büyütme katsayısı (
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
@@ -2253,7 +2250,7 @@ literal "false"
  üzerindeki panel bölgesi etkilerini dikkate almak için Denklem
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "eq:3-15"
+reference "eq:3-17"
 plural "false"
 caps "false"
 noprefix "false"
@@ -2266,7 +2263,7 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\alpha=0.0136\left(\frac{d_{\mathrm{c}}}{t_{\mathrm{p}}}\right)+0.777\label{eq:3-14}
+\alpha=0.0136\left(\frac{d_{\mathrm{c}}}{t_{\mathrm{p}}}\right)+0.777\label{eq:3-16}
 \end{equation}
 
 \end_inset
@@ -2285,7 +2282,7 @@ burada
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-C_{\mathrm{d}}^{*}=\alpha\times C_{\mathrm{d}}\label{eq:3-15}
+C_{\mathrm{d}}^{*}=\alpha\times C_{\mathrm{d}}\label{eq:3-17}
 \end{equation}
 
 \end_inset

@@ -94,26 +94,26 @@ name "CH1"
 \begin_layout Standard
 İnşaat sektöründe çelik malzemesinin kullanımı için sayısız neden sayılabilir
  fakat yapısal mühendislik alanında özellikle hızlı bir şekilde tasarım,
- imalat ve montaj edilebilirliği, sürdürülebilir bir yapı malzemesi olması
- ve yüksek dayanım/ağırlık oranları, yüksek süneklik kapasiteleri, rijitlikleri,
- öngörülebilir göçme kapasiteleri nedeniyle yaygın olarak kullanılmaktadır.
+ imalat, montaj edilebilirliği, sürdürülebilir bir yapı malzemesi olması
+ ve yüksek dayanım/ağırlık oranları, yüksek süneklik kapasiteleri, rijitlikleri
+ ve öngörülebilir göçme kapasiteleri nedeniyle yaygın olarak kullanılmaktadır.
  
 \end_layout
 
 \begin_layout Standard
-Moment dayanımlı çelik çerçeveler, 1800'lerin sonunda demir ve betonarme
- çok katlı yapılar için geliştirildi.
+Moment dayanımlı çelik çerçeveler, 1800'lerin sonunda demir, betonarme ve
+ özellikle yığma yapılarla birlikte kullanmak için geliştirildi.
  Binalar daha uzun ve daha hafifleştikçe ve mühendisler bu yeni yapısal
  montaj yönteminin avantajlarını anladıkları için çerçevelerin yanal yüklere
  karşı davranışı konusunda araştırmalara itti.
  Hardy Cross (1885-1959) gibi mühendisler, pek çok binanın moment dağıtım
  yöntemini kullanarak başarıyla inşa edilmesi sağlayarak rijit çerçeve davranışı
-nı anlamamız için temel sağlamıştır.
+nın anlaşılması için temel sağlamıştır.
  Gelişmiş malzemelerin ve birleşim yöntemlerinin (kaynak, bulon, vb.) geliştirilm
 esi analitik gelişime paraleldi ve rijit çerçeve konstrüksiyonu 1900'lerin
- başından günümüze kadar hızla büyüdü.
+ başından günümüze kadar hızla büyümüştür.
  Daha hafif yapıya ve daha ince elemanlara olan talep açıkça belirlendi
- ve bugün de devam ediyor.
+ ve bugün de devam etmektedir.
  
 \end_layout
 
@@ -139,11 +139,12 @@ Bu yapıların göze çarpan üstün performansının bir sonucu olarak, 1960'la
  yapı yönetmelikleri çelik moment çerçeveleri için tercih edilen tasarım
  kriterlerini benimsemiştir.
  Bu yönetmelikler uyarınca, yanal kuvvet dirençli sistem olarak çerçeve
- sisteme sahip binalar, desteklenmiş çerçeveler için belirtilen deprem kuvvetler
-in üçte ikisi ve perde duvarlı yapıları taşımak için belirtilen kuvvetlerin
- yarısı için tasarlanabilir oldular.
- 1960'larda ve 1970'lerde, araştırmacılar çelik moment çerçevelerinin çevrimsel
- laboratuvar testlerini yapmaya başladı.
+ sisteme sahip binalar, yanal ötelenmesi desteklenmiş çerçeveler (çaprazlı
+ çerçeveler) için belirtilen deprem kuvvetlerin üçte ikisi ve perde duvarlı
+ yapıları taşımak için belirtilen kuvvetlerin yarısı için tasarlanabilir
+ oldular.
+ 1960'larda, araştırmacılar çelik moment çerçevelerinin çevrimsel laboratuvar
+ testlerini yapmaya başladı.
  Güçlü depremlerde üstün elastik olmayan davranışlar elde etmek için bu
  yapıların detaylandırılmasında bazı kontrollerin gerekli olduğu belirlenmiştir.
  
@@ -160,19 +161,21 @@ Batı Amerika'da bu dönemde inşa edilen hemen hemen her yüksek bina, çelik
  daha az açıklık sayısı ve daha az moment dayanımlı çerçeveler kullanarak,
  pahalı saha kaynağını en aza indirmeye başlamıştı.
  Nadir de olsa, bazı yüksek yapılara binanın her bir tarafında yalnızca
- tek bir moment dayanımlı çerçevesi kullanılmıştır.
+ tek bir moment çerçevesi kullanılmıştır.
+ Bu taşıyıcı sistem dünyanın önemli yapı tasarım mühendisleri tarafından
+ yüksek binalarda kullanıldı, önemli örnekleri olarak, Leslie E.
+ Robertson 'ın tasarladığı, 1972'de New York'ta tamamlanan World Trade Center
+ ve Fazlurrahman Han (1929-1982) tarafından tasarlanan, 1974'de Chicago'da
+ tamamlanan Sears Tower, söylenebilir.
 \end_layout
 
 \begin_layout Standard
 1994 Northridge depreminin ardından mühendisler, bir dizi modern, özel moment
  dayanımlı çelik çerçeve yapısının, kaynaklı kiriş-kolon bağlantılarında
  beklenmeyen gevrek kırılmalar yaşandığını keşfettiğine şaşırdı.
-\end_layout
-
-\begin_layout Standard
-Benzer hasar ve hatta bazı binaların yıkılması, Japonya depremi 1995 Kobe'de
- 1 yıl sonra meydana geldi.
- Bu keşiflerin ardından, SAC Ortak Girişimi olarak bilinen profesyonel dernekler
+ Benzer hasar ve hatta bazı binaların yıkılması, Japonya depremi 1 yıl sonra,
+ 1995 Kobe'de meydana geldi.
+ Bu keşiflerin ardından, SAC ortak girişimi olarak bilinen profesyonel dernekler
 in ve araştırmacılardan oluşan bir konsorsiyum, bu beklenmeyen davranışın
  nedenlerini belirlemek ve daha sağlam moment çerçevesi inşası için öneriler
  geliştirmek üzere federal olarak finanse edilen, uzun bir araştırma ve
@@ -201,16 +204,14 @@ Moment çerçeveleri büyük yer değiştirme yapabilme özellikleri hem avantaj
  olan bileşendir.
  Bu fenomeni çok katlı moment çerçevelerinin yer değiştirme karakteristiği
  olarak düşünülebilir.
-\end_layout
-
-\begin_layout Standard
-Kesme kaynaklı yer değiştirmeler ise, toplam yer değiştirmeye küçük bir
+ Kesme kaynaklı yer değiştirmeler ise, toplam yer değiştirmeye küçük bir
  katkıda bulunur ve bu nedenle yer değiştirmelerin hesaplanmasında genellikle
  ihmal edilir.
  Öte yandan rijit ve az katlı bir çerçevenin yer değiştirme özellikleri
- tam tersidir; Özellikle az katlı binalarda kesme kuvveti kaynaklı yer değiştirm
-eler, çoğunlukla yer değiştirmelerin genel resmine hakimdir ve toplam yer
- değiştirmelerin büyük bir yüzdesini oluşturabilir.
+ tam tersidir.
+ Özellikle az katlı binalarda kesme kuvveti kaynaklı yer değiştirmeler,
+ çoğunlukla yer değiştirmelerin genel resmine hakimdir ve toplam yer değiştirmel
+erin büyük bir yüzdesini oluşturabilir.
  
 \end_layout
 
@@ -222,14 +223,16 @@ Moment dayanımlı çelik çerçeveler deprem bölgelerinde yüksek sünek davra
  Moment dayanımlı çelik çerçevelerin tasarımını, bu sistemlerin büyük yer
  değiştirme yapabilme kabiliyetlerinin bir sonucu olarak göreli kat ötelemeleri
  yönetmektedir.
- Ayrıca moment dayanımlı çelik çerçevelerin davranışında birleşimlerinin
- davranışı çok önemlidir.
 \end_layout
 
 \begin_layout Standard
 Moment çerçeveleri için diğer önemli husus ise birleşimlerdir.
  Çerçevenin ana elemanları olan kolon ve kirişleri birbirine bağlandığı
- bölge çerçeve davranışı için önemlidir.
+ bölge çerçeve davranışı için çok önemlidir.
+ Çerçevenin yatay kuvvet etkisi altında, enerji sönümleme mekanizması olarak
+ kiriş uçlarında akma ve plastik şekil değiştirmelerin oluşabilmesi ve çerçeve
+ stabilitesinin korunabilmesi için birleşim bölgelerinin hasar almadan kolon
+ ve kirişlere yükleri aktarabilmelidir.
  Birleşimler yaygın kullanılan I profiller için, gerek bağlandığı elemanın
  güçlü ekseninde gerekse zayıf ekseninde ve kutu-boru profiller için davranışlar
 ı, birleşim araçlarının çeşitliliği sebebi ile birbirinden çok farklıdır.
@@ -280,9 +283,8 @@ literal "false"
 
 \end_inset
 
-'da belirtildiği gibi, Amerika Birleşik Devletleri'ndeki deprem yönetmeliklerind
-e tablolanan tepki değiştirme katsayılarının matematiksel bir temeli yoktur
- ve bunlar (
+'da belirtildiği gibi, deprem yönetmeliklerinde tablolanan tepki değiştirme
+ katsayılarının matematiksel bir temeli yoktur ve bunlar (
 \begin_inset Formula $R$
 \end_inset
 
@@ -292,11 +294,7 @@ e tablolanan tepki değiştirme katsayılarının matematiksel bir temeli yoktur
  Bu faktörlere çeşitli yapısal sistemler için yönetmeliklere atanan sayısal
  değerler, titiz analizler ve deneylerle değil, uzman mühendislerin fikir
  birliği ile elde edildiği unutulmamalıdır.
- 
-\end_layout
-
-\begin_layout Standard
-Bu sebeplerden dolayı, tepki değiştirme katsayılarının moment çerçeveleri
+ Bu sebeplerden dolayı, tepki değiştirme katsayılarının moment çerçeveleri
  için çok daha önemli olan bir parametre ise
 \emph on
  Yer Değiştirme Arttırma Katsayısı '
@@ -348,10 +346,10 @@ Birinci bölümde, tez konusunun genel mahiyeti belirtilmiş, tezin amacı ve
 \end_layout
 
 \begin_layout Standard
-İkinci bölüm, yarı rijit birleşimleri kapsamaktadır, bu bölümde yarı-rijit
+İkinci bölüm, yarı rijit birleşimleri kapsamaktadır, bu bölümde yarı rijit
  birleşimler geçmişte yapılmış önemli çalışmalarla anlatılmış, birleşimlerin
  sınıflandırılması uluslar arası kabul görmüş yönetmeliklerin konuya bakışı
- incelenmiş daha sonra yarı-rijit birleşimlerin davranışının modellenmesine
+ incelenmiş daha sonra yarı rijit birleşimlerin davranışının modellenmesine
  yer verilmiş ve birleşimlerin dönme kapasiteleri anlatılmıştır.
  
 \end_layout
@@ -365,40 +363,39 @@ Yer Değiştirme Arttırma Katsayısını
 \begin_inset Formula $\left(C_{\mathrm{d}}\right)$
 \end_inset
 
- ve bu katsayıyı daha iyi kavrayabilmek için diğer tepki değiştirme katsayıları
- anlatılmıştır.
- Bu bölümde kısaca eşit yer değiştirme ve eşit enerji prensiplerine yer
- verilmiştir.
+ ve bu katsayıyı daha iyi kavrayabilmek adına eşit yer değiştirme ve eşit
+ enerji prensipleri ve diğer tepki değiştirme katsayıları da anlatılmıştır.
 \end_layout
 
 \begin_layout Standard
-Moment dayanımlı çelik çerçeveli yapıların tasarımı dördüncü bölümde açıklanmışt
-ır.bu bölümde ayrıca, tasarımı yapılan yapıların incelenen çerçevelerindeki
- yarı-rijit davranışı göstermek amacıyla belirlenen birleşimlerin dönme
- rijitliklerinin seçimi açıklanmıştır.
+Dördüncü bölümde parametrik çalışma kapsamında kullanılacak moment dayanımlı
+ çelik çerçeveli yapıların tasarımı açıklanmıştır.
+ Bu bölümde ayrıca, tasarımı yapılan yapıların incelenen çerçevelerindeki
+ yarı rijit davranışı göstermek amacıyla belirlenen birleşimlerin dönme
+ rijitliklerinin seçimi ve modellenmesi açıklanmıştır.
  
 \end_layout
 
 \begin_layout Standard
 Beşinci bölümde daha önceki bölümde tasarımı yapılan ve dönme rijitlikleri
- belirlenen çerçevelerin yer değiştirme arttırma katsayısının belirlenmesi
- için yapılan doğrusal olmayan statik ve zaman tanım alanında doğrusal olmayan
- dinamik analiz anlatılmıştır.
+ belirlenen yarı rijit birleşimli çelik çerçevelerin yer değiştirme arttırma
+ katsayısının belirlenmesi için yapılan doğrusal elastik olmayan statik
+ ve zaman tanım alanında doğrusal olmayan dinamik analiz açıklanmıştır.
  
 \end_layout
 
 \begin_layout Standard
 Altıncı bölümde parametrik çalışmanın doğrusal olmayan analiz sonuçları
- detaylı olarak gösterilmiştir.
- 
+ detaylı olarak gösterilmiştir ve sonuçlar istatistiksel olarak da analiz
+ edilmiş, sonuçları özetlenmiştir.
 \end_layout
 
 \begin_layout Standard
 Yedinci bölüm çalışmanın son bölümüdür.
- Bu bölümde daha önceki bölümlerde elde edilen sonuçlar genel olarak yorumlanmış
- ve ayrıca altıncı bölümde verilen sonuçların istatistiksel olarak değerlendirme
-si yapılmıştır, bu sonuçlar ışığında da çıkarımlar belirtilmiş ayrıca gelecek
- çalışmalar için de bazı önerilerde bulunulmuştur.
+ Bu bölümde daha önceki bölümlerde elde edilen sonuçlar kapsamlı olarak
+ yorumlanmıştır.
+ Bu sonuçlar ışığında da çıkarımlar belirtilmiş ayrıca gelecek çalışmalar
+ için de bazı önerilere yer verilmiştir.
 \end_layout
 
 \end_body

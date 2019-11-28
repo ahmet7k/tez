@@ -147,10 +147,7 @@ Bir binanın doğrusal elastik olmayan itme analizi normalde binanın tabanında
  Taban kesme kuvvetini spektral ivmelere ve tepe yer değiştirmelerini ise
  eşdeğer spektral yer değiştirmelere dönüştürerek, yer değiştirme alanına
  karşı ivme alanında bir kapasite spektrumu elde edilebilir.
-\end_layout
-
-\begin_layout Standard
-Böyle bir kapasite spektrumu, ADRS formatındaki tepki spektrumu ile birlikte
+ Böyle bir kapasite spektrumu, ADRS formatındaki tepki spektrumu ile birlikte
  çizilebilir ve bu kapasite spektrumunun tepki spektrumunu kesiştiği nokta
  performans noktası olarak isimlendirilir.
  Bu nokta spektral ivme ve yer değiştirmenin, ilgili yapıda bir depremde
