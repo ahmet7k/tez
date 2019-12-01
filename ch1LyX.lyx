@@ -146,8 +146,16 @@ Bu yapıların göze çarpan üstün performansının bir sonucu olarak, 1960'la
  1960'larda, araştırmacılar çelik moment çerçevelerinin çevrimsel laboratuvar
  testlerini yapmaya başladı.
  Güçlü depremlerde üstün elastik olmayan davranışlar elde etmek için bu
- yapıların detaylandırılmasında bazı kontrollerin gerekli olduğu belirlenmiştir.
+ yapıların detaylandırılmasında bazı kontrollerin gerekli olduğu belirlenmiştir
  
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Taranath2012"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -164,7 +172,7 @@ Batı Amerika'da bu dönemde inşa edilen hemen hemen her yüksek bina, çelik
  tek bir moment çerçevesi kullanılmıştır.
  Bu taşıyıcı sistem dünyanın önemli yapı tasarım mühendisleri tarafından
  yüksek binalarda kullanıldı, önemli örnekleri olarak, Leslie E.
- Robertson 'ın tasarladığı, 1972'de New York'ta tamamlanan World Trade Center
+ Robertson'ın tasarladığı, 1972'de New York'ta tamamlanan World Trade Center
  ve Fazlurrahman Han (1929-1982) tarafından tasarlanan, 1974'de Chicago'da
  tamamlanan Sears Tower, söylenebilir.
 \end_layout

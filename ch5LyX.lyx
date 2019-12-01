@@ -117,8 +117,8 @@ Kapasite Spektrumu Metodu
 \end_layout
 
 \begin_layout Standard
-Kapasite Spektrumu Yöntemi (Capacity Spectrum Method) adı altında Sigmund
- Freeman’ın geliştirdiği ve daha sonra ayrıntılı olarak ATC-40
+Kapasite Spektrumu Yöntemi adı altında Sigmund Freeman’ın geliştirdiği ve
+ daha sonra ayrıntılı olarak ATC-40
 \begin_inset CommandInset citation
 LatexCommand cite
 key "ATC-40"
@@ -631,7 +631,7 @@ name "fig:5.2"
 
 \end_inset
 
-3 Katlı yapıya ait kapasite eğrisi ve talep eğrisi.
+3 katlı yapıya ait kapasite eğrisi ve talep eğrisi.
 \end_layout
 
 \end_inset
@@ -806,7 +806,7 @@ name "fig:5.3"
 
 \end_inset
 
-9 Katlı yapıya ait kapasite eğrisi ve talep eğrisi.
+9 katlı yapıya ait kapasite eğrisi ve talep eğrisi.
 \end_layout
 
 \end_inset
@@ -981,7 +981,7 @@ name "fig:5.4"
 
 \end_inset
 
-20 Katlı yapıya ait kapasite eğrisi ve talep eğrisi.
+20 katlı yapıya ait kapasite eğrisi ve talep eğrisi.
 \end_layout
 
 \end_inset
@@ -1083,7 +1083,7 @@ name "fig:5.5"
 
 \end_inset
 
-Doğal Frekans-Sönüm Oranı İlişkisi ve Rayleigh Sönümü.
+Doğal frekans sönüm oranı ilişkisi ve Rayleigh sönümü.
 \end_layout
 
 \end_inset
@@ -1318,7 +1318,7 @@ name "Deprem_Kayıtları"
 
 \end_inset
 
-Seçilen yer hareketi kayıtları
+Seçilen yer hareketi kayıtları.
 \end_layout
 
 \end_inset

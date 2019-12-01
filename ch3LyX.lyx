@@ -584,11 +584,11 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-Yazarlar, rijit ve yarı-rijit birleşimleri olan 3, 6 ve 10 katlı çelik çerçevele
+Yazarlar, rijit ve yarı rijit birleşimleri olan 3, 6 ve 10 katlı çelik çerçevele
 ri X ve V tipi çaprazlarla destekledi; moment dayanımlı çerçeveler için
  1.9 - 8.0, X çaprazlı çerçeveler için 2-3.4 ve V çaprazlı çerçeveler için
  2.3- 5.6 arasında değişen dayanım fazlalığı katsayıları rapor etmiştir.
- Çalışmanın bir başka sonucu da, rijit birleşimler yarı-rijit birleşimlerle
+ Çalışmanın bir başka sonucu da, rijit birleşimler yarı rijit birleşimlerle
  değiştirilmesi durumunda, moment dayanımlı çerçevelerin dayanım fazlalığı
  katsayıları %50 civarında azalırken, süneklik katsayıları %25'ten daha
  fazla artmıştır.
@@ -837,7 +837,7 @@ name "fig:3.2"
 
 \end_inset
 
-Sistemin yatay dayanımı ile yer değiştirme süneklik talebi arasındaki değişim
+Sistemin yatay dayanımı ile yer değiştirme süneklik talebi arasındaki değişim.
 \end_layout
 
 \end_inset
@@ -947,7 +947,7 @@ literal "false"
 Bu çalışmada, tasarım, 20 yapay yer hareketi için hesaplanan ortalama elastik
  olmayan spektruma dayandırılmıştır.
  0.1s ile 10s arasında eşit aralıklarla değişen 50 doğal periyod ile yapılan
- analizler sonucu katsayılara karşılık gelen süneklik azaltma katsayısılarını
+ analizler sonucu katsayılara karşılık gelen süneklik azaltma katsayılarını
  formüle etmiştir.
 \end_layout
 
@@ -1055,7 +1055,7 @@ name "fig:3.3"
 
 \end_inset
 
-Eşit Yer Değiştirme ve Eşit Enerji Prensipleri
+Eşit yer değiştirme ve eşit enerji prensipleri.
 \end_layout
 
 \end_inset
@@ -1168,7 +1168,7 @@ e, yapının güçlü yer hareketlerine maruz kaldığında hasar almasını, an
 \emph on
 Taşıyıcı Sistem Davranış Katsayısı
 \emph default
-" 'na 
+" na 
 \begin_inset Formula $\left(R\right)$
 \end_inset
 
@@ -1613,7 +1613,7 @@ name "3.1"
 
 \end_inset
 
-Ortalma yer değiştirme arttırma katsayıları
+Ortalama yer değiştirme arttırma katsayıları.
 \end_layout
 
 \end_inset

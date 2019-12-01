@@ -78,7 +78,7 @@
 \begin_body
 
 \begin_layout Chapter
-YARI-RİJİT BİRLEŞİMLER
+YARI RİJİT BİRLEŞİMLER
 \end_layout
 
 \begin_layout Standard
@@ -152,7 +152,7 @@ name "fig:2.1"
 
 \end_inset
 
-Moment-Dönme İlişkisi
+Moment dönme ilişkisi.
 \end_layout
 
 \end_inset
@@ -230,7 +230,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename TikZ/Dügüm Noktasi Tanim.pdf
+	filename Grafikler/2_Yarı-Rijit Birleşimler/Dügüm Noktasi Tanim.pdf
 	lyxscale 50
 
 \end_inset
@@ -252,7 +252,7 @@ name "fig:2.2"
 
 \end_inset
 
-Düğüm Noktası Tanımı
+Kolon-Kiriş bağlantısı.
 \end_layout
 
 \end_inset
@@ -371,9 +371,19 @@ Birleşimin dönme deformasyonu, bağlantı elemanlarının (bulonlar, alın lev
 
 \end_inset
 
-Bu deforme olabilirlik, sadece kirişin başlıkları tarafından aktarılan ve
- kirişe etki eden eğilme momentine statik olarak eşdeğer olan kuvvet çiftleri
- nedeniyledir, z kuvvet kolunu göstermektedir.
+Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:2.5"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ ’de gösterilen bu deforme olabilirlik, sadece kirişin başlıkları tarafından
+ aktarılan ve kirişe etki eden eğilme momentine statik olarak eşdeğer olan
+ kuvvet çiftleri nedeniyledir, z kuvvet kolunu göstermektedir.
 \begin_inset Float figure
 placement H
 wide false
@@ -405,15 +415,7 @@ name "fig:2.3"
 
 \end_inset
 
-Kolon-Kiriş Birleşim Tipleri
-\begin_inset CommandInset citation
-LatexCommand cite
-key "CharalambosCBaniotopoulos2000"
-literal "false"
-
-\end_inset
-
-
+Bağlantı deformasyonu.
 \end_layout
 
 \end_inset
@@ -473,7 +475,7 @@ name "fig:2.4"
 
 \end_inset
 
-Kolon-Kiriş Birleşim Tipleri
+Kolon-Kiriş birleşim tipleri
 \begin_inset CommandInset citation
 LatexCommand cite
 key "CharalambosCBaniotopoulos2000"
@@ -481,7 +483,7 @@ literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \end_inset
@@ -545,7 +547,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename TikZ/Moment-Donme Diyagramlari.pdf
+	filename Grafikler/2_Yarı-Rijit Birleşimler/Moment-Donme Diyagramlari.pdf
 	lyxscale 50
 
 \end_inset
@@ -567,7 +569,7 @@ name "fig:2.5"
 
 \end_inset
 
-Moment Dönme Diyagramları
+Birleşimlerin moment dönme diyagramları
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Cosenza1989"
@@ -575,7 +577,7 @@ literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \end_inset
@@ -672,7 +674,7 @@ name "fig:2.6"
 
 \end_inset
 
-Kiriş Uç Momentleri ve Uç Dönmeleri
+Kiriş uç momentleri ve uç dönmeleri.
 \end_layout
 
 \end_inset
@@ -748,7 +750,7 @@ name "fig:2.7"
 
 \end_inset
 
-Ankastre Mesnetli, Düzgün Yayılı Yüklü Kiriş
+Ankastre mesnetli, düzgün yayılı yüklü kiriş.
 \end_layout
 
 \end_inset
@@ -889,7 +891,7 @@ name "fig:2.8"
 
 \end_inset
 
-Kiriş için Moment-Dönme Çizgisi
+Kiriş için moment dönme çizgisi.
 \end_layout
 
 \end_inset
@@ -963,7 +965,7 @@ name "fig:2.9"
 
 \end_inset
 
-Birleşim için Moment-Dönme Diyagramı
+Birleşim için moment dönme diyagramı.
 \end_layout
 
 \end_inset
@@ -1044,7 +1046,7 @@ name "fig:2.10"
 
 \end_inset
 
-Kiriş Çizgisi ile Birleşim Çizgisinin Birleştirilmesi
+Kiriş çizgisi ile birleşim çizgisinin birleştirilmesi.
 \end_layout
 
 \end_inset
@@ -1181,7 +1183,7 @@ noprefix "false"
 
 \end_inset
 
- da, rijitlik oranı 
+ de, rijitlik oranı 
 \begin_inset Formula $\left(u\right)$
 \end_inset
 
@@ -1248,8 +1250,8 @@ name "fig:2.11"
 
 \end_inset
 
- Esnek Birleşimlere Kirişin Tepkisi / Eğilme Momenti Katsayısına karşılık
- Birleşim Rijitlik Oranı
+ Normalize eğilme momentine karşılık birleşim rijitliğini kiriş rijitliğine
+ oranı.
 \end_layout
 
 \end_inset
@@ -1333,7 +1335,7 @@ name "fig:2.12"
 
 \end_inset
 
- Kiriş ve Birleşim Çizgilerinin Kesişimi
+ Kiriş ve birleşim çizgilerinin kesişimi.
 \end_layout
 
 \end_inset
@@ -1349,8 +1351,8 @@ name "fig:2.12"
 \begin_layout Standard
 Şekil 12, kiriş çizgisine rijit, yarı rijit ve mafsallı birleşiminin doğrusal
  çizgilerinin üst üste getirilmesini göstermektedir.
- Bu Şekilde gösterildiği gibi, doğrusal çizgiyi ankastre uç momentinin %90,
- % 20 'sine kadar alırsak, 
+ Bu Şekilde gösterildiği gibi, doğrusal çizgiyi ankastre uç momentinin %90
+ ve % 20'sine kadar alınarak, 
 \begin_inset Formula $\frac{k_{s}L}{EI}$
 \end_inset
 
@@ -1406,7 +1408,7 @@ name "fig:2.13"
 
 \end_inset
 
- Kiriş ve Birleşim Çizgilerinin Eğimi Sekant Rijitlikleri
+ Kiriş ve birleşim çizgilerinin eğimi, sekant rijitlikleri.
 \end_layout
 
 \end_inset
@@ -1513,7 +1515,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename TikZ/aisc-m-dönme-1.pdf
+	filename Grafikler/2_Yarı-Rijit Birleşimler/aisc-m-dönme-1.pdf
 	lyxscale 50
 
 \end_inset
@@ -1535,7 +1537,7 @@ name "fig:2.14"
 
 \end_inset
 
-yarı rijit Bir Birleşimin Rijitlik,Dayanım ve Süneklik Karakteristikleri
+Yarı rijit bir birleşimin rijitlik, dayanım ve süneklik karakteristikleri.
 \end_layout
 
 \end_inset
@@ -1577,7 +1579,7 @@ noprefix "false"
 \begin_layout Standard
 Birleşimin basit olarak değerlendirilebileceği bir alt dayanım sınırının
  belirlenmesi de faydalıdır.
- Kirişin eğilme momenti dayanımının % 20'sinden daha az bir dayanıma sahip
+ Kirişin eğilme momenti dayanımının %20'sinden daha az bir dayanıma sahip
  ve bu dayanımda 0.02 radyan'lık bir dönme gösteren bileşimlere tasarım için
  eğilme dayanımının olmadığı kabul edilebilir.
  Ancak, birçok zayıf eksen birleşimin toplam dayanımının, birkaç güçlü eksen
@@ -1604,7 +1606,7 @@ n,
 \begin_inset Formula $\theta_{u}$
 \end_inset
 
- ile işaretli noktalar, örnek birleşimlerin en büyük dönme durumlarını gösterir.
+ ile işaretli noktalar, örnek birleşimlerin nihai dönme durumlarını gösterir.
  Tam dayanımlı bir birleşim bağlandığı kirişin dayanımından daha az bir
  dayanıma sahip olabileceği gibi kısmi dayanımlı bir birleşiminin bağlandığı
  kirişin dayanımından daha büyük bir dayanıma sahip olması da mümkündür.
@@ -1619,7 +1621,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename TikZ/aisc-m-dönme-2.pdf
+	filename Grafikler/2_Yarı-Rijit Birleşimler/aisc-m-dönme-2.pdf
 	lyxscale 50
 
 \end_inset
@@ -1641,7 +1643,7 @@ name "fig:2.15"
 
 \end_inset
 
-Birleşimlerin Moment-Dönme Tepkilerine Göre Sınıflandırılması
+Birleşimlerin moment dönme tepkilerine göre sınıflandırılması.
 \end_layout
 
 \end_inset
@@ -1755,7 +1757,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename TikZ/EC3-Rijitlik.pdf
+	filename Grafikler/2_Yarı-Rijit Birleşimler/EC3-Rijitlik.pdf
 	lyxscale 50
 
 \end_inset
@@ -1777,7 +1779,7 @@ name "fig:2.16"
 
 \end_inset
 
-Rijitliğe Göre Sınıflandırma Sınırları
+Rijitliğe göre sınıflandırma sınırları.
 \end_layout
 
 \end_inset
@@ -1858,7 +1860,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename TikZ/EC3-Dayanim.pdf
+	filename Grafikler/2_Yarı-Rijit Birleşimler/EC3-Dayanim.pdf
 	lyxscale 50
 
 \end_inset
@@ -1880,7 +1882,7 @@ name "fig:2.17"
 
 \end_inset
 
-Dayanıma Göre Sınıflandırma Sınırları
+Dayanıma göre sınıflandırma sınırları.
 \end_layout
 
 \end_inset
@@ -2000,7 +2002,8 @@ TBDY-2018 birleşimlerin yarı rijit olarak dikkate alınmasına izin vermektedi
  Tam dayanımlı bulonlu alın levhalı birleşimler ile bulonlu başlık levhalı
  birleşimler, birleşim rijitliğini ifade eden dönme yayları kullanılarak
  modellenecektir.
- Dönme yayı rijitliği, 
+ Birleşimlerin yarı rijit olarak modellenmesi durumunda, dönme yayı rijitliği,
+ 
 \begin_inset Formula $K_{o}=\frac{M_{pe}}{0.005}$
 \end_inset
 
@@ -2174,7 +2177,7 @@ name "India_Classification"
 
 \end_inset
 
-Birleşimlerin Sınıflandırma Sınırları
+Birleşimlerin sınıflandırma sınırları.
 \end_layout
 
 \end_inset
@@ -2342,8 +2345,8 @@ Mafsallı
 \end_layout
 
 \begin_layout Standard
-Rijit birleşimler: Yüksek katlı ve ince yapılarda rijitlik gereklilikleri
- rijit birleşimlerin kullanılmasını zorunlu kılabilir.
+Rijit birleşimler: Yüksek katlı yapılarda rijitlik gereklilikleri bu birleşimler
+in kullanılmasını zorunlu kılabilir.
  Rijit birleşimler kolonlara önemli miktarda moment aktarır ve birleşimdeki
  deformasyonların çok küçük kaldığı varsayılır.
  Yatay ötelenmesi tutulmamış çerçevelerde stabilite için gerekli olan ve
@@ -2355,10 +2358,7 @@ Rijit birleşimler: Yüksek katlı ve ince yapılarda rijitlik gereklilikleri
 
 \begin_layout Standard
 Mafsallı birleşimler: Yalnızca bazı eksantriklik derecelerinde kaymayı transfer
- ettiği varsayılır ve yaklaşık beş kat yüksekliğine kadar olan çerçevelerde
- kullanılır.
- Bu gibi çerçevelerde, yatay yüke dirençli bir sistem, çaprazlar veya perde
- duvarlar tarafından sağlanacaktır.
+ ettiği varsayılır.
  Çerçeve analizlerinde mafsallı bağlantılar olarak kabul edilebilir ve yalnızca
  kesme kuvvetinin kirişten kolona transferi için kontrol edilmesi gerekir.
 \end_layout
@@ -2368,8 +2368,8 @@ Yarı rijit birleşimler: Yukarıda belirtilen iki tip arasında yer almaktadır
  Gerçekte, mafsallı birleşimler, yarı rijit birleşimlerde olduğu gibi bir
  dereceye kadar dönme rijitliğine sahiptir.
  Birleşimlerin moment-dönme ilişkisi, özel tasarım için yapılan deneylere
- veya uzman literatüründe sunulan testlerden elde edilen ilişkiye dayanarak
- belirlenmelidir.
+ veya uzmanlarca sunulan, testlerden elde edilen ilişkiye dayanarak belirlenmeli
+dir.
  En basit analiz yöntemi, iki doğrulu veya doğrusal olmayan moment dönme
  özelliklerine sahip eşdeğer bir dönme yayı olarak birleşimi idealleştirmek
  olacaktır.
@@ -2377,6 +2377,14 @@ Yarı rijit birleşimler: Yukarıda belirtilen iki tip arasında yer almaktadır
 
 \begin_layout Subsection
 Çin Binaların Deprem Tasarımı Standardı
+\begin_inset CommandInset citation
+LatexCommand cite
+key "China-2001"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2414,11 +2422,11 @@ noprefix "false"
 
 'de gösterildiği gibi, kolon başlıkları ve süreklilik levhaları tarafından
  sınırlanan bölgedir.
- Sismik bir etkinlik sırasında panel bölgeleri, moment dayanımlı çerçevelerin
- enerji yayma kapasitesine katılabilecek elastik olmayan deformasyonlara
- maruz kalabilir.
- Gelişmiş yapısal analiz yöntemleri, kolon kiriş birleşim bölgesi (düğüm
- noktası) davranışının gerçekçi şekilde analizlere yansıtılmasını gerektirir.
+ Bir deprem sırasında panel bölgeleri, moment dayanımlı çerçevelerin enerji
+ yayma kapasitesine katılabilecek elastik olmayan deformasyonlara maruz
+ kalabilir.
+ Gelişmiş yapısal analiz yöntemleri, kolon kiriş birleşim bölgesi davranışının
+ gerçekçi şekilde analizlere yansıtılmasını gerektirir.
  Bu amaçla yapısal analiz modelinde kayma bölgesi (panel bölgesi), kolon
  başlığı ve birleşimler Şekil 
 \begin_inset CommandInset ref
@@ -2436,9 +2444,9 @@ noprefix "false"
  yaygın olarak kullanılmıştır.
  Scissors modeli önemli bir hassasiyet kaybına yol açmadan verilen iki adet
  dönme yaylı basitleştirilmiş model de literatürde sıklıkla kullanılmaktadır.
- Krawinkler modelinde, kiriş uçlarındaki yayların haricinde kullanılan iki
- dönme yayı, birleşim elemanlarının yanı sıra kolon başlığı eğilmesini ve
- kayma bölgesi deformasyonunu da yansıtacak şekilde düzenlenir
+ Krawinkler modelinde ise, kiriş uçlarındaki yayların haricinde kullanılan
+ iki dönme yayı, birleşim elemanlarının yanı sıra kolon başlığı eğilmesini
+ ve kayma bölgesi deformasyonunu da yansıtacak şekilde düzenlenir
 \begin_inset CommandInset citation
 LatexCommand cite
 key "AKSOYLAR2009"
@@ -2458,7 +2466,7 @@ status open
 \begin_inset Graphics
 	filename Grafikler/2_Yarı-Rijit Birleşimler/Panel_Zone.pdf
 	lyxscale 50
-	scale 80
+	scale 75
 
 \end_inset
 
@@ -2479,7 +2487,7 @@ name "fig:2.18"
 
 \end_inset
 
-Krawinkler ve Scissors modeli
+Krawinkler ve Scissors modeli.
 \end_layout
 
 \end_inset
@@ -2706,7 +2714,7 @@ literal "false"
 
 \begin_layout Standard
 Analitik modeller, birleşimin rijitlik ve dayanım parametrelerini sınır
- durum (limit) analizler kullanarak moment davranışını elde eder.
+ durum (limit) analizler kullanarak moment dönme davranışını elde eder.
  Buradaki rijitlik parametresi birleşimin dönme rijitliği ve dayanım parametresi
  ise birleşimin moment taşıma kapasitesidir.
  
@@ -3409,7 +3417,7 @@ name "fig:2.20"
 
 \end_inset
 
-Moment dönme eğrisinin matematiksel ifadeleri
+Birleşimin dönme kapasitesi
 \begin_inset CommandInset citation
 LatexCommand cite
 key "CharalambosCBaniotopoulos2000"
@@ -3417,7 +3425,7 @@ literal "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \end_inset

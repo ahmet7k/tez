@@ -97,14 +97,14 @@ Bu bölümde parametrik çalışma kapsamında yapılan statik ve dinamik analiz
  Bu iki grafik yan yana verilerek yapı davranışının daha iyi anlaşılması
  hedeflenmiştir.
  Doğrusal olmayan dinamik analiz sonuçlarının daha doğru değerlendirilmesi
- amacı ile iki gerçek durum ve bir de literatürde sıkça karşılaşılan gerçek
- olmayan duruma ait sonuçlar gösterilecektir.
- Burada gerçek olmayan durumdan kasıt dinamik analizde iki uç sonucun aynı
- anda oluşmadığıdır.
+ amacı ile iki eş zamanlı durum ve bir de literatürde sıkça karşılaşılan
+ eş zamanlılık presnsibine uymayan duruma ait sonuçlar gösterilecektir.
+ Burada eş zamanlı olmayan durumdan kasıt dinamik analizde iki uç sonucun
+ aynı anda oluşmadığıdır.
 \end_layout
 
 \begin_layout Standard
-Gerçek durumlar; 
+Eş zamanlı durumlar; 
 \end_layout
 
 \begin_layout Itemize
@@ -118,7 +118,7 @@ esi; Durum-2 olarak isimlendirilmiştir.
 \end_layout
 
 \begin_layout Standard
-Gerçek olmayan durum ise;
+Eş zamanlı olmayan durum ise;
 \end_layout
 
 \begin_layout Itemize
@@ -180,7 +180,7 @@ name "fig:6.1"
 
 \end_inset
 
-3 Katlı çerçevelerin kapasite eğrileri.
+3 katlı çerçevelerin kapasite eğrileri.
 \end_layout
 
 \end_inset

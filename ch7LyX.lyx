@@ -333,9 +333,8 @@ Statik ve dinamik doğrusal olmayan analizlerde birleşim rijitliği azaldıkça
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
- katsayısıları, sabit tasarım yer değişitmesine karşı (rijit birleşimli
- yapının tasarım yer değişirmesi), nihai yer değiştirmenin artması sonucu
- artmıştır.
+ katsayıları, sabit tasarım yer değiştirmesine karşı (rijit birleşimli yapının
+ tasarım yer değiştirmesi), nihai yer değiştirmenin artması sonucu artmıştır.
 \end_layout
 
 \begin_layout Itemize
@@ -344,8 +343,8 @@ Statik ve dinamik doğrusal olmayan analizlerde birleşim rijitliği azaldıkça
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
- katsayısıları, nihai yer değiştirmenin artmasına karşı, tasarım yer değişitmesi
-nin (yarı rijit birleşimli yapının tasarım yer değişirmesi) daha fazla artması
+ katsayıları, nihai yer değiştirmenin artmasına karşı, tasarım yer değiştirmesin
+in (yarı rijit birleşimli yapının tasarım yer değiştirmesi) daha fazla artması
  sonucu azalmıştır.
 \end_layout
 
@@ -355,13 +354,13 @@ Bu durum, birleşim rijitliği azaldıkça, rijit tasarım yer değiştirmesi il
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
- katsayısılarının artması, yapıların kendi tasarım yer değiştirmesi ile
- hesaplanan 
+ katsayılarının artması, yapıların kendi tasarım yer değiştirmesi ile hesaplanan
+ 
 \begin_inset Formula $C_{\mathrm{d}}$
 \end_inset
 
- katsayısılarının ise azalması bize, birleşim rijitliğinin azalmasının yapıların
- süneklik oranının azaldığını göstermiştir.
+ katsayılarının ise azalması, birleşim rijitliğinin azalması yapıların süneklik
+ talebinin (süneklik oranı) azaldığını göstermiştir.
 \end_layout
 
 \begin_layout Itemize
@@ -385,7 +384,7 @@ Dinamik analizler sonucu, ortalama 3.86 olarak bulunan
 \begin_layout Itemize
 Sonuçlar çelik çerçeveli bir yapıda birleşim rijitliğinin yapının davranışını
  değiştirdiğini, dolayısı ile çelik çerçeveli yapılar için önemli bir tepki
- değiştrme katsayısı olan yer değiştirme arttırma katsayısının değiştirdiği
+ değiştirme katsayısı olan yer değiştirme arttırma katsayısının değiştirdiği
  anlaşılmaktadır.
 \end_layout
 
