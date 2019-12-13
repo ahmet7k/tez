@@ -801,7 +801,7 @@ noprefix "false"
 
  'de 20 katlı rijit birleşimli olarak tasarlanan yapıya ait göreli kat ötelemesi
  gösterilmiştir.
- Çizelge
+ Çizelge 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "Kesitler_3"
@@ -811,7 +811,7 @@ noprefix "false"
 
 \end_inset
 
- 'de 3 katlı yapının,
+ 'de 3 katlı yapının, Çizelge 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "Kesitler_9"
@@ -821,7 +821,7 @@ noprefix "false"
 
 \end_inset
 
- 'de 9 katlı yapının ve 
+ 'de 9 katlı yapının ve Çizelge 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "Kesitler_20"
@@ -2643,7 +2643,7 @@ noprefix "false"
 
 \end_inset
 
-'de 3,9 ve 20 katlı yapıların yarı rijit birleşimli 3,9 ve 20 katlı yapıların
+ 'da 3,9 ve 20 katlı yapıların yarı rijit birleşimli 3,9 ve 20 katlı yapıların
  etkin göreli kat ötelemesi grafikleri verilmiştir.
 \end_layout
 
@@ -2669,7 +2669,7 @@ noprefix "false"
 
 \end_inset
 
-'de verilmiştir.
+ 'de verilmiştir.
 \begin_inset Float table
 placement H
 wide false
@@ -3026,7 +3026,7 @@ noprefix "false"
 
 \end_inset
 
-'de de görüldüğü üzere, sonsuz rijit duruma ek olarak, rijit durumun alt
+ 'de de görüldüğü üzere, sonsuz rijit duruma ek olarak, rijit durumun alt
  sınırı ve mafsallı durumun üst sınırını eşit açı ile bölen 2 adet dönme
  rijitliği ve en düşük yarı rijit birleşim dönme rijitliği için ise Eurocode
  yönetmeliğinde yatay ötelenmesi tutulmuş çerçevelerde yarı rijit birleşimler
@@ -3084,7 +3084,7 @@ noprefix "false"
 
 \end_inset
 
-'de, Link elemanlar ayrı birer eleman olarak tanımlanmıştır.
+'da, Link elemanlar ayrı birer eleman olarak tanımlanmıştır.
  Ayrıca, Link elemanı modellemesinde önemli bir nokta uzunluk tanımıdır.
  Tüm çerçeve analizlerinde, Link elemanı uzunluğu 10 cm olarak seçilmiştir.
  Bu varsayımın referansı, bazı gerçek birleşimlerin ve bunların yaklaşık
@@ -3140,8 +3140,16 @@ Link elemanlar.
 \end_layout
 
 \begin_layout Standard
-Kolonlar da ASCE 41-13 yönetmeliğinin önerdiği eksenel kuvvet-eğilme momenti
- etkileşimli doğrusal olmayan davranış modeli kullanılmıştır.
+Kolonlar da ASCE 41-13
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ASCE-41-13"
+literal "false"
+
+\end_inset
+
+ yönetmeliğinin önerdiği eksenel kuvvet-eğilme momenti etkileşimli doğrusal
+ olmayan davranış modeli kullanılmıştır.
  Kirişlerin doğrusal olmayan davranışı için Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref

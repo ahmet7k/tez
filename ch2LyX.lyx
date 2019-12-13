@@ -115,7 +115,7 @@ noprefix "false"
 
 \end_inset
 
-de gösterilen moment-dönme 
+'de gösterilen moment-dönme 
 \begin_inset Formula $\left(M-\theta\right)$
 \end_inset
 
@@ -209,7 +209,7 @@ noprefix "false"
 
 \end_inset
 
- 'de gösterildiği üzere kolon-kiriş bağlantısı (düğüm noktası) bir kolon
+'de gösterildiği üzere kolon-kiriş bağlantısı (düğüm noktası) bir kolon
  gövdesinde yer alan panel bölgesi ve bir veya iki birleşimden oluşur.
  Paneli bölgesi, kolon gövdesi ve bağlı kirişin yüksekliği boyunca kolonun
  başlıklarını içerir.
@@ -276,7 +276,7 @@ noprefix "false"
 
 \end_inset
 
- 'de ifade edildiği gibi bir bağlantının düzlem içi eğilme 
+'de ifade edildiği gibi bir bağlantının düzlem içi eğilme 
 \begin_inset Formula $\left(M\right)$
 \end_inset
 
@@ -439,7 +439,7 @@ noprefix "false"
 
 \end_inset
 
-’de gösterilmiştir.
+'de gösterilmiştir.
  Birleşim tiplerinin rijitlik ve kapasite değerleri, levha veya korniyer
  kalınlığı, levha yüksekliği ve bulon çapı gibi birçok geometrik özelliğe
  bağlıdır.
@@ -523,7 +523,7 @@ noprefix "false"
 
 \end_inset
 
- ’de verilmiştir.
+'de verilmiştir.
  Birleşimin doğrusal olmayan davranışı, birleşimi oluşturan elemanların
  malzeme özellikleri, levha elemanlarının lokal burkulması, elemanlardaki
  bölgesel akmalar gibi birçok parametreye bağlıdır.
@@ -684,8 +684,8 @@ Kiriş uç momentleri ve uç dönmeleri.
 
 \end_inset
 
-Düzgün düşey yüke sahip iki ucundan ankastre mesnetle tutulu kiriş için,
- Şekil 
+Düzgün yayılı düşey yüke sahip iki ucundan ankastre mesnetle tutulu kiriş
+ için, Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:2.7"
@@ -810,7 +810,7 @@ noprefix "false"
 
 \end_inset
 
- 'i çözerek, dönme aşağıdaki şekilde hesaplanır:
+'i çözerek, dönme aşağıdaki şekilde hesaplanır:
 \begin_inset Formula 
 \begin{equation}
 0=\frac{2EI}{L}\theta-\frac{wL^{2}}{12}\rightarrow\theta=\frac{wL^{3}}{24EI}\label{eq:Denklem2-6}
@@ -857,7 +857,7 @@ noprefix "false"
 
 \end_inset
 
- 'te çizilmiştir.
+'te çizilmiştir.
  Bu şekil açıkça, kirişin ucundaki moment ve dönme arasındaki doğrusal ilişkiyi
  ifade etmektedir.
 \begin_inset Float figure
@@ -1277,7 +1277,7 @@ noprefix "false"
 
 \end_inset
 
- 'de gösterilmektedir.
+'de gösterilmektedir.
  Kiriş çizgisinin üst üste getirilmesiyle, bu davranışın rijit veya mafsala
  yeterince yakın olup olmadığı değerlendirilebilir.
  Şekil 
@@ -1290,10 +1290,9 @@ noprefix "false"
 
 \end_inset
 
- 'den, birleşim ankastre uç momentinin en az yüzde 90'ına dayanabildiği
- sürece rijit olarak, birleşimin ankastre uç momentinin yüzde 20'sinden
- fazlasını almadığı sürece de mafsallı olarak sınıflandırılabileceğini göstermek
-tedir.
+'den, birleşim ankastre uç momentinin en az yüzde 90'ına dayanabildiği sürece
+ rijit olarak, birleşimin ankastre uç momentinin yüzde 20'sinden fazlasını
+ almadığı sürece de mafsallı olarak sınıflandırılabileceğini göstermektedir.
  Bu iki nokta arasındaki herhangi bir davranış, yarı rijit bir birleşim
  olarak kabul edilir
 \begin_inset CommandInset citation
@@ -1352,7 +1351,7 @@ name "fig:2.12"
 Şekil 12, kiriş çizgisine rijit, yarı rijit ve mafsallı birleşiminin doğrusal
  çizgilerinin üst üste getirilmesini göstermektedir.
  Bu Şekilde gösterildiği gibi, doğrusal çizgiyi ankastre uç momentinin %90
- ve % 20'sine kadar alınarak, 
+ ve %20'sine kadar alınarak, 
 \begin_inset Formula $\frac{k_{s}L}{EI}$
 \end_inset
 
@@ -1908,7 +1907,7 @@ noprefix "false"
 
 \end_inset
 
-'da verilen kriterleri yerine getirirse tam dayanımlı olarak sınıflandırılabilir.
+'de verilen kriterleri yerine getirirse tam dayanımlı olarak sınıflandırılabilir.
  
 \end_layout
 
@@ -2028,7 +2027,7 @@ literal "false"
 
 \begin_layout Standard
 Avustralya Çelik Yapılar Standardı birleşimleri, mafsallı birleşim, rijit
- birleşim ve yarı rijit birleşim olarak üç başlık altında sınıflandırmıştır;
+ birleşim ve yarı rijit birleşim olarak üç başlık altında sınıflandırmıştır.
 \end_layout
 
 \begin_layout Standard
@@ -2516,7 +2515,7 @@ noprefix "false"
 
 \end_inset
 
-'de gösterildiği gibi çeşitli şekillerde dikkate alınabilir.
+'da gösterildiği gibi çeşitli şekillerde dikkate alınabilir.
  Birleşimlerin modellenmesinde kullanılan yayların moment dönme ilişkileri,
  istenilen hassasiyet seviyesine göre seçilecek çeşitli matematiksel ifadeler
  yardımıyla tariflenebilir.
@@ -2554,7 +2553,7 @@ name "fig:2.19"
 
 \end_inset
 
-Moment dönme eğrisinin matematiksel ifadeleri
+Moment dönme eğrisinin matematiksel ifadeleri.
 \end_layout
 
 \end_inset
@@ -3044,8 +3043,9 @@ literal "false"
 
 \end_inset
 
-.Bu veri bankası çift gövde korniyerli, tek gövde korniyerli, kısa alın levhalı
- ve uzun alın levhalı birleşimler üzerinde yapılan testleri içermektedir.
+.
+ Bu veri bankası çift gövde korniyerli, tek gövde korniyerli, kısa alın
+ levhalı ve uzun alın levhalı birleşimler üzerinde yapılan testleri içermektedir.
 \end_layout
 
 \begin_layout Standard
@@ -3517,7 +3517,7 @@ Tasarım yöntemleri sadece S235, S275 ve S355 çelik sınıfları için ve bağ
 \end_inset
 
  eksenel kuvvetinin tasarım değerinin, kesitinin plastik tasarım dayanımının
- % 5'ini aşmadığı düğüm noktaları için geçerlidir.
+ %5'ini aşmadığı düğüm noktaları için geçerlidir.
 \end_layout
 
 \begin_layout Itemize

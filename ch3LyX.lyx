@@ -148,8 +148,18 @@ Taşıyıcı sistem davranış katsayısının
 
  katsayısının yapısal davranış açısından anlamı daha açık şekilde ifade
  edilmelidir.
- Şekil 3.1'de şematize edilmiş olan genel yapı davranışına ait tipik Taban
- kesme kuvveti 
+ Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:3.1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+'de şematize edilmiş olan genel yapı davranışına ait tipik Taban kesme kuvveti
+ 
 \begin_inset Formula $\left(V\right)$
 \end_inset
 
@@ -197,7 +207,7 @@ name "fig:3.1"
 
 \end_inset
 
-Genel Yapı Davranışı
+Genel yapı davranışı.
 \end_layout
 
 \end_inset
@@ -676,7 +686,7 @@ literal "false"
 .
  Süneklik Bileşeni ile süneklik arasındaki ilişkiyi keşfetmek adına araştırmacıl
 arın yaptığı çok sayıda çalışma ve sonucunda türetilmiş birçok bağıntı mevcuttur.
-Belirli bir yer hareketi için, süneklik azaltma katsayısı 
+ Belirli bir yer hareketi için, süneklik azaltma katsayısı 
 \begin_inset Formula $R_{\mathrm{μ}}$
 \end_inset
 
@@ -742,8 +752,11 @@ Doğal periyodunun sıfıra yakınsadığı çok rijit yapılar için
 , yapı yere göre herhangi bir yanal ötelenme yaşamayacak, fakat aynı anda
  hareket edecektir.
  Bu nedenle, herhangi bir yer hareketi için, bu sistemlerdeki elastik olmayan
- dayanım talebi elastik dayanım talebiyle aynıdır, bu nedenle süneklik azaltma
- katsayısı aşağıdaki denklem ile ifade edilir:
+ dayanım talebi elastik dayanım talebiyle aynıdır, bu nedenle 
+\emph on
+Süneklik Azaltma Katsayısı
+\emph default
+ aşağıdaki denklem ile ifade edilir:
 \end_layout
 
 \begin_layout Standard
@@ -772,12 +785,19 @@ si, maksimum yer değiştirmesine yakınlaşır.
 \begin_inset Formula $\left(μ=1\right)$
 \end_inset
 
- 'ye eşittir, bu nedenle Yer Değiştirme süneklik oranı 
+ 'ye eşittir, bu nedenle 
+\emph on
+Yer Değiştirme Süneklik Oranı
+\emph default
+ 
 \begin_inset Formula $μ=u_{\mathrm{max}}/u_{\mathrm{y}}$
 \end_inset
 
- 'ye oranına eşittir ve bu sistemler için dayanım azaltma katsayısı aşağıdaki
- denklem ile ifade edilir: 
+ oranına eşittir ve bu sistemler için 
+\emph on
+Süneklik Azaltma Katsayısı
+\emph default
+ aşağıdaki denklem ile ifade edilir: 
 \end_layout
 
 \begin_layout Standard
