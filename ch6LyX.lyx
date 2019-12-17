@@ -98,7 +98,7 @@ Bu bölümde parametrik çalışma kapsamında yapılan statik ve dinamik analiz
  hedeflenmiştir.
  Doğrusal olmayan dinamik analiz sonuçlarının daha doğru değerlendirilmesi
  amacı ile iki eş zamanlı durum ve bir de literatürde sıkça karşılaşılan
- eş zamanlılık presnsibine uymayan duruma ait sonuçlar gösterilecektir.
+ eş zamanlılık prensibine uymayan duruma ait sonuçlar gösterilecektir.
  Burada eş zamanlı olmayan durumdan kasıt dinamik analizde iki uç sonucun
  aynı anda oluşmadığıdır.
 \end_layout
@@ -132,7 +132,7 @@ aki kesinlik ile dinamik sonuçlardaki saçılım göstermek amaçlanmıştır.
 \end_layout
 
 \begin_layout Section
-3 Katlı Yapıların Doğrusal Olmayan Statik Analiz Sonuçları
+3 Katlı yapıların doğrusal olmayan statik analiz sonuçları
 \end_layout
 
 \begin_layout Standard
@@ -219,7 +219,7 @@ Birleşim rijitliği azaldıkça, yapı dayanımında azalma durumuna geçmeden
 \end_layout
 
 \begin_layout Section
-3 Katlı Yapıların Doğrusal Olmayan Dinamik Analiz Sonuçları
+3 Katlı yapıların doğrusal olmayan dinamik analiz sonuçları
 \end_layout
 
 \begin_layout Standard
@@ -1237,7 +1237,7 @@ Yarı rijit (8 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmes
 \end_layout
 
 \begin_layout Section
-9 Katlı Yapıların Doğrusal Olmayan Statik Analiz Sonuçları
+9 Katlı yapıların doğrusal olmayan statik analiz sonuçları
 \end_layout
 
 \begin_layout Standard
@@ -1324,7 +1324,7 @@ Birleşim rijitliği azaldıkça, yapı dayanımında azalma durumuna geçmeden
 \end_layout
 
 \begin_layout Section
-9 Katlı Yapıların Doğrusal Olmayan Dinamik Analiz Sonuçları
+9 Katlı yapıların doğrusal olmayan dinamik analiz sonuçları
 \end_layout
 
 \begin_layout Standard
@@ -2342,7 +2342,7 @@ Yarı rijit (8 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmes
 \end_layout
 
 \begin_layout Section
-20 Katlı Yapıların Doğrusal Olmayan Statik Analiz Sonuçları
+20 Katlı yapıların doğrusal olmayan statik analiz sonuçları
 \end_layout
 
 \begin_layout Standard
@@ -2429,7 +2429,7 @@ Birleşim rijitliği azaldıkça, yapı dayanımında azalma durumuna geçmeden
 \end_layout
 
 \begin_layout Section
-20 Katlı Yapıların Doğrusal Olmayan Dinamik Analiz Sonuçları
+20 Katlı yapıların doğrusal olmayan dinamik analiz sonuçları
 \end_layout
 
 \begin_layout Standard
@@ -3447,7 +3447,7 @@ Yarı rijit (8 EI/L) birleşimli çerçevenin, en büyük tepe yer değiştirmes
 \end_layout
 
 \begin_layout Section
-Yer Değiştirme Arttırma Katsayıları
+Yer değiştirme arttırma katsayıları
 \end_layout
 
 \begin_layout Standard

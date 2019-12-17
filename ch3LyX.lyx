@@ -537,11 +537,11 @@ noprefix "false"
 
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection
 Dayanım fazlalığı katsayısı ile ilgili geçmiş çalışmalar
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 Freeman 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -560,7 +560,7 @@ literal "false"
  sırasıyla 1.9, 3.6 ve 3.3 olarak hesaplamıştır.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 Osteraas ve Krawinkler 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -581,7 +581,7 @@ Bu çalışmada, UBC yönetmeliğine uygun olarak tasarlanan çelik çerçeveler
  Moment çerçeveleri için dayanım fazlalığı katsayılarını araştırmıştır.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 Balendra ve Huang 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -839,6 +839,8 @@ status open
 \begin_inset Graphics
 	filename Grafikler/3_Deplasman Arttırma Katsayısı/Süneklik_Azaltma.pdf
 	lyxscale 50
+	width 8cm
+	height 7cm
 	clip
 
 \end_inset
@@ -870,11 +872,18 @@ Sistemin yatay dayanımı ile yer değiştirme süneklik talebi arasındaki değ
 
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Standard
+\begin_inset VSpace 1.2cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
 Süneklik azaltma katsayısı ile ilgili yapılan çalışmalar
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 Newmark ve Hall 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -891,15 +900,18 @@ El Centro ve Kaliforniya deprem kaydından elde ettikleri elastik ve elastik
  olmayan tepki spektrumuna dayanarak yazarlar şunları gözlemlemiştir:
 \end_layout
 
-\begin_layout Standard
-Periyotları yüksek ve orta periyot spektral bölgelerinde gelen yapıların
+\begin_layout Itemize
+Periyotları yüksek ve orta periyot spektral bölgelerine gelen yapıların
  elastik yer değiştirme değerinin elastik ötesi yer değiştirme değerine
  neredeyse eşit olduğunu 
 \begin_inset Formula $\left(∆_{\mathrm{max}}\backsimeq∆_{\mathrm{e}}\right)$
 \end_inset
 
-.
- Literatürde 
+,
+\end_layout
+
+\begin_layout Itemize
+Literatürde 
 \emph on
 Eşit Yer Değiştirme Kuralı
 \emph default
@@ -912,17 +924,17 @@ Eşit Yer Değiştirme Kuralı
  imkan sağlamıştır.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Çok küçük periyot bölgesinde, elastik ve elastik olmayan sistemler aynı
- kuvvete maruz kaldığı;
+ kuvvete maruz kaldığı,
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Gözlemlerinin bir sonucu olarak yazarlar, elastik spektrumlardan elastik
  olmayan spektrumları elde etmek için bir prosedür önermişlerdir.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Orta periyotlu yapılarda ise enerjinin korunumu prensibi gereği, elastik
  sistemde monotonik yükler etkisinde oluşan kuvvet-deformasyon ilişkisinin,
  elastik ötesi durumda, pekleşmesiz elasto-plastik davranışa benzer olacağı
@@ -951,7 +963,7 @@ Orta periyotlu yapılarda ise enerjinin korunumu prensibi gereği, elastik
 ) eşit çıktığı görülmüştür.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 Lai ve Biggs
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -971,7 +983,7 @@ Bu çalışmada, tasarım, 20 yapay yer hareketi için hesaplanan ortalama elast
  formüle etmiştir.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 Miranda
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1013,7 +1025,7 @@ n PGA(en büyük yer ivmesi)'sı dikkate alındığında, bu tür kuvvetler öne
  altında kalmaktadır.
  Bu, bir yapının bir servis sınır durumu depreminde esasen elastik kalacağı
  ve maksimum olarak düşünülmüş bir nihai sınır durum depremine plastik olarak
- tepki vereceği (yani, akma) anlamına gelir.
+ tepki vereceği anlamına gelir.
  Bir sınır durumu vuku bulduğunda yapının güvenliğini sağlamak için, dayanımını
  kaybetmeden istenen elastik olmayan bir yer değiştirme seviyesine deforme
  olmak üzere tasarlanmıştır.
@@ -1043,7 +1055,21 @@ i, nihai yer değiştirmenin,
 \end_inset
 
  ve bir yer değiştirme sünekliği ile açıklanmaktadır.
- Şekil 3'te gösterildiği gibi, elastik olmayan kuvvet talebini ve yer değiştirme
+ 
+\end_layout
+
+\begin_layout Standard
+Şekil 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:3-3"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 'te gösterildiği gibi, elastik olmayan kuvvet talebini ve yer değiştirme
  sünekliğini ilişkilendirmek için iki farklı yaklaşım kullanılır.
  
 \begin_inset Float figure
@@ -1057,6 +1083,7 @@ status open
 \begin_inset Graphics
 	filename Grafikler/3_Deplasman Arttırma Katsayısı/Esit_Yerdegistirme.pdf
 	lyxscale 50
+	width 14cm
 	clip
 
 \end_inset
@@ -1450,7 +1477,7 @@ literal "false"
 \end_inset
 
 , yapıdaki gerçek elastik olmayan yer değiştirme talebini hesaplamanın kolay
- bir yolunu sağladığını ve genellikle 
+ bir yolunu sağladığı ve genellikle 
 \begin_inset Formula $R$
 \end_inset
 
@@ -1521,11 +1548,11 @@ literal "false"
 
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection
 Yer değiştirme arttırma katsayısı ile ilgili yapılan çalışmalar
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 Uang ve Maarouf
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1583,7 +1610,7 @@ UBC ve NEHRP'de kullanılan yer değiştirme arttırma katsayıları hükümlerd
  
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 Şeker, Akbaş, Shen ve Öztürk
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -2212,7 +2239,7 @@ Tasarım
 
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 Mohammadi ve Kordbagh
 \begin_inset CommandInset citation
 LatexCommand cite

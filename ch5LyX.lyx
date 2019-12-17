@@ -113,7 +113,7 @@ Yapıların kapasiteleri hakkında fikir sahibi olmak amacıyla, yapılar tek
 \end_layout
 
 \begin_layout Subsection
-Kapasite Spektrumu Metodu
+Kapasite spektrumu metodu
 \end_layout
 
 \begin_layout Standard
@@ -126,7 +126,7 @@ literal "false"
 
 \end_inset
 
- dokümanında yer alan yöntemi oluşturmuştur.
+ dokümanında yer alan yöntemdir.
  Yapısal kapasite ve deprem talebi arasında açık bir karşılaştırma yapmak
  için, kapasite spektrumu metodu gibi yenilikçi yöntemler geliştirilmiştir.
  Bu metot, yapının kapasitesini (ötelenme eğrisi) yapıdaki taleplerle (tepki
@@ -150,8 +150,8 @@ Bir binanın doğrusal elastik olmayan itme analizi normalde binanın tabanında
  Böyle bir kapasite spektrumu, ADRS formatındaki tepki spektrumu ile birlikte
  çizilebilir ve bu kapasite spektrumunun tepki spektrumunu kesiştiği nokta
  performans noktası olarak isimlendirilir.
- Bu nokta spektral ivme ve yer değiştirmenin, ilgili yapıda bir depremde
- meydana gelebilecek hasarın tahmin edilmesini sağlar.
+ Bu nokta spektral ivme ve spektral yer değiştirmenin, ilgili yapıda bir
+ depremde meydana gelebilecek hasarın tahmin edilmesini sağlar.
  Yöntemi açıklamak için, Şekil 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -225,8 +225,8 @@ Zarifliği ve sadeliğine rağmen, kapasite spektrumu metodu temel olarak iki
  iyileştirmek için çaba gösterilmektedir.
 \end_layout
 
-\begin_layout Subsubsection*
-Kapasite Eğrisinin Elde Edilmesi 
+\begin_layout Subsubsection
+Kapasite eğrisinin elde edilmesi
 \end_layout
 
 \begin_layout Standard
@@ -236,7 +236,7 @@ Elde edilen ötelenme eğrisinin, çerçevenin deprem performansını belirleyeb
  İlgili düğüm noktasına ait hakim titreşim modunun yer değiştirme değeri
  ve modal katılım çarpanı kullanılarak çok serbestlik dereceli sisteme ait
  yer değiştirme değerleri tek serbestlik dereceli sisteme ait spektral yer
- değiştirme değerlerine dönüştürülecektir.
+ değiştirme değerlerine dönüştürülmüştür.
  Birinci moda ait modal sözde ivme değerlerini elde etmek için Denklem 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -247,7 +247,7 @@ noprefix "false"
 
 \end_inset
 
-'de gösterildiği gibi taban kesme kuvveti değerleri etkin kütleye bölünecektir
+'de gösterildiği gibi taban kesme kuvveti değerleri etkin kütleye bölünmüştür
 \begin_inset CommandInset citation
 LatexCommand cite
 key "TBDY2018"
@@ -301,7 +301,7 @@ noprefix "false"
 \end_inset
 
 'de gösterildiği gibi birinci moda ait yer değiştirme birinci modun modal
- genliğine ve katkı çarpanına bölünecektir.
+ genliğine ve katkı çarpanına bölünmüştür.
  
 \end_layout
 
@@ -342,8 +342,8 @@ Burada;
  Birinci moda ait modal katkı çarpanıdır.
 \end_layout
 
-\begin_layout Subsubsection*
-Talep Eğrisinin Elde Edilmesi 
+\begin_layout Subsubsection
+Talep eğrisinin elde edilmesi 
 \end_layout
 
 \begin_layout Standard
@@ -464,9 +464,9 @@ S_{\mathrm{de}}=\frac{T^{2}}{4\pi^{2}}S_{\mathrm{ae}}\label{eq:5-6}
 
 \end_layout
 
-\begin_layout Subsubsection*
-3 Katlı Yapının Yer Değiştirme Arttırma Katsayısının Kapasite Spektrumu
- Yöntemi ile Elde Edilmesi
+\begin_layout Subsection
+3 Katlı yapının yer değiştirme arttırma katsayısının kapasite spektrumu
+ yöntemi ile elde edilmesi
 \end_layout
 
 \begin_layout Standard
@@ -650,9 +650,9 @@ name "fig:5.2"
 
 \end_layout
 
-\begin_layout Subsubsection*
-9 Katlı Yapının Yer Değiştirme Arttırma Katsayısının Kapasite Spektrumu
- Yöntemi ile Elde Edilmesi
+\begin_layout Subsection
+9 Katlı yapının yer değiştirme arttırma katsayısının kapasite spektrumu
+ yöntemi ile elde edilmesi
 \end_layout
 
 \begin_layout Standard
@@ -827,9 +827,9 @@ name "fig:5.3"
 
 \end_layout
 
-\begin_layout Subsubsection*
-20 Katlı Yapının Yer Değiştirme Arttırma Katsayısının Kapasite Spektrumu
- Yöntemi ile Elde Edilmesi
+\begin_layout Subsection
+20 Katlı yapının yer değiştirme arttırma katsayısının kapasite spektrumu
+ yöntemi ile elde edilmesi
 \end_layout
 
 \begin_layout Standard
@@ -1012,7 +1012,7 @@ Zaman Tanım Alanında Doğrusal Olmayan Dinamik Analiz
 Yapının doğrusal olmayan davranışını incelenmek üzere zaman tanım alanında
  doğrusal olmayan dinamik analizler yapılmıştır.
  Dinamik analizler statik analizlerden farklı olarak monotonik bir yükleme
- modeli yerine yapıya doğrudan yer hareketine maruz bırakmaktadır.
+ modeli yerine yapıyı doğrudan yer hareketine maruz bırakmaktadır.
  Bu da yapının gerçek depremlerdeki davranışına daha yakın bir tepkiyi ölçme
  imkanı verir.
  Bu dinamik analizde yapıda dikkate alınması gereken sönümün etkisi Rayleigh
@@ -1021,7 +1021,6 @@ Yapının doğrusal olmayan davranışını incelenmek üzere zaman tanım alan�
  birinci ve kütle katılım oranının %95'i bulduğu periyotlar kullanılarak,
  bu iki periyot arasındaki sönüm oranın %5'den düşük olduğu duruma göre
  belirlenmiştir.
- 
 \end_layout
 
 \begin_layout Standard
@@ -1173,7 +1172,7 @@ literal "false"
 \end_layout
 
 \begin_layout Subsection
-Deprem Kayıtlarının Seçimi ve Ölçeklendirilmesi
+Deprem kayıtlarının seçimi ve ölçeklendirilmesi
 \end_layout
 
 \begin_layout Standard
@@ -2930,9 +2929,9 @@ Doğrultu
 
 \end_layout
 
-\begin_layout Subsubsection*
-Yer Değiştirme Arttırma Katsayısının Zaman Tanım Alanında Doğrusal Olmayan
- Dinamik Analiz ile Elde Edilmesi
+\begin_layout Subsection
+Yer değiştirme arttırma katsayısının zaman tanım alanında doğrusal olmayan
+ dinamik analiz ile elde edilmesi
 \end_layout
 
 \begin_layout Standard

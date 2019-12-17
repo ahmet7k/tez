@@ -570,7 +570,7 @@ noprefix "false"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -633,8 +633,7 @@ Düşey deprem etkisi ise
 \begin_layout Standard
 Bina taşıyıcı sisteminin sabit ve hareketli yükler ile deprem ve rüzgar
  kuvvetleri altında analizleri sonucunda elde edilen iç kuvvetler, ÇYTHYE
- 5.3.1, TBDY 4.4 ve TBDY 9.2.5’e uygun olarak, aşağıdaki şekilde birleştirileceklerdi
-r.
+ 5.3.1, TBDY 4.4 ve TBDY 9.2.5’e uygun olarak, aşağıdaki şekilde birleştirilmişlerdir.
  Yatay doğrultuda etkiyen ve stabilite analizinde başlangıç kusurlarının
  etkisini hesaba katmak amacıyla tanımlanan fiktif yükler, hem yatay, hem
  de düşey yükleri içeren yük birleşimlerinde dikkate alınmıştır.

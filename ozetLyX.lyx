@@ -97,7 +97,6 @@ dır.
  sadece dış çerçevelerini yatay yük taşıyan sistemler olarak tasarlamaktır.
  Ancak bu yapıların başlıca dezavantajlarından biri, sistemin yeniden dağılım
  imkânının sınırlı olmasıdır.
- 
 \end_layout
 
 \begin_layout Standard
@@ -119,9 +118,7 @@ in ve araştırmacılardan oluşan bir konsorsiyum, bu beklenmeyen davranışın
 \end_layout
 
 \begin_layout Standard
-Moment çerçeveleri büyük yer değiştirme yapabilme özellikleri hem avantaj
- hemde dezavantajı olarak söylenebilir.
- Bir yapıdaki bütün kolon-kiriş birleşimlerinin tasarımda tam rijit veya
+Bir yapıdaki bütün kolon-kiriş birleşimlerinin tasarımda tam rijit veya
  ideal mafsallı kabulünün ne derece doğru olduğu tartışma konusudur.
  Gerçekte moment çerçevesinde kullanılan birleşimlerin güçlü veya zayıf
  eksende olsun, davranışı incelendiğinde birleşimlerin rijit veya ideal
@@ -129,7 +126,6 @@ Moment çerçeveleri büyük yer değiştirme yapabilme özellikleri hem avantaj
  şarttır halbuki kullanılan birleşimlerin çoğunluğu rijit ve mafsallı iki
  uç sınır durumun arasında kalmaktadır.
  Bu birleşim türleri yarı-rijit birleşim olarak sınıflandırılmaktadır.
- 
 \end_layout
 
 \begin_layout Standard
@@ -152,7 +148,6 @@ Geçtiğimiz yarım asırlık süreçte yapısal tasarım için mühendislerin k
  elemanların, herhangi bir kalıcı deformasyon ve hasar almadan başlangıç
  durumuna geri dönmesinin garanti edilmesi anlamına gelir ki bu durumu korumak,
  uygulanabilir ve rasyonel olmaktan uzaktır.
- 
 \end_layout
 
 \begin_layout Standard
@@ -198,8 +193,8 @@ nın değiştirdiği anlaşılmaktadır.
  bir çelik çerçevenin doğrusal olmayan değerlendirmesi yapılması durumunda
  yapıda kullanılan birleşimlerin rijitliklerinin göz ardı edilmemesi gerektiğini
  göstermektedir.
- Ayrıca birleşim rijitliğinin azalmasının yapıların süneklik oranının azaldığını
- göstermiştir.
+ Ayrıca birleşim rijitliğinin azalmasının yapıların süneklik talebinin azaldığın
+ı göstermiştir.
 \end_layout
 
 \end_body
